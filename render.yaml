@@ -1,0 +1,98 @@
+# Render Blueprint — Sikhya Sathi
+#
+# Provisions:
+#   1. A single Next.js Web Service (Node 20, standalone-friendly).
+#   2. A Cron Job that hits /api/cron/daily-summary at 20:00 IST.
+#
+# Supabase, Gemini, Resend, Upstash, Sentry, PostHog all stay external.
+# Set the secrets listed under `envVars` (sync: false) inside the Render
+# dashboard the first time the blueprint is applied.
+#
+# Docs: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: sikhya-sathi
+    runtime: node
+    plan: starter
+    region: singapore
+    branch: main
+    autoDeploy: true
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CI
+        value: "true"
+      # Supabase (set values in dashboard)
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      # Gemini
+      - key: GOOGLE_GENERATIVE_AI_API_KEY
+        sync: false
+      # App URL — set to the Render service URL (or custom domain)
+      - key: NEXT_PUBLIC_APP_URL
+        sync: false
+      # Cron auth + admin allowlist
+      - key: CRON_SECRET
+        generateValue: true
+      - key: ADMIN_EMAILS
+        sync: false
+      # Billing
+      - key: UPI_VPA
+        sync: false
+      - key: UPI_PAYEE_NAME
+        sync: false
+      # Mail (Resend)
+      - key: RESEND_API_KEY
+        sync: false
+      - key: MAIL_FROM
+        sync: false
+      - key: MAIL_REPLY_TO
+        sync: false
+      # Rate limiting (Upstash)
+      - key: UPSTASH_REDIS_REST_URL
+        sync: false
+      - key: UPSTASH_REDIS_REST_TOKEN
+        sync: false
+      # Observability — optional
+      - key: SENTRY_DSN
+        sync: false
+      - key: NEXT_PUBLIC_SENTRY_DSN
+        sync: false
+      - key: SENTRY_ORG
+        sync: false
+      - key: SENTRY_PROJECT
+        sync: false
+      - key: SENTRY_AUTH_TOKEN
+        sync: false
+      - key: NEXT_PUBLIC_POSTHOG_KEY
+        sync: false
+      - key: NEXT_PUBLIC_POSTHOG_HOST
+        sync: false
+
+  - type: cron
+    name: sikhya-daily-summary
+    runtime: docker
+    plan: starter
+    region: singapore
+    branch: main
+    # 20:00 IST = 14:30 UTC
+    schedule: "30 14 * * *"
+    dockerfilePath: ./ops/cron/Dockerfile
+    envVars:
+      - fromService:
+          type: web
+          name: sikhya-sathi
+          envVarKey: NEXT_PUBLIC_APP_URL
+        key: APP_URL
+      - fromService:
+          type: web
+          name: sikhya-sathi
+          envVarKey: CRON_SECRET
+        key: CRON_SECRET

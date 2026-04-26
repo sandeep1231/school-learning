@@ -1,0 +1,128 @@
+{
+  "subject": "GSC",
+  "totalPages": 25,
+  "matchedPages": 24,
+  "pages": {
+    "1": null,
+    "2": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "3": {
+      "topic": null,
+      "chapter": "gsc-life-3",
+      "score": 1.286
+    },
+    "4": {
+      "topic": null,
+      "chapter": "gsc-phy-2",
+      "score": 0.667
+    },
+    "5": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "6": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "7": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "8": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "9": {
+      "topic": null,
+      "chapter": "gsc-phy-2",
+      "score": 1.5
+    },
+    "10": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "11": {
+      "topic": null,
+      "chapter": "gsc-life-3",
+      "score": 0.571
+    },
+    "12": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "13": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "14": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "15": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "16": {
+      "topic": null,
+      "chapter": "gsc-phy-6",
+      "score": 0.667
+    },
+    "17": {
+      "topic": null,
+      "chapter": "gsc-life-5",
+      "score": 1
+    },
+    "18": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "19": {
+      "topic": null,
+      "chapter": "gsc-phy-6",
+      "score": 1.5
+    },
+    "20": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "21": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "22": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "23": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "24": {
+      "topic": null,
+      "chapter": "gsc-life-3",
+      "score": 0.571
+    },
+    "25": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    }
+  }
+}

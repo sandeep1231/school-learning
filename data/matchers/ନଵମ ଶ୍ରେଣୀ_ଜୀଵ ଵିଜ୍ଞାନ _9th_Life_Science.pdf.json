@@ -1,0 +1,275 @@
+{
+  "subject": "GSC",
+  "totalPages": 112,
+  "matchedPages": 39,
+  "pages": {
+    "1": {
+      "topic": null,
+      "chapter": "gsc-phy-4",
+      "score": 0.333
+    },
+    "2": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "3": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "4": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "5": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "6": {
+      "topic": null,
+      "chapter": "gsc-life-6",
+      "score": 5.143
+    },
+    "7": null,
+    "8": null,
+    "9": null,
+    "10": null,
+    "11": {
+      "topic": null,
+      "chapter": "gsc-life-5",
+      "score": 0.25
+    },
+    "12": null,
+    "13": null,
+    "14": null,
+    "15": null,
+    "16": null,
+    "17": null,
+    "18": null,
+    "19": null,
+    "20": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "21": null,
+    "22": null,
+    "23": null,
+    "24": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "25": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "26": {
+      "topic": null,
+      "chapter": "gsc-life-5",
+      "score": 1
+    },
+    "27": null,
+    "28": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "29": {
+      "topic": null,
+      "chapter": "gsc-life-1",
+      "score": 1.5
+    },
+    "30": null,
+    "31": null,
+    "32": null,
+    "33": null,
+    "34": null,
+    "35": null,
+    "36": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "37": null,
+    "38": null,
+    "39": null,
+    "40": null,
+    "41": null,
+    "42": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "43": null,
+    "44": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "45": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "46": {
+      "topic": null,
+      "chapter": "gsc-phy-2",
+      "score": 0.167
+    },
+    "47": {
+      "topic": null,
+      "chapter": "gsc-phy-2",
+      "score": 0.167
+    },
+    "48": {
+      "topic": null,
+      "chapter": "gsc-life-5",
+      "score": 1
+    },
+    "49": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "50": null,
+    "51": null,
+    "52": null,
+    "53": null,
+    "54": null,
+    "55": null,
+    "56": null,
+    "57": null,
+    "58": null,
+    "59": null,
+    "60": null,
+    "61": null,
+    "62": null,
+    "63": null,
+    "64": null,
+    "65": null,
+    "66": {
+      "topic": null,
+      "chapter": "gsc-life-6",
+      "score": 2.286
+    },
+    "67": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "68": {
+      "topic": null,
+      "chapter": "gsc-life-3",
+      "score": 1.286
+    },
+    "69": {
+      "topic": null,
+      "chapter": "gsc-phy-6",
+      "score": 0.667
+    },
+    "70": null,
+    "71": {
+      "topic": null,
+      "chapter": "gsc-life-3",
+      "score": 1.286
+    },
+    "72": {
+      "topic": null,
+      "chapter": "gsc-life-2",
+      "score": 0.5
+    },
+    "73": {
+      "topic": null,
+      "chapter": "gsc-life-5",
+      "score": 1
+    },
+    "74": null,
+    "75": null,
+    "76": null,
+    "77": null,
+    "78": {
+      "topic": null,
+      "chapter": "gsc-phy-1",
+      "score": 0.5
+    },
+    "79": null,
+    "80": null,
+    "81": null,
+    "82": null,
+    "83": null,
+    "84": null,
+    "85": {
+      "topic": null,
+      "chapter": "gsc-life-4",
+      "score": 0.571
+    },
+    "86": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "87": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "88": null,
+    "89": null,
+    "90": null,
+    "91": null,
+    "92": {
+      "topic": null,
+      "chapter": "gsc-life-5",
+      "score": 1
+    },
+    "93": {
+      "topic": null,
+      "chapter": "gsc-phy-6",
+      "score": 0.667
+    },
+    "94": null,
+    "95": null,
+    "96": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 0.333
+    },
+    "97": {
+      "topic": null,
+      "chapter": "gsc-life-5",
+      "score": 4
+    },
+    "98": null,
+    "99": {
+      "topic": null,
+      "chapter": "gsc-phy-2",
+      "score": 0.667
+    },
+    "100": null,
+    "101": null,
+    "102": null,
+    "103": null,
+    "104": null,
+    "105": null,
+    "106": null,
+    "107": null,
+    "108": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "109": null,
+    "110": {
+      "topic": null,
+      "chapter": "gsc-phy-3",
+      "score": 1.333
+    },
+    "111": null,
+    "112": null
+  }
+}

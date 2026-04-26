@@ -1,0 +1,1195 @@
+{
+  "subject": "SSC",
+  "totalPages": 240,
+  "matchedPages": 237,
+  "pages": {
+    "1": null,
+    "2": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.182
+    },
+    "3": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.727
+    },
+    "4": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "5": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.727
+    },
+    "6": {
+      "topic": "ssc-g4-1",
+      "chapter": "ssc-geo4-climate",
+      "score": 0.2
+    },
+    "7": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "8": {
+      "topic": "ssc-h1-2",
+      "chapter": "ssc-h1-french-revolution",
+      "score": 0.409
+    },
+    "9": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "10": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "11": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "12": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "13": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "14": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.31
+    },
+    "15": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "16": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.552
+    },
+    "17": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "18": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "19": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "20": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "21": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "22": {
+      "topic": "ssc-g2-2",
+      "chapter": "ssc-geo2-physiography",
+      "score": 0.516
+    },
+    "23": {
+      "topic": "ssc-e2-2",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.346
+    },
+    "24": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "25": {
+      "topic": "ssc-e2-2",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.615
+    },
+    "26": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "27": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "28": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "29": {
+      "topic": "ssc-6-3",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.391
+    },
+    "30": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "31": null,
+    "32": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "33": {
+      "topic": "ssc-h3-2",
+      "chapter": "ssc-h3-nazism-germany",
+      "score": 0.516
+    },
+    "34": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "35": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "36": {
+      "topic": "ssc-6-1",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.615
+    },
+    "37": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "38": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "39": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.182
+    },
+    "40": {
+      "topic": "ssc-h2-1",
+      "chapter": "ssc-h2-russian-revolution",
+      "score": 1.042
+    },
+    "41": {
+      "topic": "ssc-h1-3",
+      "chapter": "ssc-h1-french-revolution",
+      "score": 0.391
+    },
+    "42": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "43": {
+      "topic": "ssc-e2-2",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.615
+    },
+    "44": {
+      "topic": "ssc-h2-1",
+      "chapter": "ssc-h2-russian-revolution",
+      "score": 0.375
+    },
+    "45": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "46": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "47": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "48": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "49": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "50": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "51": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "52": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "53": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.391
+    },
+    "54": {
+      "topic": "ssc-h2-2",
+      "chapter": "ssc-h2-russian-revolution",
+      "score": 0.19
+    },
+    "55": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.31
+    },
+    "56": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "57": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "58": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.727
+    },
+    "59": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.273
+    },
+    "60": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.727
+    },
+    "61": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "62": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "63": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "64": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "65": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "66": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.391
+    },
+    "67": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "68": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.485
+    },
+    "69": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "70": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "71": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "72": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "73": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.36
+    },
+    "74": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "75": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "76": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "77": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.174
+    },
+    "78": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "79": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "80": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "81": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.182
+    },
+    "82": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "83": {
+      "topic": "ssc-e2-2",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.615
+    },
+    "84": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "85": null,
+    "86": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "87": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.31
+    },
+    "88": {
+      "topic": "ssc-h5-2",
+      "chapter": "ssc-h5-pastoralists",
+      "score": 1.241
+    },
+    "89": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "90": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "91": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.552
+    },
+    "92": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.727
+    },
+    "93": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "94": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "95": {
+      "topic": "ssc-g1-2",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.333
+    },
+    "96": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "97": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "98": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "99": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.391
+    },
+    "100": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "101": {
+      "topic": "ssc-h5-2",
+      "chapter": "ssc-h5-pastoralists",
+      "score": 0.31
+    },
+    "102": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1.44
+    },
+    "103": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.552
+    },
+    "104": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "105": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "106": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "107": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "108": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.31
+    },
+    "109": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "110": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "111": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.31
+    },
+    "112": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "113": {
+      "topic": "ssc-g4-1",
+      "chapter": "ssc-geo4-climate",
+      "score": 0.45
+    },
+    "114": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "115": {
+      "topic": "ssc-h1-3",
+      "chapter": "ssc-h1-french-revolution",
+      "score": 0.391
+    },
+    "116": {
+      "topic": "ssc-h5-1",
+      "chapter": "ssc-h5-pastoralists",
+      "score": 0.806
+    },
+    "117": {
+      "topic": "ssc-h5-2",
+      "chapter": "ssc-h5-pastoralists",
+      "score": 0.552
+    },
+    "118": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "119": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "120": {
+      "topic": "ssc-g2-2",
+      "chapter": "ssc-geo2-physiography",
+      "score": 1.161
+    },
+    "121": {
+      "topic": "ssc-g4-1",
+      "chapter": "ssc-geo4-climate",
+      "score": 0.8
+    },
+    "122": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "123": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "124": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.391
+    },
+    "125": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "126": {
+      "topic": "ssc-g2-2",
+      "chapter": "ssc-geo2-physiography",
+      "score": 0.29
+    },
+    "127": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "128": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.31
+    },
+    "129": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.696
+    },
+    "130": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "131": {
+      "topic": "ssc-e2-2",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.346
+    },
+    "132": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "133": {
+      "topic": "ssc-e2-2",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.615
+    },
+    "134": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.862
+    },
+    "135": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "136": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "137": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.727
+    },
+    "138": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "139": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "140": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "141": {
+      "topic": "ssc-6-3",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.696
+    },
+    "142": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.31
+    },
+    "143": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.391
+    },
+    "144": {
+      "topic": "ssc-g2-2",
+      "chapter": "ssc-geo2-physiography",
+      "score": 0.516
+    },
+    "145": {
+      "topic": "ssc-g4-1",
+      "chapter": "ssc-geo4-climate",
+      "score": 0.45
+    },
+    "146": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "147": {
+      "topic": "ssc-g2-2",
+      "chapter": "ssc-geo2-physiography",
+      "score": 0.516
+    },
+    "148": {
+      "topic": "ssc-6-3",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.391
+    },
+    "149": {
+      "topic": "ssc-g2-2",
+      "chapter": "ssc-geo2-physiography",
+      "score": 0.516
+    },
+    "150": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "151": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "152": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "153": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.391
+    },
+    "154": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "155": {
+      "topic": "ssc-g4-1",
+      "chapter": "ssc-geo4-climate",
+      "score": 0.2
+    },
+    "156": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "157": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "158": {
+      "topic": "ssc-g1-2",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.926
+    },
+    "159": {
+      "topic": "ssc-g4-1",
+      "chapter": "ssc-geo4-climate",
+      "score": 0.45
+    },
+    "160": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "161": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.391
+    },
+    "162": {
+      "topic": "ssc-g4-1",
+      "chapter": "ssc-geo4-climate",
+      "score": 0.45
+    },
+    "163": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.31
+    },
+    "164": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.36
+    },
+    "165": {
+      "topic": "ssc-6-3",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.696
+    },
+    "166": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "167": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "168": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "169": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "170": {
+      "topic": "ssc-e2-2",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.346
+    },
+    "171": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "172": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "173": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.409
+    },
+    "174": {
+      "topic": "ssc-g1-2",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.593
+    },
+    "175": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.552
+    },
+    "176": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.391
+    },
+    "177": {
+      "topic": "ssc-g1-1",
+      "chapter": "ssc-geo1-india-location",
+      "score": 0.391
+    },
+    "178": {
+      "topic": "ssc-h5-1",
+      "chapter": "ssc-h5-pastoralists",
+      "score": 0.806
+    },
+    "179": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "180": {
+      "topic": "ssc-g4-1",
+      "chapter": "ssc-geo4-climate",
+      "score": 0.45
+    },
+    "181": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "182": {
+      "topic": "ssc-6-1",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.962
+    },
+    "183": {
+      "topic": "ssc-g2-1",
+      "chapter": "ssc-geo2-physiography",
+      "score": 0.615
+    },
+    "184": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "185": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "186": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "187": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "188": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "189": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "190": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "191": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "192": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "193": {
+      "topic": "ssc-h1-2",
+      "chapter": "ssc-h1-french-revolution",
+      "score": 0.727
+    },
+    "194": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "195": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 1.136
+    },
+    "196": {
+      "topic": "ssc-e2-2",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1.385
+    },
+    "197": {
+      "topic": "ssc-h4-2",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.31
+    },
+    "198": {
+      "topic": "ssc-g2-2",
+      "chapter": "ssc-geo2-physiography",
+      "score": 0.29
+    },
+    "199": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "200": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "201": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.273
+    },
+    "202": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.36
+    },
+    "203": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "204": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.273
+    },
+    "205": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "206": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "207": {
+      "topic": "ssc-g4-1",
+      "chapter": "ssc-geo4-climate",
+      "score": 0.45
+    },
+    "208": {
+      "topic": "ssc-h1-2",
+      "chapter": "ssc-h1-french-revolution",
+      "score": 0.727
+    },
+    "209": {
+      "topic": "ssc-h1-3",
+      "chapter": "ssc-h1-french-revolution",
+      "score": 0.696
+    },
+    "210": {
+      "topic": "ssc-e2-2",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.615
+    },
+    "211": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.727
+    },
+    "212": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "213": {
+      "topic": "ssc-h3-2",
+      "chapter": "ssc-h3-nazism-germany",
+      "score": 0.516
+    },
+    "214": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "215": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 1.091
+    },
+    "216": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "217": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "218": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "219": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "220": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "221": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.36
+    },
+    "222": {
+      "topic": "ssc-g2-2",
+      "chapter": "ssc-geo2-physiography",
+      "score": 0.29
+    },
+    "223": {
+      "topic": "ssc-e2-2",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.615
+    },
+    "224": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "225": {
+      "topic": "ssc-h5-2",
+      "chapter": "ssc-h5-pastoralists",
+      "score": 0.31
+    },
+    "226": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "227": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "228": {
+      "topic": "ssc-g4-1",
+      "chapter": "ssc-geo4-climate",
+      "score": 0.45
+    },
+    "229": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.758
+    },
+    "230": {
+      "topic": "ssc-6-1",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.615
+    },
+    "231": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.727
+    },
+    "232": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "233": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    },
+    "234": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "235": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.485
+    },
+    "236": {
+      "topic": "ssc-h4-1",
+      "chapter": "ssc-h4-forest-society",
+      "score": 0.273
+    },
+    "237": {
+      "topic": "ssc-h5-1",
+      "chapter": "ssc-h5-pastoralists",
+      "score": 0.806
+    },
+    "238": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 1.136
+    },
+    "239": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.727
+    },
+    "240": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 0.64
+    }
+  }
+}

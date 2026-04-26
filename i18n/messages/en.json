@@ -1,0 +1,59 @@
+{
+  "app": {
+    "name": "Sikhya Sathi",
+    "tagline": "Your daily AI home-tutor for BSE Odisha Class 9"
+  },
+  "nav": {
+    "today": "Today",
+    "subjects": "Subjects",
+    "progress": "Progress",
+    "logout": "Sign out"
+  },
+  "today": {
+    "heading": "Today's class",
+    "subheading": "{date} · {count, plural, =1 {# topic} other {# topics}} planned",
+    "empty": "No topics scheduled for today. Enjoy a well-earned break!",
+    "askTutor": "Ask tutor",
+    "practice": "Practice 5 Qs",
+    "markComplete": "Mark complete",
+    "completed": "Completed"
+  },
+  "review": {
+    "title": "Due for review",
+    "empty": "Nothing due right now — come back tomorrow.",
+    "summary": "{count} {count, plural, =1 {card} other {cards}} across {topics} {topics, plural, =1 {topic} other {topics}} due today.",
+    "noCards": "No cards scheduled yet. Finish a practice set to start building your review queue.",
+    "backToToday": "Back to today",
+    "cardMeta": "{count} {count, plural, =1 {card} other {cards}} · avg {interval}d interval · {lapses} {lapses, plural, =1 {lapse} other {lapses}}",
+    "reviewNow": "Review now",
+    "guest": {
+      "blurb": "Sign in to track spaced-repetition reviews tailored to what you've practised.",
+      "cta": "Sign in"
+    }
+  },
+  "chat": {
+    "placeholder": "Ask anything about this topic…",
+    "send": "Send",
+    "disclaimer": "Answers come from your BSE Odisha textbook. Always verify with your teacher.",
+    "offTopic": "This question is outside today's topic. Let's stay focused on {topic}."
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "phone": "Phone number",
+    "otp": "One-time code",
+    "sendOtp": "Send code",
+    "verify": "Verify"
+  },
+  "parent": {
+    "heading": "Parent dashboard",
+    "children": "Children",
+    "todayNote": "Today's note from tutor",
+    "weeklyProgress": "This week"
+  },
+  "roles": {
+    "student": "Student",
+    "parent": "Parent",
+    "teacher": "Teacher"
+  }
+}

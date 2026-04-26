@@ -1,0 +1,52 @@
+{
+  "subject": "SSC",
+  "totalPages": 9,
+  "matchedPages": 9,
+  "pages": {
+    "1": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.182
+    },
+    "2": {
+      "topic": "ssc-6-1",
+      "chapter": "ssc-ch6-disasters",
+      "score": 1.385
+    },
+    "3": {
+      "topic": "ssc-6-1",
+      "chapter": "ssc-ch6-disasters",
+      "score": 1.385
+    },
+    "4": {
+      "topic": "ssc-6-1",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.962
+    },
+    "5": {
+      "topic": "ssc-e2-1",
+      "chapter": "ssc-eco2-people-resource",
+      "score": 1
+    },
+    "6": {
+      "topic": "ssc-6-3",
+      "chapter": "ssc-ch6-disasters",
+      "score": 1.087
+    },
+    "7": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.727
+    },
+    "8": {
+      "topic": "ssc-6-2",
+      "chapter": "ssc-ch6-disasters",
+      "score": 1.136
+    },
+    "9": {
+      "topic": "ssc-6-1",
+      "chapter": "ssc-ch6-disasters",
+      "score": 0.962
+    }
+  }
+}
