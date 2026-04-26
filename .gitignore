@@ -46,3 +46,8 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+
+# typescript incremental cache
+tsconfig.tsbuildinfo
+build.log
+

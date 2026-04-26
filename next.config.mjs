@@ -40,7 +40,19 @@ const sentryOptions = {
   hideSourceMaps: true,
   disableLogger: true,
   tunnelRoute: "/monitoring",
+  // Skip source-map generation entirely when no auth token is set — saves
+  // a lot of memory + build time on small Render instances.
+  sourcemaps: process.env.SENTRY_AUTH_TOKEN
+    ? { deleteSourcemapsAfterUpload: true }
+    : { disable: true },
 };
 
-export default withSentryConfig(withNextIntl(nextConfig), sentryOptions);
+// Wrap with Sentry only when explicitly enabled (DSN set). On bare-metal
+// builds (no Sentry), skip the wrapper entirely so the plugin doesn't
+// instrument routes or balloon memory usage.
+const finalConfig = process.env.SENTRY_DSN
+  ? withSentryConfig(withNextIntl(nextConfig), sentryOptions)
+  : withNextIntl(nextConfig);
+
+export default finalConfig;
 
