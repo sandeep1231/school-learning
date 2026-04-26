@@ -17,17 +17,15 @@ services:
     region: singapore
     branch: main
     autoDeploy: true
-    buildCommand: npm ci && npm run build
+    buildCommand: npm ci --include=dev && npm run build
     startCommand: npm start
     healthCheckPath: /api/health
     envVars:
-      - key: NODE_ENV
-        value: production
+      # NODE_ENV is set to "production" automatically by Render at runtime.
+      # We deliberately do NOT set it here, otherwise npm ci skips the
+      # devDependencies that Next.js needs to compile the app.
       - key: CI
         value: "true"
-      # Cap node heap so build doesn't OOM on Starter (512 MB).
-      - key: NODE_OPTIONS
-        value: "--max-old-space-size=460"
       # Supabase (set values in dashboard)
       - key: NEXT_PUBLIC_SUPABASE_URL
         sync: false
