@@ -9,6 +9,11 @@ const nextConfig = {
   // Render deploy: ship a self-contained server bundle so the runtime
   // image stays small and cold starts are fast. Vercel ignores this flag.
   output: "standalone",
+  // Skip in-build TS/ESLint checks — CI runs `npm run typecheck` + `npm run
+  // lint` separately. Removing them from `next build` cuts peak memory by
+  // ~40% on tiny build instances (Render Starter = 512 MB).
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
   experimental: {
     serverActions: { bodySizeLimit: "2mb" },
   },

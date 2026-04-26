@@ -17,7 +17,7 @@ services:
     region: singapore
     branch: main
     autoDeploy: true
-    buildCommand: npm ci --include=dev && npm run build
+    buildCommand: npm ci --include=dev && NODE_OPTIONS="--max-old-space-size=1024" npm run build
     startCommand: npm start
     healthCheckPath: /api/health
     envVars:
