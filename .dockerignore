@@ -1,0 +1,15 @@
+# Files Docker shouldn't copy into the build context.
+node_modules
+.next
+.git
+.github
+.vscode
+data
+playwright-report
+test-results
+coverage
+*.log
+.env*
+!.env.example
+build.log
+gen-*.log

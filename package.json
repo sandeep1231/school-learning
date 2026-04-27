@@ -5,7 +5,7 @@
   "description": "AI home-tutor SaaS for BSE Odisha Class 9 students, parents, and teachers (RAG-grounded, multilingual).",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=2048 next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
@@ -58,6 +58,7 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.20",
+    "cross-env": "^10.1.0",
     "eslint": "^9.13.0",
     "eslint-config-next": "15.0.3",
     "pdfjs-dist": "^5.6.205",

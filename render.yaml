@@ -12,18 +12,14 @@
 services:
   - type: web
     name: sikhya-sathi
-    runtime: node
+    runtime: docker
     plan: starter
     region: singapore
     branch: main
     autoDeploy: true
-    buildCommand: npm ci --include=dev && NODE_OPTIONS="--max-old-space-size=1024" npm run build
-    startCommand: npm start
+    dockerfilePath: ./Dockerfile
     healthCheckPath: /api/health
     envVars:
-      # NODE_ENV is set to "production" automatically by Render at runtime.
-      # We deliberately do NOT set it here, otherwise npm ci skips the
-      # devDependencies that Next.js needs to compile the app.
       - key: CI
         value: "true"
       # Supabase (set values in dashboard)
