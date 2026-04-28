@@ -57,10 +57,16 @@ export default async function HomePage() {
             Start learning
           </Link>
           <Link
-            href="/auth/sign-in"
+            href="/auth/sign-up"
             className="rounded-lg border border-brand px-6 py-3 font-medium text-brand hover:bg-brand-50"
           >
-            Sign in to save progress
+            Create account
+          </Link>
+          <Link
+            href="/auth/sign-in"
+            className="rounded-lg px-6 py-3 font-medium text-brand hover:bg-brand-50"
+          >
+            Sign in
           </Link>
         </div>
         <p className="mt-4 text-sm text-slate-500">

@@ -1,19 +1,25 @@
 import { NextResponse } from "next/server";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/server";
+import type { AppRole } from "@/lib/types";
 
 type EnsureBody = {
   fullName?: string;
+  role?: AppRole;
   classLevel?: number;
   preferredLanguage?: "or" | "hi" | "en";
 };
+
+const VALID_ROLES: AppRole[] = ["student", "parent", "teacher"];
 
 /**
  * Idempotent: ensures a `profiles` row exists for the current user.
  * Called right after OTP verification / anonymous sign-in.
  *
- * Optional JSON body lets the sign-up flow seed full_name, class_level,
- * and preferred_language up front. Missing fields fall back to safe
- * defaults; existing rows are NOT overwritten (insert-only semantics).
+ * Optional JSON body lets the sign-up flow seed full_name, role,
+ * class_level, and preferred_language up front. Missing fields fall back
+ * to safe defaults; existing rows are NOT overwritten (insert-only
+ * semantics) — except for full_name + role which we'll patch in if the
+ * row pre-existed without them.
  */
 export async function POST(req: Request) {
   if (!isSupabaseConfigured()) {
@@ -47,20 +53,25 @@ export async function POST(req: Request) {
     "or";
   const classLevel =
     body.classLevel ?? (meta.class_level as number | undefined) ?? 9;
+  const requestedRole = body.role ?? (meta.role as AppRole | undefined);
+  const role: AppRole = VALID_ROLES.includes(requestedRole as AppRole)
+    ? (requestedRole as AppRole)
+    : "student";
 
-  // Insert-only on first-touch; subsequent calls only refresh updated_at
-  // via onConflict update of the same values to keep this idempotent.
+  // Insert if absent. If a row already exists, refresh role / full_name
+  // with the values the user just supplied (signup form is the source of
+  // truth for these on first contact).
   const { error } = await supabase
     .from("profiles")
     .upsert(
       {
         id: user.id,
-        role: "student",
+        role,
         full_name: fullName,
         preferred_language: preferredLanguage,
         class_level: classLevel,
       },
-      { onConflict: "id", ignoreDuplicates: true },
+      { onConflict: "id", ignoreDuplicates: false },
     );
 
   if (error) {
@@ -69,5 +80,5 @@ export async function POST(req: Request) {
       { status: 500 },
     );
   }
-  return NextResponse.json({ ok: true, userId: user.id });
+  return NextResponse.json({ ok: true, userId: user.id, role });
 }

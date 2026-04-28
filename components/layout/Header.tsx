@@ -5,6 +5,7 @@ import { getStreakInfo } from "@/lib/progress.rollup";
 import { tierLabel } from "@/lib/billing/tiers";
 import BoardClassSwitcher from "./BoardClassSwitcher";
 import ThemeToggle from "@/components/theme/ThemeToggle";
+import UserMenu from "./UserMenu";
 
 /**
  * Global application header — mounted once in app/layout.tsx.
@@ -15,6 +16,7 @@ import ThemeToggle from "@/components/theme/ThemeToggle";
 export default async function Header() {
   const [ctx, user] = await Promise.all([getUserContext(), getCurrentUser()]);
   const streak = await getStreakInfo(user);
+  const isParent = user.role === "parent" || user.role === "teacher";
 
   return (
     <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/80 backdrop-blur dark:border-slate-800 dark:bg-slate-950/80">
@@ -48,35 +50,35 @@ export default async function Header() {
           >
             Pricing
           </Link>
-          {user.isAuthenticated && (
-            <Link
-              href="/profile"
-              aria-label={`Subscription: ${tierLabel(user.subscription)}. Open profile.`}
-              title={
-                user.subscription.daysRemaining !== null
-                  ? `${user.subscription.daysRemaining} day${
-                      user.subscription.daysRemaining === 1 ? "" : "s"
-                    } remaining`
-                  : "Free plan"
-              }
-              className={`rounded-full px-2 py-0.5 text-xs font-semibold ${
-                user.subscription.status === "expired"
-                  ? "bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-200"
-                  : user.subscription.status === "expiring"
-                    ? "bg-amber-100 text-amber-900 dark:bg-amber-900/40 dark:text-amber-100"
-                    : user.subscription.status === "active"
-                      ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200"
-                      : "bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-200"
-              }`}
-            >
-              {tierLabel(user.subscription)}
-            </Link>
-          )}
           <BoardClassSwitcher
             initialBoardCode={ctx.boardCode}
             initialClassLevel={ctx.classLevel}
           />
           <ThemeToggle />
+          {user.isAuthenticated ? (
+            <UserMenu
+              email={user.email ?? null}
+              fullName={user.fullName ?? null}
+              tierLabel={tierLabel(user.subscription)}
+              tierStatus={user.subscription.status}
+              isParent={isParent}
+            />
+          ) : (
+            <div className="flex items-center gap-1">
+              <Link
+                href="/auth/sign-in"
+                className="rounded-md px-2 py-1 text-xs font-semibold text-slate-700 hover:text-brand dark:text-slate-200"
+              >
+                Sign in
+              </Link>
+              <Link
+                href="/auth/sign-up"
+                className="rounded-md bg-brand px-2 py-1 text-xs font-semibold text-white hover:bg-brand-700"
+              >
+                Sign up
+              </Link>
+            </div>
+          )}
         </nav>
       </div>
     </header>

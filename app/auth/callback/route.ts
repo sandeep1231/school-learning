@@ -69,22 +69,33 @@ export async function GET(req: NextRequest) {
   const {
     data: { user },
   } = await supabase.auth.getUser();
+  let role: "student" | "parent" | "teacher" = "student";
   if (user) {
+    const meta = (user.user_metadata ?? {}) as Record<string, unknown>;
+    const m = meta.role as string | undefined;
+    if (m === "parent" || m === "teacher") role = m;
     const fullName =
-      (user.user_metadata?.full_name as string | undefined) ??
+      (meta.full_name as string | undefined) ??
       (user.email ? user.email.split("@")[0] : null);
+    const preferredLanguage =
+      (meta.preferred_language as "or" | "hi" | "en" | undefined) ?? "or";
+    const classLevel = (meta.class_level as number | undefined) ?? 9;
     await supabase
       .from("profiles")
       .upsert(
         {
           id: user.id,
-          role: "student",
+          role,
           full_name: fullName,
-          preferred_language: "or",
+          preferred_language: preferredLanguage,
+          class_level: classLevel,
         },
-        { onConflict: "id", ignoreDuplicates: true },
+        { onConflict: "id", ignoreDuplicates: false },
       );
   }
 
-  return redirect(next);
+  // Parents land on their dashboard rather than /today.
+  const finalNext =
+    next === "/today" && role === "parent" ? "/parent" : next;
+  return redirect(finalNext);
 }

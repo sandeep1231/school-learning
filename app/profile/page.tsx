@@ -6,6 +6,7 @@ import { tierLabel } from "@/lib/billing/tiers";
 import { createClient as createServerSupabase } from "@/lib/supabase/server";
 import SubscriptionCard from "./SubscriptionCard";
 import PaymentHistory from "./PaymentHistory";
+import FamilyInviteCard from "./FamilyInviteCard";
 
 export const metadata: Metadata = {
   title: "Profile",
@@ -53,9 +54,14 @@ export default async function ProfilePage() {
         <p className="mt-2 text-sm text-slate-600">
           {user.fullName ?? "Student"} · {user.email ?? "no email on file"}
         </p>
+        <p className="mt-1 text-xs uppercase tracking-wide text-slate-500">
+          Role: {user.role}
+        </p>
       </header>
 
       <SubscriptionCard subscription={user.subscription} />
+
+      {user.role === "student" && <FamilyInviteCard />}
 
       <section
         aria-labelledby="payments-heading"

@@ -36,6 +36,7 @@ export default function SignUpClient() {
 
   const [email, setEmail] = useState("");
   const [fullName, setFullName] = useState("");
+  const [role, setRole] = useState<"student" | "parent">("student");
   const [classLevel, setClassLevel] = useState<number>(9);
   const [language, setLanguage] = useState<"or" | "hi" | "en">("or");
   const [otp, setOtp] = useState("");
@@ -62,6 +63,7 @@ export default function SignUpClient() {
         emailRedirectTo: redirectTo,
         data: {
           full_name: fullName,
+          role,
           class_level: classLevel,
           preferred_language: language,
         },
@@ -70,7 +72,7 @@ export default function SignUpClient() {
     setLoading(false);
     if (error) return setError(error.message);
     setStage("otp");
-    setInfo(`Check ${email} for a 6-digit code or click the magic link.`);
+    setInfo(`Check ${email} for a verification code or click the magic link.`);
   }
 
   async function verifyOtp(e: React.FormEvent) {
@@ -95,6 +97,7 @@ export default function SignUpClient() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           fullName,
+          role,
           classLevel,
           preferredLanguage: language,
         }),
@@ -102,7 +105,7 @@ export default function SignUpClient() {
     } catch {
       /* non-fatal */
     }
-    router.replace(next);
+    router.replace(role === "parent" ? "/parent" : next);
   }
 
   if (!configured) {
@@ -130,6 +133,38 @@ export default function SignUpClient() {
       )}
       {stage === "form" ? (
         <form onSubmit={sendOtp} className="space-y-4">
+          <fieldset>
+            <legend className="mb-1 block text-sm font-medium">
+              I am a&hellip;
+            </legend>
+            <div className="grid grid-cols-2 gap-2">
+              {(
+                [
+                  { v: "student" as const, label: "Student" },
+                  { v: "parent" as const, label: "Parent" },
+                ]
+              ).map((opt) => (
+                <label
+                  key={opt.v}
+                  className={`cursor-pointer rounded-md border px-3 py-2 text-sm font-medium ${
+                    role === opt.v
+                      ? "border-brand bg-brand-50 text-brand-900"
+                      : "border-slate-300 text-slate-700 hover:bg-slate-50"
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="role"
+                    value={opt.v}
+                    checked={role === opt.v}
+                    onChange={() => setRole(opt.v)}
+                    className="sr-only"
+                  />
+                  {opt.label}
+                </label>
+              ))}
+            </div>
+          </fieldset>
           <label className="block text-sm">
             <span className="mb-1 block font-medium">Full name</span>
             <input
@@ -152,20 +187,24 @@ export default function SignUpClient() {
             />
           </label>
           <div className="grid grid-cols-2 gap-3">
-            <label className="block text-sm">
-              <span className="mb-1 block font-medium">Class</span>
-              <select
-                value={classLevel}
-                onChange={(e) => setClassLevel(Number(e.target.value))}
-                className="w-full rounded-md border border-slate-300 px-3 py-2"
-              >
-                {[6, 7, 8, 9, 10, 11, 12].map((c) => (
-                  <option key={c} value={c}>
-                    Class {c}
-                  </option>
-                ))}
-              </select>
-            </label>
+            {role === "student" ? (
+              <label className="block text-sm">
+                <span className="mb-1 block font-medium">Class</span>
+                <select
+                  value={classLevel}
+                  onChange={(e) => setClassLevel(Number(e.target.value))}
+                  className="w-full rounded-md border border-slate-300 px-3 py-2"
+                >
+                  {[6, 7, 8, 9, 10, 11, 12].map((c) => (
+                    <option key={c} value={c}>
+                      Class {c}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            ) : (
+              <div />
+            )}
             <label className="block text-sm">
               <span className="mb-1 block font-medium">Language</span>
               <select
@@ -192,14 +231,14 @@ export default function SignUpClient() {
       ) : (
         <form onSubmit={verifyOtp} className="space-y-4">
           <label className="block text-sm">
-            <span className="mb-1 block font-medium">6-digit code</span>
+            <span className="mb-1 block font-medium">Verification code</span>
             <input
               required
               inputMode="numeric"
               pattern="[0-9]*"
-              maxLength={6}
+              maxLength={10}
               value={otp}
-              onChange={(e) => setOtp(e.target.value)}
+              onChange={(e) => setOtp(e.target.value.replace(/\D/g, ""))}
               className="w-full rounded-md border border-slate-300 px-3 py-2 tracking-widest"
             />
           </label>

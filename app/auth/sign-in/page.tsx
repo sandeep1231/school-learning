@@ -45,7 +45,7 @@ export default function SignInPage() {
     setLoading(false);
     if (error) return setError(error.message);
     setStage("otp");
-    setInfo(`Check ${email} for a 6-digit code or click the magic link.`);
+    setInfo(`Check ${email} for a verification code or click the magic link.`);
   }
 
   async function verify(e: React.FormEvent) {
@@ -170,12 +170,13 @@ export default function SignInPage() {
         ) : (
           <form onSubmit={verify} className="space-y-4">
             <label className="block">
-              <span className="mb-1 block text-sm font-medium">6-digit code</span>
+              <span className="mb-1 block text-sm font-medium">Verification code</span>
               <input
                 inputMode="numeric"
+                pattern="[0-9]*"
                 value={otp}
-                onChange={(e) => setOtp(e.target.value)}
-                maxLength={6}
+                onChange={(e) => setOtp(e.target.value.replace(/\D/g, ""))}
+                maxLength={10}
                 className="w-full rounded-lg border border-slate-300 px-3 py-2 tracking-widest"
                 required
               />

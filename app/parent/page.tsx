@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { createClient } from "@/lib/supabase/server";
+import FamilyJoinForm from "./FamilyJoinForm";
 
 export const dynamic = "force-dynamic";
 
@@ -11,7 +12,18 @@ export default async function ParentDashboard() {
   const {
     data: { user },
   } = await supabase.auth.getUser();
-  if (!user) redirect("/auth/sign-in");
+  if (!user) redirect("/auth/sign-in?next=/parent");
+
+  // Verify the user actually has a parent/teacher role; otherwise nudge
+  // them to /profile to switch (or /today if they're a student).
+  const { data: me } = await supabase
+    .from("profiles")
+    .select("role")
+    .eq("id", user.id)
+    .maybeSingle();
+  if (me?.role !== "parent" && me?.role !== "teacher") {
+    redirect("/today");
+  }
 
   // Children linked via family_members (RLS limits to this parent's family)
   const { data: children } = await supabase
@@ -43,9 +55,13 @@ export default async function ParentDashboard() {
       <section className="mb-8">
         <h2 className="mb-3 text-lg font-semibold">{t("children")}</h2>
         {childProfiles.length === 0 ? (
-          <p className="rounded-lg bg-slate-50 p-4 text-sm text-slate-600">
-            No children linked yet. Ask your child for their family invite code.
-          </p>
+          <div className="space-y-4 rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-900">
+            <p className="text-sm text-slate-600 dark:text-slate-300">
+              No children linked yet. Ask your child to share their family
+              invite code from their profile page, then enter it below.
+            </p>
+            <FamilyJoinForm />
+          </div>
         ) : (
           <ul className="space-y-2">
             {childProfiles.map((c) => (
@@ -59,6 +75,13 @@ export default async function ParentDashboard() {
           </ul>
         )}
       </section>
+
+      {childProfiles.length > 0 && (
+        <section className="mb-8 rounded-lg border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
+          <h2 className="mb-2 text-base font-semibold">Link another student</h2>
+          <FamilyJoinForm />
+        </section>
+      )}
 
       <section>
         <h2 className="mb-3 text-lg font-semibold">{t("todayNote")}</h2>

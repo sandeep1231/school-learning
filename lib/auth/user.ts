@@ -2,6 +2,7 @@ import { cookies } from "next/headers";
 import { cache } from "react";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/server";
 import type { SubscriptionTier } from "@/lib/billing/plans";
+import type { AppRole } from "@/lib/types";
 
 export const GUEST_COOKIE = "sikhya_guest_id";
 
@@ -24,6 +25,8 @@ export type CurrentUser = {
   /** Profile metadata if logged in. */
   email?: string | null;
   fullName?: string | null;
+  /** App role (student | parent | teacher | admin). Defaults to 'student'. */
+  role: AppRole;
   /** Subscription snapshot (always present). Free for guests / no plan. */
   subscription: SubscriptionInfo;
 };
@@ -71,12 +74,13 @@ export const getCurrentUser = cache(async function getCurrentUser(): Promise<Cur
       if (user) {
         const { data: profile } = await supabase
           .from("profiles")
-          .select("full_name, subscription_tier, granted_until")
+          .select("full_name, role, subscription_tier, granted_until")
           .eq("id", user.id)
           .maybeSingle();
         const tier = (profile?.subscription_tier as SubscriptionTier) ?? "free";
         const grantedUntil =
           (profile?.granted_until as string | null) ?? null;
+        const role = (profile?.role as AppRole) ?? "student";
         return {
           id: user.id,
           isAuthenticated: true,
@@ -85,6 +89,7 @@ export const getCurrentUser = cache(async function getCurrentUser(): Promise<Cur
             (profile?.full_name as string | null) ??
             (user.user_metadata?.full_name as string | undefined) ??
             null,
+          role,
           subscription: deriveStatus(tier, grantedUntil),
         };
       }
@@ -97,6 +102,7 @@ export const getCurrentUser = cache(async function getCurrentUser(): Promise<Cur
   return {
     id: guest ?? "demo-student",
     isAuthenticated: false,
+    role: "student",
     subscription: FREE_SUBSCRIPTION,
   };
 });
