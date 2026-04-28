@@ -116,6 +116,7 @@ type FileKind = {
   title: string;
   subjectCode: string | null;
   language: "en" | "or" | "hi";
+  sourceType: "syllabus" | "textbook";
 };
 
 function classify(filename: string): FileKind {
@@ -123,6 +124,7 @@ function classify(filename: string): FileKind {
   const lower = name.toLowerCase();
   const hasOdia = /[\u0B00-\u0B7F]/.test(name);
   const hasDevanagari = /[\u0900-\u097F]/.test(name);
+  const isSyllabus = lower.includes("syllabus") || lower.includes("curriculum");
 
   const has = (...needles: (string | RegExp)[]) =>
     needles.some((n) =>
@@ -178,6 +180,7 @@ function classify(filename: string): FileKind {
     title: name.replace(/[_]+/g, " ").replace(/\s+/g, " ").trim(),
     subjectCode: subject,
     language,
+    sourceType: isSyllabus ? "syllabus" : "textbook",
   };
 }
 
@@ -312,7 +315,7 @@ async function main() {
       : null;
 
     console.log(
-      `\n▶ ${filename}  [class ${CLASS_LEVEL} · ${kind.language}${kind.subjectCode ? " · " + kind.subjectCode : " · ⚠ unclassified"}]`,
+      `\n▶ ${filename}  [class ${CLASS_LEVEL} · ${kind.sourceType} · ${kind.language}${kind.subjectCode ? " · " + kind.subjectCode : " · ⚠ unclassified"}]`,
     );
     if (!subjectId) {
       console.warn(
@@ -334,7 +337,7 @@ async function main() {
         .from("documents")
         .insert({
           title,
-          source_type: "textbook",
+          source_type: kind.sourceType,
           language: kind.language,
           subject_id: subjectId,
         })
