@@ -35,7 +35,7 @@ export const DEFAULT_CLASS_LEVEL = 9;
 
 /** Supported class levels in v1. Grow as content is added per board. */
 export const SUPPORTED_CLASSES: Record<string, number[]> = {
-  BSE_ODISHA: [9],
+  BSE_ODISHA: [6, 7, 8, 9],
 };
 
 export function boardSlugToCode(slug: string): string | null {

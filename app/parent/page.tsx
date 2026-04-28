@@ -41,12 +41,27 @@ export default async function ParentDashboard() {
       .filter((p: any): p is { id: string; full_name: string | null } => !!p) ?? [];
 
   const today = new Date().toISOString().slice(0, 10);
-  const { data: summaries } = await supabase
-    .from("daily_summaries")
-    .select("student_id, summary_date, parent_note, chat_count, quiz_avg_score")
-    .in("student_id", childProfiles.map((c) => c.id))
-    .gte("summary_date", new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10))
-    .order("summary_date", { ascending: false });
+  // .in() with an empty array generates an invalid PostgREST filter — skip
+  // the daily_summaries query entirely until at least one child is linked.
+  const summaries =
+    childProfiles.length === 0
+      ? []
+      : (
+          await supabase
+            .from("daily_summaries")
+            .select(
+              "student_id, summary_date, parent_note, chat_count, quiz_avg_score",
+            )
+            .in(
+              "student_id",
+              childProfiles.map((c) => c.id),
+            )
+            .gte(
+              "summary_date",
+              new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10),
+            )
+            .order("summary_date", { ascending: false })
+        ).data ?? [];
 
   return (
     <main className="container mx-auto max-w-3xl px-4 py-8">

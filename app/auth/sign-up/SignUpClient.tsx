@@ -195,7 +195,7 @@ export default function SignUpClient() {
                   onChange={(e) => setClassLevel(Number(e.target.value))}
                   className="w-full rounded-md border border-slate-300 px-3 py-2"
                 >
-                  {[6, 7, 8, 9, 10, 11, 12].map((c) => (
+                  {[6, 7, 8, 9].map((c) => (
                     <option key={c} value={c}>
                       Class {c}
                     </option>

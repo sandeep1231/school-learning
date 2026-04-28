@@ -13,6 +13,11 @@ export default async function WelcomePage() {
   if (!user.isAuthenticated) {
     redirect("/auth/sign-in?next=/welcome");
   }
+  // Parents and teachers have a different home — their dashboard, not the
+  // student daily plan.
+  if (user.role === "parent" || user.role === "teacher") {
+    redirect("/parent");
+  }
   return (
     <main className="container mx-auto max-w-2xl px-6 py-12">
       <h1 className="text-3xl font-bold text-brand-900">

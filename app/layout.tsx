@@ -16,14 +16,17 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000",
   ),
   title: {
-    default: "Sikhya Sathi · BSE Odisha Class 9 AI Tutor",
+    default: "Sikhya Sathi · BSE Odisha Class 6–9 AI Tutor",
     template: "%s · Sikhya Sathi",
   },
   description:
-    "Daily AI home-tutor for BSE Odisha Class 9 students, grounded in the official syllabus. Lessons, practice, and spaced-repetition review in Odia, Hindi, and English.",
+    "Daily AI home-tutor for BSE Odisha Class 6–9 students, grounded in the official syllabus. Lessons, practice, and spaced-repetition review in Odia, Hindi, and English.",
   applicationName: "Sikhya Sathi",
   keywords: [
     "BSE Odisha",
+    "Class 6",
+    "Class 7",
+    "Class 8",
     "Class 9",
     "AI tutor",
     "Odia learning",
@@ -41,9 +44,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Sikhya Sathi",
-    title: "Sikhya Sathi · BSE Odisha Class 9 AI Tutor",
+    title: "Sikhya Sathi · BSE Odisha Class 6–9 AI Tutor",
     description:
-      "Daily AI home-tutor grounded in the BSE Odisha Class 9 syllabus.",
+      "Daily AI home-tutor grounded in the BSE Odisha Class 6–9 syllabus.",
     locale: "or_IN",
     alternateLocale: ["en_IN", "hi_IN"],
     images: [
@@ -57,9 +60,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Sikhya Sathi · BSE Odisha Class 9 AI Tutor",
+    title: "Sikhya Sathi · BSE Odisha Class 6–9 AI Tutor",
     description:
-      "Daily AI home-tutor grounded in the BSE Odisha Class 9 syllabus.",
+      "Daily AI home-tutor grounded in the BSE Odisha Class 6–9 syllabus.",
     images: ["/icon-512.png"],
   },
   robots: {

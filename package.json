@@ -18,6 +18,7 @@
     "db:migrate": "tsx scripts/db/migrate.ts",
     "ingest:fetch": "tsx scripts/ingest/fetch-sources.ts",
     "ingest:embed": "tsx scripts/ingest/embed-pdfs.ts",
+    "ingest:class": "tsx scripts/ingest/ingest-class.ts",
     "seed:curriculum": "tsx scripts/seed/curriculum.ts",
     "content:practice": "tsx scripts/content/generate-practice.ts",
     "content:lessons": "tsx scripts/content/generate-lessons.ts"
