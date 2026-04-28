@@ -214,6 +214,59 @@ async function pdfToText(path: string): Promise<string> {
   return Array.isArray(text) ? text.join("\n\n") : text;
 }
 
+/**
+ * OCR fallback for scanned PDFs (Odia/Hindi/English language packs).
+ * Slow: 3-10s/page. Capped at OCR_MAX_PAGES so a 300-page book doesn't
+ * stall a class ingest run for an hour. Raise the cap with the env var.
+ */
+const OCR_MAX_PAGES = Number(process.env.OCR_MAX_PAGES ?? 200);
+const OCR_SCALE = 2.0;
+
+async function pdfToTextViaOcr(path: string): Promise<string> {
+  const { createCanvas } = await import("@napi-rs/canvas");
+  const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
+  const Tesseract = await import("tesseract.js");
+
+  const data = new Uint8Array(readFileSync(path));
+  (pdfjs as any).GlobalWorkerOptions.workerSrc = "";
+  const loadingTask = (pdfjs as any).getDocument({
+    data,
+    disableFontFace: true,
+    useSystemFonts: false,
+  });
+  const doc = await loadingTask.promise;
+  const totalPages: number = doc.numPages;
+  const pages = Math.min(totalPages, OCR_MAX_PAGES);
+  console.log(`    · OCR: ${pages}/${totalPages} pages @ ${OCR_SCALE}x`);
+
+  const worker = await Tesseract.createWorker(["ori", "hin", "eng"], 1, {
+    logger: () => {},
+  });
+
+  const pageTexts: string[] = [];
+  try {
+    for (let p = 1; p <= pages; p++) {
+      const page = await doc.getPage(p);
+      const viewport = page.getViewport({ scale: OCR_SCALE });
+      const canvas = createCanvas(viewport.width, viewport.height);
+      const ctx = canvas.getContext("2d");
+      await page.render({
+        canvasContext: ctx as unknown as CanvasRenderingContext2D,
+        viewport,
+      }).promise;
+      const png = canvas.toBuffer("image/png");
+      const { data: ocr } = await worker.recognize(png);
+      pageTexts.push(ocr.text);
+      process.stdout.write(`    · OCR page ${p}/${pages}\r`);
+    }
+    console.log("");
+  } finally {
+    await worker.terminate();
+  }
+
+  return pageTexts.join("\n\n");
+}
+
 function chunk(text: string): string[] {
   const clean = text.replace(/\s+/g, " ").trim();
   if (!clean) return [];
@@ -318,6 +371,16 @@ async function main() {
       `\n▶ ${filename}  [class ${CLASS_LEVEL} · ${kind.sourceType} · ${kind.language}${kind.subjectCode ? " · " + kind.subjectCode : " · ⚠ unclassified"}]`,
     );
     if (!subjectId) {
+      // Sanskrit, Computer, and other out-of-curriculum books land here.
+      // Skip rather than burn embed budget on content we can't surface
+      // through the UI (no subject row → no /b/.../s/<code>/ route).
+      // Pass --include-unclassified to override.
+      if (!process.argv.includes("--include-unclassified")) {
+        console.warn(
+          `  ⚠ skipped (no subject match). Pass --include-unclassified to ingest anyway.`,
+        );
+        continue;
+      }
       console.warn(
         `  ⚠ no subject match — chunks will be inserted without subject_id (still searchable but harder to scope).`,
       );
@@ -380,9 +443,18 @@ async function main() {
     }
     if (text.trim().length < 40) {
       console.warn(
-        `  ⚠ no text layer (likely scanned). Run scripts/ingest/embed-pdfs.ts with OCR for this file.`,
+        `  ⚠ no text layer (likely scanned). Falling back to OCR (this is slow)…`,
       );
-      continue;
+      try {
+        text = await pdfToTextViaOcr(path);
+      } catch (e) {
+        console.error(`  ✗ OCR failed: ${(e as Error).message}`);
+        continue;
+      }
+      if (text.trim().length < 40) {
+        console.warn(`  ⚠ OCR produced no usable text. Skipping.`);
+        continue;
+      }
     }
 
     const parts = chunk(text);
