@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import Header from "@/components/layout/Header";
 import SiteFooter from "@/components/layout/SiteFooter";
+import RenewalBanner from "@/components/billing/RenewalBanner";
 import { RegisterServiceWorker } from "@/components/pwa/RegisterServiceWorker";
 import { AnalyticsProvider } from "@/components/analytics/AnalyticsProvider";
 import ConsentBanner from "@/components/analytics/ConsentBanner";
@@ -109,6 +110,7 @@ export default async function RootLayout({
             Skip to content
           </a>
           <Header />
+          <RenewalBanner />
           <div id="main-content" tabIndex={-1} className="outline-none">
             {children}
           </div>

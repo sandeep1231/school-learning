@@ -21,7 +21,9 @@ export default function SignInPage() {
   const [otp, setOtp] = useState("");
   const [stage, setStage] = useState<"email" | "otp">("email");
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(
+    params.get("error") ?? null,
+  );
   const [info, setInfo] = useState<string | null>(null);
 
   async function sendOtp(e: React.FormEvent) {
@@ -30,14 +32,20 @@ export default function SignInPage() {
     setLoading(true);
     setError(null);
     setInfo(null);
+    // Magic-link fallback: if Supabase template sends a link instead of a
+    // 6-digit code, the link will redirect here; emailRedirectTo points it
+    // at our /auth/callback handler which exchanges the code for a session.
+    const origin =
+      typeof window !== "undefined" ? window.location.origin : "";
+    const redirectTo = `${origin}/auth/callback?next=${encodeURIComponent(next)}`;
     const { error } = await supabase.auth.signInWithOtp({
       email,
-      options: { shouldCreateUser: true },
+      options: { shouldCreateUser: true, emailRedirectTo: redirectTo },
     });
     setLoading(false);
     if (error) return setError(error.message);
     setStage("otp");
-    setInfo(`Check ${email} for a 6-digit code. It expires in a few minutes.`);
+    setInfo(`Check ${email} for a 6-digit code or click the magic link.`);
   }
 
   async function verify(e: React.FormEvent) {

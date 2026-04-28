@@ -69,8 +69,20 @@ export async function POST(req: Request) {
   if (!plan) {
     return NextResponse.json({ error: "plan missing" }, { status: 500 });
   }
+  // If the student already has an active plan, extend from its expiry so
+  // an early renewal doesn't shorten their subscription. Otherwise start
+  // from "now".
+  const { data: existing } = await admin
+    .from("profiles")
+    .select("granted_until")
+    .eq("id", order.student_id)
+    .maybeSingle();
+  const existingUntil = existing?.granted_until
+    ? new Date(existing.granted_until as string).getTime()
+    : 0;
+  const base = Math.max(Date.now(), existingUntil);
   const grantedUntil = new Date(
-    Date.now() + plan.durationDays * 24 * 60 * 60 * 1000,
+    base + plan.durationDays * 24 * 60 * 60 * 1000,
   ).toISOString();
 
   const { error: orderErr } = await admin
@@ -88,7 +100,7 @@ export async function POST(req: Request) {
 
   const { error: tierErr } = await admin
     .from("profiles")
-    .update({ subscription_tier: plan.tier })
+    .update({ subscription_tier: plan.tier, granted_until: grantedUntil })
     .eq("id", order.student_id);
   if (tierErr) {
     return NextResponse.json({ error: tierErr.message }, { status: 500 });
