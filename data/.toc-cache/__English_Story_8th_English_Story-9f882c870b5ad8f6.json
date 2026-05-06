@@ -1,0 +1,322 @@
+{
+  "book_title_en": "STORIES PAST AND PRESENT",
+  "chapters": [
+    {
+      "title_en": "Introduction",
+      "topics": [
+        {
+          "title_en": "Purpose of the Textbook",
+          "objectives": [
+            "Understand the scope of English language skills",
+            "Learn about the importance of reading in English",
+            "Identify the types of texts used in the book"
+          ]
+        },
+        {
+          "title_en": "Notes to Students",
+          "objectives": [
+            "Understand how to read and enjoy stories",
+            "Learn to infer meaning from context",
+            "Practice reading tail-pieces and answering questions"
+          ]
+        },
+        {
+          "title_en": "Notes to Teachers",
+          "objectives": [
+            "Understand the teaching approach of the textbook",
+            "Learn to use tail-pieces for comprehension",
+            "Prepare students for comprehension questions"
+          ]
+        },
+        {
+          "title_en": "Abbreviations Used in the Book",
+          "objectives": [
+            "Identify common abbreviations used",
+            "Understand their full forms and meanings"
+          ]
+        }
+      ],
+      "order": null,
+      "page_end": 8,
+      "page_start": 5,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Whose Horse Was It?",
+      "topics": [
+        {
+          "title_en": "The Disputed Horse",
+          "objectives": [
+            "Read and understand the story of the young man and the beggar",
+            "Answer comprehension questions about the story",
+            "Practice listening and speaking skills related to the dialogue",
+            "Learn new vocabulary from the story"
+          ]
+        },
+        {
+          "title_en": "A Wise King",
+          "objectives": [
+            "Read and understand the tail-piece about King Vikram",
+            "Identify the moral of the story",
+            "Learn new words and their meanings"
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 17,
+      "page_start": 9,
+      "section": "PART - I",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Math-Magic",
+      "topics": [
+        {
+          "title_en": "The Camel Division Problem",
+          "objectives": [
+            "Read and understand the story of the young man and the camels",
+            "Answer comprehension questions about the problem",
+            "Practice listening and speaking skills related to the story",
+            "Learn new vocabulary related to the desert and animals"
+          ]
+        },
+        {
+          "title_en": "Six Wise Men",
+          "objectives": [
+            "Read and understand the tail-piece about the six wise men",
+            "Identify the lesson learned by the wise men",
+            "Learn new words and their meanings"
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 28,
+      "page_start": 18,
+      "section": "PART - I",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Missing Ring",
+      "topics": [
+        {
+          "title_en": "Akbar and Birbal's Case",
+          "objectives": [
+            "Read and understand the story of the missing ring",
+            "Answer comprehension questions about the investigation",
+            "Practice listening and speaking skills",
+            "Learn new vocabulary related to jewellery and court"
+          ]
+        },
+        {
+          "title_en": "Finding The Thief",
+          "objectives": [
+            "Read and understand how Birbal found the thief",
+            "Identify Birbal's cleverness in solving the case",
+            "Learn new words and their meanings"
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 39,
+      "page_start": 29,
+      "section": "PART - II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Thief And The Tiger",
+      "topics": [
+        {
+          "title_en": "The Thief's Escape",
+          "objectives": [
+            "Read and understand the story of the thief and the tiger",
+            "Answer comprehension questions about the thief's plan",
+            "Practice listening and speaking skills",
+            "Learn new vocabulary related to animals and forests"
+          ]
+        },
+        {
+          "title_en": "The Liger On A Tiger",
+          "objectives": [
+            "Read and understand the tail-piece about the liger",
+            "Identify the moral of the story",
+            "Learn new words and their meanings"
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 52,
+      "page_start": 40,
+      "section": "PART - II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Test - I",
+      "topics": [
+        {
+          "title_en": "Comprehensive Assessment",
+          "objectives": [
+            "Evaluate understanding of stories and vocabulary",
+            "Practice dictation and fill-in-the-blanks",
+            "Answer comprehension questions from various texts",
+            "Demonstrate writing skills in English and Odia"
+          ]
+        }
+      ],
+      "order": null,
+      "page_end": 57,
+      "page_start": 53,
+      "section": "PART - II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "A Wise Grandmother",
+      "topics": [
+        {
+          "title_en": "Taro's Riddles",
+          "objectives": [
+            "Read and understand the story of Taro and his grandmother",
+            "Answer comprehension questions about the riddles",
+            "Practice listening and speaking skills",
+            "Learn new vocabulary related to riddles and wisdom"
+          ]
+        },
+        {
+          "title_en": "The Land Without Old Men",
+          "objectives": [
+            "Read and understand the tail-piece about the old man",
+            "Identify the importance of elders in society",
+            "Learn new words and their meanings"
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 71,
+      "page_start": 58,
+      "section": "PART - II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Stonecutter",
+      "topics": [
+        {
+          "title_en": "Kalu's Transformations",
+          "objectives": [
+            "Read and understand the folk tale of the stonecutter Kalu",
+            "Answer comprehension questions about Kalu's wishes",
+            "Practice listening and speaking skills",
+            "Learn new vocabulary related to nature and desires"
+          ]
+        },
+        {
+          "title_en": "Punarmushika Bhaba",
+          "objectives": [
+            "Read and understand the tail-piece about the saint and the rat",
+            "Identify the moral of the story about true nature",
+            "Learn new words and their meanings"
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 83,
+      "page_start": 72,
+      "section": "PART - II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Gopi Made Them Fools",
+      "topics": [
+        {
+          "title_en": "The Three Brothers' Challenge",
+          "objectives": [
+            "Read and understand the story of Gopi and the three brothers",
+            "Answer comprehension questions about Gopi's cleverness",
+            "Practice listening and speaking skills",
+            "Learn new vocabulary related to tricks and wisdom"
+          ]
+        },
+        {
+          "title_en": "The Magic Picture",
+          "objectives": [
+            "Read and understand the tail-piece about Budhiram and Kitu",
+            "Identify the theme of art and perception",
+            "Learn new words and their meanings"
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 96,
+      "page_start": 84,
+      "section": "PART - II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Test - II",
+      "topics": [
+        {
+          "title_en": "Comprehensive Assessment",
+          "objectives": [
+            "Evaluate understanding of stories and vocabulary",
+            "Practice dictation and fill-in-the-blanks",
+            "Answer comprehension questions from various texts",
+            "Demonstrate writing skills in English and Odia"
+          ]
+        }
+      ],
+      "order": null,
+      "page_end": 101,
+      "page_start": 97,
+      "section": "PART - II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Appendix - I Learning Indicators",
+      "topics": [
+        {
+          "title_en": "Reading Skills and Objectives",
+          "objectives": [
+            "Understand different reading skills",
+            "Identify learning indicators for reading comprehension",
+            "Learn pedagogical processes for teaching reading"
+          ]
+        }
+      ],
+      "order": null,
+      "page_end": 102,
+      "page_start": 102,
+      "section": "Appendices",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Appendix - II Some Useful Tips",
+      "topics": [
+        {
+          "title_en": "Handwriting and Questioning Techniques",
+          "objectives": [
+            "Learn tips for good handwriting",
+            "Understand strategies for asking questions during reading",
+            "Review rules for reading aloud effectively"
+          ]
+        }
+      ],
+      "order": null,
+      "page_end": 104,
+      "page_start": 103,
+      "section": "Appendices",
+      "title_hi": null,
+      "title_or": null
+    }
+  ],
+  "book_title_or": null
+}

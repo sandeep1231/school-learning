@@ -1,0 +1,288 @@
+{
+  "book_title_en": "Sahitya Saurabh",
+  "chapters": [
+    {
+      "title_en": "Konarke Mahanidra",
+      "topics": [
+        {
+          "title_en": "The glory of Konark Temple",
+          "objectives": [
+            "Understand the historical context of Konark.",
+            "Appreciate the architectural marvel of Konark."
+          ]
+        },
+        {
+          "title_en": "The sacrifice of the artisans",
+          "objectives": [
+            "Recognize the sacrifice of the artisans.",
+            "Reflect on the cultural heritage of Odisha."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 10,
+      "page_start": 8,
+      "section": "ପଦ୍ୟ ବିଭାଗ",
+      "title_or": "କୋଣାର୍କେ ମହାନିଦ୍ରା"
+    },
+    {
+      "title_en": "Mama's Gesture",
+      "topics": [
+        {
+          "title_en": "Mother's love and care",
+          "objectives": [
+            "Identify expressions of maternal affection.",
+            "Describe a child's bond with their mother."
+          ]
+        },
+        {
+          "title_en": "Everyday interactions with mother",
+          "objectives": [
+            "Appreciate the role of a mother in a child's life."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 13,
+      "page_start": 11,
+      "section": "ପଦ୍ୟ ବିଭାଗ",
+      "title_or": "ମାମାଙ୍କ ଠାଣି"
+    },
+    {
+      "title_en": "Song of Sravana Dewdrop",
+      "topics": [
+        {
+          "title_en": "Nature's beauty in the month of Sravana",
+          "objectives": [
+            "Describe the beauty of nature during monsoon.",
+            "Understand the symbolism of dewdrops."
+          ]
+        },
+        {
+          "title_en": "The poetic expression of nature",
+          "objectives": [
+            "Appreciate poetic descriptions of natural phenomena."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 16,
+      "page_start": 14,
+      "section": "ପଦ୍ୟ ବିଭାଗ",
+      "title_or": "ଶ୍ରାବଣ ଶିଶିରବିନ୍ଦୁର ଗୀତି"
+    },
+    {
+      "title_en": "Full Moon Night",
+      "topics": [
+        {
+          "title_en": "The serene beauty of a full moon night",
+          "objectives": [
+            "Describe the visual elements of a full moon night.",
+            "Express feelings evoked by moonlight."
+          ]
+        },
+        {
+          "title_en": "Celestial observations",
+          "objectives": [
+            "Identify celestial bodies visible at night."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 19,
+      "page_start": 17,
+      "section": "ପଦ୍ୟ ବିଭାଗ",
+      "title_or": "ପୂର୍ଣ୍ଣିମା ରାତି"
+    },
+    {
+      "title_en": "Srimati Rupa Paramanik",
+      "topics": [
+        {
+          "title_en": "Introduction to Srimati Rupa Paramanik",
+          "objectives": [
+            "Identify key facts about Srimati Rupa Paramanik.",
+            "Understand her importance or achievements."
+          ]
+        },
+        {
+          "title_en": "Lessons from her life",
+          "objectives": [
+            "Reflect on the values she represents."
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 22,
+      "page_start": 20,
+      "section": "ପଦ୍ୟ ବିଭାଗ",
+      "title_or": "ଶ୍ରୀମତୀ ରୂପା ପରମାଣିକ"
+    },
+    {
+      "title_en": "The Worthy Son of Utkal",
+      "topics": [
+        {
+          "title_en": "Biography of a notable personality from Odisha",
+          "objectives": [
+            "Recall facts about the \"Worthy Son of Utkal\".",
+            "Analyze their impact on Odia society."
+          ]
+        },
+        {
+          "title_en": "Inspiration from their life",
+          "objectives": [
+            "Draw inspiration from their life story."
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 25,
+      "page_start": 23,
+      "section": "ଗଦ୍ୟ ବିଭାଗ",
+      "title_or": "ଉତ୍କଳର ବରପୁତ୍ର"
+    },
+    {
+      "title_en": "The Triumphant Journey of Science",
+      "topics": [
+        {
+          "title_en": "Advancements in science and technology",
+          "objectives": [
+            "Identify major scientific discoveries.",
+            "Discuss the benefits of science for humanity."
+          ]
+        },
+        {
+          "title_en": "Impact of science on human life",
+          "objectives": [
+            "Speculate on future scientific developments."
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 28,
+      "page_start": 26,
+      "section": "ଗଦ୍ୟ ବିଭାଗ",
+      "title_or": "ବିଜ୍ଞାନର ଜୟ ଯାତ୍ରା"
+    },
+    {
+      "title_en": "The Artist of Konark",
+      "topics": [
+        {
+          "title_en": "The skill and dedication of Konark's sculptors",
+          "objectives": [
+            "Appreciate the artistry of Konark Temple.",
+            "Understand the challenges faced by ancient artisans."
+          ]
+        },
+        {
+          "title_en": "The stories behind the temple's art",
+          "objectives": [
+            "Recognize the cultural value of traditional art."
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 31,
+      "page_start": 29,
+      "section": "ଗଦ୍ୟ ବିଭାଗ",
+      "title_or": "କୋଣାର୍କର କଳାକାର"
+    },
+    {
+      "title_en": "Writing Synonyms",
+      "topics": [
+        {
+          "title_en": "Definition and examples of synonyms",
+          "objectives": [
+            "Define what a synonym is.",
+            "Identify synonyms for given words."
+          ]
+        },
+        {
+          "title_en": "Importance of synonyms in language",
+          "objectives": [
+            "Use synonyms to enrich vocabulary."
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 34,
+      "page_start": 32,
+      "section": "ବ୍ୟାକରଣ",
+      "title_or": "ପ୍ରତିଶବ୍ଦୀ ଲେଖା"
+    },
+    {
+      "title_en": "Usage of Adjectives",
+      "topics": [
+        {
+          "title_en": "Definition and types of adjectives",
+          "objectives": [
+            "Define an adjective and its function.",
+            "Identify adjectives in sentences."
+          ]
+        },
+        {
+          "title_en": "Rules for using adjectives in sentences",
+          "objectives": [
+            "Use adjectives correctly to describe nouns."
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 37,
+      "page_start": 35,
+      "section": "ବ୍ୟାକରଣ",
+      "title_or": "ବିଶେଷଣର ବ୍ୟବହାର"
+    },
+    {
+      "title_en": "Pronouns",
+      "topics": [
+        {
+          "title_en": "Definition and types of pronouns",
+          "objectives": [
+            "Define a pronoun and its purpose.",
+            "Identify different types of pronouns."
+          ]
+        },
+        {
+          "title_en": "Rules for using pronouns in sentences",
+          "objectives": [
+            "Use pronouns correctly in sentences."
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 40,
+      "page_start": 38,
+      "section": "ବ୍ୟାକରଣ",
+      "title_or": "ସର୍ବନାମ ଶବ୍ଦ"
+    },
+    {
+      "title_en": "School and Beneficial Science, Odia Grammar",
+      "topics": [
+        {
+          "title_en": "The role of school in education",
+          "objectives": [
+            "Discuss the significance of schooling."
+          ]
+        },
+        {
+          "title_en": "Benefits of science in daily life",
+          "objectives": [
+            "Explain how science benefits society."
+          ]
+        },
+        {
+          "title_en": "Importance of Odia grammar",
+          "objectives": [
+            "Recognize the importance of grammar in language."
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 43,
+      "page_start": 41,
+      "section": "ପ୍ରବନ୍ଧ",
+      "title_or": "ବିଦ୍ୟାଳୟ ଓ ଉପକାରୀ ବିଜ୍ଞାନ, ଓଡ଼ିଆ ବ୍ୟାକରଣ"
+    }
+  ],
+  "book_title_or": "ସାହିତ୍ୟ ସୌରଭ"
+}

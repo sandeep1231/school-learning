@@ -1,0 +1,654 @@
+{
+  "book_title_en": "English Reader Class-VII",
+  "chapters": [
+    {
+      "title_en": "Run! Run! Run!",
+      "topics": [
+        {
+          "title_en": "Reading and Comprehension",
+          "objectives": [
+            "Read and understand the poem",
+            "Answer comprehension questions",
+            "Identify the theme of the poem"
+          ]
+        },
+        {
+          "title_en": "Language Activities",
+          "objectives": [
+            "Practice listening and speaking skills",
+            "Match phrases and identify word meanings",
+            "Complete usage exercises"
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 10,
+      "page_start": 5,
+      "section": "PART-I",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Jackal And The Rooster",
+      "topics": [
+        {
+          "title_en": "Story Comprehension",
+          "objectives": [
+            "Read and understand the story",
+            "Answer comprehension questions",
+            "Identify characters and plot points"
+          ]
+        },
+        {
+          "title_en": "Vocabulary and Grammar",
+          "objectives": [
+            "Learn new words from the story",
+            "Practice grammar exercises",
+            "Improve writing skills"
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 18,
+      "page_start": 11,
+      "section": "PART-I",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Camel",
+      "topics": [
+        {
+          "title_en": "Information about Camels",
+          "objectives": [
+            "Read and learn facts about camels",
+            "Answer questions about camel characteristics",
+            "Understand camel habitats"
+          ]
+        },
+        {
+          "title_en": "Language Practice",
+          "objectives": [
+            "Match words with meanings",
+            "Complete sentences about animals",
+            "Write answers to questions"
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 23,
+      "page_start": 19,
+      "section": "PART-I",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "I'd Like To Be.... (poem)",
+      "topics": [
+        {
+          "title_en": "Poem Analysis",
+          "objectives": [
+            "Read and appreciate the poem",
+            "Identify the speaker's wishes",
+            "Answer comprehension questions"
+          ]
+        },
+        {
+          "title_en": "Vocabulary and Expression",
+          "objectives": [
+            "Learn new vocabulary",
+            "Discuss future aspirations",
+            "Practice rhyming words"
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 29,
+      "page_start": 24,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "When I Grow Up",
+      "topics": [
+        {
+          "title_en": "Career Exploration",
+          "objectives": [
+            "Read about different professions",
+            "Discuss future career choices",
+            "Understand the importance of work"
+          ]
+        },
+        {
+          "title_en": "Interview Skills",
+          "objectives": [
+            "Practice asking and answering questions",
+            "Write a brief report",
+            "Improve communication skills"
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 34,
+      "page_start": 30,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "How Poor We Are !",
+      "topics": [
+        {
+          "title_en": "Understanding Wealth and Poverty",
+          "objectives": [
+            "Read the story about rich and poor",
+            "Discuss the concept of true wealth",
+            "Answer comprehension questions"
+          ]
+        },
+        {
+          "title_en": "Vocabulary and Usage",
+          "objectives": [
+            "Learn new words from the story",
+            "Complete vocabulary exercises",
+            "Practice sentence construction"
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 43,
+      "page_start": 35,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "A Tiny Warrior",
+      "topics": [
+        {
+          "title_en": "Story Analysis",
+          "objectives": [
+            "Read and understand the story",
+            "Identify the main characters and their roles",
+            "Discuss the moral of the story"
+          ]
+        },
+        {
+          "title_en": "Language Development",
+          "objectives": [
+            "Match words with shapes",
+            "Practice writing sentences",
+            "Engage in mental talk activities"
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 49,
+      "page_start": 44,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Magic (poem)",
+      "topics": [
+        {
+          "title_en": "Poetic Appreciation",
+          "objectives": [
+            "Read and enjoy the poem",
+            "Identify elements of magic in the poem",
+            "Answer questions about the poem's theme"
+          ]
+        },
+        {
+          "title_en": "Word Puzzles and Writing",
+          "objectives": [
+            "Solve a crossword puzzle",
+            "Rewrite lines from the poem",
+            "Practice creative writing"
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 55,
+      "page_start": 50,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Mum (poem)",
+      "topics": [
+        {
+          "title_en": "Ode to Mother",
+          "objectives": [
+            "Read and understand the poem about mother",
+            "Identify qualities of a mother's love",
+            "Answer questions about the poem"
+          ]
+        },
+        {
+          "title_en": "Vocabulary Enrichment",
+          "objectives": [
+            "Learn new words and phrases from the poem",
+            "Understand their contextual meanings",
+            "Discuss the importance of family"
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 57,
+      "page_start": 56,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Birsa Munda",
+      "topics": [
+        {
+          "title_en": "Life of Birsa Munda",
+          "objectives": [
+            "Read about the life of Birsa Munda",
+            "Understand his role in tribal movements",
+            "Answer comprehension questions about his struggles"
+          ]
+        },
+        {
+          "title_en": "Historical Context",
+          "objectives": [
+            "Learn about the British rule in India",
+            "Discuss the concept of superstitions",
+            "Analyze the impact of social reforms"
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 70,
+      "page_start": 61,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Tilka Majhi",
+      "topics": [
+        {
+          "title_en": "Biography of Tilka Majhi",
+          "objectives": [
+            "Read about the life of Tilka Majhi",
+            "Understand his fight against the British",
+            "Answer comprehension questions about his leadership"
+          ]
+        },
+        {
+          "title_en": "Tribal Rebellion",
+          "objectives": [
+            "Learn about tribal customs and traditions",
+            "Discuss the reasons for tribal revolts",
+            "Analyze the impact of colonial policies"
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 75,
+      "page_start": 71,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Branding Babies by Hot Iron Rods-A Bad Practice",
+      "topics": [
+        {
+          "title_en": "Understanding a Social Evil",
+          "objectives": [
+            "Read about the practice of branding babies",
+            "Discuss the harmful effects of such practices",
+            "Identify reasons for superstitions"
+          ]
+        },
+        {
+          "title_en": "Promoting Awareness",
+          "objectives": [
+            "Understand the role of education in social change",
+            "Discuss ways to stop harmful practices",
+            "Formulate opinions on social issues"
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 78,
+      "page_start": 76,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Kind Tree (poem)",
+      "topics": [
+        {
+          "title_en": "Appreciating Nature",
+          "objectives": [
+            "Read and understand the poem about a kind tree",
+            "Identify the benefits of trees",
+            "Answer comprehension questions about nature"
+          ]
+        },
+        {
+          "title_en": "Sensory Language",
+          "objectives": [
+            "Identify rhyming words in the poem",
+            "Practice reading aloud with expression",
+            "Discuss the importance of kindness"
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 83,
+      "page_start": 79,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Loveliest Of Trees",
+      "topics": [
+        {
+          "title_en": "Poetic Interpretation",
+          "objectives": [
+            "Read and analyze the poem",
+            "Understand the poet's message about beauty",
+            "Answer questions about the poem's imagery"
+          ]
+        },
+        {
+          "title_en": "Vocabulary and Reflection",
+          "objectives": [
+            "Learn new words and phrases from the poem",
+            "Reflect on the passage of time",
+            "Discuss personal appreciation for nature"
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 87,
+      "page_start": 84,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Kangaroo",
+      "topics": [
+        {
+          "title_en": "Learning about Kangaroos",
+          "objectives": [
+            "Read and gather information about kangaroos",
+            "Answer comprehension questions about their characteristics",
+            "Understand their habitat and behavior"
+          ]
+        },
+        {
+          "title_en": "Vocabulary and Writing",
+          "objectives": [
+            "Learn new vocabulary related to animals",
+            "Practice writing sentences about kangaroos",
+            "Complete usage exercises"
+          ]
+        }
+      ],
+      "order": 15,
+      "page_end": 96,
+      "page_start": 88,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Origin Of Words",
+      "topics": [
+        {
+          "title_en": "Etymology of Words",
+          "objectives": [
+            "Read about the origin of words like 'sandwich'",
+            "Understand how words evolve",
+            "Discuss the history behind common terms"
+          ]
+        },
+        {
+          "title_en": "Vocabulary and Historical Context",
+          "objectives": [
+            "Learn new vocabulary related to word origins",
+            "Understand historical events influencing language",
+            "Analyze the concept of boycott"
+          ]
+        }
+      ],
+      "order": 16,
+      "page_end": 98,
+      "page_start": 97,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Cobwebs (poem)",
+      "topics": [
+        {
+          "title_en": "Poem Interpretation",
+          "objectives": [
+            "Read and understand the poem 'Cobwebs'",
+            "Identify imagery and metaphors in the poem",
+            "Answer comprehension questions"
+          ]
+        },
+        {
+          "title_en": "Language Skills",
+          "objectives": [
+            "Practice listening and speaking",
+            "Match words with their meanings",
+            "Write sentences based on the poem"
+          ]
+        }
+      ],
+      "order": 17,
+      "page_end": 104,
+      "page_start": 99,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Silver, Spider (poem)",
+      "topics": [
+        {
+          "title_en": "Poetic Imagery",
+          "objectives": [
+            "Read and appreciate the poem 'Silver'",
+            "Identify words related to silver and moonlight",
+            "Answer comprehension questions about the poem"
+          ]
+        },
+        {
+          "title_en": "Vocabulary and Writing",
+          "objectives": [
+            "Learn new vocabulary from the poem",
+            "Complete crossword puzzles",
+            "Practice writing sentences and paragraphs"
+          ]
+        }
+      ],
+      "order": 18,
+      "page_end": 109,
+      "page_start": 105,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Tiger, The Brahman And The Jackal",
+      "topics": [
+        {
+          "title_en": "Moral Story Comprehension",
+          "objectives": [
+            "Read and understand the story",
+            "Identify the moral of the story",
+            "Answer comprehension questions about the plot and characters"
+          ]
+        },
+        {
+          "title_en": "Dialogue and Vocabulary",
+          "objectives": [
+            "Practice dialogues from the story",
+            "Learn new vocabulary related to the story",
+            "Discuss themes of gratitude and cunning"
+          ]
+        }
+      ],
+      "order": 19,
+      "page_end": 121,
+      "page_start": 110,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Fisherman And The Jinni",
+      "topics": [
+        {
+          "title_en": "Folk Tale Analysis",
+          "objectives": [
+            "Read and understand the folk tale",
+            "Identify the main characters and their interactions",
+            "Answer comprehension questions about the story"
+          ]
+        },
+        {
+          "title_en": "Vocabulary and Storytelling",
+          "objectives": [
+            "Learn new vocabulary from the tale",
+            "Practice retelling the story",
+            "Discuss themes of wisdom and consequences"
+          ]
+        }
+      ],
+      "order": 20,
+      "page_end": 125,
+      "page_start": 122,
+      "section": "PART-II",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Appendix-I- Notes to the Teachers, Parents, Tutors and Inspecting Officials",
+      "topics": [
+        {
+          "title_en": "Guidance for Educators",
+          "objectives": [
+            "Understand the pedagogical approach of the textbook",
+            "Learn about effective teaching strategies",
+            "Review notes for parents and officials"
+          ]
+        },
+        {
+          "title_en": "Lesson Implementation",
+          "objectives": [
+            "Gain insights into lesson planning",
+            "Understand assessment methods",
+            "Utilize resources for classroom activities"
+          ]
+        }
+      ],
+      "order": 21,
+      "page_end": 134,
+      "page_start": 129,
+      "section": "Appendices",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Appendix-II- Four Basic Techniques",
+      "topics": [
+        {
+          "title_en": "Learning Techniques",
+          "objectives": [
+            "Understand brainstorming as a learning tool",
+            "Learn about visual memory development techniques",
+            "Explore mental talk strategies"
+          ]
+        },
+        {
+          "title_en": "Chain-drill Practice",
+          "objectives": [
+            "Learn the benefits of chain-drills",
+            "Practice chain-drill exercises",
+            "Improve language fluency and recall"
+          ]
+        }
+      ],
+      "order": 22,
+      "page_end": 136,
+      "page_start": 135,
+      "section": "Appendices",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Appendix-III- Some Important Tips",
+      "topics": [
+        {
+          "title_en": "Handwriting and Reading Tips",
+          "objectives": [
+            "Learn good handwriting practices",
+            "Understand tips for asking questions",
+            "Improve reading aloud skills"
+          ]
+        },
+        {
+          "title_en": "Classroom Management",
+          "objectives": [
+            "Learn strategies for student engagement",
+            "Understand how to facilitate discussions",
+            "Improve overall classroom interaction"
+          ]
+        }
+      ],
+      "order": 23,
+      "page_end": 138,
+      "page_start": 137,
+      "section": "Appendices",
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Appendix-IV- Learning Indicators",
+      "topics": [
+        {
+          "title_en": "Skills and Sub-skills",
+          "objectives": [
+            "Understand learning indicators for listening and speaking",
+            "Identify indicators for reading comprehension",
+            "Review indicators for writing and vocabulary"
+          ]
+        },
+        {
+          "title_en": "Pedagogical Processes",
+          "objectives": [
+            "Learn suggested teaching methods",
+            "Understand activities for skill development",
+            "Review processes for grammar and reference skills"
+          ]
+        }
+      ],
+      "order": 24,
+      "page_end": 140,
+      "page_start": 139,
+      "section": "Appendices",
+      "title_hi": null,
+      "title_or": null
+    }
+  ],
+  "book_title_or": null
+}

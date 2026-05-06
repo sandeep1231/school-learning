@@ -3,8 +3,19 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 // Read env lazily so Next.js dev hot-reload picks up `.env.local` changes
 // after the module has already been imported.
 function readApiKey(): string | undefined {
+  // Treat empty/sentinel values as absent so a stale system-level
+  // GOOGLE_GENERATIVE_AI_API_KEY=placeholder cannot mask a real key in
+  // .env.local (which we expose via GOOGLE_API_KEY).
+  const sanitize = (v: string | undefined) => {
+    if (!v) return undefined;
+    const t = v.trim();
+    if (!t) return undefined;
+    if (/^placeholder$/i.test(t)) return undefined;
+    return t;
+  };
   return (
-    process.env.GOOGLE_GENERATIVE_AI_API_KEY ?? process.env.GOOGLE_API_KEY
+    sanitize(process.env.GOOGLE_GENERATIVE_AI_API_KEY) ??
+    sanitize(process.env.GOOGLE_API_KEY)
   );
 }
 

@@ -9,6 +9,8 @@ const LANGUAGE_NAME: Record<AppLanguage, string> = {
 export type TutorPromptInput = {
   language: AppLanguage;
   studentName?: string | null;
+  /** Class level the student is currently in (e.g. 6, 7, 8, 9). */
+  classLevel: number;
   subjectName: string;
   chapterTitle: string;
   topicTitle: string;
@@ -26,7 +28,7 @@ export type TutorPromptInput = {
  * System prompt for the topic-scoped AI tutor. Enforces:
  *  - Language of the student's preference
  *  - Grounding in provided context with citations
- *  - Age-appropriate (Class 9 / ~14 year old) tone
+ *  - Age-appropriate tone for the student's class level
  *  - Refusal of off-syllabus, unsafe, or personal-advice questions
  *  - Defence against prompt injection in retrieved chunks
  */
@@ -48,7 +50,7 @@ export function buildTutorSystemPrompt(input: TutorPromptInput): string {
           )
           .join("\n\n---\n\n");
 
-  return `You are "Sikhya Sathi", a friendly, patient AI home-tutor for a Class 9 student studying under the Board of Secondary Education, Odisha (BSE Odisha).
+  return `You are "Sikhya Sathi", a friendly, patient AI home-tutor for a Class ${input.classLevel} student studying under the Board of Secondary Education, Odisha (BSE Odisha).
 
 STUDENT CONTEXT
 - Name: ${input.studentName ?? "student"}

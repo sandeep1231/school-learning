@@ -1,0 +1,585 @@
+{
+  "book_title_en": "Hindi Path-6",
+  "chapters": [
+    {
+      "title_en": "A Hundred Salutations",
+      "topics": [
+        {
+          "title_en": "Saluting the Motherland",
+          "objectives": [
+            "Recognize the importance of the motherland",
+            "Express gratitude towards the nation"
+          ]
+        },
+        {
+          "title_en": "Natural Beauty of India",
+          "objectives": [
+            "Identify descriptions of India's natural features",
+            "Appreciate the diverse landscape"
+          ]
+        },
+        {
+          "title_en": "Cultural and Moral Values",
+          "objectives": [
+            "Understand India's heritage of knowledge and peace",
+            "Reflect on values like truth, non-violence, and compassion"
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 6,
+      "page_start": 5,
+      "section": null,
+      "title_hi": "शत-शत बार प्रणाम",
+      "title_or": null
+    },
+    {
+      "title_en": "Such Were They",
+      "topics": [
+        {
+          "title_en": "First Meeting with Jawaharlal Nehru",
+          "objectives": [
+            "Describe the author's first encounter with Nehru",
+            "Understand Nehru's playful nature as a child"
+          ]
+        },
+        {
+          "title_en": "Nehru's Personality and Behavior",
+          "objectives": [
+            "Identify characteristics of Nehru's personality",
+            "Analyze his affectionate and simple demeanor"
+          ]
+        },
+        {
+          "title_en": "Nehru's Public and Private Life",
+          "objectives": [
+            "Differentiate between Nehru's public and private roles",
+            "Recognize his consistent humanistic approach"
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 10,
+      "page_start": 7,
+      "section": null,
+      "title_hi": "ऐसे थे वे",
+      "title_or": null
+    },
+    {
+      "title_en": "The Coming Rain Wind",
+      "topics": [
+        {
+          "title_en": "Description of Rain Wind",
+          "objectives": [
+            "Identify the characteristics of the rain wind",
+            "Describe its movement and impact on nature"
+          ]
+        },
+        {
+          "title_en": "Playfulness of the Wind",
+          "objectives": [
+            "Understand how the wind interacts with its surroundings",
+            "Appreciate the lively imagery of the wind"
+          ]
+        },
+        {
+          "title_en": "Joy and Freshness",
+          "objectives": [
+            "Explain how the wind brings joy and freshness",
+            "Connect the wind with new beginnings and happiness"
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 14,
+      "page_start": 13,
+      "section": null,
+      "title_hi": "बरसात की आती हवा",
+      "title_or": null
+    },
+    {
+      "title_en": "Friendship",
+      "topics": [
+        {
+          "title_en": "Importance of Choosing Friends",
+          "objectives": [
+            "Understand why choosing good friends is crucial",
+            "Recognize the influence of company on character"
+          ]
+        },
+        {
+          "title_en": "Qualities of a Good Friend",
+          "objectives": [
+            "Identify traits that make a friend trustworthy",
+            "Learn how true friends support and guide"
+          ]
+        },
+        {
+          "title_en": "Avoiding Bad Company",
+          "objectives": [
+            "Understand the negative effects of bad company",
+            "Learn to distinguish between good and bad influences"
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 19,
+      "page_start": 15,
+      "section": null,
+      "title_hi": "मित्रता",
+      "title_or": null
+    },
+    {
+      "title_en": "Garland of Gems",
+      "topics": [
+        {
+          "title_en": "Teachings of Kabir",
+          "objectives": [
+            "Understand Kabir's philosophy on selflessness and humility",
+            "Reflect on the transient nature of life"
+          ]
+        },
+        {
+          "title_en": "Devotion of Surdas",
+          "objectives": [
+            "Appreciate Surdas's devotion to Lord Krishna",
+            "Understand the power of divine grace"
+          ]
+        },
+        {
+          "title_en": "Wisdom of Tulsidas",
+          "objectives": [
+            "Identify Tulsidas's views on good company",
+            "Learn about the importance of wise counsel"
+          ]
+        },
+        {
+          "title_en": "Sayings of Rahim",
+          "objectives": [
+            "Understand Rahim's advice on preserving relationships",
+            "Recognize the value of small things and people"
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 23,
+      "page_start": 20,
+      "section": null,
+      "title_hi": "रत्नमाला",
+      "title_or": null
+    },
+    {
+      "title_en": "Naive Friend",
+      "topics": [
+        {
+          "title_en": "Children's Curiosity about Birds",
+          "objectives": [
+            "Describe Keshav and Shyama's interest in the bird's eggs",
+            "Understand their innocent attempts to care for them"
+          ]
+        },
+        {
+          "title_en": "Attempts to Protect the Eggs",
+          "objectives": [
+            "Explain the children's efforts to provide comfort to the birds",
+            "Identify the items they used for protection"
+          ]
+        },
+        {
+          "title_en": "Consequences of Ignorance",
+          "objectives": [
+            "Understand why the eggs were broken",
+            "Learn about the importance of knowledge and caution when dealing with nature"
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 32,
+      "page_start": 24,
+      "section": null,
+      "title_hi": "नादान दोस्त",
+      "title_or": null
+    },
+    {
+      "title_en": "The Scholar's Insight",
+      "topics": [
+        {
+          "title_en": "The Scholar's Observation",
+          "objectives": [
+            "Describe the scholar's confusion about the oil mill's ox",
+            "Understand his logical reasoning"
+          ]
+        },
+        {
+          "title_en": "The Owner's Simple Explanation",
+          "objectives": [
+            "Explain how the owner ensures the ox keeps moving",
+            "Compare the scholar's complex thinking with the owner's practicality"
+          ]
+        },
+        {
+          "title_en": "Practical Wisdom vs. Theoretical Knowledge",
+          "objectives": [
+            "Differentiate between practical and theoretical knowledge",
+            "Understand that real-world problems often have simple solutions"
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 36,
+      "page_start": 33,
+      "section": null,
+      "title_hi": "पढ़क्कू की सूझ",
+      "title_or": null
+    },
+    {
+      "title_en": "Such and Such ('Aise-Aise')",
+      "topics": [
+        {
+          "title_en": "Mohan's Mysterious Stomach Ache",
+          "objectives": [
+            "Describe Mohan's symptoms and his parents' concern",
+            "Understand the confusion caused by his vague complaints"
+          ]
+        },
+        {
+          "title_en": "Visits from Doctor and Vaidya",
+          "objectives": [
+            "Identify the different medical opinions received",
+            "Observe the family's increasing anxiety and expenses"
+          ]
+        },
+        {
+          "title_en": "The Master's Revelation",
+          "objectives": [
+            "Understand the true cause of Mohan's 'stomach ache'",
+            "Learn about the common excuses children make to avoid schoolwork"
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 46,
+      "page_start": 37,
+      "section": null,
+      "title_hi": "ऐसे - ऐसे",
+      "title_or": null
+    },
+    {
+      "title_en": "I Wish To Be The Smallest",
+      "topics": [
+        {
+          "title_en": "Desire for Childhood",
+          "objectives": [
+            "Understand the child's wish to remain small",
+            "Identify the reasons for wanting to stay close to the mother"
+          ]
+        },
+        {
+          "title_en": "Mother's Affection",
+          "objectives": [
+            "Describe the mother's care and love for her child",
+            "Appreciate the comfort and security of a mother's lap"
+          ]
+        },
+        {
+          "title_en": "Fear of Growing Up",
+          "objectives": [
+            "Explain why the child fears growing up",
+            "Understand the perceived loss of intimacy and care with age"
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 49,
+      "page_start": 47,
+      "section": null,
+      "title_hi": "मैं सबसे छोटी होऊँ",
+      "title_or": null
+    },
+    {
+      "title_en": "Utkalmani",
+      "topics": [
+        {
+          "title_en": "Early Life of Gopabandhu Das",
+          "objectives": [
+            "Describe Gopabandhu's childhood and upbringing",
+            "Understand the influence of his aunt and nature"
+          ]
+        },
+        {
+          "title_en": "Educational Journey and Values",
+          "objectives": [
+            "Trace his academic path and achievements",
+            "Identify his commitment to national traditions and simple living"
+          ]
+        },
+        {
+          "title_en": "Contribution to Education and Society",
+          "objectives": [
+            "Explain his role in establishing the Satyawadi Van Vidyalaya",
+            "Recognize his efforts in social and political reform in Odisha"
+          ]
+        },
+        {
+          "title_en": "Legacy and Patriotism",
+          "objectives": [
+            "Understand his vision for an independent Odisha",
+            "Appreciate his lasting impact as a freedom fighter and social worker"
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 55,
+      "page_start": 50,
+      "section": null,
+      "title_hi": "उत्कलमणि",
+      "title_or": null
+    },
+    {
+      "title_en": "The Flower's Desire",
+      "topics": [
+        {
+          "title_en": "The Flower's Refusal",
+          "objectives": [
+            "Understand what the flower does not wish for",
+            "Identify its rejection of adornment and worldly glory"
+          ]
+        },
+        {
+          "title_en": "The Flower's True Desire",
+          "objectives": [
+            "Explain the flower's ultimate wish",
+            "Describe its desire to be sacrificed for the motherland"
+          ]
+        },
+        {
+          "title_en": "Patriotism and Sacrifice",
+          "objectives": [
+            "Recognize the theme of patriotism and self-sacrifice",
+            "Appreciate the honor given to martyrs"
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 58,
+      "page_start": 56,
+      "section": null,
+      "title_hi": "पुष्प की अभिलाषा",
+      "title_or": null
+    },
+    {
+      "title_en": "A Letter to Fellow Countrymen",
+      "topics": [
+        {
+          "title_en": "Ashfaqullah Khan's Message",
+          "objectives": [
+            "Understand the purpose of Ashfaqullah Khan's letter",
+            "Identify his message of unity and freedom"
+          ]
+        },
+        {
+          "title_en": "Critique of British Justice",
+          "objectives": [
+            "Analyze his views on the British judicial system",
+            "Compare the treatment of Indian freedom fighters with British officers"
+          ]
+        },
+        {
+          "title_en": "Call for Unity and Independence",
+          "objectives": [
+            "Recognize his appeal for communal harmony",
+            "Understand his call for collective action to achieve independence"
+          ]
+        },
+        {
+          "title_en": "Sacrifice for the Nation",
+          "objectives": [
+            "Appreciate his pride in sacrificing for the country",
+            "Reflect on the ultimate price paid for freedom"
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 61,
+      "page_start": 59,
+      "section": null,
+      "title_hi": "एक पत्र देशवासियों के नाम",
+      "title_or": null
+    },
+    {
+      "title_en": "The Queen of Jhansi",
+      "topics": [
+        {
+          "title_en": "Rani Lakshmibai's Childhood",
+          "objectives": [
+            "Describe Lakshmibai's early life and training",
+            "Identify her skills in warfare and sports"
+          ]
+        },
+        {
+          "title_en": "Role in the 1857 Rebellion",
+          "objectives": [
+            "Understand her leadership during the Sepoy Mutiny",
+            "Recognize her courage and determination against the British"
+          ]
+        },
+        {
+          "title_en": "Symbol of Bravery and Sacrifice",
+          "objectives": [
+            "Appreciate her as a symbol of Indian valor",
+            "Reflect on her legacy as a freedom fighter"
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 66,
+      "page_start": 62,
+      "section": null,
+      "title_hi": "झाँसी की रानी",
+      "title_or": null
+    },
+    {
+      "title_en": "Monkey in a Spacesuit",
+      "topics": [
+        {
+          "title_en": "Girl's Space Adventure",
+          "objectives": [
+            "Describe the girl's journey into space",
+            "Understand her experience of traveling through dense darkness"
+          ]
+        },
+        {
+          "title_en": "Landing on Earth and Meeting the Sage",
+          "objectives": [
+            "Explain her arrival in Kashmir and encounter with a sage",
+            "Describe her interaction with the sage and his pet monkeys"
+          ]
+        },
+        {
+          "title_en": "The Monkey's Mischief",
+          "objectives": [
+            "Narrate how a monkey wears the spacesuit and flies",
+            "Understand the chaos and concern caused by the monkey's flight"
+          ]
+        },
+        {
+          "title_en": "Lesson Learned and Future Aspirations",
+          "objectives": [
+            "Explain how the monkey was brought back",
+            "Understand the sage's condition for visiting other planets and the children's role"
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 71,
+      "page_start": 67,
+      "section": null,
+      "title_hi": "अंतरिक्ष सूट में बंदर",
+      "title_or": null
+    },
+    {
+      "title_en": "Chandrashekhara Venkata Raman",
+      "topics": [
+        {
+          "title_en": "Early Life and Education",
+          "objectives": [
+            "Describe C.V. Raman's birth and family background",
+            "Understand his early academic brilliance and interest in science and music"
+          ]
+        },
+        {
+          "title_en": "Scientific Contributions",
+          "objectives": [
+            "Identify his significant discoveries, especially the 'Raman Effect'",
+            "Explain how his work contributed to India's scientific reputation"
+          ]
+        },
+        {
+          "title_en": "Recognition and Awards",
+          "objectives": [
+            "List the major awards and honors he received",
+            "Appreciate his Nobel Prize and Bharat Ratna for scientific achievements"
+          ]
+        }
+      ],
+      "order": 15,
+      "page_end": 75,
+      "page_start": 72,
+      "section": null,
+      "title_hi": "चंद्रशेखर वेंकटरमण",
+      "title_or": null
+    },
+    {
+      "title_en": "Krishna, the Messenger of Peace",
+      "topics": [
+        {
+          "title_en": "Krishna's Peace Mission",
+          "objectives": [
+            "Describe Krishna's journey to Hastinapur for peace talks",
+            "Understand his efforts to mediate between the Pandavas and Kauravas"
+          ]
+        },
+        {
+          "title_en": "Interactions with Dhritarashtra and Vidur",
+          "objectives": [
+            "Narrate his meetings with key figures",
+            "Observe the differing receptions and advice he received"
+          ]
+        },
+        {
+          "title_en": "Duryodhana's Refusal and War Inevitability",
+          "objectives": [
+            "Explain Duryodhana's stubbornness and rejection of peace",
+            "Understand how the peace mission failed, leading to war"
+          ]
+        },
+        {
+          "title_en": "Kunti's Plea to Karna",
+          "objectives": [
+            "Describe Kunti's revelation to Karna",
+            "Understand Karna's dilemma and his promise to Kunti"
+          ]
+        }
+      ],
+      "order": 16,
+      "page_end": 78,
+      "page_start": 76,
+      "section": null,
+      "title_hi": "शांतिदूत श्रीकृष्ण",
+      "title_or": null
+    },
+    {
+      "title_en": "Prayer",
+      "topics": [
+        {
+          "title_en": "Seeking Strength and Faith",
+          "objectives": [
+            "Understand the prayer's request for inner strength",
+            "Express the desire for unwavering faith"
+          ]
+        },
+        {
+          "title_en": "Path of Righteousness",
+          "objectives": [
+            "Identify the commitment to follow a good path",
+            "Reflect on the importance of avoiding mistakes"
+          ]
+        },
+        {
+          "title_en": "Hope for a Better Future",
+          "objectives": [
+            "Express the wish for an end to suffering and injustice",
+            "Pray for a future free from past sorrows and enmity"
+          ]
+        }
+      ],
+      "order": 17,
+      "page_end": 80,
+      "page_start": 79,
+      "section": null,
+      "title_hi": "प्रार्थना",
+      "title_or": null
+    }
+  ],
+  "book_title_or": null
+}

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "Terms governing use of Sikhya Sathi, the BSE Odisha Class 9 AI tutor.",
+    "Terms governing use of Sikhya Sathi, the AI tutor for BSE Odisha Class 6–9 students.",
 };
 
 /**
@@ -25,9 +25,9 @@ export default function TermsPage() {
         <h2>1. What Sikhya Sathi is</h2>
         <p>
           Sikhya Sathi is a digital learning service aligned to the Board of
-          Secondary Education, Odisha (BSE) Class 9 syllabus. It provides AI-
-          generated lessons, practice questions, and spaced-repetition review.
-          Content is educational support, not a substitute for school.
+          Secondary Education, Odisha (BSE) Class 6–9 syllabus. It provides
+          AI-generated lessons, practice questions, and spaced-repetition
+          review. Content is educational support, not a substitute for school.
         </p>
 
         <h2>2. Accounts</h2>

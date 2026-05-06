@@ -1,0 +1,376 @@
+{
+  "book_title_en": "Computer Education and Application (Part 1)",
+  "chapters": [
+    {
+      "title_en": "Basic Concepts of Computer",
+      "topics": [
+        {
+          "title_en": "What is Computer",
+          "objectives": [
+            "Define a computer",
+            "Understand computer as an electronic device",
+            "Explain data processing by a computer",
+            "Identify common uses of computers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "କମ୍ପ୍ୟୁଟର କ’ଣ"
+        },
+        {
+          "title_en": "History of Computer",
+          "objectives": [
+            "Trace the early history of computing devices",
+            "Identify key inventors like Pascal and Babbage",
+            "Understand the evolution of computing machines"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "କମ୍ପ୍ୟୁଟରର ଇତିହାସ"
+        },
+        {
+          "title_en": "Characteristics of Computer",
+          "objectives": [
+            "List key characteristics like speed and accuracy",
+            "Explain diligence and versatility of computers",
+            "Describe storage capability and reliability"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "କମ୍ପ୍ୟୁଟରର ବୈଶିଷ୍ଟ୍ୟ"
+        },
+        {
+          "title_en": "Beginning of Computer Science",
+          "objectives": [
+            "Understand the foundational concepts of computer science",
+            "Recognize early theoretical contributions"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "କମ୍ପ୍ୟୁଟର ବିଜ୍ଞାନର ଆରମ୍ଭ"
+        },
+        {
+          "title_en": "Generations of Computer",
+          "objectives": [
+            "Identify different generations of computers",
+            "Describe key technologies of each generation",
+            "Understand the timeline of computer evolution"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "କମ୍ପ୍ୟୁଟର ପିଢ଼ି"
+        },
+        {
+          "title_en": "Classification of Computer",
+          "objectives": [
+            "Classify computers by size (micro, mini, mainframe, super)",
+            "Classify computers by function (digital, analog, hybrid)",
+            "Distinguish between different computer types"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "କମ୍ପ୍ୟୁଟର ବିଭାଗୀକରଣ"
+        },
+        {
+          "title_en": "Applications of Computer",
+          "objectives": [
+            "List various fields where computers are used",
+            "Describe specific computer applications",
+            "Understand the importance of computers in daily life"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "କମ୍ପ୍ୟୁଟରର ପ୍ରୟୋଗ"
+        }
+      ],
+      "order": 1,
+      "page_end": 21,
+      "page_start": 5,
+      "section": null,
+      "title_hi": null,
+      "title_or": "କମ୍ପ୍ୟୁଟର ସମ୍ବନ୍ଧୀୟ ମୌଳିକ ଧାରଣା"
+    },
+    {
+      "title_en": "Computer Hardware",
+      "topics": [
+        {
+          "title_en": "Input Unit",
+          "objectives": [
+            "Identify common input devices",
+            "Explain the function of a keyboard",
+            "Describe how a mouse works",
+            "Understand the role of a scanner"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ନିବେଶ ବିଭାଗ"
+        },
+        {
+          "title_en": "Central Processing Unit (CPU)",
+          "objectives": [
+            "Describe the CPU as the brain of the computer",
+            "Explain the functions of Control Unit (CU)",
+            "Understand the role of Arithmetic-Logic Unit (ALU)"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "କେନ୍ଦ୍ରୀୟ କାର୍ଯ୍ୟ ନିର୍ବାହୀ ବିଭାଗ (ସିପିୟୁ)"
+        },
+        {
+          "title_en": "Memory",
+          "objectives": [
+            "Differentiate between primary and auxiliary memory",
+            "Explain RAM and ROM",
+            "Understand memory units like bits and bytes",
+            "Identify storage devices like CD, DVD, pen drive, hard disk"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ସ୍ମୃତି (ମେମୋରୀ)"
+        },
+        {
+          "title_en": "Output Unit",
+          "objectives": [
+            "Identify common output devices",
+            "Explain the function of a monitor",
+            "Describe different types of printers",
+            "Understand the role of speakers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ନିର୍ଗମ ବିଭାଗ"
+        },
+        {
+          "title_en": "Other Personal Computer Accessories",
+          "objectives": [
+            "Identify UPS and Modem",
+            "Explain the function of a CD Drive",
+            "Describe the use of speakers and sound box"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପର୍ସନାଲ କମ୍ପ୍ୟୁଟରର ଅନ୍ୟ କେତୋଟି ଉପକରଣ"
+        }
+      ],
+      "order": 2,
+      "page_end": 37,
+      "page_start": 22,
+      "section": null,
+      "title_hi": null,
+      "title_or": "କମ୍ପ୍ୟୁଟରର ଯନ୍ତ୍ରାଂଶ"
+    },
+    {
+      "title_en": "Computer Software",
+      "topics": [
+        {
+          "title_en": "Software",
+          "objectives": [
+            "Define software and its types",
+            "Differentiate between hardware and software",
+            "Explain application software",
+            "Describe system software"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ସଫ୍ଟଓୟାର"
+        },
+        {
+          "title_en": "Operating System",
+          "objectives": [
+            "Define an operating system",
+            "Explain the function of an OS",
+            "Identify different types of operating systems",
+            "Understand the history of OS"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରଚାଳନ ପଦ୍ଧତି"
+        }
+      ],
+      "order": 3,
+      "page_end": 47,
+      "page_start": 38,
+      "section": null,
+      "title_hi": null,
+      "title_or": "କମ୍ପ୍ୟୁଟର ସଫ୍‌ଟଓୟାର"
+    },
+    {
+      "title_en": "Basic Concepts of Windows",
+      "topics": [
+        {
+          "title_en": "What is Windows",
+          "objectives": [
+            "Define Windows as an operating system",
+            "Understand its graphical user interface",
+            "Compare Windows with DOS"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଉଇଣ୍ଡୋଜ୍ କ’ଣ"
+        },
+        {
+          "title_en": "Components of Windows",
+          "objectives": [
+            "Identify desktop, icons, taskbar",
+            "Explain the Start button and Control Panel",
+            "Describe My Computer and Recycle Bin",
+            "Understand shortcuts"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଉଇଣ୍ଡୋଜ୍‌ର ଉପାଂଶ"
+        },
+        {
+          "title_en": "Basic Mouse Operation",
+          "objectives": [
+            "Explain single click, double click, right click",
+            "Describe drag and drop operations",
+            "Understand mouse pointer movements"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ମାଉସର ମୌଳିକ କାର୍ଯ୍ୟ ପ୍ରଣାଳୀ"
+        }
+      ],
+      "order": 4,
+      "page_end": 62,
+      "page_start": 48,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଉଇଣ୍ଡୋଜ୍ ସମ୍ବନ୍ଧୀୟ ମୌଳିକ ଧାରଣା"
+    },
+    {
+      "title_en": "Windows Accessories and Internet",
+      "topics": [
+        {
+          "title_en": "Opening Windows Accessories",
+          "objectives": [
+            "Locate and open Windows Accessories",
+            "Identify various accessory programs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଉଇଣ୍ଡୋଜ୍ ଆସେସୋରିଜକୁ ଖୋଲିବା"
+        },
+        {
+          "title_en": "Notepad",
+          "objectives": [
+            "Explain the function of Notepad",
+            "Create and save a text file",
+            "Edit text in Notepad"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ନୋପ୍ଯାଡ୍"
+        },
+        {
+          "title_en": "WordPad",
+          "objectives": [
+            "Explain the function of WordPad",
+            "Create and format a document",
+            "Save and print a WordPad document"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ୱାର୍ଡପ୍ଯାଡ୍"
+        },
+        {
+          "title_en": "Calculator",
+          "objectives": [
+            "Perform basic arithmetic operations",
+            "Use scientific calculator functions"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "କାଲକୁଲେଟର"
+        },
+        {
+          "title_en": "Paint",
+          "objectives": [
+            "Draw and color shapes",
+            "Use various drawing tools",
+            "Save a drawing"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପେଣ୍ଟ"
+        },
+        {
+          "title_en": "Compact CD",
+          "objectives": [
+            "Understand CD as a storage device",
+            "Explain CD capacity",
+            "Copy files to and from a CD"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "କମ୍ପାକ୍ଟ ସିଡି"
+        },
+        {
+          "title_en": "Pen Drive",
+          "objectives": [
+            "Understand pen drive as a portable storage device",
+            "Explain pen drive capacity",
+            "Copy files to and from a pen drive"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପେନ୍ ଡ୍ରାଇଭ"
+        },
+        {
+          "title_en": "Windows Media Player",
+          "objectives": [
+            "Play audio and video files",
+            "Control playback options"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଉଇଣ୍ଡୋଜ୍ ମେଡିଆ ପ୍ଲେୟାର"
+        },
+        {
+          "title_en": "Internet",
+          "objectives": [
+            "Define the Internet",
+            "Identify web browsers",
+            "Perform basic web searches"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଇଣ୍ଟରନେଟ"
+        }
+      ],
+      "order": 5,
+      "page_end": 88,
+      "page_start": 63,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଉଇଣ୍ଡୋଜ୍ ଆସେସୋରିଜ୍ ଓ ଇଣ୍ଟରନେଟ୍"
+    }
+  ],
+  "book_title_or": "କମ୍ପ୍ୟୁଟର ଶିକ୍ଷା ଓ ପ୍ରୟୋଗ (ପ୍ରଥମ ଭାଗ)"
+}

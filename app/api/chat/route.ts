@@ -107,6 +107,7 @@ export async function POST(req: Request) {
     const systemPrompt = buildTutorSystemPrompt({
       language: "or",
       studentName: null,
+      classLevel: 9,
       subjectName: topic.subjectCode,
       chapterTitle: topic.chapterTitle.or,
       topicTitle: topic.title.or,
@@ -176,14 +177,23 @@ export async function POST(req: Request) {
     .eq("id", user.id)
     .maybeSingle();
 
-  const { data: topic } = await supabase
+  // Accept either a UUID (legacy) or a slug. Slugs are how URLs identify
+  // topics in the v1 hierarchy and are what `findTopic`/`getTopicBySlug`
+  // produce for both static (Class 9) and DB-seeded (Class 6/7/8) topics.
+  const isUuid =
+    /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(
+      topicId,
+    );
+  const topicQuery = supabase
     .from("topics")
     .select(
       `id, title_en, title_or, title_hi, learning_objectives,
-       chapter:chapters ( title_en, subject:subjects ( name_en ) )`,
-    )
-    .eq("id", topicId)
-    .maybeSingle();
+       chapter:chapters ( title_en, subject:subjects ( name_en, class_level ) )`,
+    );
+  const { data: topic } = await (isUuid
+    ? topicQuery.eq("id", topicId)
+    : topicQuery.eq("slug", topicId)
+  ).maybeSingle();
 
   if (!topic) {
     return NextResponse.json({ error: "topic_not_found" }, { status: 404 });
@@ -192,6 +202,8 @@ export async function POST(req: Request) {
   const language: AppLanguage =
     (profile?.preferred_language as AppLanguage) ?? "en";
   const subjectName = (topic as any).chapter?.subject?.name_en ?? "Subject";
+  const classLevel: number =
+    (topic as any).chapter?.subject?.class_level ?? 9;
   const chapterTitle = (topic as any).chapter?.title_en ?? "";
   const topicTitle =
     language === "or"
@@ -203,9 +215,11 @@ export async function POST(req: Request) {
   const lastUser = [...messages].reverse().find((m) => m.role === "user");
   const retrievalQuery = lastUser?.content ?? topicTitle;
 
+  const topicUuid = topic.id as string;
+
   const chunks = await retrieveForScope({
     query: retrievalQuery,
-    topicId,
+    topicId: topicUuid,
     includeNeighbours: true,
     k: 6,
   });
@@ -213,6 +227,7 @@ export async function POST(req: Request) {
   const systemPrompt = buildTutorSystemPrompt({
     language,
     studentName: profile?.full_name ?? null,
+    classLevel,
     subjectName,
     chapterTitle,
     topicTitle,
@@ -231,7 +246,7 @@ export async function POST(req: Request) {
     .from("chat_sessions")
     .select("id")
     .eq("student_id", user.id)
-    .eq("topic_id", topicId)
+    .eq("topic_id", topicUuid)
     .order("last_msg_at", { ascending: false, nullsFirst: false })
     .limit(1)
     .maybeSingle();
@@ -240,7 +255,7 @@ export async function POST(req: Request) {
   } else {
     const { data: newSession, error } = await supabase
       .from("chat_sessions")
-      .insert({ student_id: user.id, topic_id: topicId, language })
+      .insert({ student_id: user.id, topic_id: topicUuid, language })
       .select("id")
       .single();
     if (error) {

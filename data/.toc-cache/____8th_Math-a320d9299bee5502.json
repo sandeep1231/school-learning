@@ -1,0 +1,881 @@
+{
+  "book_title_en": "Simple Mathematics",
+  "chapters": [
+    {
+      "title_en": "SET",
+      "topics": [
+        {
+          "title_en": "Introduction to Sets",
+          "objectives": [
+            "Understand the concept of a set",
+            "Identify elements of a set"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Set and its elements",
+          "objectives": [
+            "Define a set and its elements",
+            "Represent sets using different methods"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Finite and Infinite Sets",
+          "objectives": [
+            "Distinguish between finite and infinite sets",
+            "Provide examples of each type of set"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Presentation of Sets",
+          "objectives": [
+            "Learn different ways to present sets",
+            "Use roster form and set-builder form"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Empty Set",
+          "objectives": [
+            "Define an empty set",
+            "Identify examples of empty sets"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Subset",
+          "objectives": [
+            "Understand the concept of a subset",
+            "Determine if one set is a subset of another"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Set Operations",
+          "objectives": [
+            "Perform union, intersection, and difference of sets",
+            "Solve problems involving set operations"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Venn Diagram",
+          "objectives": [
+            "Represent sets and their operations using Venn diagrams",
+            "Interpret information from Venn diagrams"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 1,
+      "page_end": 8,
+      "page_start": 1,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ସେଟ୍"
+    },
+    {
+      "title_en": "RATIONAL NUMBERS",
+      "topics": [
+        {
+          "title_en": "Introduction to Rational Numbers",
+          "objectives": [
+            "Define rational numbers",
+            "Understand the need for rational numbers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Natural Numbers",
+          "objectives": [
+            "Recall the concept of natural numbers",
+            "Identify properties of natural numbers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Extended Natural Numbers",
+          "objectives": [
+            "Understand extended natural numbers",
+            "Relate them to whole numbers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Integers",
+          "objectives": [
+            "Define integers and their properties",
+            "Perform operations with integers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Properties of Rational Numbers",
+          "objectives": [
+            "Understand closure, commutative, and associative properties",
+            "Learn about identity, inverse, and distributive properties",
+            "Apply properties to simplify expressions"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Representation of Rational Numbers on Number Line",
+          "objectives": [
+            "Represent rational numbers on a number line",
+            "Compare rational numbers using the number line"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Rational Numbers between two Rational Numbers",
+          "objectives": [
+            "Find rational numbers between any two given rational numbers",
+            "Understand the density property of rational numbers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Playing with Numbers",
+          "objectives": [
+            "Explore general forms of numbers",
+            "Understand divisibility tests for various numbers",
+            "Solve number puzzles and games"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 2,
+      "page_end": 35,
+      "page_start": 9,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପରିମେୟ ସଂଖ୍ୟା"
+    },
+    {
+      "title_en": "ALGEBRAIC EXPRESSIONS & IDENTITIES",
+      "topics": [
+        {
+          "title_en": "Introduction to Algebraic Expressions",
+          "objectives": [
+            "Define algebraic expressions, terms, and factors",
+            "Identify coefficients and variables"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Polynomial",
+          "objectives": [
+            "Understand the concept of a polynomial",
+            "Classify polynomials based on terms and degree"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Addition and Subtraction of Algebraic Expressions",
+          "objectives": [
+            "Add algebraic expressions",
+            "Subtract algebraic expressions",
+            "Simplify expressions involving addition and subtraction"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Multiplication of Algebraic Expressions",
+          "objectives": [
+            "Multiply monomials, binomials, and polynomials",
+            "Apply distributive property in multiplication"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Division of Algebraic Expressions",
+          "objectives": [
+            "Divide a monomial by a monomial",
+            "Divide a polynomial by a monomial",
+            "Divide a polynomial by a polynomial"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Identity",
+          "objectives": [
+            "Define algebraic identities",
+            "Apply standard identities to solve problems",
+            "Verify identities"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 3,
+      "page_end": 59,
+      "page_start": 36,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବୀଜଗଣିତୀୟ ରାଶି ଓ ଅଭେଦ"
+    },
+    {
+      "title_en": "FACTORISATION",
+      "topics": [
+        {
+          "title_en": "Introduction to Factorisation",
+          "objectives": [
+            "Understand the concept of factorisation",
+            "Relate factorisation to multiplication"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Factors",
+          "objectives": [
+            "Identify factors of algebraic expressions",
+            "Find common factors"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Factorisation by Common Factors",
+          "objectives": [
+            "Factorise expressions by taking out common factors",
+            "Apply the distributive property in reverse"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Factorisation by Grouping Method",
+          "objectives": [
+            "Factorise expressions by grouping terms",
+            "Solve problems using the grouping method"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Factorisation of Algebraic Expressions of the form x^2 + px + q",
+          "objectives": [
+            "Factorise quadratic expressions of the form x^2 + px + q",
+            "Find two numbers whose sum is p and product is q"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Factorisation using Different Identities",
+          "objectives": [
+            "Factorise expressions using algebraic identities",
+            "Apply identities like (a+b)^2, (a-b)^2, a^2-b^2"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 4,
+      "page_end": 67,
+      "page_start": 60,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଉତ୍ପାଦକୀକରଣ"
+    },
+    {
+      "title_en": "THEORY OF INDICES",
+      "topics": [
+        {
+          "title_en": "Introduction to Theory of Indices",
+          "objectives": [
+            "Understand the concept of exponents and powers",
+            "Identify base and exponent"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Laws of Indices",
+          "objectives": [
+            "Apply laws of exponents for multiplication and division",
+            "Use laws for power of a power and product of powers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Negative Integral Exponents",
+          "objectives": [
+            "Understand the concept of negative exponents",
+            "Simplify expressions with negative exponents"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Rational Exponents",
+          "objectives": [
+            "Understand the concept of rational exponents",
+            "Simplify expressions with rational exponents"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 5,
+      "page_end": 75,
+      "page_start": 68,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଘାତକ"
+    },
+    {
+      "title_en": "SQUARE-SQUARE ROOTS & CUBE-CUBE ROOTS",
+      "topics": [
+        {
+          "title_en": "Introduction to Square and Cube Roots",
+          "objectives": [
+            "Understand the concepts of squares and cubes",
+            "Define square roots and cube roots"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Square of a Number and Perfect Square Number",
+          "objectives": [
+            "Calculate the square of a number",
+            "Identify perfect square numbers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Some Properties of Perfect Square Numbers",
+          "objectives": [
+            "Recognize properties of perfect squares",
+            "Use properties to determine if a number is a perfect square"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Short cut method to find square numbers",
+          "objectives": [
+            "Learn quick methods to calculate squares",
+            "Apply mental math techniques for squares"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Square of rational numbers",
+          "objectives": [
+            "Calculate the square of rational numbers",
+            "Simplify expressions involving squares of fractions"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Square root of a number",
+          "objectives": [
+            "Find the square root of perfect squares",
+            "Estimate square roots of non-perfect squares"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Cube of a number and a perfect cube number",
+          "objectives": [
+            "Calculate the cube of a number",
+            "Identify perfect cube numbers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Cube root",
+          "objectives": [
+            "Find the cube root of perfect cubes",
+            "Estimate cube roots of non-perfect cubes"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 6,
+      "page_end": 100,
+      "page_start": 76,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବର୍ଗ-ବର୍ଗମୂଳ ଏବଂ ଘନ-ଘନମୂଳ"
+    },
+    {
+      "title_en": "EQUATION AND ITS SOLUTION",
+      "topics": [
+        {
+          "title_en": "Introduction to Equations",
+          "objectives": [
+            "Define an equation",
+            "Distinguish between expressions and equations"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Equation and Identity",
+          "objectives": [
+            "Differentiate between an equation and an identity",
+            "Recognize examples of each"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Power of an Equation",
+          "objectives": [
+            "Understand the concept of the power of an equation",
+            "Identify the degree of an equation"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Roots of an Equation",
+          "objectives": [
+            "Define the roots or solutions of an equation",
+            "Verify if a given value is a root of an equation"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Solution of a Linear equation in one variable",
+          "objectives": [
+            "Solve linear equations with one variable",
+            "Use various methods to find solutions"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Application of Linear equation",
+          "objectives": [
+            "Formulate linear equations from word problems",
+            "Solve real-life problems using linear equations"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Quadratic equation and its solution",
+          "objectives": [
+            "Understand the general form of a quadratic equation",
+            "Solve simple quadratic equations by factorization"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 7,
+      "page_end": 111,
+      "page_start": 101,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ସମୀକରଣ ଓ ଏହାର ସମାଧାନ"
+    },
+    {
+      "title_en": "COMMERCIAL ARITHMETIC",
+      "topics": [
+        {
+          "title_en": "Profit and Loss",
+          "objectives": [
+            "Calculate profit, loss, cost price, and selling price",
+            "Solve problems involving percentage profit and loss"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Discount",
+          "objectives": [
+            "Understand the concept of discount and marked price",
+            "Calculate discount percentage and selling price after discount"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Simple Interest",
+          "objectives": [
+            "Calculate simple interest, principal, rate, and time",
+            "Solve problems related to simple interest"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Compound Interest",
+          "objectives": [
+            "Understand the concept of compound interest",
+            "Calculate compound interest and amount",
+            "Solve problems involving compound interest"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Cost of living index",
+          "objectives": [
+            "Understand the concept of cost of living index",
+            "Calculate index numbers for various commodities"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Banking",
+          "objectives": [
+            "Understand basic banking terms and operations",
+            "Calculate interest on savings and recurring deposits"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 8,
+      "page_end": 144,
+      "page_start": 112,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବ୍ୟାବସାୟିକ ଗଣିତ"
+    },
+    {
+      "title_en": "VARIATION",
+      "topics": [
+        {
+          "title_en": "Introduction to Variation",
+          "objectives": [
+            "Understand the concept of variation",
+            "Identify different types of variation"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Direct Variation",
+          "objectives": [
+            "Define direct variation",
+            "Solve problems involving direct variation"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Inverse Variation",
+          "objectives": [
+            "Define inverse variation",
+            "Solve problems involving inverse variation"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Joint Variation",
+          "objectives": [
+            "Define joint variation",
+            "Solve problems involving joint variation"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 9,
+      "page_end": 155,
+      "page_start": 145,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଭେଦ"
+    },
+    {
+      "title_en": "DATA HANDLING AND GRAPHS",
+      "topics": [
+        {
+          "title_en": "Introduction to Data Handling",
+          "objectives": [
+            "Understand the importance of data",
+            "Learn basic terminology in data handling"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Data",
+          "objectives": [
+            "Define raw data and primary data",
+            "Differentiate between primary and secondary data"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Organisation of Data",
+          "objectives": [
+            "Organize raw data into meaningful forms",
+            "Create frequency distribution tables"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Presentation of Data",
+          "objectives": [
+            "Present data using pictographs and bar graphs",
+            "Interpret information from various types of graphs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Grouped Frequency Distribution",
+          "objectives": [
+            "Understand grouped frequency distribution",
+            "Construct grouped frequency tables"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Histogram",
+          "objectives": [
+            "Draw histograms for grouped data",
+            "Interpret information from histograms"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Introduction to Graphs",
+          "objectives": [
+            "Understand the basics of graphing",
+            "Identify axes and origin in a graph"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Linear Graphs",
+          "objectives": [
+            "Draw linear graphs from given data",
+            "Interpret linear graphs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Location of a Point",
+          "objectives": [
+            "Locate points on a coordinate plane",
+            "Understand the concept of coordinates"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Coordinates",
+          "objectives": [
+            "Define coordinates (abscissa and ordinate)",
+            "Identify coordinates of points"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Plotting of Points on a Plane",
+          "objectives": [
+            "Plot given points on a Cartesian plane",
+            "Connect points to form graphs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Applications of Linear Graph",
+          "objectives": [
+            "Apply linear graphs to solve real-world problems",
+            "Analyze relationships between variables using graphs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 10,
+      "page_end": 183,
+      "page_start": 156,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ତଥ୍ୟ ପରିଚାଳନା ଏବଂ ଲେଖାଚିତ୍ର"
+    }
+  ],
+  "book_title_or": "ସରଳ ଗଣିତ"
+}

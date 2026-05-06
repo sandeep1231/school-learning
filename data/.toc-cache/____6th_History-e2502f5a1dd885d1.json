@@ -1,0 +1,504 @@
+{
+  "book_title_en": "History and Political Science",
+  "chapters": [
+    {
+      "title_en": "Primitive Man",
+      "topics": [
+        {
+          "title_en": "Prehistoric Age",
+          "objectives": [
+            "Understand the concept of the Prehistoric Age.",
+            "Identify sources of information about early humans.",
+            "Describe the life of primitive man."
+          ]
+        },
+        {
+          "title_en": "Stone Age (Paleolithic, Mesolithic, Neolithic)",
+          "objectives": [
+            "Explain the characteristics of different Stone Age periods.",
+            "Describe the tools and technology used.",
+            "Analyze the lifestyle changes in each period."
+          ]
+        },
+        {
+          "title_en": "Chalcolithic Age",
+          "objectives": [
+            "Understand the use of copper and stone tools.",
+            "Describe early village settlements and cultural advancements."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 18,
+      "page_start": 10,
+      "section": "ଇତିହାସ",
+      "title_or": "ଆଦିମ ମାନବ"
+    },
+    {
+      "title_en": "Ancient Civilization",
+      "topics": [
+        {
+          "title_en": "Harappan Civilization",
+          "objectives": [
+            "Locate major Harappan sites.",
+            "Describe town planning and social life.",
+            "Explain economic and religious practices."
+          ]
+        },
+        {
+          "title_en": "Egyptian Civilization",
+          "objectives": [
+            "Identify key features of ancient Egypt.",
+            "Describe pharaohs, pyramids, and hieroglyphics."
+          ]
+        },
+        {
+          "title_en": "Mesopotamian Civilization",
+          "objectives": [
+            "Locate Mesopotamia and its contributions.",
+            "Describe cuneiform script and ziggurats."
+          ]
+        },
+        {
+          "title_en": "Chinese Civilization",
+          "objectives": [
+            "Identify early Chinese dynasties.",
+            "Describe contributions to culture and technology."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 33,
+      "page_start": 19,
+      "section": "ଇତିହାସ",
+      "title_or": "ପ୍ରାଚୀନ ସଭ୍ୟତା"
+    },
+    {
+      "title_en": "Vedic Age",
+      "topics": [
+        {
+          "title_en": "Arrival of Aryans and Vedic Literature",
+          "objectives": [
+            "Discuss theories of Aryan migration.",
+            "Identify different types of Vedic texts."
+          ]
+        },
+        {
+          "title_en": "Early Vedic Period",
+          "objectives": [
+            "Describe political and social organization.",
+            "Explain economic activities and religious beliefs."
+          ]
+        },
+        {
+          "title_en": "Later Vedic Period",
+          "objectives": [
+            "Analyze changes in political and social structures.",
+            "Explain the development of the Varna system and new philosophies."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 47,
+      "page_start": 34,
+      "section": "ଇତିହାସ",
+      "title_or": "ବୈଦିକ ଯୁଗ"
+    },
+    {
+      "title_en": "Religious Movements",
+      "topics": [
+        {
+          "title_en": "Jainism",
+          "objectives": [
+            "Understand the origins and teachings of Mahavira.",
+            "Explain the principles of Ahimsa."
+          ]
+        },
+        {
+          "title_en": "Buddhism",
+          "objectives": [
+            "Understand the life and teachings of Buddha.",
+            "Explain the Four Noble Truths and Eightfold Path."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 60,
+      "page_start": 48,
+      "section": "ଇତିହାସ",
+      "title_or": "ଧର୍ମୀୟ ଆନ୍ଦୋଳନ"
+    },
+    {
+      "title_en": "Mauryan Empire",
+      "topics": [
+        {
+          "title_en": "Establishment of Mauryan Empire",
+          "objectives": [
+            "Describe the rise of Chandragupta Maurya.",
+            "Explain the role of Chanakya."
+          ]
+        },
+        {
+          "title_en": "Ashoka's Dhamma",
+          "objectives": [
+            "Understand the Kalinga War and Ashoka's conversion.",
+            "Explain the principles and spread of Dhamma."
+          ]
+        },
+        {
+          "title_en": "Mauryan Administration, Art, and Architecture",
+          "objectives": [
+            "Describe the centralized administration.",
+            "Identify key examples of Mauryan art and architecture."
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 77,
+      "page_start": 61,
+      "section": "ଇତିହାସ",
+      "title_or": "ମୌର୍ଯ୍ୟ ସାମ୍ରାଜ୍ୟ"
+    },
+    {
+      "title_en": "Gupta Empire",
+      "topics": [
+        {
+          "title_en": "Establishment and Rulers of Gupta Empire",
+          "objectives": [
+            "Describe the rise of the Gupta dynasty.",
+            "Identify important rulers like Samudragupta and Chandragupta II."
+          ]
+        },
+        {
+          "title_en": "Gupta Administration",
+          "objectives": [
+            "Describe the administrative structure.",
+            "Explain the nature of Gupta rule."
+          ]
+        },
+        {
+          "title_en": "Literature, Science, and Art of Gupta Age",
+          "objectives": [
+            "Identify major literary works and scientific advancements.",
+            "Explain the characteristics of Gupta art and architecture."
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 88,
+      "page_start": 78,
+      "section": "ଇତିହାସ",
+      "title_or": "ଗୁପ୍ତ ସାମ୍ରାଜ୍ୟ"
+    },
+    {
+      "title_en": "Ancient Odisha",
+      "topics": [
+        {
+          "title_en": "Geographical Location and Kalinga War",
+          "objectives": [
+            "Locate ancient Odisha and its features.",
+            "Describe the Kalinga War and its impact."
+          ]
+        },
+        {
+          "title_en": "King Kharavela",
+          "objectives": [
+            "Identify King Kharavela and his achievements.",
+            "Describe the Hathigumpha inscription."
+          ]
+        },
+        {
+          "title_en": "Religion, Art, and Architecture in Ancient Odisha",
+          "objectives": [
+            "Understand the religious landscape.",
+            "Identify key examples of Odishan art and architecture."
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 97,
+      "page_start": 89,
+      "section": "ଇତିହାସ",
+      "title_or": "ପ୍ରାଚୀନ ଓଡ଼ିଶା"
+    },
+    {
+      "title_en": "Contribution of Islam to Indian Culture",
+      "topics": [
+        {
+          "title_en": "Arrival of Islam and Cultural Influence",
+          "objectives": [
+            "Understand Islam's arrival in India.",
+            "Explain its impact on art, architecture, and language."
+          ]
+        },
+        {
+          "title_en": "Influence on Religion, Society, and Economy",
+          "objectives": [
+            "Describe the Bhakti and Sufi movements.",
+            "Analyze changes in social structure and economic contributions."
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 107,
+      "page_start": 98,
+      "section": "ଇତିହାସ",
+      "title_or": "ଭାରତୀୟ ସଂସ୍କୃତିକୁ ଇସଲାମର ଦାନ"
+    },
+    {
+      "title_en": "Mughal Empire",
+      "topics": [
+        {
+          "title_en": "Establishment and Key Rulers",
+          "objectives": [
+            "Describe the establishment of the Mughal Empire.",
+            "Identify important rulers like Babur, Akbar, Jahangir, Shah Jahan, and Aurangzeb."
+          ]
+        },
+        {
+          "title_en": "Akbar's Policies and Administration",
+          "objectives": [
+            "Explain Akbar's administrative and religious policies.",
+            "Describe the Mansabdari system."
+          ]
+        },
+        {
+          "title_en": "Mughal Art and Architecture",
+          "objectives": [
+            "Identify prominent examples of Mughal architecture.",
+            "Describe the features of Mughal painting."
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 118,
+      "page_start": 108,
+      "section": "ଇତିହାସ",
+      "title_or": "ମୋଗଲ ସାମ୍ରାଜ୍ୟ"
+    },
+    {
+      "title_en": "Rise of Maratha Power",
+      "topics": [
+        {
+          "title_en": "Shivaji and Maratha Administration",
+          "objectives": [
+            "Describe the rise of Shivaji and his administration.",
+            "Explain the Ashtapradhan system."
+          ]
+        },
+        {
+          "title_en": "Rule of the Peshwas and Decline of Marathas",
+          "objectives": [
+            "Understand the role of the Peshwas.",
+            "Analyze factors leading to the decline of Maratha power."
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 127,
+      "page_start": 119,
+      "section": "ଇତିହାସ",
+      "title_or": "ମରାଠା ଶକ୍ତିର ଅଭ୍ୟୁଦୟ"
+    },
+    {
+      "title_en": "Our Society",
+      "topics": [
+        {
+          "title_en": "Definition and Characteristics of Society",
+          "objectives": [
+            "Define society and its key features.",
+            "Understand the importance of social interaction."
+          ]
+        },
+        {
+          "title_en": "Types of Society and Social Change",
+          "objectives": [
+            "Identify different types of societies.",
+            "Explain factors causing social change."
+          ]
+        },
+        {
+          "title_en": "Basic Institutions, Cooperation, and Conflict in Society",
+          "objectives": [
+            "Identify basic social institutions.",
+            "Understand dynamics of cooperation and conflict."
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 138,
+      "page_start": 128,
+      "section": "ରାଜନୀତି ବିଜ୍ଞାନ",
+      "title_or": "ଆମ ସମାଜ"
+    },
+    {
+      "title_en": "Gram Panchayat",
+      "topics": [
+        {
+          "title_en": "Formation and Functions of Gram Panchayat",
+          "objectives": [
+            "Understand the structure and election process.",
+            "Describe civic and developmental functions."
+          ]
+        },
+        {
+          "title_en": "Income, Gram Sabha, and Palli Sabha",
+          "objectives": [
+            "Identify revenue sources.",
+            "Explain the role of Gram Sabha and Palli Sabha."
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 147,
+      "page_start": 139,
+      "section": "ରାଜନୀତି ବିଜ୍ଞାନ",
+      "title_or": "ଗ୍ରାମ ପଞ୍ଚାୟତ"
+    },
+    {
+      "title_en": "Urban Local Bodies",
+      "topics": [
+        {
+          "title_en": "Formation and Functions of Urban Local Bodies",
+          "objectives": [
+            "Understand the structure of Municipalities and Corporations.",
+            "Describe civic and developmental functions in urban areas."
+          ]
+        },
+        {
+          "title_en": "Income, Mayor, and Commissioner",
+          "objectives": [
+            "Identify revenue sources for urban bodies.",
+            "Explain the roles of Mayor and Municipal Commissioner."
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 157,
+      "page_start": 148,
+      "section": "ରାଜନୀତି ବିଜ୍ଞାନ",
+      "title_or": "ପୌର ସଂସ୍ଥା"
+    },
+    {
+      "title_en": "District Administration",
+      "topics": [
+        {
+          "title_en": "Structure of District Administration and District Collector",
+          "objectives": [
+            "Understand the hierarchy and key officials.",
+            "Explain the roles of the District Collector."
+          ]
+        },
+        {
+          "title_en": "Police Administration, Health, Education, and Zilla Parishad",
+          "objectives": [
+            "Describe police functions in maintaining law and order.",
+            "Explain administration of health, education, and Zilla Parishad."
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 168,
+      "page_start": 158,
+      "section": "ରାଜନୀତି ବିଜ୍ଞାନ",
+      "title_or": "ଜିଲ୍ଲା ପ୍ରଶାସନ"
+    },
+    {
+      "title_en": "State Government",
+      "topics": [
+        {
+          "title_en": "Formation of State Government and Governor",
+          "objectives": [
+            "Understand the state legislature structure.",
+            "Describe the powers and functions of the Governor."
+          ]
+        },
+        {
+          "title_en": "Chief Minister, Council of Ministers, Legislative Assembly, and Judiciary",
+          "objectives": [
+            "Explain the roles of Chief Minister and Council of Ministers.",
+            "Describe law-making process and state judiciary functions."
+          ]
+        }
+      ],
+      "order": 15,
+      "page_end": 179,
+      "page_start": 169,
+      "section": "ରାଜନୀତି ବିଜ୍ଞାନ",
+      "title_or": "ରାଜ୍ୟ ସରକାର"
+    },
+    {
+      "title_en": "Central Government",
+      "topics": [
+        {
+          "title_en": "Formation of Central Government and President",
+          "objectives": [
+            "Understand the Union Legislature structure.",
+            "Describe the powers and functions of the President."
+          ]
+        },
+        {
+          "title_en": "Prime Minister, Council of Ministers, Parliament, and Supreme Court",
+          "objectives": [
+            "Explain the roles of Prime Minister and Council of Ministers.",
+            "Describe law-making process and Supreme Court jurisdiction."
+          ]
+        }
+      ],
+      "order": 16,
+      "page_end": 189,
+      "page_start": 180,
+      "section": "ରାଜନୀତି ବିଜ୍ଞାନ",
+      "title_or": "କେନ୍ଦ୍ର ସରକାର"
+    },
+    {
+      "title_en": "Our Rights and Duties",
+      "topics": [
+        {
+          "title_en": "Fundamental Rights and Duties",
+          "objectives": [
+            "Identify and explain the six fundamental rights.",
+            "List and understand fundamental duties of citizens."
+          ]
+        },
+        {
+          "title_en": "Directive Principles of State Policy and Child Rights",
+          "objectives": [
+            "Explain the concept of Directive Principles.",
+            "Identify basic rights of children."
+          ]
+        }
+      ],
+      "order": 17,
+      "page_end": 197,
+      "page_start": 190,
+      "section": "ରାଜନୀତି ବିଜ୍ଞାନ",
+      "title_or": "ଆମର ଅଧିକାର ଓ କର୍ତ୍ତବ୍ୟ"
+    },
+    {
+      "title_en": "United Nations",
+      "topics": [
+        {
+          "title_en": "Formation and Principal Organs of United Nations",
+          "objectives": [
+            "Understand the historical context and purposes of the UN.",
+            "Describe the functions of its principal organs."
+          ]
+        },
+        {
+          "title_en": "Functions of United Nations and India's Role",
+          "objectives": [
+            "Explain the UN's role in peace and development.",
+            "Understand India's contributions to the UN."
+          ]
+        }
+      ],
+      "order": 18,
+      "page_end": 201,
+      "page_start": 198,
+      "section": "ରାଜନୀତି ବିଜ୍ଞାନ",
+      "title_or": "ଜାତିସଂଘ"
+    }
+  ],
+  "book_title_or": "ଇତିହାସ ଓ ରାଜନୀତି ବିଜ୍ଞାନ"
+}

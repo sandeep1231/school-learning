@@ -2,11 +2,13 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { Spinner } from "@/components/ui/Spinner";
 import { Skeleton } from "@/components/ui/Skeleton";
 import MarkdownBody from "@/components/markdown/MarkdownBody";
 
 type Difficulty = "easy" | "medium" | "hard";
+type Stage = "practice" | "master";
 
 type ClientMcq = {
   id: string;
@@ -52,6 +54,7 @@ type SubmitResponse = {
   threshold: number;
   persisted: boolean;
   results: ItemResult[];
+  stage?: Stage;
 };
 
 const DIFFICULTY_LABEL: Record<Difficulty, string> = {
@@ -64,14 +67,30 @@ export default function PracticeSession({
   topicSlug,
   topicHubHref,
   nextStageHref,
+  stage = "practice",
 }: {
   topicSlug: string;
   topicHubHref: string;
   nextStageHref: string | null;
+  /** "master" applies harder UX (no try-again to a fresh attempt by default,
+   * different success copy) and tells the submit endpoint to mark the
+   * `master` progress stage instead of `practice` on a passing score. */
+  stage?: Stage;
 }) {
+  // Pre-filter the bank by difficulty when the URL says so OR when this is
+  // the master challenge (master defaults to "hard" so it's genuinely harder
+  // than practice; URL param wins if explicitly set, e.g. for power users
+  // who want to retry on medium).
+  const search = useSearchParams();
+  const initialDifficulty = ((): "all" | Difficulty => {
+    const raw = search?.get("difficulty");
+    if (raw === "easy" || raw === "medium" || raw === "hard") return raw;
+    return stage === "master" ? "hard" : "all";
+  })();
+
   const [items, setItems] = useState<ClientItem[] | null>(null);
   const [loading, setLoading] = useState(true);
-  const [filter, setFilter] = useState<"all" | Difficulty>("all");
+  const [filter, setFilter] = useState<"all" | Difficulty>(initialDifficulty);
   const [answers, setAnswers] = useState<Record<string, Answer>>({});
   const [result, setResult] = useState<SubmitResponse | null>(null);
   const [submitting, setSubmitting] = useState(false);
@@ -120,6 +139,7 @@ export default function PracticeSession({
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
           topicSlug,
+          stage,
           answers: payload,
           timeMsByItem: Object.fromEntries(
             visible.map((i) => [i.id, Math.max(0, Date.now() - startedAt)]),
@@ -173,10 +193,13 @@ export default function PracticeSession({
   if (items.length === 0) {
     return (
       <div className="rounded-xl border border-amber-200 bg-amber-50 p-6 text-sm text-amber-900">
-        <p className="font-semibold">Practice bank is empty for this topic.</p>
-        <p className="mt-1 text-amber-800">
-          Run <code className="rounded bg-white px-1.5 py-0.5 font-mono text-xs">npm run content:practice -- --topic {topicSlug}</code>{" "}
-          to generate items.
+        <p className="font-semibold">
+          ଅଭ୍ୟାସ ପ୍ରଶ୍ନ ପ୍ରସ୍ତୁତ ହେଉଛି · Practice questions are being prepared
+        </p>
+        <p className="mt-2 text-amber-800">
+          We&apos;re generating personalised MCQs and short-answer questions
+          for this topic. Please check back in a few minutes — meanwhile you
+          can read the lesson or ask the tutor.
         </p>
         <Link
           href={topicHubHref}
@@ -417,12 +440,18 @@ export default function PracticeSession({
           }`}
         >
           <h3 className="text-lg font-bold">
-            ଫଳାଫଳ: {result.percent}% {result.passed ? "✓" : ""}
+            {stage === "master" && result.passed
+              ? `ଟପିକ୍ ମାଷ୍ଟର୍! · Topic mastered — ${result.percent}% ✓`
+              : `ଫଳାଫଳ · Score: ${result.percent}% ${result.passed ? "✓" : ""}`}
           </h3>
           <p className="text-sm text-slate-700">
             {result.passed
-              ? "ଅଭ୍ୟାସ ସମାପ୍ତ। ଏବେ Master ସ୍ତରକୁ ଯାଅ।"
-              : `${result.threshold}% ଦରକାର। ଆଉ ଥରେ ଚେଷ୍ଟା କର।`}
+              ? stage === "master"
+                ? "ଏହି ଟପିକ୍ ତୁମେ ସମ୍ପୂର୍ଣ୍ଣ ମାଷ୍ଟର୍ କରିସାରିଛ। ପରବର୍ତ୍ତୀ ଟପିକ୍ ଧର।"
+                : "ଅଭ୍ୟାସ ସମାପ୍ତ। ଏବେ Master ସ୍ତରକୁ ଯାଅ।"
+              : stage === "master"
+                ? `ମାଷ୍ଟର୍ କରିବାକୁ ${result.threshold}% ଦରକାର। ଆଉ ଥରେ ଚେଷ୍ଟା କର।`
+                : `${result.threshold}% ଦରକାର। ଆଉ ଥରେ ଚେଷ୍ଟା କର।`}
           </p>
           {!result.persisted && (
             <p className="mt-1 text-xs text-slate-500">
@@ -433,7 +462,7 @@ export default function PracticeSession({
             <Link href={topicHubHref} className="text-brand hover:underline">
               ← Topic overview
             </Link>
-            {result.passed && nextStageHref && (
+            {result.passed && nextStageHref && stage !== "master" && (
               <Link
                 href={nextStageHref}
                 className="rounded-lg bg-brand px-4 py-2 font-semibold text-white hover:bg-brand-700"

@@ -1,0 +1,546 @@
+{
+  "book_title_en": "Our Odia Grammar for Class VI",
+  "chapters": [
+    {
+      "title_en": "Language and Grammar",
+      "topics": [
+        {
+          "title_en": "Language",
+          "objectives": [
+            "Define language",
+            "Understand the importance of language in communication"
+          ],
+          "page_end": 5,
+          "page_start": 5,
+          "title_or": "ଭାଷା"
+        },
+        {
+          "title_en": "Grammar",
+          "objectives": [
+            "Define grammar",
+            "Explain the role of grammar in a language"
+          ],
+          "page_end": 6,
+          "page_start": 6,
+          "title_or": "ବ୍ୟାକରଣ"
+        },
+        {
+          "title_en": "Origin and Evolution of Odia Language",
+          "objectives": [
+            "Trace the origin of Odia language",
+            "Describe the evolutionary stages of Odia language"
+          ],
+          "page_end": 7,
+          "page_start": 7,
+          "title_or": "ଓଡ଼ିଆ ଭାଷାର ଉତ୍ପତ୍ତି ଓ କ୍ରମବିକାଶ"
+        },
+        {
+          "title_en": "Relationship between Language and Grammar",
+          "objectives": [
+            "Explain the interdependence of language and grammar",
+            "Understand how grammar governs language structure"
+          ],
+          "page_end": 8,
+          "page_start": 8,
+          "title_or": "ଭାଷା ଓ ବ୍ୟାକରଣର ସମ୍ପର୍କ"
+        },
+        {
+          "title_en": "Different Divisions of Grammar",
+          "objectives": [
+            "Identify various branches of grammar",
+            "List the components of grammar study"
+          ],
+          "page_end": 8,
+          "page_start": 8,
+          "title_or": "ବ୍ୟାକରଣର ବିଭିନ୍ନ ବିଭାଗ"
+        },
+        {
+          "title_en": "Utility of Grammar Study",
+          "objectives": [
+            "Recognize the benefits of learning grammar",
+            "Appreciate grammar's role in clear communication"
+          ],
+          "page_end": 9,
+          "page_start": 9,
+          "title_or": "ବ୍ୟାକରଣ ପାଠର ଉପାଦେୟତା"
+        },
+        {
+          "title_en": "Exercises",
+          "objectives": [
+            "Practice concepts learned in the chapter",
+            "Assess understanding of language and grammar"
+          ],
+          "page_end": 9,
+          "page_start": 9,
+          "title_or": "ଅଭ୍ୟାସ"
+        }
+      ],
+      "order": 1,
+      "page_end": 9,
+      "page_start": 5,
+      "section": null,
+      "title_or": "ଭାଷା ଓ ବ୍ୟାକରଣ"
+    },
+    {
+      "title_en": "Sound, Script, Letter and Syllable",
+      "topics": [
+        {
+          "title_en": "Sound",
+          "objectives": [
+            "Define sound in language context",
+            "Identify different types of speech sounds"
+          ],
+          "page_end": 10,
+          "page_start": 10,
+          "title_or": "ଧ୍ୱନି"
+        },
+        {
+          "title_en": "Script",
+          "objectives": [
+            "Understand the concept of script",
+            "Recognize the Odia script"
+          ],
+          "page_end": 11,
+          "page_start": 11,
+          "title_or": "ଲିପି"
+        },
+        {
+          "title_en": "Letter",
+          "objectives": [
+            "Define a letter",
+            "Differentiate between sound and letter"
+          ],
+          "page_end": 12,
+          "page_start": 12,
+          "title_or": "ବର୍ଣ୍ଣ"
+        },
+        {
+          "title_en": "Syllable",
+          "objectives": [
+            "Define a syllable",
+            "Identify syllables in Odia words"
+          ],
+          "page_end": 13,
+          "page_start": 13,
+          "title_or": "ଅକ୍ଷର"
+        },
+        {
+          "title_en": "Vowels",
+          "objectives": [
+            "Identify Odia vowels",
+            "Understand vowel pronunciation"
+          ],
+          "page_end": 14,
+          "page_start": 14,
+          "title_or": "ସ୍ୱରବର୍ଣ୍ଣ"
+        },
+        {
+          "title_en": "Consonants",
+          "objectives": [
+            "Identify Odia consonants",
+            "Understand consonant pronunciation"
+          ],
+          "page_end": 15,
+          "page_start": 15,
+          "title_or": "ବ୍ୟଞ୍ଜନବର୍ଣ୍ଣ"
+        },
+        {
+          "title_en": "Compound Letters",
+          "objectives": [
+            "Recognize compound letters in Odia",
+            "Understand their formation and pronunciation"
+          ],
+          "page_end": 16,
+          "page_start": 16,
+          "title_or": "ଯୁକ୍ତାକ୍ଷର"
+        },
+        {
+          "title_en": "Alphabet",
+          "objectives": [
+            "Recite the Odia alphabet",
+            "Understand the order of letters"
+          ],
+          "page_end": 17,
+          "page_start": 17,
+          "title_or": "ବର୍ଣ୍ଣମାଳା"
+        },
+        {
+          "title_en": "Place of Pronunciation of Letters",
+          "objectives": [
+            "Identify the origin of sound production",
+            "Classify letters based on pronunciation place"
+          ],
+          "page_end": 18,
+          "page_start": 18,
+          "title_or": "ବର୍ଣ୍ଣର ଉଚ୍ଚାରଣ ସ୍ଥାନ"
+        },
+        {
+          "title_en": "Classification of Letters",
+          "objectives": [
+            "Categorize letters by various features",
+            "Understand different types of letter classifications"
+          ],
+          "page_end": 19,
+          "page_start": 19,
+          "title_or": "ବର୍ଣ୍ଣର ଶ୍ରେଣୀବିଭାଗ"
+        },
+        {
+          "title_en": "Exercises",
+          "objectives": [
+            "Practice identifying sounds, scripts, letters",
+            "Apply knowledge of Odia alphabet"
+          ],
+          "page_end": 36,
+          "page_start": 20,
+          "title_or": "ଅଭ୍ୟାସ"
+        }
+      ],
+      "order": 2,
+      "page_end": 36,
+      "page_start": 10,
+      "section": null,
+      "title_or": "ଧ୍ୱନି, ଲିପି, ବର୍ଣ୍ଣ ଓ ଅକ୍ଷର"
+    },
+    {
+      "title_en": "Word Analysis",
+      "topics": [
+        {
+          "title_en": "Word",
+          "objectives": [
+            "Define a word",
+            "Understand the basic unit of meaning"
+          ],
+          "page_end": 37,
+          "page_start": 37,
+          "title_or": "ଶବ୍ଦ"
+        },
+        {
+          "title_en": "Classification of Words",
+          "objectives": [
+            "Identify different categories of words",
+            "Understand the basis of word classification"
+          ],
+          "page_end": 38,
+          "page_start": 38,
+          "title_or": "ଶବ୍ଦର ଶ୍ରେଣୀବିଭାଗ"
+        },
+        {
+          "title_en": "Tatsama Words",
+          "objectives": [
+            "Define Tatsama words",
+            "Identify Tatsama words in Odia"
+          ],
+          "page_end": 39,
+          "page_start": 39,
+          "title_or": "ତତ୍ସମ ଶବ୍ଦ"
+        },
+        {
+          "title_en": "Tadbhava Words",
+          "objectives": [
+            "Define Tadbhava words",
+            "Identify Tadbhava words in Odia"
+          ],
+          "page_end": 40,
+          "page_start": 40,
+          "title_or": "ତଦ୍ଭବ ଶବ୍ଦ"
+        },
+        {
+          "title_en": "Desaja Words",
+          "objectives": [
+            "Define Desaja words",
+            "Identify indigenous words in Odia"
+          ],
+          "page_end": 41,
+          "page_start": 41,
+          "title_or": "ଦେଶଜ ଶବ୍ଦ"
+        },
+        {
+          "title_en": "Foreign Words",
+          "objectives": [
+            "Define foreign words",
+            "Identify words borrowed from other languages"
+          ],
+          "page_end": 42,
+          "page_start": 42,
+          "title_or": "ବୈଦେଶିକ ଶବ୍ଦ"
+        },
+        {
+          "title_en": "Compound Words",
+          "objectives": [
+            "Define compound words",
+            "Identify words formed by combining elements"
+          ],
+          "page_end": 43,
+          "page_start": 43,
+          "title_or": "ଯୌଗିକ ଶବ୍ଦ"
+        },
+        {
+          "title_en": "Idiomatic Words",
+          "objectives": [
+            "Define idiomatic words",
+            "Understand words with fixed meanings"
+          ],
+          "page_end": 44,
+          "page_start": 44,
+          "title_or": "ରୂଢ଼ ଶବ୍ଦ"
+        },
+        {
+          "title_en": "Yogarudha Words",
+          "objectives": [
+            "Define Yogarudha words",
+            "Identify words with both literal and conventional meanings"
+          ],
+          "page_end": 45,
+          "page_start": 45,
+          "title_or": "ଯୋଗରୂଢ଼ ଶବ୍ଦ"
+        },
+        {
+          "title_en": "Exercises",
+          "objectives": [
+            "Practice classifying different types of words",
+            "Apply knowledge of word formation"
+          ],
+          "page_end": 45,
+          "page_start": 45,
+          "title_or": "ଅଭ୍ୟାସ"
+        }
+      ],
+      "order": 3,
+      "page_end": 45,
+      "page_start": 37,
+      "section": null,
+      "title_or": "ଶବ୍ଦ ବିଚାର"
+    },
+    {
+      "title_en": "Part of Speech Analysis",
+      "topics": [
+        {
+          "title_en": "Part of Speech",
+          "objectives": [
+            "Define part of speech",
+            "Understand the function of words in sentences"
+          ],
+          "page_end": 46,
+          "page_start": 46,
+          "title_or": "ପଦ"
+        },
+        {
+          "title_en": "Noun",
+          "objectives": [
+            "Identify different types of nouns",
+            "Understand the role of nouns in sentences"
+          ],
+          "page_end": 47,
+          "page_start": 47,
+          "title_or": "ବିଶେଷ୍ୟ ପଦ"
+        },
+        {
+          "title_en": "Adjective",
+          "objectives": [
+            "Identify different types of adjectives",
+            "Understand the function of adjectives in sentences"
+          ],
+          "page_end": 48,
+          "page_start": 48,
+          "title_or": "ବିଶେଷଣ ପଦ"
+        },
+        {
+          "title_en": "Pronoun",
+          "objectives": [
+            "Identify different types of pronouns",
+            "Understand the function of pronouns in sentences"
+          ],
+          "page_end": 49,
+          "page_start": 49,
+          "title_or": "ସର୍ବନାମ ପଦ"
+        },
+        {
+          "title_en": "Indeclinable",
+          "objectives": [
+            "Define indeclinable words",
+            "Understand their usage in sentences"
+          ],
+          "page_end": 50,
+          "page_start": 50,
+          "title_or": "ଅବ୍ୟୟ ପଦ"
+        },
+        {
+          "title_en": "Verb",
+          "objectives": [
+            "Identify different types of verbs",
+            "Understand the function of verbs in sentences"
+          ],
+          "page_end": 51,
+          "page_start": 51,
+          "title_or": "କ୍ରିୟା ପଦ"
+        },
+        {
+          "title_en": "Tense",
+          "objectives": [
+            "Identify different tenses",
+            "Understand the concept of time in verbs"
+          ],
+          "page_end": 52,
+          "page_start": 52,
+          "title_or": "କାଳ"
+        },
+        {
+          "title_en": "Number",
+          "objectives": [
+            "Identify singular and plural forms",
+            "Understand number agreement in grammar"
+          ],
+          "page_end": 53,
+          "page_start": 53,
+          "title_or": "ବଚନ"
+        },
+        {
+          "title_en": "Gender",
+          "objectives": [
+            "Identify different genders of nouns",
+            "Understand gender agreement in grammar"
+          ],
+          "page_end": 54,
+          "page_start": 54,
+          "title_or": "ଲିଙ୍ଗ"
+        },
+        {
+          "title_en": "Person",
+          "objectives": [
+            "Identify first, second, and third person",
+            "Understand person agreement in grammar"
+          ],
+          "page_end": 55,
+          "page_start": 55,
+          "title_or": "ପୁରୁଷ"
+        },
+        {
+          "title_en": "Case",
+          "objectives": [
+            "Identify different cases of nouns",
+            "Understand the relationship between words"
+          ],
+          "page_end": 56,
+          "page_start": 56,
+          "title_or": "କାରକ"
+        },
+        {
+          "title_en": "Declension",
+          "objectives": [
+            "Understand declension in Odia",
+            "Identify different declension forms"
+          ],
+          "page_end": 57,
+          "page_start": 57,
+          "title_or": "ବିଭକ୍ତି"
+        },
+        {
+          "title_en": "Compound",
+          "objectives": [
+            "Define compound words (Samasa)",
+            "Identify different types of Samasa"
+          ],
+          "page_end": 58,
+          "page_start": 58,
+          "title_or": "ସମାସ"
+        },
+        {
+          "title_en": "Suffix",
+          "objectives": [
+            "Define suffixes",
+            "Identify suffixes and their functions"
+          ],
+          "page_end": 59,
+          "page_start": 59,
+          "title_or": "ପ୍ରତ୍ୟୟ"
+        },
+        {
+          "title_en": "Prefix",
+          "objectives": [
+            "Define prefixes",
+            "Identify prefixes and their functions"
+          ],
+          "page_end": 60,
+          "page_start": 60,
+          "title_or": "ଉପସର୍ଗ"
+        },
+        {
+          "title_en": "Exercises",
+          "objectives": [
+            "Practice identifying parts of speech",
+            "Apply knowledge of grammatical concepts"
+          ],
+          "page_end": 96,
+          "page_start": 61,
+          "title_or": "ଅଭ୍ୟାସ"
+        }
+      ],
+      "order": 4,
+      "page_end": 96,
+      "page_start": 46,
+      "section": null,
+      "title_or": "ପଦ ବିଚାର"
+    },
+    {
+      "title_en": "Sentence Analysis",
+      "topics": [
+        {
+          "title_en": "Sentence",
+          "objectives": [
+            "Define a sentence",
+            "Understand the basic structure of a sentence"
+          ],
+          "page_end": 97,
+          "page_start": 97,
+          "title_or": "ବାକ୍ୟ"
+        },
+        {
+          "title_en": "Classification of Sentences",
+          "objectives": [
+            "Identify different types of sentences",
+            "Classify sentences based on structure and meaning"
+          ],
+          "page_end": 98,
+          "page_start": 98,
+          "title_or": "ବାକ୍ୟର ଶ୍ରେଣୀବିଭାଗ"
+        },
+        {
+          "title_en": "Parts of a Sentence",
+          "objectives": [
+            "Identify subject and predicate",
+            "Understand the components of a sentence"
+          ],
+          "page_end": 99,
+          "page_start": 99,
+          "title_or": "ବାକ୍ୟର ଅଂଶ"
+        },
+        {
+          "title_en": "Types of Sentences",
+          "objectives": [
+            "Differentiate between various sentence types",
+            "Construct different types of sentences"
+          ],
+          "page_end": 100,
+          "page_start": 100,
+          "title_or": "ବାକ୍ୟର ପ୍ରକାରଭେଦ"
+        },
+        {
+          "title_en": "Exercises",
+          "objectives": [
+            "Practice identifying sentence structures",
+            "Apply knowledge of sentence formation"
+          ],
+          "page_end": 100,
+          "page_start": 100,
+          "title_or": "ଅଭ୍ୟାସ"
+        }
+      ],
+      "order": 5,
+      "page_end": 100,
+      "page_start": 97,
+      "section": null,
+      "title_or": "ବାକ୍ୟ ବିଚାର"
+    }
+  ],
+  "book_title_or": "ଆମ ଓଡ଼ିଆ ବ୍ୟାକରଣ"
+}

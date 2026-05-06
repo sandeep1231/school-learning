@@ -1,0 +1,310 @@
+{
+  "book_title_en": "History and Political Science",
+  "chapters": [
+    {
+      "title_en": "Establishment of British Rule in India",
+      "topics": [
+        {
+          "title_en": "Initial European Trade in India",
+          "objectives": [
+            "Understand the arrival of European traders in India.",
+            "Identify the main European trading companies."
+          ]
+        },
+        {
+          "title_en": "Rise of British East India Company",
+          "objectives": [
+            "Explain the factors leading to the rise of the British East India Company.",
+            "Describe the company's expansionist policies."
+          ]
+        },
+        {
+          "title_en": "Key Battles and Annexations",
+          "objectives": [
+            "Describe major battles that established British dominance.",
+            "Analyze the significance of battles like Plassey and Buxar."
+          ]
+        },
+        {
+          "title_en": "Early British Administrative Policies",
+          "objectives": [
+            "Analyze early British administrative policies.",
+            "Understand the impact of these policies on Indian society."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 11,
+      "page_start": 1,
+      "section": "History",
+      "title_or": "ଭାରତରେ ଇଂରେଜ ଶାସନର ପ୍ରତିଷ୍ଠା"
+    },
+    {
+      "title_en": "Development of Nationalism in India",
+      "topics": [
+        {
+          "title_en": "Factors Contributing to Indian Nationalism",
+          "objectives": [
+            "Identify causes for the rise of nationalism in India.",
+            "Discuss the role of British policies in fostering nationalism."
+          ]
+        },
+        {
+          "title_en": "Socio-Religious Reform Movements",
+          "objectives": [
+            "Describe major socio-religious reform movements.",
+            "Analyze their contribution to national awakening."
+          ]
+        },
+        {
+          "title_en": "Role of Press and Literature",
+          "objectives": [
+            "Analyze the impact of the press on national awakening.",
+            "Explain how literature promoted nationalist ideas."
+          ]
+        },
+        {
+          "title_en": "Early Political Associations",
+          "objectives": [
+            "Describe the formation and goals of early political organizations.",
+            "Understand their methods of protest and advocacy."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 43,
+      "page_start": 12,
+      "section": "History",
+      "title_or": "ଭାରତରେ ଜାତୀୟତାବାଦର ବିକାଶ"
+    },
+    {
+      "title_en": "Indian National Movement (1885-1947)",
+      "topics": [
+        {
+          "title_en": "Formation of Indian National Congress",
+          "objectives": [
+            "Trace the evolution of the Indian National Congress.",
+            "Identify its initial objectives and leadership."
+          ]
+        },
+        {
+          "title_en": "Moderate and Extremist Phases",
+          "objectives": [
+            "Differentiate between moderate and extremist ideologies.",
+            "Explain the strategies adopted by each group."
+          ]
+        },
+        {
+          "title_en": "Gandhian Era and Major Movements",
+          "objectives": [
+            "Explain the role of Mahatma Gandhi in the freedom struggle.",
+            "Describe key Gandhian movements like Non-Cooperation and Quit India."
+          ]
+        },
+        {
+          "title_en": "Partition and Independence",
+          "objectives": [
+            "Analyze the events leading to India's partition and independence.",
+            "Understand the challenges faced during the transfer of power."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 78,
+      "page_start": 44,
+      "section": "History",
+      "title_or": "ଭାରତୀୟ ଜାତୀୟ ଆନ୍ଦୋଳନ (୧୮୮୫-୧୯୪୭)"
+    },
+    {
+      "title_en": "Post-Independence India",
+      "topics": [
+        {
+          "title_en": "Challenges of Nation-Building",
+          "objectives": [
+            "Identify the initial challenges faced by independent India.",
+            "Discuss issues like communalism and poverty."
+          ]
+        },
+        {
+          "title_en": "Integration of Princely States",
+          "objectives": [
+            "Describe the process of integrating princely states.",
+            "Explain the role of Sardar Vallabhbhai Patel."
+          ]
+        },
+        {
+          "title_en": "Economic Development and Planning",
+          "objectives": [
+            "Understand India's economic planning and development.",
+            "Discuss the objectives of early Five-Year Plans."
+          ]
+        },
+        {
+          "title_en": "Foreign Policy and Non-Alignment",
+          "objectives": [
+            "Explain the principles of India's foreign policy.",
+            "Analyze the concept of Non-Alignment Movement."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 98,
+      "page_start": 79,
+      "section": "History",
+      "title_or": "ସ୍ୱାଧୀନତା ପରବର୍ତ୍ତୀ ଭାରତ"
+    },
+    {
+      "title_en": "Constitution",
+      "topics": [
+        {
+          "title_en": "Meaning and Importance of Constitution",
+          "objectives": [
+            "Define constitution and its significance.",
+            "Explain the need for a written constitution."
+          ]
+        },
+        {
+          "title_en": "Types of Constitutions",
+          "objectives": [
+            "Classify different types of constitutions.",
+            "Compare rigid and flexible constitutions."
+          ]
+        },
+        {
+          "title_en": "Need for a Constitution",
+          "objectives": [
+            "Explain the necessity of a constitution for a nation.",
+            "Discuss how a constitution ensures governance and rights."
+          ]
+        },
+        {
+          "title_en": "Constituent Assembly of India",
+          "objectives": [
+            "Describe the formation and role of India's Constituent Assembly.",
+            "Identify key members and their contributions."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 106,
+      "page_start": 99,
+      "section": "Political Science",
+      "title_or": "ସମ୍ବିଧାନ"
+    },
+    {
+      "title_en": "Main Features of the Indian Constitution",
+      "topics": [
+        {
+          "title_en": "Preamble and its Ideals",
+          "objectives": [
+            "Analyze the ideals enshrined in the Preamble.",
+            "Understand the philosophy behind the Indian Constitution."
+          ]
+        },
+        {
+          "title_en": "Fundamental Rights and Duties",
+          "objectives": [
+            "Explain the Fundamental Rights and Duties of citizens.",
+            "Discuss the importance of these rights and duties."
+          ]
+        },
+        {
+          "title_en": "Directive Principles of State Policy",
+          "objectives": [
+            "Describe the Directive Principles of State Policy.",
+            "Understand their role in achieving social and economic justice."
+          ]
+        },
+        {
+          "title_en": "Secularism and Federalism",
+          "objectives": [
+            "Understand the concepts of secularism and federalism in India.",
+            "Explain how these principles are implemented in governance."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 112,
+      "page_start": 107,
+      "section": "Political Science",
+      "title_or": "ଭାରତୀୟ ସମ୍ବିଧାନର ମୁଖ୍ୟ ବୈଶିଷ୍ଟ୍ୟ"
+    },
+    {
+      "title_en": "Human Rights",
+      "topics": [
+        {
+          "title_en": "Concept and Evolution of Human Rights",
+          "objectives": [
+            "Define human rights and their historical development.",
+            "Understand the universal nature of human rights."
+          ]
+        },
+        {
+          "title_en": "Universal Declaration of Human Rights",
+          "objectives": [
+            "Explain the significance of the Universal Declaration of Human Rights.",
+            "Identify key articles of the declaration."
+          ]
+        },
+        {
+          "title_en": "Human Rights in India",
+          "objectives": [
+            "Discuss specific human rights issues in India (women, children).",
+            "Analyze constitutional provisions for human rights."
+          ]
+        },
+        {
+          "title_en": "Role of Human Rights Commissions",
+          "objectives": [
+            "Describe the functions of human rights institutions.",
+            "Understand their role in protecting and promoting rights."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 118,
+      "page_start": 113,
+      "section": "Political Science",
+      "title_or": "ମାନବିକ ଅଧିକାର"
+    },
+    {
+      "title_en": "Indian Democracy",
+      "topics": [
+        {
+          "title_en": "Features of Indian Democracy",
+          "objectives": [
+            "Identify the salient features of Indian democracy.",
+            "Discuss the principles of sovereignty and socialism."
+          ]
+        },
+        {
+          "title_en": "Universal Adult Franchise and Elections",
+          "objectives": [
+            "Explain the importance of universal adult franchise and elections.",
+            "Describe the electoral process in India."
+          ]
+        },
+        {
+          "title_en": "Political Parties and Pressure Groups",
+          "objectives": [
+            "Describe the role of political parties and pressure groups.",
+            "Analyze their influence on policy-making."
+          ]
+        },
+        {
+          "title_en": "Challenges to Indian Democracy",
+          "objectives": [
+            "Analyze the challenges faced by Indian democracy.",
+            "Suggest measures to strengthen democratic institutions."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 124,
+      "page_start": 119,
+      "section": "Political Science",
+      "title_or": "ଭାରତୀୟ ଗଣତନ୍ତ୍ର"
+    }
+  ],
+  "book_title_or": "ଇତିହାସ ଓ ରାଜନୀତି ବିଜ୍ଞାନ"
+}

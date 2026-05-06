@@ -1,0 +1,286 @@
+{
+  "book_title_en": "Secondary Grammar",
+  "chapters": [
+    {
+      "title_en": "Sound and Letter",
+      "topics": [
+        {
+          "title_en": "Fundamentals of Odia Sounds and Letters",
+          "objectives": [
+            "Define sound and letter in Odia.",
+            "Identify different types of Odia sounds.",
+            "Recognize various Odia letters."
+          ],
+          "page_end": 10,
+          "page_start": 1,
+          "title_or": "Fundamentals of Odia Sounds and Letters"
+        }
+      ],
+      "order": 1,
+      "page_end": 10,
+      "page_start": 1,
+      "title_or": "ଧ୍ୱନି ଓ ବର୍ଣ୍ଣ"
+    },
+    {
+      "title_en": "Word",
+      "topics": [
+        {
+          "title_en": "Classification and Structure of Words",
+          "objectives": [
+            "Explain the concept of a word.",
+            "Classify words based on origin and usage.",
+            "Analyze the structure of Odia words."
+          ],
+          "page_end": 16,
+          "page_start": 11,
+          "title_or": "Classification and Structure of Words"
+        }
+      ],
+      "order": 2,
+      "page_end": 16,
+      "page_start": 11,
+      "title_or": "ଶବ୍ଦ"
+    },
+    {
+      "title_en": "Sentence",
+      "topics": [
+        {
+          "title_en": "Sentence Structure and Types",
+          "objectives": [
+            "Define a sentence and its components.",
+            "Identify different types of sentences.",
+            "Construct grammatically correct Odia sentences."
+          ],
+          "page_end": 21,
+          "page_start": 17,
+          "title_or": "Sentence Structure and Types"
+        }
+      ],
+      "order": 3,
+      "page_end": 21,
+      "page_start": 17,
+      "title_or": "ବାକ୍ୟ"
+    },
+    {
+      "title_en": "Pada (Word Form)",
+      "topics": [
+        {
+          "title_en": "Understanding Pada (Word Forms) in Odia",
+          "objectives": [
+            "Define 'Pada' in Odia grammar.",
+            "Differentiate various word forms.",
+            "Understand the function of Pada in sentences."
+          ],
+          "page_end": 27,
+          "page_start": 22,
+          "title_or": "Understanding Pada (Word Forms) in Odia"
+        }
+      ],
+      "order": 4,
+      "page_end": 27,
+      "page_start": 22,
+      "title_or": "ପଦ"
+    },
+    {
+      "title_en": "Noun",
+      "topics": [
+        {
+          "title_en": "Types and Usage of Nouns",
+          "objectives": [
+            "Define a noun and its characteristics.",
+            "Identify different categories of nouns.",
+            "Use nouns appropriately in Odia sentences."
+          ],
+          "page_end": 29,
+          "page_start": 28,
+          "title_or": "Types and Usage of Nouns"
+        }
+      ],
+      "order": 5,
+      "page_end": 29,
+      "page_start": 28,
+      "title_or": "ବିଶେଷ୍ୟ"
+    },
+    {
+      "title_en": "Adjective",
+      "topics": [
+        {
+          "title_en": "Adjectives and their Functions",
+          "objectives": [
+            "Define an adjective and its role.",
+            "Classify various types of adjectives.",
+            "Apply adjectives effectively in writing."
+          ],
+          "page_end": 33,
+          "page_start": 30,
+          "title_or": "Adjectives and their Functions"
+        }
+      ],
+      "order": 6,
+      "page_end": 33,
+      "page_start": 30,
+      "title_or": "ବିଶେଷଣ"
+    },
+    {
+      "title_en": "Pronoun",
+      "topics": [
+        {
+          "title_en": "Pronouns: Types and Application",
+          "objectives": [
+            "Define a pronoun and its purpose.",
+            "Identify different kinds of pronouns.",
+            "Use pronouns correctly to avoid repetition."
+          ],
+          "page_end": 36,
+          "page_start": 34,
+          "title_or": "Pronouns: Types and Application"
+        }
+      ],
+      "order": 7,
+      "page_end": 36,
+      "page_start": 34,
+      "title_or": "ସର୍ବନାମ"
+    },
+    {
+      "title_en": "Indeclinable",
+      "topics": [
+        {
+          "title_en": "Exploring Indeclinable Words",
+          "objectives": [
+            "Define indeclinable words in Odia.",
+            "Recognize various types of indeclinables.",
+            "Understand their role in sentence construction."
+          ],
+          "page_end": 39,
+          "page_start": 37,
+          "title_or": "Exploring Indeclinable Words"
+        }
+      ],
+      "order": 8,
+      "page_end": 39,
+      "page_start": 37,
+      "title_or": "ଅବ୍ୟୟ"
+    },
+    {
+      "title_en": "Verb",
+      "topics": [
+        {
+          "title_en": "Verbs: Types, Tenses, and Conjugation",
+          "objectives": [
+            "Define a verb and its significance.",
+            "Identify different types of verbs.",
+            "Understand verb conjugation and tenses."
+          ],
+          "page_end": 43,
+          "page_start": 40,
+          "title_or": "Verbs: Types, Tenses, and Conjugation"
+        }
+      ],
+      "order": 9,
+      "page_end": 43,
+      "page_start": 40,
+      "title_or": "କ୍ରିୟା"
+    },
+    {
+      "title_en": "Case and Inflection",
+      "topics": [
+        {
+          "title_en": "Case and Inflection in Odia Grammar",
+          "objectives": [
+            "Define case and inflection.",
+            "Identify different cases and their markers.",
+            "Apply correct case and inflection in sentences."
+          ],
+          "page_end": 52,
+          "page_start": 44,
+          "title_or": "Case and Inflection in Odia Grammar"
+        }
+      ],
+      "order": 10,
+      "page_end": 52,
+      "page_start": 44,
+      "title_or": "କାରକ ଓ ବିଭକ୍ତି"
+    },
+    {
+      "title_en": "Compound",
+      "topics": [
+        {
+          "title_en": "Understanding Compound Words (Samasa)",
+          "objectives": [
+            "Define compound words and their types.",
+            "Analyze the formation of compound words.",
+            "Use compound words effectively in Odia."
+          ],
+          "page_end": 59,
+          "page_start": 53,
+          "title_or": "Understanding Compound Words (Samasa)"
+        }
+      ],
+      "order": 11,
+      "page_end": 59,
+      "page_start": 53,
+      "title_or": "ସମାସ"
+    },
+    {
+      "title_en": "Krudanta (Participle)",
+      "topics": [
+        {
+          "title_en": "Krudanta (Participles) and their Usage",
+          "objectives": [
+            "Define Krudanta and its forms.",
+            "Identify different types of participles.",
+            "Understand the application of participles in sentences."
+          ],
+          "page_end": 63,
+          "page_start": 60,
+          "title_or": "Krudanta (Participles) and their Usage"
+        }
+      ],
+      "order": 12,
+      "page_end": 63,
+      "page_start": 60,
+      "title_or": "କୃଦନ୍ତ"
+    },
+    {
+      "title_en": "Taddhita (Derivative)",
+      "topics": [
+        {
+          "title_en": "Taddhita (Derivatives) and Word Formation",
+          "objectives": [
+            "Define Taddhita and its formation process.",
+            "Identify different types of derivatives.",
+            "Analyze how Taddhita words are formed."
+          ],
+          "page_end": 67,
+          "page_start": 64,
+          "title_or": "Taddhita (Derivatives) and Word Formation"
+        }
+      ],
+      "order": 13,
+      "page_end": 67,
+      "page_start": 64,
+      "title_or": "ତଦ୍ଧିତ"
+    },
+    {
+      "title_en": "Prefix and Suffix",
+      "topics": [
+        {
+          "title_en": "Role of Prefixes and Suffixes in Word Building",
+          "objectives": [
+            "Define prefixes and suffixes.",
+            "Identify common prefixes and suffixes.",
+            "Understand how they modify word meanings."
+          ],
+          "page_end": 70,
+          "page_start": 68,
+          "title_or": "Role of Prefixes and Suffixes in Word Building"
+        }
+      ],
+      "order": 14,
+      "page_end": 70,
+      "page_start": 68,
+      "title_or": "ଉପସର୍ଗ ଓ ପ୍ରତ୍ୟୟ"
+    }
+  ],
+  "book_title_or": "ମାଧ୍ୟମିକ ବ୍ୟାକରଣ"
+}

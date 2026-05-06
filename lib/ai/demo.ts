@@ -38,7 +38,7 @@ const CANNED: Record<string, { reply: string; citations: Array<{ documentTitle: 
 const FALLBACK = {
   reply:
     "Great question! In demo mode I can only show pre-written answers for the sample topics on the **Today** page.\n\n" +
-    "To get real AI-tutored answers grounded in the BSE Odisha Class 9 textbooks, add your Supabase + Gemini keys to `.env.local` and restart the dev server.",
+    "To get real AI-tutored answers grounded in the BSE Odisha Class 6\u20139 textbooks, add your Supabase + Gemini keys to `.env.local` and restart the dev server.",
   citations: [
     { documentTitle: "BSE Odisha Syllabus Class IX (2025–26)", page: 1, sourceUrl: "https://bseodisha.ac.in/" },
   ],

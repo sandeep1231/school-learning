@@ -1,0 +1,282 @@
+{
+  "book_title_en": "Social Science Part-1: History and Political Science",
+  "chapters": [
+    {
+      "title_en": "Establishment of British Rule in India",
+      "topics": [
+        {
+          "title_en": "British East India Company's arrival and early settlements",
+          "objectives": [
+            "Understand the reasons for British arrival in India"
+          ]
+        },
+        {
+          "title_en": "Key battles and treaties",
+          "objectives": [
+            "Identify major events leading to British dominance"
+          ]
+        },
+        {
+          "title_en": "Expansion of British power and administrative policies",
+          "objectives": [
+            "Analyze early British administrative structures"
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 13,
+      "page_start": 1,
+      "section": "History",
+      "title_or": "ଭାରତରେ ଇଂରେଜ ଶାସନ ପ୍ରତିଷ୍ଠା"
+    },
+    {
+      "title_en": "National Movement in India",
+      "topics": [
+        {
+          "title_en": "Causes and early phases of the national movement",
+          "objectives": [
+            "Explain the factors contributing to Indian nationalism"
+          ]
+        },
+        {
+          "title_en": "Rise of prominent leaders and organizations",
+          "objectives": [
+            "Describe the roles of key leaders in the freedom struggle"
+          ]
+        },
+        {
+          "title_en": "Major events and movements",
+          "objectives": [
+            "Summarize the main phases and strategies of the national movement"
+          ]
+        },
+        {
+          "title_en": "Partition and Independence",
+          "objectives": [
+            "Understand the process of India's independence and partition"
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 44,
+      "page_start": 14,
+      "section": "History",
+      "title_or": "ଭାରତରେ ଜାତୀୟ ଆନ୍ଦୋଳନ"
+    },
+    {
+      "title_en": "Establishment of Post-Independence Rule in India",
+      "topics": [
+        {
+          "title_en": "Challenges of nation-building after independence",
+          "objectives": [
+            "Identify the immediate challenges faced by independent India"
+          ]
+        },
+        {
+          "title_en": "Integration of princely states",
+          "objectives": [
+            "Explain the process of integrating princely states"
+          ]
+        },
+        {
+          "title_en": "Framing of the Indian Constitution",
+          "objectives": [
+            "Describe the key features of the Indian Constitution"
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 50,
+      "page_start": 45,
+      "section": "History",
+      "title_or": "ଭାରତରେ ସ୍ୱାଧୀନତା ପରବର୍ତ୍ତୀ ଶାସନ ପ୍ରତିଷ୍ଠା"
+    },
+    {
+      "title_en": "Post-Independence India",
+      "topics": [
+        {
+          "title_en": "Economic development and planning",
+          "objectives": [
+            "Analyze India's economic policies after independence"
+          ]
+        },
+        {
+          "title_en": "Social reforms and policies",
+          "objectives": [
+            "Discuss major social changes and reforms"
+          ]
+        },
+        {
+          "title_en": "Foreign policy and non-alignment",
+          "objectives": [
+            "Understand the principles of India's foreign policy"
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 56,
+      "page_start": 51,
+      "section": "History",
+      "title_or": "ସ୍ୱାଧୀନତା ପରବର୍ତ୍ତୀ ଭାରତ"
+    },
+    {
+      "title_en": "Establishment of Democratic Rule in India",
+      "topics": [
+        {
+          "title_en": "Working of democratic institutions",
+          "objectives": [
+            "Explain the functioning of India's democratic system"
+          ]
+        },
+        {
+          "title_en": "Electoral process and political parties",
+          "objectives": [
+            "Describe the electoral process and role of political parties"
+          ]
+        },
+        {
+          "title_en": "Challenges to Indian democracy",
+          "objectives": [
+            "Identify challenges and strengths of Indian democracy"
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 60,
+      "page_start": 57,
+      "section": "History",
+      "title_or": "ଭାରତରେ ଗଣତାନ୍ତ୍ରିକ ଶାସନ ପ୍ରତିଷ୍ଠା"
+    },
+    {
+      "title_en": "Central Government",
+      "topics": [
+        {
+          "title_en": "The President and Vice-President",
+          "objectives": [
+            "Describe the powers and functions of the President"
+          ]
+        },
+        {
+          "title_en": "The Parliament (Lok Sabha and Rajya Sabha)",
+          "objectives": [
+            "Explain the structure and role of the Indian Parliament"
+          ]
+        },
+        {
+          "title_en": "The Prime Minister and Council of Ministers",
+          "objectives": [
+            "Understand the functions of the Prime Minister and Council of Ministers"
+          ]
+        },
+        {
+          "title_en": "The Supreme Court",
+          "objectives": [
+            "Outline the composition and jurisdiction of the Supreme Court"
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 94,
+      "page_start": 61,
+      "section": "Political Science",
+      "title_or": "କେନ୍ଦ୍ର ସରକାର"
+    },
+    {
+      "title_en": "State Government",
+      "topics": [
+        {
+          "title_en": "The Governor",
+          "objectives": [
+            "Describe the role and powers of the Governor"
+          ]
+        },
+        {
+          "title_en": "State Legislature (Vidhan Sabha and Vidhan Parishad)",
+          "objectives": [
+            "Explain the structure and functions of state legislatures"
+          ]
+        },
+        {
+          "title_en": "The Chief Minister and Council of Ministers",
+          "objectives": [
+            "Understand the functions of the Chief Minister and Council of Ministers"
+          ]
+        },
+        {
+          "title_en": "High Courts and subordinate courts",
+          "objectives": [
+            "Outline the composition and jurisdiction of High Courts"
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 107,
+      "page_start": 95,
+      "section": "Political Science",
+      "title_or": "ରାଜ୍ୟ ସରକାର"
+    },
+    {
+      "title_en": "Local Self-Government",
+      "topics": [
+        {
+          "title_en": "Panchayati Raj Institutions",
+          "objectives": [
+            "Explain the structure and functions of Panchayati Raj"
+          ]
+        },
+        {
+          "title_en": "Urban Local Bodies",
+          "objectives": [
+            "Describe the working of urban local bodies"
+          ]
+        },
+        {
+          "title_en": "Importance of local self-government",
+          "objectives": [
+            "Analyze the significance of local self-government"
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 114,
+      "page_start": 108,
+      "section": "Political Science",
+      "title_or": "ସ୍ଥାନୀୟ ସ୍ୱାୟତ୍ତ ଶାସନ"
+    },
+    {
+      "title_en": "Main Features of Indian Democracy",
+      "topics": [
+        {
+          "title_en": "Sovereign, Socialist, Secular, Democratic Republic",
+          "objectives": [
+            "Identify the core principles of Indian democracy"
+          ]
+        },
+        {
+          "title_en": "Fundamental Rights and Duties",
+          "objectives": [
+            "Explain Fundamental Rights and Duties"
+          ]
+        },
+        {
+          "title_en": "Directive Principles of State Policy",
+          "objectives": [
+            "Understand the significance of Directive Principles"
+          ]
+        },
+        {
+          "title_en": "Universal Adult Franchise",
+          "objectives": [
+            "Describe the concept of Universal Adult Franchise"
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 120,
+      "page_start": 115,
+      "section": "Political Science",
+      "title_or": "ଭାରତୀୟ ଗଣତନ୍ତ୍ରର ମୁଖ୍ୟ ବୈଶିଷ୍ଟ୍ୟ"
+    }
+  ],
+  "book_title_or": "ସାମାଜିକ ବିଜ୍ଞାନ ଭାଗ- ୧: ଇତିହାସ ଓ ରାଜନୀତି ବିଜ୍ଞାନ"
+}

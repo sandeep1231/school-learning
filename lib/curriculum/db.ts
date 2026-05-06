@@ -124,24 +124,60 @@ function rowToTopic(r: {
   };
 }
 
+// PostgREST default row limit is 1000; paginate to load full curriculum.
+async function fetchAllRows<T>(
+  fetchPage: (from: number, to: number) => Promise<{ data: T[] | null; error: { message: string } | null }>,
+  label: string,
+): Promise<T[]> {
+  const PAGE = 1000;
+  const out: T[] = [];
+  let from = 0;
+  // Hard upper bound to prevent runaway loops; we currently have ~1500 rows.
+  for (let i = 0; i < 100; i++) {
+    const { data, error } = await fetchPage(from, from + PAGE - 1);
+    if (error) throw new Error(`load ${label}: ${error.message}`);
+    const rows = data ?? [];
+    out.push(...rows);
+    if (rows.length < PAGE) return out;
+    from += PAGE;
+  }
+  throw new Error(`load ${label}: exceeded pagination safety bound`);
+}
+
 async function load(): Promise<Cache> {
   const sb = createAdminClient();
-  const [sr, cr, tr] = await Promise.all([
-    sb.from("subjects").select("id, code, name_en, name_or, name_hi, class_level, board"),
-    sb.from("chapters").select("id, subject_id, order_index, slug, title_en, title_or, title_hi"),
-    sb
-      .from("topics")
-      .select(
-        "id, chapter_id, order_index, slug, title_en, title_or, title_hi, learning_objectives, approx_duration_min",
-      ),
+  const [subjectRows, chapterRows, topicRows] = await Promise.all([
+    fetchAllRows(
+      (from, to) =>
+        sb
+          .from("subjects")
+          .select("id, code, name_en, name_or, name_hi, class_level, board")
+          .range(from, to),
+      "subjects",
+    ),
+    fetchAllRows(
+      (from, to) =>
+        sb
+          .from("chapters")
+          .select("id, subject_id, order_index, slug, title_en, title_or, title_hi")
+          .range(from, to),
+      "chapters",
+    ),
+    fetchAllRows(
+      (from, to) =>
+        sb
+          .from("topics")
+          .select(
+            "id, chapter_id, order_index, slug, title_en, title_or, title_hi, learning_objectives, approx_duration_min",
+          )
+          .range(from, to),
+      "topics",
+    ),
   ]);
-  if (sr.error) throw new Error(`load subjects: ${sr.error.message}`);
-  if (cr.error) throw new Error(`load chapters: ${cr.error.message}`);
-  if (tr.error) throw new Error(`load topics: ${tr.error.message}`);
 
-  const subjects = (sr.data ?? []).map(rowToSubject);
-  const chapters = (cr.data ?? []).map(rowToChapter);
-  const topics = (tr.data ?? []).map(rowToTopic);
+  const subjects = subjectRows.map(rowToSubject);
+  const chapters = chapterRows.map(rowToChapter);
+  const topics = topicRows.map(rowToTopic);
 
   const subjectByCode = new Map<string, DbSubject>();
   const subjectById = new Map<string, DbSubject>();
@@ -285,4 +321,36 @@ export async function resolveTopicPath(
   const subject = c.subjectById.get(chapter.subjectId);
   if (!subject) return null;
   return { subject, chapter, topic };
+}
+
+/**
+ * Enumerate every topic for a (board, classLevel) optionally filtered by
+ * subject codes. Returns enriched rows with subject + chapter context so
+ * generators can build prompts without re-querying. Used by the lesson and
+ * practice generators in scripts/content/.
+ */
+export async function listTopicsForClass(opts: {
+  board: string;
+  classLevel: number;
+  subjectCodes?: string[] | null;
+}): Promise<
+  Array<{ subject: DbSubject; chapter: DbChapter; topic: DbTopic }>
+> {
+  const c = await ensureCurriculum();
+  const subjects = c.subjects.filter(
+    (s) => s.board === opts.board && s.classLevel === opts.classLevel,
+  );
+  const codeFilter = opts.subjectCodes && opts.subjectCodes.length > 0
+    ? new Set(opts.subjectCodes.map((x) => x.toUpperCase()))
+    : null;
+  const out: Array<{ subject: DbSubject; chapter: DbChapter; topic: DbTopic }> = [];
+  for (const subject of subjects) {
+    if (codeFilter && !codeFilter.has(subject.code)) continue;
+    const chapters = c.chaptersBySubject.get(subject.id) ?? [];
+    for (const chapter of chapters) {
+      const topics = c.topicsByChapter.get(chapter.id) ?? [];
+      for (const topic of topics) out.push({ subject, chapter, topic });
+    }
+  }
+  return out;
 }

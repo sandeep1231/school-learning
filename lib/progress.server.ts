@@ -7,6 +7,7 @@
  *   in-memory `lib/progress` store keyed by the guest id.
  */
 
+import { cache } from "react";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/server";
 import {
   getProgress as getMemProgress,
@@ -48,7 +49,7 @@ function hydrate(rows: Row[]): TopicProgress {
   return p;
 }
 
-export async function getProgressFor(
+export const getProgressFor = cache(async function getProgressFor(
   user: CurrentUser,
   topicId: string,
 ): Promise<TopicProgress> {
@@ -63,14 +64,14 @@ export async function getProgressFor(
     .eq("topic_id", topicId);
   if (error || !data) return getMemProgress(user.id, topicId);
   return hydrate(data as Row[]);
-}
+});
 
 /**
  * Batch variant — fetches progress for many topics in a single round-trip.
  * Use this on dashboards (e.g. /today) instead of looping `getProgressFor`
  * to avoid N+1 query patterns. Returns a Map keyed by topicId.
  */
-export async function getProgressForMany(
+export const getProgressForMany = cache(async function getProgressForMany(
   user: CurrentUser,
   topicIds: string[],
 ): Promise<Map<string, TopicProgress>> {
@@ -100,7 +101,7 @@ export async function getProgressForMany(
     out.set(id, hydrate(byTopic.get(id) ?? []));
   }
   return out;
-}
+});
 
 export async function markStageFor(
   user: CurrentUser,

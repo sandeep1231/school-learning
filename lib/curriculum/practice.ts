@@ -6,6 +6,7 @@
  * DB RLS. Callers that mutate attempts/flags must use the auth'd server client
  * in the route handler — that path is in lib/practice/attempts.ts.
  */
+import { cache } from "react";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type { AppLanguage } from "@/lib/types";
 
@@ -94,7 +95,7 @@ function rowToItem(r: Row): PracticeItem {
  */
 export async function listTopicPracticeItems(
   topicId: string,
-  opts: { kinds?: PracticeKind[]; difficulty?: PracticeDifficulty } = {},
+  opts: { kinds?: PracticeKind[]; difficulty?: PracticeDifficulty; language?: AppLanguage } = {},
 ): Promise<PracticeItem[]> {
   const supabase = createAdminClient();
 
@@ -108,6 +109,7 @@ export async function listTopicPracticeItems(
     .eq("status", "published");
   if (opts.kinds && opts.kinds.length > 0) q = q.in("kind", opts.kinds);
   if (opts.difficulty) q = q.eq("difficulty", opts.difficulty);
+  if (opts.language) q = q.eq("language", opts.language);
 
   const { data, error } = await q;
   if (error) throw error;
@@ -133,3 +135,23 @@ export function isMcq(item: PracticeItem): item is PracticeItem & {
 } {
   return item.kind === "mcq";
 }
+
+/**
+ * Cheap existence check — returns true if the topic has at least one
+ * published practice item in any language. Used by the topic hub UI to
+ * decide whether the Practice stage is available.
+ */
+export const topicHasPractice = cache(async function topicHasPractice(
+  topicId: string,
+): Promise<boolean> {
+  const supabase = createAdminClient();
+  const { count, error } = await supabase
+    .from("practice_items")
+    .select("id", { head: true, count: "exact" })
+    .eq("scope_type", "topic")
+    .eq("scope_id", topicId)
+    .eq("status", "published")
+    .limit(1);
+  if (error) return false;
+  return (count ?? 0) > 0;
+});

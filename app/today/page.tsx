@@ -10,6 +10,11 @@ import {
 import { progressPercent } from "@/lib/progress";
 import { getCurrentUser } from "@/lib/auth/user";
 import { getUserContext } from "@/lib/auth/context";
+import {
+  formatBoardClassLabel,
+  formatBoardLabel,
+  isCurriculumSeeded,
+} from "@/lib/curriculum/boards";
 import { getProgressForMany } from "@/lib/progress.server";
 import {
   getStreakInfo,
@@ -19,6 +24,7 @@ import {
 } from "@/lib/progress.rollup";
 import WelcomeBanner from "./WelcomeBanner";
 import OnboardingModal from "@/components/onboarding/OnboardingModal";
+import TodayUnseeded from "./TodayUnseeded";
 
 export const dynamic = "force-dynamic";
 
@@ -58,9 +64,32 @@ const ALL_SUBJECTS: SubjectEntry[] = [
 const TUTOR_LED_COUNT = RAG_ONLY_SUBJECTS.length;
 
 export default async function TodayPage() {
-  const t = await getTranslations("today");
-  const user = await getCurrentUser();
-  const ctx = await getUserContext();
+  // The four top-level fetches are independent — parallelize them so the
+  // page is gated by max() not sum() of their latencies.
+  const [t, user, ctx] = await Promise.all([
+    getTranslations("today"),
+    getCurrentUser(),
+    getUserContext(),
+  ]);
+  const contextLabel = formatBoardClassLabel(ctx.boardCode, ctx.classLevel);
+  const boardLabel = formatBoardLabel(ctx.boardCode);
+
+  // Classes 6–8 (and any future board) have textbook chunks ingested but no
+  // structured chapters/topics yet. Show a tutor-led fallback dashboard so
+  // the learner still gets value while curriculum seeding catches up.
+  if (!isCurriculumSeeded(ctx.boardCode, ctx.classLevel)) {
+    return (
+      <TodayUnseeded
+        boardSlug={ctx.boardSlug}
+        boardCode={ctx.boardCode}
+        classLevel={ctx.classLevel}
+        contextLabel={contextLabel}
+        boardLabel={boardLabel}
+        userEmail={user.isAuthenticated ? (user.email ?? user.fullName ?? null) : null}
+      />
+    );
+  }
+
   const today = new Date();
   const todayISO = today.toISOString().slice(0, 10);
   const milestone = nextMilestone(today);
@@ -78,34 +107,29 @@ export default async function TodayPage() {
   }) =>
     `/b/${ctx.boardSlug}/c/${ctx.classLevel}/s/${t.subjectCode.toLowerCase()}/ch/${t.chapterSlug}/t/${t.id}`;
 
-  // Fetch progress for all curated topics in a single round-trip.
-  const progressByTopic = await getProgressForMany(
-    user,
-    ALL_TOPICS.map((t) => t.id),
-  );
-
-  // Phase 4: streak + weak-spots. Parallel read; both no-op for guests.
-  const [streak, weakSpots] = await Promise.all([
-    getStreakInfo(user),
-    getWeakSpots(user, 3, 2),
-  ]);
-  const topicById = new Map(ALL_TOPICS.map((t) => [t.id, t] as const));
-
-  // Phase 9.10 — common misconception nudges.
-  const misconceptions = await getTopMisconceptions(user, 3, 30);
-
-  // Phase 9.5 — count SRS cards due today so the dashboard surfaces it.
-  let dueCount = 0;
-  if (user.isAuthenticated) {
-    const { createAdminClient } = await import("@/lib/supabase/admin");
-    const admin = createAdminClient();
-    const { count } = await admin
-      .from("srs_cards")
-      .select("id", { count: "exact", head: true })
-      .eq("student_id", user.id)
-      .lte("due_at", new Date().toISOString());
-    dueCount = count ?? 0;
-  }
+  // All five reads below are independent and only need `user` — fan them
+  // out in one Promise.all so the dashboard is gated by the slowest (~one
+  // round-trip) instead of summed latency.
+  const allTopicIds = ALL_TOPICS.map((tt) => tt.id);
+  const [progressByTopic, streak, weakSpots, misconceptions, dueCount] =
+    await Promise.all([
+      getProgressForMany(user, allTopicIds),
+      getStreakInfo(user),
+      getWeakSpots(user, 3, 2),
+      getTopMisconceptions(user, 3, 30),
+      (async (): Promise<number> => {
+        if (!user.isAuthenticated) return 0;
+        const { createAdminClient } = await import("@/lib/supabase/admin");
+        const admin = createAdminClient();
+        const { count } = await admin
+          .from("srs_cards")
+          .select("id", { count: "exact", head: true })
+          .eq("student_id", user.id)
+          .lte("due_at", new Date().toISOString());
+        return count ?? 0;
+      })(),
+    ]);
+  const topicById = new Map(ALL_TOPICS.map((tt) => [tt.id, tt] as const));
 
   // Pick, for every curated subject, the next not-yet-completed topic.
   function nextPendingFor(subjectCode: string) {
@@ -137,9 +161,9 @@ export default async function TodayPage() {
             <span className="font-medium text-brand">
               {doneCount} of {ALL_TOPICS.length}
             </span>{" "}
-            topics ·{" "}
+            curated topics ·{" "}
             <span className="text-slate-500">
-              + {TUTOR_LED_COUNT} tutor-led subjects
+              + {TUTOR_LED_COUNT} subjects with lessons & practice
             </span>
           </p>
         </div>
@@ -319,7 +343,7 @@ export default async function TodayPage() {
           ବିଷୟ · Your subjects
         </h2>
         <p className="mb-3 text-xs text-slate-500">
-          All 6 BSE Odisha Class 9 subjects. Open any to learn or ask the tutor.
+          All {ALL_SUBJECTS.length} {contextLabel} subjects. Open any to learn or ask the tutor.
         </p>
         <div
           className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
@@ -429,7 +453,7 @@ export default async function TodayPage() {
                   <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-brand">
                     <span>{s.code}</span>
                     <span className="rounded-full bg-brand-50 px-2 py-0.5 text-[10px] font-semibold normal-case text-brand">
-                      ଟ୍ୟୁଟର ସହ · Tutor-led
+                      ପାଠ + ଅଭ୍ୟାସ · Lessons + Practice
                     </span>
                   </div>
                   <h3 className="mt-1 text-base font-bold text-brand-900">
@@ -442,19 +466,19 @@ export default async function TodayPage() {
                   <span className="font-semibold text-slate-800">
                     {s.chapterCount}
                   </span>{" "}
-                  chapters · grounded answers with citations
+                  chapters · AI lessons, practice MCQs & tutor chat
                 </div>
 
                 <p className="mt-3 flex-1 text-sm text-slate-600">
-                  Pick a chapter and ask the tutor anything — every answer cites
-                  the BSE {s.name.en} textbook.
+                  Read the lesson, try the practice questions, or ask the tutor
+                  — every answer cites the BSE {s.name.en} textbook.
                 </p>
 
                 <Link
                   href={subjectPath(s.code)}
                   className="mt-3 rounded-lg bg-brand px-3 py-2 text-center text-sm font-semibold text-white hover:bg-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
                 >
-                  Open chapters →
+                  Open subject →
                 </Link>
               </article>
             );

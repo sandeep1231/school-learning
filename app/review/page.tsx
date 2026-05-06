@@ -21,7 +21,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Today's review",
   description:
-    "Spaced-repetition review for BSE Class 9 — practice items due for revision today.",
+    "Spaced-repetition review — practice items due for revision today.",
   robots: { index: false, follow: false },
 };
 

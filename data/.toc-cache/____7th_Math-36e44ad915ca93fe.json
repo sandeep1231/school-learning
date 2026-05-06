@@ -1,0 +1,516 @@
+{
+  "book_title_en": "Mathematics, Class VII",
+  "chapters": [
+    {
+      "title_en": "Integers",
+      "topics": [
+        {
+          "title_en": "Introduction to Integers",
+          "objectives": [
+            "Define integers and their representation on a number line.",
+            "Compare and order integers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Operations on Integers",
+          "objectives": [
+            "Perform addition and subtraction of integers.",
+            "Multiply and divide integers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Properties of Integers",
+          "objectives": [
+            "Understand commutative, associative, and distributive properties for integers.",
+            "Identify additive and multiplicative identities and inverses."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 1,
+      "page_end": 29,
+      "page_start": 1,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପୂର୍ଣ୍ଣ ସଂଖ୍ୟା"
+    },
+    {
+      "title_en": "Fractions and Decimal Fractions",
+      "topics": [
+        {
+          "title_en": "Understanding Fractions",
+          "objectives": [
+            "Define different types of fractions.",
+            "Compare and order fractions."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Operations on Fractions",
+          "objectives": [
+            "Perform addition and subtraction of fractions.",
+            "Multiply and divide fractions."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Decimal Fractions",
+          "objectives": [
+            "Convert fractions to decimals and vice versa.",
+            "Perform operations on decimal numbers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 2,
+      "page_end": 54,
+      "page_start": 30,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଭଗ୍ନାଂଶ ଓ ଦଶମିକ ଭଗ୍ନାଂଶ"
+    },
+    {
+      "title_en": "Simple Lines and Angles",
+      "topics": [
+        {
+          "title_en": "Basic Geometric Concepts",
+          "objectives": [
+            "Identify points, lines, rays, and line segments.",
+            "Understand different types of angles (acute, obtuse, right, straight, reflex)."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Pairs of Angles",
+          "objectives": [
+            "Define complementary and supplementary angles.",
+            "Identify adjacent angles, linear pairs, and vertically opposite angles."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Parallel Lines and Transversals",
+          "objectives": [
+            "Understand properties of angles formed by a transversal intersecting parallel lines.",
+            "Solve problems involving parallel lines and transversals."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 3,
+      "page_end": 73,
+      "page_start": 55,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ସରଳ ରେଖା ଓ କୋଣ"
+    },
+    {
+      "title_en": "Triangles and their Properties",
+      "topics": [
+        {
+          "title_en": "Classification of Triangles",
+          "objectives": [
+            "Classify triangles based on sides and angles.",
+            "Identify medians and altitudes of a triangle."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Angle Sum Property",
+          "objectives": [
+            "State and apply the angle sum property of a triangle.",
+            "Understand the exterior angle property of a triangle."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Pythagorean Property",
+          "objectives": [
+            "Understand and apply the Pythagorean property for right-angled triangles."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 4,
+      "page_end": 85,
+      "page_start": 74,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ତ୍ରିଭୁଜ ଓ ତ୍ରିଭୁଜର ଧର୍ମ"
+    },
+    {
+      "title_en": "Rational Numbers",
+      "topics": [
+        {
+          "title_en": "Introduction to Rational Numbers",
+          "objectives": [
+            "Define rational numbers.",
+            "Represent rational numbers on a number line."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Operations on Rational Numbers",
+          "objectives": [
+            "Perform addition, subtraction, multiplication, and division of rational numbers.",
+            "Compare and order rational numbers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Properties of Rational Numbers",
+          "objectives": [
+            "Understand properties like closure, commutativity, associativity for rational numbers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 5,
+      "page_end": 112,
+      "page_start": 86,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପରିମେୟ ସଂଖ୍ୟା"
+    },
+    {
+      "title_en": "Algebra",
+      "topics": [
+        {
+          "title_en": "Algebraic Expressions",
+          "objectives": [
+            "Identify variables, constants, terms, and coefficients.",
+            "Form algebraic expressions from real-life situations."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Operations on Algebraic Expressions",
+          "objectives": [
+            "Add and subtract algebraic expressions.",
+            "Simplify algebraic expressions."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Simple Equations",
+          "objectives": [
+            "Form simple linear equations.",
+            "Solve simple linear equations."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 6,
+      "page_end": 132,
+      "page_start": 113,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବୀଜଗଣିତ"
+    },
+    {
+      "title_en": "Congruence of Triangles",
+      "topics": [
+        {
+          "title_en": "Concept of Congruence",
+          "objectives": [
+            "Understand the meaning of congruence in geometric figures.",
+            "Identify congruent plane figures."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Congruence of Triangles",
+          "objectives": [
+            "State and apply the SSS, SAS, ASA, and RHS congruence criteria.",
+            "Prove congruence of triangles using appropriate criteria."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 7,
+      "page_end": 144,
+      "page_start": 133,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ତ୍ରିଭୁଜର ସର୍ବସମତା"
+    },
+    {
+      "title_en": "Mensuration",
+      "topics": [
+        {
+          "title_en": "Perimeter and Area of Rectilinear Figures",
+          "objectives": [
+            "Calculate the perimeter and area of squares and rectangles.",
+            "Determine the area of parallelograms and triangles."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Area of a Circle",
+          "objectives": [
+            "Understand the concept of circumference and area of a circle.",
+            "Calculate the area of a circle using the formula."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Composite Figures",
+          "objectives": [
+            "Find the area of composite figures by decomposing them."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 8,
+      "page_end": 175,
+      "page_start": 145,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପରିମାଣ"
+    },
+    {
+      "title_en": "Symmetry and Reflection",
+      "topics": [
+        {
+          "title_en": "Line Symmetry",
+          "objectives": [
+            "Identify lines of symmetry in various shapes.",
+            "Draw lines of symmetry for given figures."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Rotational Symmetry",
+          "objectives": [
+            "Understand the concept of rotational symmetry and order of rotation.",
+            "Identify figures with rotational symmetry."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Reflection",
+          "objectives": [
+            "Understand reflection as a type of transformation.",
+            "Draw reflections of shapes across a line."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 9,
+      "page_end": 201,
+      "page_start": 176,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରତିସମତା ଓ ପ୍ରତିବିମ୍ବନ"
+    },
+    {
+      "title_en": "Solid Shapes",
+      "topics": [
+        {
+          "title_en": "Introduction to 3D Shapes",
+          "objectives": [
+            "Identify common 3D shapes (cuboid, cube, cylinder, cone, sphere).",
+            "Understand faces, edges, and vertices of 3D shapes."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Nets of Solid Shapes",
+          "objectives": [
+            "Draw nets for various 3D shapes.",
+            "Identify 3D shapes from their nets."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Views of 3D Shapes",
+          "objectives": [
+            "Draw different views (front, side, top) of 3D objects."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 10,
+      "page_end": 222,
+      "page_start": 202,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଘନବସ୍ତୁ"
+    },
+    {
+      "title_en": "Data Handling",
+      "topics": [
+        {
+          "title_en": "Collection and Organization of Data",
+          "objectives": [
+            "Collect and organize data in tables.",
+            "Understand frequency distribution."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Measures of Central Tendency",
+          "objectives": [
+            "Calculate mean, median, and mode for a given data set.",
+            "Interpret these measures."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Bar Graphs and Probability",
+          "objectives": [
+            "Draw and interpret bar graphs.",
+            "Understand basic concepts of probability."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 11,
+      "page_end": 229,
+      "page_start": 223,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ତଥ୍ୟ ପରିଚାଳନା"
+    },
+    {
+      "title_en": "Practical Geometry",
+      "topics": [
+        {
+          "title_en": "Construction of Parallel Lines",
+          "objectives": [
+            "Construct a line parallel to a given line through a point not on the line."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Construction of Triangles",
+          "objectives": [
+            "Construct triangles when different combinations of sides and angles are given (SSS, SAS, ASA, RHS)."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Construction of Angles",
+          "objectives": [
+            "Construct angles of specific measures using a compass and ruler."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 12,
+      "page_end": 241,
+      "page_start": 230,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରାୟୋଗିକ ଜ୍ୟାମିତି"
+    }
+  ],
+  "book_title_or": "ଗଣିତ ସପ୍ତମ ଶ୍ରେଣୀ"
+}

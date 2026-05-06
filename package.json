@@ -2,7 +2,7 @@
   "name": "sikhya-sathi",
   "version": "0.1.0",
   "private": true,
-  "description": "AI home-tutor SaaS for BSE Odisha Class 9 students, parents, and teachers (RAG-grounded, multilingual).",
+  "description": "AI home-tutor SaaS for BSE Odisha Class 6\u20139 students, parents, and teachers (RAG-grounded, multilingual).",
   "scripts": {
     "dev": "next dev",
     "build": "cross-env NODE_OPTIONS=--max-old-space-size=2048 next build",
@@ -20,6 +20,7 @@
     "ingest:embed": "tsx scripts/ingest/embed-pdfs.ts",
     "ingest:class": "tsx scripts/ingest/ingest-class.ts",
     "seed:curriculum": "tsx scripts/seed/curriculum.ts",
+    "seed:topics": "tsx scripts/seed/topics-from-docs.ts",
     "content:practice": "tsx scripts/content/generate-practice.ts",
     "content:lessons": "tsx scripts/content/generate-lessons.ts"
   },

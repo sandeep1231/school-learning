@@ -9,7 +9,7 @@ import {
   boardSlugToCode,
   isClassSupported,
 } from "@/lib/curriculum/boards";
-import { getTopicBySlug } from "@/lib/curriculum/db";
+import { getTopicBySlug, resolveTopicPath } from "@/lib/curriculum/db";
 import {
   getLessonVariantsForTopic,
   pickLessonVariant,
@@ -20,6 +20,7 @@ import {
   readAudience,
 } from "@/lib/learn/audience";
 import AudienceToggle from "@/components/learn/AudienceToggle";
+import { languageProfileFor } from "@/scripts/content/language-profile";
 
 export const dynamic = "force-dynamic";
 
@@ -43,22 +44,50 @@ export default async function BoardLearnPage({
   if (!boardCode || !Number.isFinite(classLevel)) notFound();
   if (!isClassSupported(boardCode, classLevel)) notFound();
 
-  const dataTopic = findTopic(topicSlug);
-  if (!dataTopic) notFound();
+  // Resolve topic — try static curated curriculum first, fall back to DB.
+  // Either path must yield a DB UUID (lesson_variants is keyed by topic_id).
+  const staticTopic = findTopic(topicSlug);
+  const dbTopic = await getTopicBySlug(topicSlug);
+  if (!dbTopic) notFound();
+
+  let subjectCode: string;
+  let resolvedChapterSlug: string;
+  let chapterTitleOr: string;
+  let topicTitleOr: string;
+  let topicTitleEn: string;
+
+  if (staticTopic) {
+    subjectCode = staticTopic.subjectCode;
+    resolvedChapterSlug = staticTopic.chapterSlug;
+    chapterTitleOr =
+      staticTopic.chapterTitle.or ?? staticTopic.chapterTitle.en;
+    topicTitleOr = staticTopic.title.or ?? staticTopic.title.en;
+    topicTitleEn = staticTopic.title.en;
+  } else {
+    const resolved = await resolveTopicPath(topicSlug);
+    if (!resolved) notFound();
+    subjectCode = resolved.subject.code;
+    resolvedChapterSlug = resolved.chapter.slug ?? "";
+    chapterTitleOr =
+      resolved.chapter.title.or ?? resolved.chapter.title.en;
+    topicTitleOr = resolved.topic.title.or ?? resolved.topic.title.en;
+    topicTitleEn = resolved.topic.title.en;
+  }
+
   if (
-    dataTopic.subjectCode.toLowerCase() !== subject.toLowerCase() ||
-    dataTopic.chapterSlug !== chapter
+    subjectCode.toLowerCase() !== subject.toLowerCase() ||
+    resolvedChapterSlug !== chapter
   ) {
     notFound();
   }
 
-  const dbTopic = await getTopicBySlug(topicSlug);
-  if (!dbTopic) notFound();
-
   const cookieStore = await cookies();
   const requested = readAudience(cookieStore.get(AUDIENCE_COOKIE)?.value);
 
-  const variants = await getLessonVariantsForTopic(dbTopic.id, "or");
+  // Pick the variant language based on the subject's bilingual profile.
+  // SLE → 'en', TLH → 'hi', everything else on BSE → 'or'.
+  const profile = languageProfileFor(boardCode, subjectCode);
+  const variants = await getLessonVariantsForTopic(dbTopic.id, profile.language);
   const available = (Object.keys(variants) as LessonVariantKind[]);
   const selected = pickLessonVariant(variants, requested);
 
@@ -79,13 +108,13 @@ export default async function BoardLearnPage({
       <main className="container mx-auto max-w-3xl px-4 py-8">
         <div className="mb-1 text-xs uppercase tracking-wide text-brand">
           <Link href={hubHref} className="hover:underline">
-            ← {dataTopic.subjectCode} · {dataTopic.chapterTitle.or}
+            ← {subjectCode} · {chapterTitleOr}
           </Link>
         </div>
         <h1 className="text-2xl font-bold text-slate-900">
-          {dataTopic.title.or}
+          {topicTitleOr}
         </h1>
-        <p className="mb-4 text-sm text-slate-500">{dataTopic.title.en}</p>
+        <p className="mb-4 text-sm text-slate-500">{topicTitleEn}</p>
 
         <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
           <AudienceToggle
@@ -107,16 +136,20 @@ export default async function BoardLearnPage({
         {!selected ? (
           <div className="rounded-xl border border-slate-200 bg-white p-8 text-center shadow-sm">
             <h2 className="text-lg font-semibold text-slate-800">
-              Lesson being prepared
+              ପାଠ୍ୟ ପ୍ରସ୍ତୁତ ହେଉଛି · Lesson being prepared
             </h2>
             <p className="mt-2 text-sm text-slate-600">
-              This topic&apos;s lesson hasn&apos;t been generated yet. Content
-              team: run{" "}
-              <code className="rounded bg-slate-100 px-1">
-                npx tsx scripts/content/generate-lessons.ts {topicSlug}
-              </code>
+              We&apos;re writing this lesson now. Please check back in a few
+              minutes — meanwhile you can ask the tutor any question about
+              this topic.
             </p>
             <div className="mt-4 flex justify-center gap-3">
+              <Link
+                href={`/chat/${topicSlug}`}
+                className="rounded-lg bg-brand px-4 py-2 text-sm font-semibold text-white hover:bg-brand-600"
+              >
+                Ask the tutor →
+              </Link>
               <Link
                 href={hubHref}
                 className="rounded-lg border border-slate-300 px-4 py-2 text-sm text-slate-700 hover:bg-slate-50"
@@ -195,7 +228,7 @@ export default async function BoardLearnPage({
             Back to topic
           </Link>
         </div>
-        <FeedbackWidget surface="lesson" topicId={dataTopic.id} />
+        <FeedbackWidget surface="lesson" topicId={dbTopic.id} />
       </main>
     </div>
   );

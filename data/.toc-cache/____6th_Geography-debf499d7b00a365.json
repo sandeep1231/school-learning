@@ -1,0 +1,615 @@
+{
+  "book_title_en": "Geography - Class VIII",
+  "chapters": [
+    {
+      "title_en": "Resources",
+      "topics": [
+        {
+          "title_en": "Types of Resources",
+          "objectives": [
+            "Define different types of resources.",
+            "Classify resources based on origin and renewability.",
+            "Understand the value and utility of resources."
+          ],
+          "title_or": "ସମ୍ବଳର ପ୍ରକାରଭେଦ"
+        },
+        {
+          "title_en": "Conservation of Resources",
+          "objectives": [
+            "Explain the need for resource conservation.",
+            "Identify methods for conserving various resources.",
+            "Understand the concept of sustainable use."
+          ],
+          "title_or": "ସମ୍ବଳର ସଂରକ୍ଷଣ"
+        },
+        {
+          "title_en": "Sustainable Development",
+          "objectives": [
+            "Define sustainable development.",
+            "Explain principles of sustainable development.",
+            "Relate sustainable development to resource management."
+          ],
+          "title_or": "ସମ୍ବଳର ସୁପରିଚାଳନା"
+        }
+      ],
+      "order": 1,
+      "page_end": 16,
+      "page_start": 9,
+      "title_or": "ସମ୍ବଳ"
+    },
+    {
+      "title_en": "Earth: Shape and Movement",
+      "topics": [
+        {
+          "title_en": "Shape of the Earth",
+          "objectives": [
+            "Describe the true shape of the Earth.",
+            "Understand evidence supporting Earth's shape."
+          ],
+          "title_or": "ପୃଥିବୀର ଆକାର"
+        },
+        {
+          "title_en": "Movement of the Earth",
+          "objectives": [
+            "Explain Earth's rotation and revolution.",
+            "Describe effects of Earth's movements.",
+            "Understand concepts of day, night, and seasons."
+          ],
+          "title_or": "ପୃଥିବୀର ଗତି"
+        },
+        {
+          "title_en": "Latitude and Longitude",
+          "objectives": [
+            "Define latitude and longitude.",
+            "Locate places using coordinates.",
+            "Understand the importance of the prime meridian."
+          ],
+          "title_or": "ଅକ୍ଷାଂଶ ଓ ଦ୍ରାଘିମା"
+        },
+        {
+          "title_en": "Time Determination",
+          "objectives": [
+            "Explain how local time is determined.",
+            "Understand the concept of standard time.",
+            "Describe the International Date Line."
+          ],
+          "title_or": "ସମୟ ନିର୍ଦ୍ଧାରଣ"
+        }
+      ],
+      "order": 2,
+      "page_end": 28,
+      "page_start": 17,
+      "title_or": "ପୃଥିବୀ: ଆକାର ଓ ଗତି"
+    },
+    {
+      "title_en": "Maps and Mapping",
+      "topics": [
+        {
+          "title_en": "Types of Maps",
+          "objectives": [
+            "Identify different types of maps.",
+            "Distinguish between physical and political maps.",
+            "Understand thematic maps."
+          ],
+          "title_or": "ମାନଚିତ୍ରର ପ୍ରକାରଭେଦ"
+        },
+        {
+          "title_en": "Elements of a Map",
+          "objectives": [
+            "Identify key components of a map.",
+            "Understand scale, direction, and symbols.",
+            "Explain the use of legends."
+          ],
+          "title_or": "ମାନଚିତ୍ରର ଉପାଦାନ"
+        },
+        {
+          "title_en": "Reading Maps",
+          "objectives": [
+            "Interpret information from maps.",
+            "Use map skills to find locations.",
+            "Understand contours and relief representation."
+          ],
+          "title_or": "ମାନଚିତ୍ର ପଠନ"
+        }
+      ],
+      "order": 3,
+      "page_end": 36,
+      "page_start": 29,
+      "title_or": "ମାନଚିତ୍ର ଓ ଚିତ୍ରାଙ୍କନ"
+    },
+    {
+      "title_en": "Spheres of the Earth",
+      "topics": [
+        {
+          "title_en": "Spheres of the Earth's Surface",
+          "objectives": [
+            "Identify the major spheres of the Earth.",
+            "Understand the interaction between spheres."
+          ],
+          "title_or": "ଭୂପୃଷ୍ଠର ମଣ୍ଡଳଗୁଡ଼ିକ"
+        },
+        {
+          "title_en": "Atmosphere",
+          "objectives": [
+            "Describe the composition of the atmosphere.",
+            "Explain the layers of the atmosphere.",
+            "Understand the importance of the atmosphere."
+          ],
+          "title_or": "ବାୟୁମଣ୍ଡଳ"
+        },
+        {
+          "title_en": "Hydrosphere",
+          "objectives": [
+            "Define the hydrosphere.",
+            "Explain the water cycle.",
+            "Understand the distribution of water on Earth."
+          ],
+          "title_or": "ଜଳମଣ୍ଡଳ"
+        },
+        {
+          "title_en": "Biosphere",
+          "objectives": [
+            "Define the biosphere.",
+            "Explain the concept of ecosystems.",
+            "Understand the interdependence of living organisms."
+          ],
+          "title_or": "ଜୀବମଣ୍ଡଳ"
+        }
+      ],
+      "order": 4,
+      "page_end": 42,
+      "page_start": 37,
+      "title_or": "ପୃଥିବୀର ମଣ୍ଡଳ"
+    },
+    {
+      "title_en": "Continents and Oceans",
+      "topics": [
+        {
+          "title_en": "Division of Continents",
+          "objectives": [
+            "Identify the seven continents.",
+            "Locate continents on a world map.",
+            "Understand the general characteristics of continents."
+          ],
+          "title_or": "ମହାଦେଶଗୁଡ଼ିକର ବିଭାଜନ"
+        },
+        {
+          "title_en": "Division of Oceans",
+          "objectives": [
+            "Identify the major oceans.",
+            "Locate oceans on a world map.",
+            "Understand the general characteristics of oceans."
+          ],
+          "title_or": "ମହାସାଗରଗୁଡ଼ିକର ବିଭାଜନ"
+        }
+      ],
+      "order": 5,
+      "page_end": 48,
+      "page_start": 43,
+      "title_or": "ମହାଦେଶ ଓ ମହାସାଗର"
+    },
+    {
+      "title_en": "Asia Continent",
+      "topics": [
+        {
+          "title_en": "Geographical Location of Asia",
+          "objectives": [
+            "Locate Asia on a world map.",
+            "Identify its boundaries and neighboring regions."
+          ],
+          "title_or": "ଏସିଆର ଭୌଗୋଳିକ ଅବସ୍ଥିତି"
+        },
+        {
+          "title_en": "Physical Divisions of Asia",
+          "objectives": [
+            "Describe major physical features of Asia.",
+            "Identify mountain ranges, plateaus, and plains."
+          ],
+          "title_or": "ଏସିଆର ପ୍ରାକୃତିକ ବିଭାଗ"
+        },
+        {
+          "title_en": "Climate and Natural Vegetation of Asia",
+          "objectives": [
+            "Explain diverse climatic zones in Asia.",
+            "Identify different types of natural vegetation."
+          ],
+          "title_or": "ଏସିଆର ଜଳବାୟୁ ଓ ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ"
+        },
+        {
+          "title_en": "Population and Economy of Asia",
+          "objectives": [
+            "Understand population distribution in Asia.",
+            "Describe major economic activities."
+          ],
+          "title_or": "ଏସିଆର ଜନସଂଖ୍ୟା ଓ ଅର୍ଥନୀତି"
+        }
+      ],
+      "order": 6,
+      "page_end": 56,
+      "page_start": 49,
+      "title_or": "ଏସିଆ ମହାଦେଶ"
+    },
+    {
+      "title_en": "Africa Continent",
+      "topics": [
+        {
+          "title_en": "Geographical Location of Africa",
+          "objectives": [
+            "Locate Africa on a world map.",
+            "Identify its boundaries and neighboring regions."
+          ],
+          "title_or": "ଆଫ୍ରିକାର ଭୌଗୋଳିକ ଅବସ୍ଥିତି"
+        },
+        {
+          "title_en": "Physical Divisions of Africa",
+          "objectives": [
+            "Describe major physical features of Africa.",
+            "Identify deserts, plateaus, and river basins."
+          ],
+          "title_or": "ଆଫ୍ରିକାର ପ୍ରାକୃତିକ ବିଭାଗ"
+        },
+        {
+          "title_en": "Climate and Natural Vegetation of Africa",
+          "objectives": [
+            "Explain diverse climatic zones in Africa.",
+            "Identify different types of natural vegetation."
+          ],
+          "title_or": "ଆଫ୍ରିକାର ଜଳବାୟୁ ଓ ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ"
+        },
+        {
+          "title_en": "Population and Economy of Africa",
+          "objectives": [
+            "Understand population distribution in Africa.",
+            "Describe major economic activities."
+          ],
+          "title_or": "ଆଫ୍ରିକାର ଜନସଂଖ୍ୟା ଓ ଅର୍ଥନୀତି"
+        }
+      ],
+      "order": 7,
+      "page_end": 62,
+      "page_start": 57,
+      "title_or": "ଆଫ୍ରିକା ମହାଦେଶ"
+    },
+    {
+      "title_en": "North America Continent",
+      "topics": [
+        {
+          "title_en": "Geographical Location of North America",
+          "objectives": [
+            "Locate North America on a world map.",
+            "Identify its boundaries and neighboring regions."
+          ],
+          "title_or": "ଉତ୍ତର ଆମେରିକାର ଭୌଗୋଳିକ ଅବସ୍ଥିତି"
+        },
+        {
+          "title_en": "Physical Divisions of North America",
+          "objectives": [
+            "Describe major physical features of North America.",
+            "Identify mountain ranges, plains, and lakes."
+          ],
+          "title_or": "ଉତ୍ତର ଆମେରିକାର ପ୍ରାକୃତିକ ବିଭାଗ"
+        },
+        {
+          "title_en": "Climate and Natural Vegetation of North America",
+          "objectives": [
+            "Explain diverse climatic zones in North America.",
+            "Identify different types of natural vegetation."
+          ],
+          "title_or": "ଉତ୍ତର ଆମେରିକାର ଜଳବାୟୁ ଓ ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ"
+        },
+        {
+          "title_en": "Population and Economy of North America",
+          "objectives": [
+            "Understand population distribution in North America.",
+            "Describe major economic activities."
+          ],
+          "title_or": "ଉତ୍ତର ଆମେରିକାର ଜନସଂଖ୍ୟା ଓ ଅର୍ଥନୀତି"
+        }
+      ],
+      "order": 8,
+      "page_end": 68,
+      "page_start": 63,
+      "title_or": "ଉତ୍ତର ଆମେରିକା ମହାଦେଶ"
+    },
+    {
+      "title_en": "South America Continent",
+      "topics": [
+        {
+          "title_en": "Geographical Location of South America",
+          "objectives": [
+            "Locate South America on a world map.",
+            "Identify its boundaries and neighboring regions."
+          ],
+          "title_or": "ଦକ୍ଷିଣ ଆମେରିକାର ଭୌଗୋଳିକ ଅବସ୍ଥିତି"
+        },
+        {
+          "title_en": "Physical Divisions of South America",
+          "objectives": [
+            "Describe major physical features of South America.",
+            "Identify mountain ranges, plateaus, and river basins."
+          ],
+          "title_or": "ଦକ୍ଷିଣ ଆମେରିକାର ପ୍ରାକୃତିକ ବିଭାଗ"
+        },
+        {
+          "title_en": "Climate and Natural Vegetation of South America",
+          "objectives": [
+            "Explain diverse climatic zones in South America.",
+            "Identify different types of natural vegetation."
+          ],
+          "title_or": "ଦକ୍ଷିଣ ଆମେରିକାର ଜଳବାୟୁ ଓ ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ"
+        },
+        {
+          "title_en": "Population and Economy of South America",
+          "objectives": [
+            "Understand population distribution in South America.",
+            "Describe major economic activities."
+          ],
+          "title_or": "ଦକ୍ଷିଣ ଆମେରିକାର ଜନସଂଖ୍ୟା ଓ ଅର୍ଥନୀତି"
+        }
+      ],
+      "order": 9,
+      "page_end": 74,
+      "page_start": 69,
+      "title_or": "ଦକ୍ଷିଣ ଆମେରିକା ମହାଦେଶ"
+    },
+    {
+      "title_en": "Antarctica Continent",
+      "topics": [
+        {
+          "title_en": "Geographical Location of Antarctica",
+          "objectives": [
+            "Locate Antarctica on a world map.",
+            "Identify its unique geographical features."
+          ],
+          "title_or": "ଆଣ୍ଟାର୍କଟିକାର ଭୌଗୋଳିକ ଅବସ୍ଥିତି"
+        },
+        {
+          "title_en": "Physical Divisions of Antarctica",
+          "objectives": [
+            "Describe the ice-covered landscape.",
+            "Understand the polar environment."
+          ],
+          "title_or": "ଆଣ୍ଟାର୍କଟିକାର ପ୍ରାକୃତିକ ବିଭାଗ"
+        },
+        {
+          "title_en": "Climate and Wildlife of Antarctica",
+          "objectives": [
+            "Explain the extreme climatic conditions.",
+            "Identify unique wildlife adapted to the cold."
+          ],
+          "title_or": "ଆଣ୍ଟାର୍କଟିକାର ଜଳବାୟୁ ଓ ଜୀବଜଗତ"
+        }
+      ],
+      "order": 10,
+      "page_end": 78,
+      "page_start": 75,
+      "title_or": "ଆଣ୍ଟାର୍କଟିକା ମହାଦେଶ"
+    },
+    {
+      "title_en": "Europe Continent",
+      "topics": [
+        {
+          "title_en": "Geographical Location of Europe",
+          "objectives": [
+            "Locate Europe on a world map.",
+            "Identify its boundaries and neighboring regions."
+          ],
+          "title_or": "ୟୁରୋପର ଭୌଗୋଳିକ ଅବସ୍ଥିତି"
+        },
+        {
+          "title_en": "Physical Divisions of Europe",
+          "objectives": [
+            "Describe major physical features of Europe.",
+            "Identify mountain ranges, plains, and rivers."
+          ],
+          "title_or": "ୟୁରୋପର ପ୍ରାକୃତିକ ବିଭାଗ"
+        },
+        {
+          "title_en": "Climate and Natural Vegetation of Europe",
+          "objectives": [
+            "Explain diverse climatic zones in Europe.",
+            "Identify different types of natural vegetation."
+          ],
+          "title_or": "ୟୁରୋପର ଜଳବାୟୁ ଓ ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ"
+        },
+        {
+          "title_en": "Population and Economy of Europe",
+          "objectives": [
+            "Understand population distribution in Europe.",
+            "Describe major economic activities."
+          ],
+          "title_or": "ୟୁରୋପର ଜନସଂଖ୍ୟା ଓ ଅର୍ଥନୀତି"
+        }
+      ],
+      "order": 11,
+      "page_end": 82,
+      "page_start": 79,
+      "title_or": "ୟୁରୋପ ମହାଦେଶ"
+    },
+    {
+      "title_en": "Australia Continent",
+      "topics": [
+        {
+          "title_en": "Geographical Location of Australia",
+          "objectives": [
+            "Locate Australia on a world map.",
+            "Identify its boundaries and neighboring regions."
+          ],
+          "title_or": "ଅଷ୍ଟ୍ରେଲିଆର ଭୌଗୋଳିକ ଅବସ୍ଥିତି"
+        },
+        {
+          "title_en": "Physical Divisions of Australia",
+          "objectives": [
+            "Describe major physical features of Australia.",
+            "Identify deserts, plateaus, and coastal plains."
+          ],
+          "title_or": "ଅଷ୍ଟ୍ରେଲିଆର ପ୍ରାକୃତିକ ବିଭାଗ"
+        },
+        {
+          "title_en": "Climate and Natural Vegetation of Australia",
+          "objectives": [
+            "Explain diverse climatic zones in Australia.",
+            "Identify different types of natural vegetation."
+          ],
+          "title_or": "ଅଷ୍ଟ୍ରେଲିଆର ଜଳବାୟୁ ଓ ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ"
+        },
+        {
+          "title_en": "Population and Economy of Australia",
+          "objectives": [
+            "Understand population distribution in Australia.",
+            "Describe major economic activities."
+          ],
+          "title_or": "ଅଷ୍ଟ୍ରେଲିଆର ଜନସଂଖ୍ୟା ଓ ଅର୍ଥନୀତି"
+        }
+      ],
+      "order": 12,
+      "page_end": 88,
+      "page_start": 83,
+      "title_or": "ଅଷ୍ଟ୍ରେଲିଆ ମହାଦେଶ"
+    },
+    {
+      "title_en": "India: Location and Physical Divisions",
+      "topics": [
+        {
+          "title_en": "Geographical Location of India",
+          "objectives": [
+            "Locate India on a world map.",
+            "Identify its boundaries and neighboring countries.",
+            "Understand its latitudinal and longitudinal extent."
+          ],
+          "title_or": "ଭାରତର ଭୌଗୋଳିକ ଅବସ୍ଥିତି"
+        },
+        {
+          "title_en": "Physical Divisions of India",
+          "objectives": [
+            "Describe major physical features of India.",
+            "Identify mountain ranges, plains, plateaus, and islands."
+          ],
+          "title_or": "ଭାରତର ପ୍ରାକୃତିକ ବିଭାଗ"
+        }
+      ],
+      "order": 13,
+      "page_end": 94,
+      "page_start": 89,
+      "title_or": "ଭାରତ: ଅବସ୍ଥିତି ଓ ପ୍ରାକୃତିକ ବିଭାଗ"
+    },
+    {
+      "title_en": "India: Climate, Natural Vegetation, Wildlife and Soil",
+      "topics": [
+        {
+          "title_en": "Climate of India",
+          "objectives": [
+            "Explain the factors influencing India's climate.",
+            "Describe the monsoon climate.",
+            "Identify different seasons in India."
+          ],
+          "title_or": "ଭାରତର ଜଳବାୟୁ"
+        },
+        {
+          "title_en": "Natural Vegetation and Wildlife of India",
+          "objectives": [
+            "Identify different types of natural vegetation.",
+            "Understand the distribution of wildlife.",
+            "Explain the importance of conservation."
+          ],
+          "title_or": "ଭାରତର ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ ଓ ବନ୍ୟପ୍ରାଣୀ"
+        },
+        {
+          "title_en": "Soils of India",
+          "objectives": [
+            "Identify different types of soils in India.",
+            "Understand their characteristics and distribution.",
+            "Explain the importance of soil conservation."
+          ],
+          "title_or": "ଭାରତର ମୃତ୍ତିକା"
+        }
+      ],
+      "order": 14,
+      "page_end": 100,
+      "page_start": 95,
+      "title_or": "ଭାରତ: ଜଳବାୟୁ, ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ, ବନ୍ୟପ୍ରାଣୀ ଓ ମୃତ୍ତିକା"
+    },
+    {
+      "title_en": "India: Population and Human Resources",
+      "topics": [
+        {
+          "title_en": "Population of India",
+          "objectives": [
+            "Understand population distribution and density.",
+            "Explain factors influencing population growth.",
+            "Analyze demographic characteristics."
+          ],
+          "title_or": "ଭାରତର ଜନସଂଖ୍ୟା"
+        },
+        {
+          "title_en": "Importance of Human Resources",
+          "objectives": [
+            "Define human resources.",
+            "Explain the role of human resources in development.",
+            "Understand the concept of human capital."
+          ],
+          "title_or": "ମାନବ ସମ୍ବଳର ଗୁରୁତ୍ୱ"
+        }
+      ],
+      "order": 15,
+      "page_end": 104,
+      "page_start": 101,
+      "title_or": "ଭାରତ: ଜନସଂଖ୍ୟା ଓ ମାନବ ସମ୍ବଳ"
+    },
+    {
+      "title_en": "India: Agriculture and Industry",
+      "topics": [
+        {
+          "title_en": "Agriculture in India",
+          "objectives": [
+            "Identify major crops grown in India.",
+            "Explain different farming practices.",
+            "Understand the importance of agriculture."
+          ],
+          "title_or": "ଭାରତର କୃଷି"
+        },
+        {
+          "title_en": "Industries in India",
+          "objectives": [
+            "Identify major industries in India.",
+            "Explain factors influencing industrial location.",
+            "Understand the contribution of industries to economy."
+          ],
+          "title_or": "ଭାରତର ଶିଳ୍ପ"
+        }
+      ],
+      "order": 16,
+      "page_end": 108,
+      "page_start": 105,
+      "title_or": "ଭାରତ: କୃଷି ଓ ଶିଳ୍ପ"
+    },
+    {
+      "title_en": "India: Transport and Commerce",
+      "topics": [
+        {
+          "title_en": "Transport in India",
+          "objectives": [
+            "Identify different modes of transport.",
+            "Explain the importance of transport networks.",
+            "Understand challenges in India's transport system."
+          ],
+          "title_or": "ଭାରତର ପରିବହନ"
+        },
+        {
+          "title_en": "Commerce in India",
+          "objectives": [
+            "Define commerce and trade.",
+            "Explain internal and international trade.",
+            "Understand the role of commerce in economic development."
+          ],
+          "title_or": "ଭାରତର ବାଣିଜ୍ୟ"
+        }
+      ],
+      "order": 17,
+      "page_end": 112,
+      "page_start": 109,
+      "title_or": "ଭାରତ: ପରିବହନ ଓ ବାଣିଜ୍ୟ"
+    }
+  ],
+  "book_title_or": "ଭୂଗୋଳ"
+}

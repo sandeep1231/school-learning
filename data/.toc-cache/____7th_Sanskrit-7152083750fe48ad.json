@@ -1,0 +1,1061 @@
+{
+  "book_title_en": "Bhashakalika Part 2, Class 7 Sanskrit Textbook",
+  "chapters": [
+    {
+      "title_en": "वन्दना",
+      "topics": [
+        {
+          "title_en": "Prayer to God",
+          "objectives": [
+            "Recite the prayer verses",
+            "Understand the meaning of the prayer",
+            "Express devotion through prayer"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Prayer to God"
+        },
+        {
+          "title_en": "Importance of Knowledge",
+          "objectives": [
+            "Recognize the value of knowledge",
+            "Understand the role of a guru",
+            "Seek guidance for truth and light"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Importance of Knowledge"
+        }
+      ],
+      "order": 1,
+      "page_end": 1,
+      "page_start": 1,
+      "section": null,
+      "title_hi": null,
+      "title_or": "वन्दना"
+    },
+    {
+      "title_en": "इकारान्त-पुंलिङ्गः",
+      "topics": [
+        {
+          "title_en": "Introduction to 'i' ending masculine nouns",
+          "objectives": [
+            "Identify nouns ending with 'i' sound",
+            "Recognize masculine gender nouns",
+            "Understand basic forms of 'i' ending masculine nouns"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to 'i' ending masculine nouns"
+        },
+        {
+          "title_en": "Examples and Usage",
+          "objectives": [
+            "Learn examples like 'पिता', 'दाता', 'श्रोता'",
+            "Form simple sentences using these nouns",
+            "Practice matching words with pictures"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Examples and Usage"
+        }
+      ],
+      "order": 2,
+      "page_end": 5,
+      "page_start": 2,
+      "section": null,
+      "title_hi": null,
+      "title_or": "इकारान्त-पुंलिङ्गः"
+    },
+    {
+      "title_en": "इकारान्त-स्त्रीलिङ्गः",
+      "topics": [
+        {
+          "title_en": "Introduction to 'i' ending feminine nouns",
+          "objectives": [
+            "Identify nouns ending with 'i' sound",
+            "Recognize feminine gender nouns",
+            "Understand basic forms of 'i' ending feminine nouns"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to 'i' ending feminine nouns"
+        },
+        {
+          "title_en": "Examples and Usage",
+          "objectives": [
+            "Learn examples like 'दृष्टिः', 'वेणिः', 'रात्रिः'",
+            "Form simple sentences using these nouns",
+            "Practice matching words with pictures"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Examples and Usage"
+        }
+      ],
+      "order": 3,
+      "page_end": 8,
+      "page_start": 6,
+      "section": null,
+      "title_hi": null,
+      "title_or": "इकारान्त-स्त्रीलिङ्गः"
+    },
+    {
+      "title_en": "इकारान्त-नपुंसकलिङ्गः",
+      "topics": [
+        {
+          "title_en": "Introduction to 'i' ending neuter nouns",
+          "objectives": [
+            "Identify nouns ending with 'i' sound",
+            "Recognize neuter gender nouns",
+            "Understand basic forms of 'i' ending neuter nouns"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to 'i' ending neuter nouns"
+        },
+        {
+          "title_en": "Examples and Usage",
+          "objectives": [
+            "Learn examples like 'वारि', 'अस्थि', 'दधि'",
+            "Form simple sentences using these nouns",
+            "Practice matching words with pictures"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Examples and Usage"
+        }
+      ],
+      "order": 4,
+      "page_end": 11,
+      "page_start": 9,
+      "section": null,
+      "title_hi": null,
+      "title_or": "इकारान्त-नपुंसकलिङ्गः"
+    },
+    {
+      "title_en": "उकारान्त-नपुंसकलिङ्गः",
+      "topics": [
+        {
+          "title_en": "Introduction to 'u' ending neuter nouns",
+          "objectives": [
+            "Identify nouns ending with 'u' sound",
+            "Recognize neuter gender nouns",
+            "Understand basic forms of 'u' ending neuter nouns"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to 'u' ending neuter nouns"
+        },
+        {
+          "title_en": "Examples and Usage",
+          "objectives": [
+            "Learn examples like 'मधु', 'शमश्रु', 'दारु'",
+            "Form simple sentences using these nouns",
+            "Practice matching words with pictures"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Examples and Usage"
+        }
+      ],
+      "order": 5,
+      "page_end": 14,
+      "page_start": 12,
+      "section": null,
+      "title_hi": null,
+      "title_or": "उकारान्त-नपुंसकलिङ्गः"
+    },
+    {
+      "title_en": "संख्या",
+      "topics": [
+        {
+          "title_en": "Counting Numbers 21-100",
+          "objectives": [
+            "Recite Sanskrit numbers from 21 to 100",
+            "Identify Sanskrit numerals",
+            "Write numbers in Sanskrit script"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Counting Numbers 21-100"
+        },
+        {
+          "title_en": "Understanding Large Numbers",
+          "objectives": [
+            "Learn terms for larger numbers (e.g., 'शतम्', 'सहस्रम्')",
+            "Relate Sanskrit numbers to their numerical values",
+            "Practice reading and writing large numbers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Understanding Large Numbers"
+        },
+        {
+          "title_en": "Number Practice",
+          "objectives": [
+            "Solve exercises involving Sanskrit numbers",
+            "Match numbers with corresponding words",
+            "Apply number knowledge in simple contexts"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Number Practice"
+        }
+      ],
+      "order": 6,
+      "page_end": 22,
+      "page_start": 15,
+      "section": null,
+      "title_hi": null,
+      "title_or": "संख्या"
+    },
+    {
+      "title_en": "पूरणवाचकशब्दाः",
+      "topics": [
+        {
+          "title_en": "Introduction to Ordinal Numbers",
+          "objectives": [
+            "Define ordinal numbers in Sanskrit",
+            "Identify common ordinal number forms",
+            "Understand their use in sequencing"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to Ordinal Numbers"
+        },
+        {
+          "title_en": "Usage with Masculine Nouns",
+          "objectives": [
+            "Apply ordinal numbers to masculine nouns",
+            "Form phrases like 'प्रथमः बालकः'",
+            "Practice identifying the order of items"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Usage with Masculine Nouns"
+        },
+        {
+          "title_en": "Usage with Feminine Nouns",
+          "objectives": [
+            "Apply ordinal numbers to feminine nouns",
+            "Form phrases like 'प्रथमा बालिका'",
+            "Practice identifying the order of items"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Usage with Feminine Nouns"
+        }
+      ],
+      "order": 7,
+      "page_end": 30,
+      "page_start": 23,
+      "section": null,
+      "title_hi": null,
+      "title_or": "पूरणवाचकशब्दाः"
+    },
+    {
+      "title_en": "कः समयः",
+      "topics": [
+        {
+          "title_en": "Telling Time in Sanskrit",
+          "objectives": [
+            "Learn basic Sanskrit terms for time",
+            "Express full hours (e.g., 'एकवादनम्')",
+            "Understand 'सपाद' (quarter past) and 'सार्ध' (half past)"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Telling Time in Sanskrit"
+        },
+        {
+          "title_en": "Advanced Time Expressions",
+          "objectives": [
+            "Express 'पादोन' (quarter to)",
+            "Formulate time with minutes (e.g., 'पञ्चाधिक-द्विवादनम्')",
+            "Practice reading and writing time"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Advanced Time Expressions"
+        },
+        {
+          "title_en": "Time Practice Exercises",
+          "objectives": [
+            "Solve exercises on telling time",
+            "Match digital time with Sanskrit expressions",
+            "Draw clock hands for given Sanskrit times"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Time Practice Exercises"
+        }
+      ],
+      "order": 8,
+      "page_end": 33,
+      "page_start": 31,
+      "section": null,
+      "title_hi": null,
+      "title_or": "कः समयः"
+    },
+    {
+      "title_en": "सर्वनाम-प्रयोगः",
+      "topics": [
+        {
+          "title_en": "Pronoun Usage (Masculine)",
+          "objectives": [
+            "Identify masculine pronouns 'तत्' (that) and 'एतत्' (this)",
+            "Understand their declension in different cases",
+            "Form sentences using masculine pronouns"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Pronoun Usage (Masculine)"
+        },
+        {
+          "title_en": "Pronoun Usage (Feminine)",
+          "objectives": [
+            "Identify feminine pronouns 'तत्' (that) and 'एतत्' (this)",
+            "Understand their declension in different cases",
+            "Form sentences using feminine pronouns"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Pronoun Usage (Feminine)"
+        },
+        {
+          "title_en": "Pronoun Usage (Neuter)",
+          "objectives": [
+            "Identify neuter pronouns 'तत्' (that) and 'एतत्' (this)",
+            "Understand their declension in different cases",
+            "Form sentences using neuter pronouns"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Pronoun Usage (Neuter)"
+        }
+      ],
+      "order": 9,
+      "page_end": 38,
+      "page_start": 34,
+      "section": null,
+      "title_hi": null,
+      "title_or": "सर्वनाम-प्रयोगः"
+    },
+    {
+      "title_en": "कारक-प्रयोगः",
+      "topics": [
+        {
+          "title_en": "Introduction to Karaka (Cases)",
+          "objectives": [
+            "Define Karaka and its importance",
+            "Identify different types of Karaka",
+            "Understand the relationship between verbs and nouns"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to Karaka (Cases)"
+        },
+        {
+          "title_en": "Prathama Vibhakti (Nominative Case)",
+          "objectives": [
+            "Understand the use of Prathama Vibhakti",
+            "Identify the subject (कर्ता) in a sentence",
+            "Form sentences using Prathama Vibhakti"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Prathama Vibhakti (Nominative Case)"
+        },
+        {
+          "title_en": "Prathama Vibhakti with Nouns",
+          "objectives": [
+            "Apply Prathama Vibhakti to masculine nouns",
+            "Apply Prathama Vibhakti to feminine nouns",
+            "Practice declension of nouns in Prathama Vibhakti"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Prathama Vibhakti with Nouns"
+        }
+      ],
+      "order": 10,
+      "page_end": 42,
+      "page_start": 39,
+      "section": null,
+      "title_hi": null,
+      "title_or": "कारक-प्रयोगः"
+    },
+    {
+      "title_en": "स्वरान्त-पुंलिङ्गः प्रथमाविभक्ति-प्रयोगः",
+      "topics": [
+        {
+          "title_en": "Prathama Vibhakti (Neuter Nouns)",
+          "objectives": [
+            "Understand Prathama Vibhakti for neuter nouns",
+            "Identify neuter nouns in nominative case",
+            "Form sentences with neuter nouns in Prathama Vibhakti"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Prathama Vibhakti (Neuter Nouns)"
+        },
+        {
+          "title_en": "Practice with Prathama Vibhakti",
+          "objectives": [
+            "Practice forming sentences with various nouns",
+            "Distinguish between masculine, feminine, neuter forms",
+            "Complete fill-in-the-blanks exercises"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Practice with Prathama Vibhakti"
+        }
+      ],
+      "order": 11,
+      "page_end": 45,
+      "page_start": 43,
+      "section": null,
+      "title_hi": null,
+      "title_or": "स्वरान्त-पुंलिङ्गः प्रथमाविभक्ति-प्रयोगः"
+    },
+    {
+      "title_en": "द्वितीयाविभक्ति-प्रयोगः",
+      "topics": [
+        {
+          "title_en": "Introduction to Dvitiya Vibhakti (Accusative Case)",
+          "objectives": [
+            "Define Dvitiya Vibhakti and its function",
+            "Identify the object (कर्म) in a sentence",
+            "Understand the concept of 'कर्मकारक'"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to Dvitiya Vibhakti (Accusative Case)"
+        },
+        {
+          "title_en": "Declension in Dvitiya Vibhakti",
+          "objectives": [
+            "Learn declension patterns for various nouns",
+            "Apply Dvitiya Vibhakti to masculine, feminine, neuter nouns",
+            "Practice singular, dual, and plural forms"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Declension in Dvitiya Vibhakti"
+        },
+        {
+          "title_en": "Sentence Formation and Practice",
+          "objectives": [
+            "Form sentences using Dvitiya Vibhakti",
+            "Translate simple sentences into Sanskrit",
+            "Complete fill-in-the-blanks and matching exercises"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Sentence Formation and Practice"
+        }
+      ],
+      "order": 12,
+      "page_end": 51,
+      "page_start": 46,
+      "section": null,
+      "title_hi": null,
+      "title_or": "द्वितीयाविभक्ति-प्रयोगः"
+    },
+    {
+      "title_en": "स्वरान्त-पुंलिङ्गः तृतीयाविभक्ति-प्रयोगः",
+      "topics": [
+        {
+          "title_en": "Introduction to Tritiya Vibhakti (Instrumental Case)",
+          "objectives": [
+            "Define Tritiya Vibhakti and its function",
+            "Identify the instrument/means (करण) in a sentence",
+            "Understand the concept of 'करणकारक'"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to Tritiya Vibhakti (Instrumental Case)"
+        },
+        {
+          "title_en": "Declension in Tritiya Vibhakti",
+          "objectives": [
+            "Learn declension patterns for various nouns",
+            "Apply Tritiya Vibhakti to masculine, feminine, neuter nouns",
+            "Practice singular, dual, and plural forms"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Declension in Tritiya Vibhakti"
+        },
+        {
+          "title_en": "Sentence Formation and Practice",
+          "objectives": [
+            "Form sentences using Tritiya Vibhakti",
+            "Translate simple sentences into Sanskrit",
+            "Complete fill-in-the-blanks and matching exercises"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Sentence Formation and Practice"
+        }
+      ],
+      "order": 13,
+      "page_end": 56,
+      "page_start": 52,
+      "section": null,
+      "title_hi": null,
+      "title_or": "स्वरान्त-पुंलिङ्गः तृतीयाविभक्ति-प्रयोगः"
+    },
+    {
+      "title_en": "चतुर्थीविभक्ति-प्रयोगः",
+      "topics": [
+        {
+          "title_en": "Introduction to Chaturthi Vibhakti (Dative Case)",
+          "objectives": [
+            "Define Chaturthi Vibhakti and its function",
+            "Identify the recipient (सम्प्रदान) in a sentence",
+            "Understand the concept of 'सम्प्रदानकारक'"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to Chaturthi Vibhakti (Dative Case)"
+        },
+        {
+          "title_en": "Declension in Chaturthi Vibhakti",
+          "objectives": [
+            "Learn declension patterns for various nouns",
+            "Apply Chaturthi Vibhakti to masculine, feminine, neuter nouns",
+            "Practice singular, dual, and plural forms"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Declension in Chaturthi Vibhakti"
+        },
+        {
+          "title_en": "Sentence Formation and Practice",
+          "objectives": [
+            "Form sentences using Chaturthi Vibhakti",
+            "Translate simple sentences into Sanskrit",
+            "Complete fill-in-the-blanks and matching exercises"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Sentence Formation and Practice"
+        }
+      ],
+      "order": 14,
+      "page_end": 61,
+      "page_start": 57,
+      "section": null,
+      "title_hi": null,
+      "title_or": "चतुर्थीविभक्ति-प्रयोगः"
+    },
+    {
+      "title_en": "पञ्चमीविभक्ति-प्रयोगः",
+      "topics": [
+        {
+          "title_en": "Introduction to Panchami Vibhakti (Ablative Case)",
+          "objectives": [
+            "Define Panchami Vibhakti and its function",
+            "Identify the source of separation (अपादान) in a sentence",
+            "Understand the concept of 'अपादानकारक'"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to Panchami Vibhakti (Ablative Case)"
+        },
+        {
+          "title_en": "Declension in Panchami Vibhakti",
+          "objectives": [
+            "Learn declension patterns for various nouns",
+            "Apply Panchami Vibhakti to masculine, feminine, neuter nouns",
+            "Practice singular, dual, and plural forms"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Declension in Panchami Vibhakti"
+        },
+        {
+          "title_en": "Sentence Formation and Practice",
+          "objectives": [
+            "Form sentences using Panchami Vibhakti",
+            "Translate simple sentences into Sanskrit",
+            "Complete fill-in-the-blanks and matching exercises"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Sentence Formation and Practice"
+        }
+      ],
+      "order": 15,
+      "page_end": 66,
+      "page_start": 62,
+      "section": null,
+      "title_hi": null,
+      "title_or": "पञ्चमीविभक्ति-प्रयोगः"
+    },
+    {
+      "title_en": "षष्ठीविभक्ति-प्रयोगः",
+      "topics": [
+        {
+          "title_en": "Introduction to Shashthi Vibhakti (Genitive Case)",
+          "objectives": [
+            "Define Shashthi Vibhakti and its function",
+            "Identify relationships of possession or belonging",
+            "Understand that it is not a Karaka"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to Shashthi Vibhakti (Genitive Case)"
+        },
+        {
+          "title_en": "Declension in Shashthi Vibhakti",
+          "objectives": [
+            "Learn declension patterns for various nouns",
+            "Apply Shashthi Vibhakti to masculine, feminine, neuter nouns",
+            "Practice singular, dual, and plural forms"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Declension in Shashthi Vibhakti"
+        },
+        {
+          "title_en": "Sentence Formation and Practice",
+          "objectives": [
+            "Form sentences using Shashthi Vibhakti",
+            "Translate simple sentences into Sanskrit",
+            "Complete fill-in-the-blanks and matching exercises"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Sentence Formation and Practice"
+        }
+      ],
+      "order": 16,
+      "page_end": 70,
+      "page_start": 67,
+      "section": null,
+      "title_hi": null,
+      "title_or": "षष्ठीविभक्ति-प्रयोगः"
+    },
+    {
+      "title_en": "सप्तमीविभक्ति-प्रयोगः",
+      "topics": [
+        {
+          "title_en": "Introduction to Saptami Vibhakti (Locative Case)",
+          "objectives": [
+            "Define Saptami Vibhakti and its function",
+            "Identify the location or time (अधिकरण) in a sentence",
+            "Understand the concept of 'अधिकरणकारक'"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to Saptami Vibhakti (Locative Case)"
+        },
+        {
+          "title_en": "Declension in Saptami Vibhakti",
+          "objectives": [
+            "Learn declension patterns for various nouns",
+            "Apply Saptami Vibhakti to masculine, feminine, neuter nouns",
+            "Practice singular, dual, and plural forms"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Declension in Saptami Vibhakti"
+        },
+        {
+          "title_en": "Sentence Formation and Practice",
+          "objectives": [
+            "Form sentences using Saptami Vibhakti",
+            "Translate simple sentences into Sanskrit",
+            "Complete fill-in-the-blanks and matching exercises"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Sentence Formation and Practice"
+        }
+      ],
+      "order": 17,
+      "page_end": 78,
+      "page_start": 71,
+      "section": null,
+      "title_hi": null,
+      "title_or": "सप्तमीविभक्ति-प्रयोगः"
+    },
+    {
+      "title_en": "आम्-न-वा प्रयोगः",
+      "topics": [
+        {
+          "title_en": "Understanding 'Yes', 'No', 'Or'",
+          "objectives": [
+            "Learn the Sanskrit words for 'yes' (आम्)",
+            "Learn the Sanskrit words for 'no' (न)",
+            "Learn the Sanskrit words for 'or' (वा)"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Understanding 'Yes', 'No', 'Or'"
+        },
+        {
+          "title_en": "Forming Questions and Answers",
+          "objectives": [
+            "Construct simple interrogative sentences",
+            "Provide affirmative answers using 'आम्'",
+            "Provide negative answers using 'न'"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Forming Questions and Answers"
+        },
+        {
+          "title_en": "Practice Exercises",
+          "objectives": [
+            "Solve exercises involving 'आम्', 'न', 'वा'",
+            "Translate questions and answers",
+            "Apply these words in daily conversations"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Practice Exercises"
+        }
+      ],
+      "order": 18,
+      "page_end": 81,
+      "page_start": 79,
+      "section": null,
+      "title_hi": null,
+      "title_or": "आम्-न-वा प्रयोगः"
+    },
+    {
+      "title_en": "लङ्लकार-प्रयोगः (चतुरः वानरः)",
+      "topics": [
+        {
+          "title_en": "Introduction to Lang Lakara (Past Tense)",
+          "objectives": [
+            "Define Lang Lakara as the past tense",
+            "Identify past tense verb forms",
+            "Understand the structure of past tense verbs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to Lang Lakara (Past Tense)"
+        },
+        {
+          "title_en": "Reading 'The Clever Monkey' Story",
+          "objectives": [
+            "Read the story 'चतुरः वानरः'",
+            "Understand the plot and characters",
+            "Identify past tense verbs within the narrative"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Reading 'The Clever Monkey' Story"
+        },
+        {
+          "title_en": "Past Tense Verb Practice",
+          "objectives": [
+            "Extract and analyze past tense verbs from the story",
+            "Form simple sentences in the past tense",
+            "Answer questions based on the story using past tense"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Past Tense Verb Practice"
+        }
+      ],
+      "order": 19,
+      "page_end": 85,
+      "page_start": 82,
+      "section": null,
+      "title_hi": null,
+      "title_or": "लङ्लकार-प्रयोगः (चतुरः वानरः)"
+    },
+    {
+      "title_en": "उपपदविभक्तिप्रयोगः अव्ययप्रयोगः च",
+      "topics": [
+        {
+          "title_en": "Upapada Vibhakti (Case governed by specific words)",
+          "objectives": [
+            "Understand that certain words govern specific cases",
+            "Identify common words that trigger Upapada Vibhakti",
+            "Apply correct cases based on governing words"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Upapada Vibhakti (Case governed by specific words)"
+        },
+        {
+          "title_en": "Introduction to Avyaya (Indeclinables)",
+          "objectives": [
+            "Define Avyaya as indeclinable words",
+            "Identify common Avyayas (e.g., 'उभयतः', 'परितः')",
+            "Understand their meaning and usage"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Introduction to Avyaya (Indeclinables)"
+        },
+        {
+          "title_en": "Usage of Avyayas in Sentences",
+          "objectives": [
+            "Form sentences using various Avyayas",
+            "Translate sentences containing Avyayas",
+            "Practice filling in blanks with appropriate Avyayas"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Usage of Avyayas in Sentences"
+        }
+      ],
+      "order": 20,
+      "page_end": 88,
+      "page_start": 86,
+      "section": null,
+      "title_hi": null,
+      "title_or": "उपपदविभक्तिप्रयोगः अव्ययप्रयोगः च"
+    },
+    {
+      "title_en": "स्म - प्रयोग",
+      "topics": [
+        {
+          "title_en": "Understanding 'Sma' with Present Tense",
+          "objectives": [
+            "Learn the particle 'स्म' and its meaning",
+            "Understand how 'स्म' converts present tense to past tense",
+            "Identify verbs used with 'स्म'"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Understanding 'Sma' with Present Tense"
+        },
+        {
+          "title_en": "Converting Tenses using 'Sma'",
+          "objectives": [
+            "Transform present tense sentences into past tense using 'स्म'",
+            "Formulate sentences describing past actions",
+            "Practice reading and writing sentences with 'स्म'"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Converting Tenses using 'Sma'"
+        },
+        {
+          "title_en": "Practice Exercises with 'Sma'",
+          "objectives": [
+            "Solve exercises involving 'स्म' usage",
+            "Translate sentences with 'स्म' into English",
+            "Complete fill-in-the-blanks with correct verb forms"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Practice Exercises with 'Sma'"
+        }
+      ],
+      "order": 21,
+      "page_end": 91,
+      "page_start": 89,
+      "section": null,
+      "title_hi": null,
+      "title_or": "स्म - प्रयोग"
+    },
+    {
+      "title_en": "शिशुगीतम्",
+      "topics": [
+        {
+          "title_en": "Reciting 'Bharatbhakta' Song",
+          "objectives": [
+            "Recite the Sanskrit children's song 'भारतभक्ता'",
+            "Learn the pronunciation and rhythm",
+            "Enjoy singing the patriotic song"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Reciting 'Bharatbhakta' Song"
+        },
+        {
+          "title_en": "Understanding the Song's Meaning",
+          "objectives": [
+            "Understand the lyrics of 'भारतभक्ता'",
+            "Identify key themes like unity and service",
+            "Grasp the message of patriotism"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Understanding the Song's Meaning"
+        },
+        {
+          "title_en": "Promoting Patriotism",
+          "objectives": [
+            "Reflect on the duties of a good citizen",
+            "Discuss ways to serve the nation",
+            "Foster a sense of national pride"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Promoting Patriotism"
+        }
+      ],
+      "order": 22,
+      "page_end": 93,
+      "page_start": 92,
+      "section": null,
+      "title_hi": null,
+      "title_or": "शिशुगीतम्"
+    },
+    {
+      "title_en": "पहेलिका (उत्तरं वदतु)",
+      "topics": [
+        {
+          "title_en": "Solving Sanskrit Riddles",
+          "objectives": [
+            "Read and comprehend Sanskrit riddles",
+            "Analyze clues to find solutions",
+            "Develop problem-solving skills"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Solving Sanskrit Riddles"
+        },
+        {
+          "title_en": "Expanding Sanskrit Vocabulary",
+          "objectives": [
+            "Learn new words from the riddles",
+            "Understand the context of new vocabulary",
+            "Use new words in simple sentences"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Expanding Sanskrit Vocabulary"
+        },
+        {
+          "title_en": "Developing Logical Thinking",
+          "objectives": [
+            "Practice critical thinking to deduce answers",
+            "Engage in creative interpretation of clues",
+            "Enhance cognitive abilities through riddles"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Developing Logical Thinking"
+        }
+      ],
+      "order": 23,
+      "page_end": 95,
+      "page_start": 94,
+      "section": null,
+      "title_hi": null,
+      "title_or": "पहेलिका (उत्तरं वदतु)"
+    },
+    {
+      "title_en": "के च ते ?",
+      "topics": [
+        {
+          "title_en": "Identifying Animals and Characteristics",
+          "objectives": [
+            "Identify various animals in Sanskrit",
+            "Learn their unique characteristics and actions",
+            "Match animals with their descriptions"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Identifying Animals and Characteristics"
+        },
+        {
+          "title_en": "Reading Descriptive Passages",
+          "objectives": [
+            "Read short Sanskrit passages about animals",
+            "Comprehend the details provided in the descriptions",
+            "Answer questions based on the passages"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Reading Descriptive Passages"
+        },
+        {
+          "title_en": "Vocabulary and Sentence Building",
+          "objectives": [
+            "Expand vocabulary related to animals and actions",
+            "Form simple descriptive sentences in Sanskrit",
+            "Practice matching and fill-in-the-blanks exercises"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "Vocabulary and Sentence Building"
+        }
+      ],
+      "order": 24,
+      "page_end": 98,
+      "page_start": 96,
+      "section": null,
+      "title_hi": null,
+      "title_or": "के च ते ?"
+    }
+  ]
+}

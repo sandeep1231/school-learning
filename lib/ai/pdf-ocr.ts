@@ -39,8 +39,15 @@ const MAX_RETRIES = 3;
 const CACHE_ROOT = resolve(process.cwd(), "data/.ocr-cache");
 
 function readApiKey(): string {
+  const sanitize = (v: string | undefined) => {
+    if (!v) return undefined;
+    const t = v.trim();
+    if (!t || /^placeholder$/i.test(t)) return undefined;
+    return t;
+  };
   const k =
-    process.env.GOOGLE_GENERATIVE_AI_API_KEY ?? process.env.GOOGLE_API_KEY;
+    sanitize(process.env.GOOGLE_GENERATIVE_AI_API_KEY) ??
+    sanitize(process.env.GOOGLE_API_KEY);
   if (!k) throw new Error("GOOGLE_GENERATIVE_AI_API_KEY missing in env");
   return k;
 }

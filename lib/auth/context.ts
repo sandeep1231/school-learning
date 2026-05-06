@@ -1,3 +1,4 @@
+import { cache } from "react";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/server";
 import { cookies } from "next/headers";
 import {
@@ -26,7 +27,7 @@ export type UserContext = {
  *
  * Callers are server-only; importing from a client component is a bug.
  */
-export async function getUserContext(): Promise<UserContext> {
+export const getUserContext = cache(async function getUserContext(): Promise<UserContext> {
   if (isSupabaseConfigured()) {
     try {
       const supabase = await createClient();
@@ -74,4 +75,4 @@ export async function getUserContext(): Promise<UserContext> {
     classLevel: DEFAULT_CLASS_LEVEL,
     persisted: false,
   };
-}
+});

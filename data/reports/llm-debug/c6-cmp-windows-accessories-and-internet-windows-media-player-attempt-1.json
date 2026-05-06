@@ -1,0 +1,58 @@
+{
+  "variants": [
+    {
+      "variant": "textbook",
+      "body_md": "## Introduction to Windows Media Player\n\nWindows Media Player is a software application that allows users to play and organize digital media files on a computer. These files include various types of audio (music, podcasts) and video (movies, clips).\n\nଏହା ଏକ ସଫ୍ଟୱେର୍ ଯାହା କମ୍ପ୍ୟୁଟରରେ ଅଡିଓ (Audio) ଓ ଭିଡିଓ (Video) ଫାଇଲ୍ ଚଳାଇବା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ।\n\n## Key Features and Controls\n\nWindows Media Player comes with several important features and controls to enhance your media experience. These controls help you manage how your audio and video files play.\n\nଏଥିରେ ଅଡିଓ ଓ ଭିଡିଓ ଫାଇଲ୍ ନିୟନ୍ତ୍ରଣ କରିବା ପାଇଁ ଅନେକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ବଟନ୍ ଏବଂ ଫିଚର୍ସ ଅଛି।\n\n*   **Play/Pause Button:** This button allows you to start playing an audio or video file. If a file is already playing, clicking this button will temporarily stop it (pause). Clicking it again will resume playback from where it stopped.\n    *   `Play` button click $\rightarrow$ Start/Resume playback.\n    *   `Pause` button click $\rightarrow$ Temporarily stop playback.\n*   **Forward/Backward Controls:** These controls enable you to move quickly through an audio or video file. You can skip ahead to a later part or go back to an earlier section.\n*   **Volume Control:** This feature allows you to adjust the loudness of the sound. You can increase the volume to make it louder or decrease it to make it softer.\n    *   Increase volume $\uparrow$\n    *   Decrease volume $\downarrow$\n*   **Sound Effects:** Windows Media Player also provides options to apply various sound effects, which can change how the audio sounds.\n\n## How to Open Windows Media Player (Windows 10)\n\nTo use Windows Media Player, you first need to open the application. Here are the steps to open it in Windows 10:\n\nୱିଣ୍ଡୋଜ୍ ମିଡିଆ ପ୍ଲେୟାର୍ ଖୋଲିବା ପାଇଁ ନିମ୍ନଲିଖିତ ପଦକ୍ଷେପଗୁଡ଼ିକୁ ଅନୁସରଣ କରନ୍ତୁ।\n\n1.  Click on the **Start button** (Windows icon) located at the bottom-left corner of the computer screen.\n2.  From the Start Menu, click on **All Apps**.\n3.  Scroll down and click on **Windows Accessories**.\n4.  In the drop-down list, click on **Windows Media Player**.\n\nThis process can be visualized as a simple flow:\n\n```mermaid\ngraph TD\n    A[Start Button] --> B[All Apps]\n    B --> C[Windows Accessories]\n    C --> D[Windows Media Player]\n```\n\n## Basic Operations: Playing a Video File\n\nOnce Windows Media Player is open, you can play your media files. Let's consider an example of playing a video file.\n\nଥରେ ୱିଣ୍ଡୋଜ୍ ମିଡିଆ ପ୍ଲେୟାର୍ ଖୋଲିବା ପରେ, ତୁମେ ତୁମର ମିଡିଆ ଫାଇଲ୍ ଚଳାଇ ପାରିବ।\n\n**Worked Example:** Playing a video file named \"My_Vacation.mp4\"\n\n1.  **Locate the file:** First, find the video file (e.g., \"My_Vacation.mp4\") on your computer using File Explorer.\n2.  **Open with WMP:** Right-click on the \"My_Vacation.mp4\" file. From the context menu, select \"Open with\" and then choose \"Windows Media Player\".\n3.  **Playback:** The video will start playing automatically. You can use the `Play/Pause` button to pause or resume, `Forward/Backward` controls to navigate, and `Volume Control` to adjust the sound.\n\nThis allows you to enjoy your video clips and audio files with ease.",
+      "citation_chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "variant": "simpler",
+      "body_md": "## What is Windows Media Player?\n\nImagine you have a special remote control for your TV that not only plays movies but also your favorite songs. Windows Media Player is like that remote control for your computer! It's a special program (software) that helps you listen to music (audio) and watch videos (video clips) on your computer.\n\nୱିଣ୍ଡୋଜ୍ ମିଡିଆ ପ୍ଲେୟାର୍ ହେଉଛି ଏକ କମ୍ପ୍ୟୁଟର ପ୍ରୋଗ୍ରାମ୍ ଯାହା ତୁମକୁ ଗୀତ ଶୁଣିବା ଏବଂ ଭିଡିଓ ଦେଖିବାରେ ସାହାଯ୍ୟ କରେ।\n\n## What Can You Do with It?\n\nWith Windows Media Player, you can do many fun things:\n\n*   **Listen to songs:** Play all your favorite music files.\n*   **Watch videos:** Enjoy movies, cartoons, or home videos.\n*   **Change the sound:** Make the music louder or softer using the Volume Control. You can even add cool Sound Effects!\n*   **Fast forward/Rewind:** If you want to skip a part of a song or video, you can move it forward or backward quickly.\n*   **Pause and Play:** You can stop a song or video for a little while (Pause) and then start it again from the same spot (Play).\n\nଏହା ସାହାଯ୍ୟରେ ତୁମେ ଗୀତ ଶୁଣିପାରିବ, ଭିଡିଓ ଦେଖିପାରିବ, ଶବ୍ଦକୁ କମ୍ ବା ବେଶୀ କରିପାରିବ, ଏବଂ ଭିଡିଓକୁ ଆଗକୁ ବା ପଛକୁ ନେଇପାରିବ।\n\n## How to Open and Use It (Windows 10)\n\nIt's easy to open Windows Media Player:\n\n1.  Click on the **Start button** (the Windows logo) at the bottom-left of your screen.\n2.  Find and click on **All Apps**.\n3.  Look for **Windows Accessories** and click on it.\n4.  Finally, click on **Windows Media Player** in the list.\n\nOnce it's open, you can simply click on an audio or video file on your computer, and it will usually open and play in Windows Media Player. Then, use the `Play`, `Pause`, `Forward`, `Backward`, and `Volume Control` buttons just like on a music player!\n\nୱିଣ୍ଡୋଜ୍ ମିଡିଆ ପ୍ଲେୟାର୍ ଖୋଲିବା ପରେ, ତୁମେ ଏକ ଅଡିଓ ବା ଭିଡିଓ ଫାଇଲ୍ ଉପରେ କ୍ଲିକ୍ କରି ଏହାକୁ ଚଳାଇ ପାରିବ।\n\n**Example:** You want to watch your favorite cartoon saved as a video file.\n\n1.  Find your cartoon video file on your computer.\n2.  Double-click on the video file. It will open in Windows Media Player.\n3.  Use the `Play` button to start, `Pause` to stop for a break, and the `Volume Control` to set the sound just right!",
+      "citation_chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "variant": "parent",
+      "body_md": "Hello, dear student and parent! Today, we're going to learn about something fun on the computer called **Windows Media Player**. It's a program that helps us enjoy music and videos.\n\nParent, ask your child: \"Do you know what Windows Media Player is? What do you think it does?\" Pause and let them answer.\n\nWindows Media Player is like a special player on your computer. Just like you have a music player at home to listen to songs, or a TV to watch movies, Windows Media Player lets you do that on your computer. It can play both **audio** (sounds and music) and **video** (movies and clips).\n\nParent, ask: \"Can you tell me the difference between audio and video? Give me an example of each.\" Pause for their response.\n\nThis program has some useful buttons, just like a remote control. You'll find buttons like `Play` to start something, `Pause` to stop it for a short time, `Forward` to skip ahead, `Backward` to go back, and `Volume Control` to make the sound louder or softer. It can even add cool `Sound Effects`!\n\nParent, ask: \"If you're watching a video and want to take a short break, which button would you press? What if you want to make the sound louder?\" Guide them to point out the controls if possible.\n\nNow, let's see how to open it on a computer (if you have Windows 10). You start by clicking the **Start button** (the Windows logo) at the bottom-left of the screen. Then, you go to **All Apps**, find **Windows Accessories**, and finally click on **Windows Media Player**.\n\nParent, ask: \"Can you try to show me the steps to open Windows Media Player on the computer?\" Let them try to navigate.\n\nOnce it's open, you can click on any music file or video file on your computer, and it will play in Windows Media Player. It's a great way to enjoy all your digital media!\n\nParent, ask: \"What kind of files can Windows Media Player play? Can it play a picture file?\"",
+      "citation_chunks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "parent_prompts": {
+        "questions": [
+          "Do you know what Windows Media Player is? What do you think it does?",
+          "Can you tell me the difference between audio and video? Give me an example of each.",
+          "If you're watching a video and want to take a short break, which button would you press? What if you want to make the sound louder?",
+          "Can you try to show me the steps to open Windows Media Player on the computer?",
+          "What kind of files can Windows Media Player play? Can it play a picture file?"
+        ],
+        "tips": [
+          "Encourage your child to physically point to or click on the elements on the computer screen if available.",
+          "If they struggle with a question, rephrase it or give a small hint, then let them try again.",
+          "Celebrate their correct answers and efforts to build confidence."
+        ]
+      }
+    },
+    {
+      "variant": "exam",
+      "body_md": "## What gets asked\n*   Define Windows Media Player and its primary function.\n*   List any four controls available in Windows Media Player.\n*   Describe the step-by-step process to open Windows Media Player in Windows 10.\n*   Explain the function of the `Play` and `Pause` buttons in Windows Media Player.\n*   How can you adjust the sound volume in Windows Media Player?\n\n## Common mistakes\n*   Confusing Windows Media Player with a web browser or a text editor.\n*   Forgetting to mention specific controls like `Forward`, `Backward`, or `Sound Effects`.\n*   Providing incorrect or incomplete steps for opening the application.\n*   Not clearly distinguishing between the `Play` and `Pause` functions.\n*   Incorrectly stating that it can play all types of files (e.g., documents, images).\n\n## Scoring hints\n*   Always use precise technical terms (e.g., \"audio files\", \"video clips\", \"Volume Control\").\n*   When listing steps, ensure they are in the correct sequential order.\n*   For controls, name the control and briefly explain its specific function.\n*   Mention that it can also apply `Sound Effects` for extra marks.\n*   Clearly state the operating system version (e.g., Windows 10) if the steps are specific to it.\n\n## Practice prompts\n1.  List three functions of Windows Media Player.\n2.  Write down the steps to open Windows Media Player in Windows 10.\n3.  What is the purpose of the `Volume Control` in Windows Media Player?",
+      "citation_chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

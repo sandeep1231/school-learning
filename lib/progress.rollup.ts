@@ -4,6 +4,7 @@
  * Thin read-side helpers over `attempts`, `topic_progress`, `activity_days`,
  * and `v_topic_accuracy`. Guests get zeros — they aren't persisted.
  */
+import { cache } from "react";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type { CurrentUser } from "@/lib/auth/user";
 
@@ -77,7 +78,7 @@ export async function getTopicAccuracyMap(
  * Top-N weak spots: topics with lowest accuracy (among those the student
  * has actually attempted). Returns an empty array for guests.
  */
-export async function getWeakSpots(
+export const getWeakSpots = cache(async function getWeakSpots(
   user: CurrentUser,
   limit = 3,
   minAttempts = 2,
@@ -102,7 +103,7 @@ export async function getWeakSpots(
     accuracy: Number(r.accuracy) || 0,
     attemptsCount: r.attempts_count,
   }));
-}
+});
 
 /**
  * Phase 9.10 — Top misconception tags from the student's recent wrong
@@ -157,7 +158,7 @@ export function labelMisconception(
     .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-export async function getTopMisconceptions(
+export const getTopMisconceptions = cache(async function getTopMisconceptions(
   user: CurrentUser,
   limit = 3,
   lookbackDays = 30,
@@ -185,7 +186,7 @@ export async function getTopMisconceptions(
     .sort((a, b) => b[1] - a[1])
     .slice(0, limit)
     .map(([tag, count]) => ({ tag, count }));
-}
+});
 
 /**
  * Completed-topic set for the current user (topics whose `master` stage is
@@ -244,7 +245,7 @@ export async function recordActivity(user: CurrentUser): Promise<void> {
  * yesterday if no activity today yet) where an activity row exists.
  * Longest streak = max run seen across all activity_days rows for the user.
  */
-export async function getStreakInfo(user: CurrentUser): Promise<StreakInfo> {
+export const getStreakInfo = cache(async function getStreakInfo(user: CurrentUser): Promise<StreakInfo> {
   if (!user.isAuthenticated) return { current: 0, longest: 0, activeToday: false };
   const supabase = createAdminClient();
   const { data, error } = await supabase
@@ -297,4 +298,4 @@ export async function getStreakInfo(user: CurrentUser): Promise<StreakInfo> {
   }
 
   return { current, longest, activeToday };
-}
+});

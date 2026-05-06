@@ -1,0 +1,431 @@
+{
+  "book_title_en": "Our Literature, Class VI",
+  "chapters": [
+    {
+      "title_en": "Rain",
+      "topics": [
+        {
+          "title_en": "Understanding the beauty of rain",
+          "objectives": [
+            "Describe the natural elements associated with rain.",
+            "Appreciate the sensory details of a rainy day."
+          ]
+        },
+        {
+          "title_en": "Impact of rain on nature and life",
+          "objectives": [
+            "Identify how rain affects plants and animals.",
+            "Discuss the importance of rain for the environment."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 10,
+      "page_start": 7,
+      "section": "Poetry Section",
+      "title_hi": null,
+      "title_or": "ବର୍ଷା"
+    },
+    {
+      "title_en": "Morning Leisure",
+      "topics": [
+        {
+          "title_en": "Describing the morning atmosphere",
+          "objectives": [
+            "Identify elements of a peaceful morning.",
+            "Express feelings associated with morning leisure."
+          ]
+        },
+        {
+          "title_en": "Appreciating nature in the morning",
+          "objectives": [
+            "Recognize the sounds and sights of morning nature.",
+            "Reflect on the tranquility of the early hours."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 14,
+      "page_start": 11,
+      "section": "Poetry Section",
+      "title_hi": null,
+      "title_or": "ପ୍ରଭାତ ଅବକାଶ"
+    },
+    {
+      "title_en": "Song of Victory",
+      "topics": [
+        {
+          "title_en": "Understanding the theme of victory",
+          "objectives": [
+            "Identify the reasons for celebrating victory.",
+            "Recognize the emotions associated with triumph."
+          ]
+        },
+        {
+          "title_en": "Expressing national pride",
+          "objectives": [
+            "Articulate feelings of patriotism.",
+            "Understand the significance of collective achievement."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 18,
+      "page_start": 15,
+      "section": "Poetry Section",
+      "title_hi": null,
+      "title_or": "ଜୟଗାନ"
+    },
+    {
+      "title_en": "Effort for Nation Building",
+      "topics": [
+        {
+          "title_en": "Importance of collective effort",
+          "objectives": [
+            "Recognize the value of teamwork in nation building.",
+            "Understand individual roles in societal progress."
+          ]
+        },
+        {
+          "title_en": "Vision for a strong nation",
+          "objectives": [
+            "Identify qualities of an ideal nation.",
+            "Discuss ways to contribute to national development."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 22,
+      "page_start": 19,
+      "section": "Poetry Section",
+      "title_hi": null,
+      "title_or": "ଜାତି-ଗଠନ-ଉଦ୍‌ଯୋଗ"
+    },
+    {
+      "title_en": "Dust",
+      "topics": [
+        {
+          "title_en": "Significance of humble elements",
+          "objectives": [
+            "Understand the role of seemingly small things.",
+            "Appreciate the inherent value in all aspects of nature."
+          ]
+        },
+        {
+          "title_en": "Symbolism of dust",
+          "objectives": [
+            "Interpret the metaphorical meaning of dust.",
+            "Reflect on themes of humility and resilience."
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 26,
+      "page_start": 23,
+      "section": "Poetry Section",
+      "title_hi": null,
+      "title_or": "ଧୂଳି"
+    },
+    {
+      "title_en": "Society",
+      "topics": [
+        {
+          "title_en": "Understanding the concept of society",
+          "objectives": [
+            "Define what constitutes a society.",
+            "Identify key characteristics of human communities."
+          ]
+        },
+        {
+          "title_en": "Roles and responsibilities in society",
+          "objectives": [
+            "Discuss individual duties towards society.",
+            "Recognize the importance of social harmony."
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 30,
+      "page_start": 27,
+      "section": "Prose Section",
+      "title_hi": null,
+      "title_or": "ସମାଜ"
+    },
+    {
+      "title_en": "My Education",
+      "topics": [
+        {
+          "title_en": "Reflecting on personal learning experiences",
+          "objectives": [
+            "Describe the journey of one's education.",
+            "Identify significant milestones in learning."
+          ]
+        },
+        {
+          "title_en": "Importance of education",
+          "objectives": [
+            "Discuss the value of knowledge and skills.",
+            "Understand how education shapes an individual."
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 34,
+      "page_start": 31,
+      "section": "Prose Section",
+      "title_hi": null,
+      "title_or": "ମ'ର ଶିକ୍ଷା"
+    },
+    {
+      "title_en": "Tears of the Blind Old Woman",
+      "topics": [
+        {
+          "title_en": "Empathy and compassion",
+          "objectives": [
+            "Understand the challenges faced by the visually impaired.",
+            "Develop empathy for those in distress."
+          ]
+        },
+        {
+          "title_en": "Themes of suffering and hope",
+          "objectives": [
+            "Identify the causes of the old woman's tears.",
+            "Discuss potential solutions or acts of kindness."
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 38,
+      "page_start": 35,
+      "section": "Prose Section",
+      "title_hi": null,
+      "title_or": "ଅନ୍ଧ ବୁଢ଼ୀର ଲୁହ"
+    },
+    {
+      "title_en": "Tears of Kalinga",
+      "topics": [
+        {
+          "title_en": "Historical context of Kalinga",
+          "objectives": [
+            "Recall the historical significance of Kalinga.",
+            "Understand the events leading to its \"tears.\""
+          ]
+        },
+        {
+          "title_en": "Lessons from history",
+          "objectives": [
+            "Reflect on the consequences of war and conflict.",
+            "Appreciate the importance of peace and non-violence."
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 42,
+      "page_start": 39,
+      "section": "Prose Section",
+      "title_hi": null,
+      "title_or": "କଳିଙ୍ଗର ଲୁହ"
+    },
+    {
+      "title_en": "Service",
+      "topics": [
+        {
+          "title_en": "Understanding the concept of service",
+          "objectives": [
+            "Define different forms of service to others.",
+            "Identify opportunities for community involvement."
+          ]
+        },
+        {
+          "title_en": "Benefits of selfless service",
+          "objectives": [
+            "Discuss the positive impact of service on individuals and society.",
+            "Recognize the personal satisfaction derived from helping others."
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 46,
+      "page_start": 43,
+      "section": "Prose Section",
+      "title_hi": null,
+      "title_or": "ସେବା"
+    },
+    {
+      "title_en": "Be Your Own Friend",
+      "topics": [
+        {
+          "title_en": "Importance of self-reliance",
+          "objectives": [
+            "Understand the value of independence and self-sufficiency.",
+            "Identify ways to develop personal strengths."
+          ]
+        },
+        {
+          "title_en": "Cultivating self-love and positive self-talk",
+          "objectives": [
+            "Recognize the importance of being kind to oneself.",
+            "Discuss strategies for building self-confidence."
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 50,
+      "page_start": 47,
+      "section": "Prose Section",
+      "title_hi": null,
+      "title_or": "ନିଜେ ନିଜର ବନ୍ଧୁ"
+    },
+    {
+      "title_en": "Childhood of Vivekananda",
+      "topics": [
+        {
+          "title_en": "Early life and influences of Vivekananda",
+          "objectives": [
+            "Identify key events and people in Vivekananda's childhood.",
+            "Understand the formative experiences that shaped him."
+          ]
+        },
+        {
+          "title_en": "Character traits and values",
+          "objectives": [
+            "Recognize the virtues displayed by young Vivekananda.",
+            "Discuss the importance of these values in personal development."
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 54,
+      "page_start": 51,
+      "section": "Prose Section",
+      "title_hi": null,
+      "title_or": "ବିବେକାନନ୍ଦଙ୍କ ଶିଶୁକାଳ"
+    },
+    {
+      "title_en": "Childhood of Subhash Chandra",
+      "topics": [
+        {
+          "title_en": "Early life and influences of Subhash Chandra Bose",
+          "objectives": [
+            "Identify key events and people in Subhash Chandra Bose's childhood.",
+            "Understand the formative experiences that shaped him."
+          ]
+        },
+        {
+          "title_en": "Character traits and values",
+          "objectives": [
+            "Recognize the virtues displayed by young Subhash Chandra.",
+            "Discuss the importance of these values in personal development."
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 58,
+      "page_start": 55,
+      "section": "Prose Section",
+      "title_hi": null,
+      "title_or": "ସୁଭାଷ ଚନ୍ଦ୍ରଙ୍କ ବାଲ୍ୟ"
+    },
+    {
+      "title_en": "Culture of Odisha",
+      "topics": [
+        {
+          "title_en": "Exploring Odishan traditions and customs",
+          "objectives": [
+            "Identify various cultural practices of Odisha.",
+            "Understand the significance of local festivals and rituals."
+          ]
+        },
+        {
+          "title_en": "Art, architecture, and heritage of Odisha",
+          "objectives": [
+            "Recognize prominent art forms and architectural marvels.",
+            "Appreciate the rich historical heritage of the state."
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 62,
+      "page_start": 59,
+      "section": "Prose Section",
+      "title_hi": null,
+      "title_or": "ଓଡ଼ିଶାର ସଂସ୍କୃତି"
+    },
+    {
+      "title_en": "My Motherland",
+      "topics": [
+        {
+          "title_en": "Expressing love for one's homeland",
+          "objectives": [
+            "Articulate feelings of attachment to the motherland.",
+            "Identify reasons for pride in one's native place."
+          ]
+        },
+        {
+          "title_en": "Understanding geographical and cultural aspects",
+          "objectives": [
+            "Describe the natural beauty and resources of the homeland.",
+            "Discuss the cultural identity associated with the region."
+          ]
+        }
+      ],
+      "order": 15,
+      "page_end": 66,
+      "page_start": 63,
+      "section": "Prose Section",
+      "title_hi": null,
+      "title_or": "ମ'ର ଜନ୍ମଭୂମି"
+    },
+    {
+      "title_en": "Sound and Letter",
+      "topics": [
+        {
+          "title_en": "Introduction to sounds in language",
+          "objectives": [
+            "Define what a sound (dhwani) is in language.",
+            "Identify different types of sounds."
+          ]
+        },
+        {
+          "title_en": "Understanding letters and their classification",
+          "objectives": [
+            "Define what a letter (barna) is.",
+            "Classify letters based on their pronunciation."
+          ]
+        }
+      ],
+      "order": 16,
+      "page_end": 70,
+      "page_start": 67,
+      "section": "Grammar Section",
+      "title_hi": null,
+      "title_or": "ଧ୍ୱନି ଓ ବର୍ଣ୍ଣ"
+    },
+    {
+      "title_en": "Word and Sentence",
+      "topics": [
+        {
+          "title_en": "Formation and types of words",
+          "objectives": [
+            "Define what a word (shabda) is.",
+            "Identify different categories of words."
+          ]
+        },
+        {
+          "title_en": "Structure and meaning of sentences",
+          "objectives": [
+            "Define what a sentence (bakya) is.",
+            "Understand the basic components of a sentence."
+          ]
+        }
+      ],
+      "order": 17,
+      "page_end": 74,
+      "page_start": 71,
+      "section": "Grammar Section",
+      "title_hi": null,
+      "title_or": "ଶବ୍ଦ ଓ ବାକ୍ୟ"
+    }
+  ],
+  "book_title_or": "ଆମ ସାହିତ୍ୟ, ଷଷ୍ଠ ଶ୍ରେଣୀ"
+}

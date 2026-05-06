@@ -39,6 +39,7 @@ if (typeof (Promise as any).try !== "function") {
 import { extractText, getDocumentProxy } from "unpdf";
 import { createAdminClient } from "../../lib/supabase/admin";
 import { embedBatch } from "../../lib/ai/gemini";
+import { pdfToTextViaGemini } from "../../lib/ai/pdf-ocr";
 
 dotenvConfig({ path: ".env.local" });
 
@@ -108,6 +109,16 @@ const SUBJECT_META: Record<
     name_or: "ତୃତୀୟ ଭାଷା (ହିନ୍ଦୀ)",
     name_hi: "तृतीय भाषा (हिन्दी)",
   },
+  SAN: {
+    name_en: "Sanskrit",
+    name_or: "ସଂସ୍କୃତ",
+    name_hi: "संस्कृत",
+  },
+  CMP: {
+    name_en: "Computer Science",
+    name_or: "କମ୍ପ୍ୟୁଟର ଶିକ୍ଷା",
+    name_hi: "कंप्यूटर शिक्षा",
+  },
 };
 
 // -- Filename → subject classifier (mirrors embed-pdfs.ts). -----------------
@@ -131,16 +142,24 @@ function classify(filename: string): FileKind {
       typeof n === "string" ? lower.includes(n) || name.includes(n) : n.test(name),
     );
 
-  const subject = has(
-    "math",
-    "algebra",
-    "geometry",
-    "bijaganit",
-    "ganit",
-    "ଗଣିତ",
-    "ଵୀଜଗଣିତ",
-    "ଜ୍ୟାମିତି",
-  )
+  // SAN/CMP must be checked BEFORE generic language buckets so a
+  // Sanskrit textbook (which may also include Devanagari) doesn't fall
+  // through to TLH, and a Computer textbook doesn't get caught by
+  // FLO via the Odia filename script.
+  const subject = has("sanskrit", "ସଂସ୍କୃତ", "संस्कृत")
+    ? "SAN"
+    : has("computer", "sikshya", "କମ୍ପ୍ୟୁଟର")
+    ? "CMP"
+    : has(
+        "math",
+        "algebra",
+        "geometry",
+        "bijaganit",
+        "ganit",
+        "ଗଣିତ",
+        "ଵୀଜଗଣିତ",
+        "ଜ୍ୟାମିତି",
+      )
     ? "MTH"
     : has(
           "geography",
@@ -215,56 +234,19 @@ async function pdfToText(path: string): Promise<string> {
 }
 
 /**
- * OCR fallback for scanned PDFs (Odia/Hindi/English language packs).
- * Slow: 3-10s/page. Capped at OCR_MAX_PAGES so a 300-page book doesn't
- * stall a class ingest run for an hour. Raise the cap with the env var.
+ * OCR fallback for scanned PDFs.
+ *
+ * BSE Odisha textbooks are scanned PDFs that use JPEG2000 image
+ * compression, which pdfjs-dist + tesseract.js cannot decode in Node
+ * (OpenJPEG is unavailable). We use Gemini 2.5 Flash directly: it
+ * accepts PDFs natively and reads Odia / Hindi / English script.
+ *
+ * Cap with OCR_MAX_PAGES so a 300-page book doesn't burn quota.
  */
-const OCR_MAX_PAGES = Number(process.env.OCR_MAX_PAGES ?? 200);
-const OCR_SCALE = 2.0;
+const OCR_MAX_PAGES = Number(process.env.OCR_MAX_PAGES ?? 500);
 
 async function pdfToTextViaOcr(path: string): Promise<string> {
-  const { createCanvas } = await import("@napi-rs/canvas");
-  const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
-  const Tesseract = await import("tesseract.js");
-
-  const data = new Uint8Array(readFileSync(path));
-  (pdfjs as any).GlobalWorkerOptions.workerSrc = "";
-  const loadingTask = (pdfjs as any).getDocument({
-    data,
-    disableFontFace: true,
-    useSystemFonts: false,
-  });
-  const doc = await loadingTask.promise;
-  const totalPages: number = doc.numPages;
-  const pages = Math.min(totalPages, OCR_MAX_PAGES);
-  console.log(`    · OCR: ${pages}/${totalPages} pages @ ${OCR_SCALE}x`);
-
-  const worker = await Tesseract.createWorker(["ori", "hin", "eng"], 1, {
-    logger: () => {},
-  });
-
-  const pageTexts: string[] = [];
-  try {
-    for (let p = 1; p <= pages; p++) {
-      const page = await doc.getPage(p);
-      const viewport = page.getViewport({ scale: OCR_SCALE });
-      const canvas = createCanvas(viewport.width, viewport.height);
-      const ctx = canvas.getContext("2d");
-      await page.render({
-        canvasContext: ctx as unknown as CanvasRenderingContext2D,
-        viewport,
-      }).promise;
-      const png = canvas.toBuffer("image/png");
-      const { data: ocr } = await worker.recognize(png);
-      pageTexts.push(ocr.text);
-      process.stdout.write(`    · OCR page ${p}/${pages}\r`);
-    }
-    console.log("");
-  } finally {
-    await worker.terminate();
-  }
-
-  return pageTexts.join("\n\n");
+  return pdfToTextViaGemini(path, { maxPages: OCR_MAX_PAGES });
 }
 
 function chunk(text: string): string[] {
@@ -465,10 +447,13 @@ async function main() {
       const batch = parts.slice(i, i + EMBED_BATCH);
       const vectors = await embedBatchWithRetry(batch);
       batch.forEach((content, j) => {
+        // Extract first `## Page N` marker that survived chunking; this lets
+        // downstream topic linkage match chunks against TOC page ranges.
+        const pageMatch = /##\s*Page\s+(\d+)/i.exec(content);
         rows.push({
           document_id: documentId,
           content,
-          page: null,
+          page: pageMatch ? Number(pageMatch[1]) : null,
           language: kind.language,
           token_count: Math.round(content.length / 4),
           embedding: vectors[j] as unknown as string,

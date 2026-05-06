@@ -1,0 +1,62 @@
+{
+  "variants": [
+    {
+      "variant": "textbook",
+      "body_md": "## Noun Phrase (NP) ପରିଚୟ\n\nNoun Phrase (NP) ହେଉଛି ଏକ ଶବ୍ଦ ବା ଶବ୍ଦଗୁଡ଼ିକର ସମୂହ ଯାହା ଏକ Noun କୁ ମୁଖ୍ୟ ଭାବରେ ନେଇ ଗଠିତ ହୁଏ ଏବଂ ଏହା ଏକ ବାକ୍ୟରେ Noun ଭଳି କାର୍ଯ୍ୟ କରେ। ବେଳେବେଳେ ଗୋଟିଏ Noun ମଧ୍ୟ ଏକ Noun Phrase ହୋଇପାରେ। ଉଦାହରଣସ୍ୱରୂପ: 'houses' ବା 'trees'। [[1]]\n\nନିମ୍ନଲିଖିତ ବାକ୍ୟଗୁଡ଼ିକୁ ପଢ଼ନ୍ତୁ:\n*   Coconut is **a tall tree**.\n*   I can see **many beautiful flowers**.\n*   **The black dog** is sick.\n\nଉପରୋକ୍ତ ବାକ୍ୟଗୁଡ଼ିକରେ, 'a tall tree', 'many beautiful flowers', 'the black dog' ହେଉଛନ୍ତି Noun Phrase। [[1]]\n\n## Noun Phrase ର ମୁଖ୍ୟ ଉପାଦାନଗୁଡ଼ିକ\n\nଏକ Noun Phrase ରେ ବିଭିନ୍ନ ଉପାଦାନ ରହିପାରେ। 'The poor man' Noun Phrase କୁ ଦେଖନ୍ତୁ। ଏଥିରେ 'poor' ଶବ୍ଦଟି Determiner ('The') ଏବଂ Head Noun ('man') ମଝିରେ ଅଛି। ଏହି ଶବ୍ଦଟି Head Noun 'man' ର ଗୁଣ ବିଷୟରେ କହୁଛି, ତେଣୁ ଏହା ଏକ Adjective। ଏହି Noun Phrase ରେ ତିନୋଟି ମୁଖ୍ୟ ଉପାଦାନ ଅଛି। [[1]]\n\n### ଉପାଦାନଗୁଡ଼ିକର ସଜ୍ଜୀକରଣ (Order of Elements)\n\nଏକ Noun Phrase ରେ ଉପାଦାନଗୁଡ଼ିକର କ୍ରମ ନିମ୍ନଲିଖିତ ଭାବରେ ହୋଇଥାଏ:\n\n```mermaid\ngraph TD\n    D(Determiner) --> HeadN(Head Noun)\n    Adj(Adjective) --> HeadN\n    D -- "ପୂର୍ବରୁ" --> Adj\n    Adj -- "ପୂର୍ବରୁ" --> HeadN\n    subgraph "The poor man"\n        the(the)\n        poor(poor)\n        man(man)\n    end\n    the -- V --> poor\n    poor -- V --> man\n```\n\nଏହି ତିନୋଟି ମୁଖ୍ୟ ଉପାଦାନ ବ୍ୟତୀତ, ଏକ Noun Phrase ରେ ଅନ୍ୟାନ୍ୟ ଉପାଦାନ ମଧ୍ୟ ରହିପାରେ। [[3]]\n\n### Pre-modifiers (Head Noun ପୂର୍ବରୁ ଆସୁଥିବା ଶବ୍ଦଗୁଡ଼ିକ)\n\nHead Noun ପୂର୍ବରୁ ଆସୁଥିବା ଶବ୍ଦଗୁଡ଼ିକୁ Pre-modifiers କୁହାଯାଏ। [[6]] ଏଗୁଡ଼ିକ ନିମ୍ନଲିଖିତ ପ୍ରକାରର ହୋଇପାରନ୍ତି:\n\n*   **Determiners:** ଏଗୁଡ଼ିକ Noun ର ପରିମାଣ ବା ନିର୍ଦ୍ଦିଷ୍ଟତା ସୂଚାଏ। ଉଦାହରଣ: 'a', 'an', 'the', 'this', 'that', 'these', 'those'। [[1]], [[7]]\n*   **Possessives:** ଏଗୁଡ଼ିକ ଅଧିକାର ସୂଚାଏ। ଉଦାହରଣ: 'His' (His first ten stories)। [[3]]\n*   **Ordinals:** କ୍ରମ ସୂଚାଏ। ଉଦାହରଣ: 'first', 'second', 'next', 'last' (His first ten stories)। [[3]]\n*   **Cardinals:** ସଂଖ୍ୟା ସୂଚାଏ। ଉଦାହରଣ: 'one', 'two', 'three' (His first ten stories)। [[3]]\n*   **Quantifiers:** ପରିମାଣ ସୂଚାଏ। ଉଦାହରଣ: 'many', 'much', 'few', 'a few', 'little', 'a little', 'each', 'every' (Many extremely beautiful pictures)। [[3]]\n*   **Adjectives:** Noun ର ଗୁଣ ବର୍ଣ୍ଣନା କରେ। ଉଦାହରଣ: 'poor' (the poor man), 'beautiful' (many beautiful flowers)। [[1]]\n*   **Intensifiers:** Adjective ର ତୀବ୍ରତା ବଢ଼ାଏ। ଉଦାହରଣ: 'extremely' (Many extremely beautiful pictures)। [[3]]\n*   **Classifiers:** Noun ଭାବରେ ବ୍ୟବହୃତ ହୋଇ Adjective ଭଳି କାର୍ଯ୍ୟ କରୁଥିବା Noun। ଉଦାହରଣ: 'science' (A science college), 'stone' (A stone building)। [[3]]\n*   **Pre-determiners:** Determiner ପୂର୍ବରୁ ଆସନ୍ତି। ଉଦାହରଣ: 'All' (All the boys), 'Half of' (Half of my fancy hats)। [[3]]\n    *   'Of' constructions: Nouns ସହିତ 'of' ବ୍ୟବହାର କରିବା ଐଚ୍ଛିକ (optional) କିନ୍ତୁ Personal Pronouns ସହିତ ବାଧ୍ୟତାମୂଳକ (obligatory)। ଉଦାହରଣ: 'all (of) the boys' କିନ୍ତୁ 'all of them'। [[5]]\n\nଏକ Noun Phrase ରେ Pre-modifiers ର ସାଧାରଣ କ୍ରମ ନିମ୍ନଲିଖିତ ଭାବରେ ହୋଇପାରେ:\n\n```mermaid\ngraph LR\n    Pre-determiner --> Determiner --> Cardinal --> Intensifier --> Adjective --> Classifier --> Head_Noun\n```\n\n**ଉଦାହରଣ:** 'All the four big science colleges' [[5]]\n\n### Post-modifiers (Head Noun ପରେ ଆସୁଥିବା ଶବ୍ଦଗୁଡ଼ିକ)\n\nHead Noun ପରେ ଆସୁଥିବା ଶବ୍ଦଗୁଡ଼ିକୁ Post-modifiers କୁହାଯାଏ। ଏଗୁଡ଼ିକ Head Noun ର ଅର୍ଥକୁ ପରିବର୍ତ୍ତନ କରନ୍ତି। [[6]] ଏଗୁଡ଼ିକ ନିମ୍ନଲିଖିତ ପ୍ରକାରର ହୋଇପାରନ୍ତି:\n\n*   **Adjectives:** ଉଦାହରଣ: 'something **odd** about him', 'something **bright** in the sky'। [[8]]\n*   **Adverbs:** ଉଦାହରଣ: 'people **outside** started shouting', 'the weather **today** is fine'। [[8]]\n*   **Prepositional Phrases:** ଉଦାହରଣ: 'people **in general** love Gandhi', 'a girl **from our village**'। [[8]]\n*   **Non-finite clauses:**\n    *   Present participle form: 'the man **sitting in the corner**'। [[8]]\n    *   Past participle form: 'the book **kept on the table**'। [[8]]\n\n### Noun Phrase ଭାବରେ Pronouns\n\nPronoun ମଧ୍ୟ ଏକ Noun Phrase ଭାବରେ କାର୍ଯ୍ୟ କରିପାରେ। ଉଦାହରଣ: 'They' (ଏହା 'the red flowers in the pot' କୁ ବଦଳାଇଥାଏ)। [[6]]\n\n## କାର୍ଯ୍ୟକାରୀ ଉଦାହରଣ\n\n**1. Noun Phrase ଚିହ୍ନଟ କରନ୍ତୁ ଏବଂ ଏହାର ଉପାଦାନଗୁଡ଼ିକୁ ଲେଖନ୍ତୁ:**\n\nବାକ୍ୟ: 'The poor man is hungry.' [[1]]\n\n*   **Noun Phrase:** The poor man\n*   **ଉପାଦାନଗୁଡ଼ିକ:**\n    *   Determiner: The\n    *   Adjective: poor\n    *   Head Noun: man\n\n**2. Noun Phrase ଚିହ୍ନଟ କରନ୍ତୁ ଏବଂ ଏହାର Pre-modifiers ଓ Post-modifiers କୁ ଲେଖନ୍ତୁ:**\n\nବାକ୍ୟ: 'The red flowers in the pot are beautiful.' [[6]]\n\n*   **Noun Phrase:** The red flowers in the pot\n*   **Head Noun:** flowers\n*   **Pre-modifiers:** The, red\n*   **Post-modifiers:** in the pot",
+      "citation_chunks": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "variant": "simpler",
+      "body_md": "ନମସ୍କାର ପିଲାମାନେ! ଆଜି ଆମେ Noun Phrase ବିଷୟରେ ଜାଣିବା। ଏହା ଶୁଣିବାକୁ କଷ୍ଟ ଲାଗୁଥିଲେ ମଧ୍ୟ ବହୁତ ସହଜ। [[1]]\n\n## Noun Phrase କ'ଣ?\n\nNoun Phrase ହେଉଛି ଏକ Noun (ନାମ) ଏବଂ ତା' ସହିତ ଥିବା କିଛି ସାହାଯ୍ୟକାରୀ ଶବ୍ଦର ଏକ ଛୋଟ ଦଳ। ଏହା ଏକ ବାକ୍ୟରେ Noun ଭଳି କାମ କରେ। କେବେ କେବେ ଗୋଟିଏ Noun ମଧ୍ୟ ଏକ Noun Phrase ହୋଇପାରେ। ଉଦାହରଣ ସ୍ୱରୂପ, 'houses' ବା 'trees'। [[1]]\n\nକଳ୍ପନା କରନ୍ତୁ, Noun ହେଉଛି ଏକ ଖେଳ ଦଳର ମୁଖ୍ୟ ଖେଳାଳି। ତାଙ୍କୁ ସାହାଯ୍ୟ କରିବା ପାଇଁ ଆଗରୁ ଓ ପଛରୁ କିଛି ସାହାଯ୍ୟକାରୀ ଖେଳାଳି (ଶବ୍ଦ) ଥାଆନ୍ତି। [[6]]\n\n*   **ଉଦାହରଣ:** \"Coconut is **a tall tree**.\" ଏଠାରେ 'tree' ହେଉଛି ମୁଖ୍ୟ Noun ଏବଂ 'a tall' ହେଉଛି ତା'ର ସାହାଯ୍ୟକାରୀ ଶବ୍ଦ। ଏହି ସମ୍ପୂର୍ଣ୍ଣ ଦଳ 'a tall tree' ହେଉଛି Noun Phrase। [[1]]\n\n## Noun Phrase ର ଉପାଦାନଗୁଡ଼ିକ\n\nଏକ Noun Phrase ରେ ମୁଖ୍ୟତଃ ତିନୋଟି ଜିନିଷ ଥାଏ:\n\n1.  **Head Noun (ମୁଖ୍ୟ Noun):** ଏହା ହେଉଛି ସେହି ମୁଖ୍ୟ ଶବ୍ଦ ଯାହା ବିଷୟରେ ଆମେ କହୁଛୁ। ଉଦାହରଣ: 'the poor **man**' ରେ 'man' ହେଉଛି Head Noun। [[1]]\n\n2.  **Pre-modifiers (ଆଗରୁ ଥିବା ସାହାଯ୍ୟକାରୀ ଶବ୍ଦ):** ଏହି ଶବ୍ଦଗୁଡ଼ିକ Head Noun ପୂର୍ବରୁ ଆସି ତା' ବିଷୟରେ ଅଧିକ ସୂଚନା ଦିଅନ୍ତି। [[6]]\n    *   **Determiner:** 'a', 'the', 'many', 'this' ଭଳି ଶବ୍ଦ। ଏହା Noun କୁ ଚିହ୍ନଟ କରେ। ଉଦାହରଣ: '**The** poor man', '**many** beautiful flowers'। [[1]], [[7]]\n    *   **Adjective:** Noun ର ଗୁଣ ବା ଅବସ୍ଥା କହୁଥିବା ଶବ୍ଦ। ଉଦାହରଣ: 'the **poor** man', 'many **beautiful** flowers'। [[1]]\n    *   **Classifiers:** କେବେ କେବେ ଗୋଟିଏ Noun ମଧ୍ୟ Adjective ଭଳି କାମ କରେ। ଉଦାହରଣ: 'a **science** college' ରେ 'science' ଶବ୍ଦ 'college' ବିଷୟରେ କହୁଛି। [[3]]\n\n3.  **Post-modifiers (ପଛରୁ ଥିବା ସାହାଯ୍ୟକାରୀ ଶବ୍ଦ):** ଏହି ଶବ୍ଦଗୁଡ଼ିକ Head Noun ପରେ ଆସି ତା' ବିଷୟରେ ଅଧିକ ସୂଚନା ଦିଅନ୍ତି। [[6]]\n    *   **ଉଦାହରଣ:** 'The red flowers **in the pot**' ରେ 'in the pot' ହେଉଛି Post-modifier। ଏହା 'flowers' ବିଷୟରେ ଅଧିକ କହୁଛି। [[6]]\n    *   ଅନ୍ୟ ଉଦାହରଣ: 'the man **sitting in the corner**', 'the book **kept on the table**'। [[8]]\n\n## ଗୋଟିଏ ଉଦାହରଣ ଦେଖିବା:\n\n**Noun Phrase:** The black dog [[1]]\n\n*   **Head Noun:** dog\n*   **Pre-modifiers:**\n    *   Determiner: The\n    *   Adjective: black\n\nମନେରଖନ୍ତୁ, Noun Phrase ହେଉଛି Noun ଏବଂ ତା'ର ସାହାଯ୍ୟକାରୀ ଶବ୍ଦଗୁଡ଼ିକର ଏକ ଦଳ ଯାହା ଏକାଠି କାମ କରନ୍ତି।",
+      "citation_chunks": [
+        1,
+        3,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "variant": "parent",
+      "body_md": "ଆଜି ଆମେ ଆପଣଙ୍କ ପିଲାଙ୍କୁ English Grammar ର ଏକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ବିଷୟ 'The Noun Phrase' ବିଷୟରେ ଶିଖାଇବା। ଏହାକୁ ସରଳ ଭାବରେ ବୁଝାଇବା ପାଇଁ ଆପଣ ଏହି ନିର୍ଦ୍ଦେଶାବଳୀକୁ ଅନୁସରଣ କରିପାରିବେ।\n\nପ୍ରଥମେ, ଆପଣ ପିଲାଙ୍କୁ ପଚାରନ୍ତୁ, \"Noun କ'ଣ?\" (ଯଦି ସେମାନେ ଜାଣି ନାହାଁନ୍ତି, ତେବେ କୁହନ୍ତୁ ଯେ Noun ହେଉଛି କୌଣସି ବ୍ୟକ୍ତି, ସ୍ଥାନ, ବସ୍ତୁ ବା ଭାବନାର ନାମ।) [[4]]\n\nଏବେ ଆମେ Noun Phrase କ'ଣ ଜାଣିବା। ଏହାକୁ ଏକ Noun ଏବଂ ତା'ର ସାଙ୍ଗମାନଙ୍କର ଏକ ଛୋଟ ଦଳ ଭାବରେ ବୁଝାନ୍ତୁ। ଏହି ଦଳ ଏକାଠି କାମ କରନ୍ତି। [[1]]\n\nଆପଣ ଏହି ବାକ୍ୟଟି ପଢ଼ନ୍ତୁ: \"Coconut is a tall tree.\" [[1]]\n\n**ପିଲାଙ୍କୁ ପଚାରନ୍ତୁ:** \"ଏହି ବାକ୍ୟରେ 'a tall tree' କ'ଣ?\" (ଉତ୍ତର: ଏହା ଏକ Noun Phrase)।\n\nଏବେ ଆପଣ ପିଲାଙ୍କୁ କୁହନ୍ତୁ ଯେ Noun Phrase ରେ ଗୋଟିଏ ମୁଖ୍ୟ Noun ଥାଏ ଏବଂ ତା' ସହିତ କିଛି ଅନ୍ୟ ଶବ୍ଦ ଥାଏ। ଉଦାହରଣ ସ୍ୱରୂପ, 'The poor man' ରେ 'man' ହେଉଛି ମୁଖ୍ୟ Noun। [[1]]\n\n**ପିଲାଙ୍କୁ ପଚାରନ୍ତୁ:** \"'The poor man' ରେ କେଉଁ ଶବ୍ଦଟି ମୁଖ୍ୟ Noun?\" (ଉତ୍ତର: man)।\n\nତା'ପରେ, ଆପଣ କୁହନ୍ତୁ ଯେ Noun ପୂର୍ବରୁ ଆସୁଥିବା ଶବ୍ଦଗୁଡ଼ିକୁ 'Pre-modifiers' କୁହାଯାଏ। ଉଦାହରଣ: 'The poor man' ରେ 'The' ଏବଂ 'poor' ହେଉଛନ୍ତି Pre-modifiers। 'poor' ଶବ୍ଦଟି 'man' କିପରି ତାହା ବର୍ଣ୍ଣନା କରୁଛି। [[1]]\n\n**ପିଲାଙ୍କୁ ପଚାରନ୍ତୁ:** \"'The black dog' ରେ 'black' ଶବ୍ଦଟି 'dog' ବିଷୟରେ କ'ଣ କହୁଛି?\" (ଉତ୍ତର: ଏହା dog ର ରଙ୍ଗ କହୁଛି)।\n\nଏବେ ଆପଣ କୁହନ୍ତୁ ଯେ Noun ପରେ ଆସୁଥିବା ଶବ୍ଦଗୁଡ଼ିକୁ 'Post-modifiers' କୁହାଯାଏ। ଏହି ଶବ୍ଦଗୁଡ଼ିକ ମଧ୍ୟ Noun ବିଷୟରେ ଅଧିକ ସୂଚନା ଦିଅନ୍ତି। [[6]]\n\nଆପଣ ଏହି ବାକ୍ୟଟି ପଢ଼ନ୍ତୁ: \"The red flowers in the pot are beautiful.\" [[6]]\n\n**ପିଲାଙ୍କୁ ପଚାରନ୍ତୁ:** \"ଏହି ବାକ୍ୟରେ 'flowers' ପରେ କେଉଁ ଶବ୍ଦଗୁଡ଼ିକ ଆସିଛି ଏବଂ ସେଗୁଡ଼ିକ 'flowers' ବିଷୟରେ କ'ଣ କହୁଛନ୍ତି?\" (ଉତ୍ତର: 'in the pot' - ଫୁଲଗୁଡ଼ିକ କେଉଁଠି ଅଛନ୍ତି ତାହା କହୁଛି)।\n\nଶେଷରେ, ସଂକ୍ଷେପରେ କୁହନ୍ତୁ ଯେ Noun Phrase ହେଉଛି ଏକ Noun ଏବଂ ତା'ର ଆଗରୁ ବା ପଛରୁ ଥିବା ସମସ୍ତ ବର୍ଣ୍ଣନାତ୍ମକ ଶବ୍ଦର ଏକ ଦଳ। [[6]]\n\nଏହିଭଳି ଭାବରେ ଆପଣ ପିଲାଙ୍କୁ Noun Phrase ର ମୂଳ ଧାରଣା ବୁଝାଇ ପାରିବେ।",
+      "citation_chunks": [
+        1,
+        4,
+        6
+      ],
+      "parent_prompts": {
+        "questions": [
+          "Noun Phrase କ'ଣ ବୋଲି ତୁମେ ବୁଝିଲ?",
+          "\"The black dog\" Noun Phrase ରେ, ମୁଖ୍ୟ Noun ଟି କେଉଁଟି?",
+          "\"The poor man\" ରେ 'poor' ଶବ୍ଦଟି 'man' ବିଷୟରେ କ'ଣ କହୁଛି?",
+          "\"The red flowers in the pot\" Noun Phrase ରେ, 'in the pot' ଶବ୍ଦଗୁଡ଼ିକ କେଉଁଠି ଅଛନ୍ତି?",
+          "ତୁମେ ନିଜେ ଗୋଟିଏ Noun Phrase ର ଉଦାହରଣ ଦେଇପାରିବ କି?"
+        ],
+        "tips": [
+          "ପିଲାଙ୍କୁ ଉତ୍ତର ଦେବା ପାଇଁ କିଛି ସମୟ ଦିଅନ୍ତୁ, ତୁରନ୍ତ ସାହାଯ୍ୟ କରନ୍ତୁ ନାହିଁ।",
+          "ସେମାନଙ୍କୁ ନିଜ ଭାଷାରେ ଉଦାହରଣ ଦେବାକୁ ଉତ୍ସାହିତ କରନ୍ତୁ।",
+          "ଯଦି ସେମାନେ ଭୁଲ୍ କରନ୍ତି, ତେବେ ସଠିକ୍ ଉତ୍ତର ନ ଦେଇ ସୂଚନା ଦେଇ ସେମାନଙ୍କୁ ଚିନ୍ତା କରିବାକୁ କୁହନ୍ତୁ।"
+        ]
+      }
+    },
+    {
+      "variant": "exam",
+      "body_md": "## ପରୀକ୍ଷାରେ କି ପଚାରାଯାଏ (What gets asked)\n\n*   ବାକ୍ୟରୁ Noun Phrase (NP) ଚିହ୍ନଟ କରିବାକୁ କୁହାଯାଏ। (ଉଦାହରଣ: 'Spot the Noun Phrases in the following sentences.') [[2]], [[5]]\n*   ଦିଆଯାଇଥିବା Noun Phrase ର ବିଭିନ୍ନ ଉପାଦାନ (Determiner, Adjective, Head Noun, Pre-modifier, Post-modifier, Classifier, Pre-determiner) ଚିହ୍ନଟ କରିବାକୁ କୁହାଯାଏ। [[1]], [[3]], [[6]]\n*   ବିଶୃଙ୍ଖଳିତ ଶବ୍ଦଗୁଡ଼ିକୁ ସଜାଡ଼ି ଏକ ସଠିକ୍ Noun Phrase ତିଆରି କରିବାକୁ କୁହାଯାଏ। (ଉଦାହରଣ: 'Rearrange the words to make a Noun Phrase.') [[2]]\n*   ଦିଆଯାଇଥିବା Noun Phrase ର Tree Diagram ଆଙ୍କିବାକୁ କୁହାଯାଏ, ଯାହା ଉପାଦାନଗୁଡ଼ିକର ସ୍ଥିତି ଦର୍ଶାଏ। (ଉଦାହରଣ: 'Draw tree diagrams showing the different elements of the following Noun Phrases.') [[2]], [[5]]\n*   ଖାଲି ସ୍ଥାନ ପୂରଣ କରି Noun Phrase ସମ୍ପୂର୍ଣ୍ଣ କରିବାକୁ କୁହାଯାଏ। (ଉଦାହରଣ: 'Complete the Noun Phrases by filling in the blanks with suitable words.') [[2]]\n\n## ସାଧାରଣ ଭୁଲ୍ (Common mistakes)\n\n*   Noun Phrase ର ସମସ୍ତ ଉପାଦାନକୁ ଚିହ୍ନଟ ନ କରିବା (ଯଥା: କେବଳ Noun କୁ ଚିହ୍ନଟ କରିବା)। [[1]], [[6]]\n*   Pre-modifiers ଓ Post-modifiers କୁ ଭୁଲ୍ ଭାବରେ ଚିହ୍ନଟ କରିବା ବା ସେମାନଙ୍କର କ୍ରମକୁ ଭୁଲ୍ କରିବା। [[1]], [[6]]\n*   Classifiers (Noun ଭାବରେ ବ୍ୟବହୃତ Noun) କୁ ସାଧାରଣ Adjective ସହିତ ଦ୍ୱନ୍ଦ୍ୱରେ ପକାଇବା। [[3]]\n*   Pre-determiners ସହିତ 'of' ବ୍ୟବହାର କରିବାର ନିୟମରେ ଭୁଲ୍ କରିବା (ଯଥା: personal pronouns ସହିତ 'of' ବାଧ୍ୟତାମୂଳକ)। [[5]]\n*   Tree Diagram ଆଙ୍କିବା ସମୟରେ ଉପାଦାନଗୁଡ଼ିକର ସଠିକ୍ ସ୍ଥିତି ଓ ସମ୍ପର୍କ ଦର୍ଶାଇବାରେ ଅସୁବିଧା। [[5]]\n\n## ସ୍କୋରିଂ ସୂଚକ (Scoring hints)\n\n*   Noun Phrase କୁ ସମ୍ପୂର୍ଣ୍ଣ ଏବଂ ସଠିକ୍ ଭାବରେ ରେଖାଙ୍କିତ (underline) କରନ୍ତୁ।\n*   ପ୍ରତ୍ୟେକ ଉପାଦାନ (Determiner, Adjective, Head Noun, Pre-modifier, Post-modifier, Classifier, Pre-determiner) କୁ ସ୍ପଷ୍ଟ ଭାବରେ ଲେବଲ୍ କରନ୍ତୁ।\n*   Tree Diagram ଆଙ୍କିବା ସମୟରେ, ପାଠ୍ୟପୁସ୍ତକରେ ଦିଆଯାଇଥିବା ଢାଞ୍ଚାକୁ ଅନୁସରଣ କରନ୍ତୁ ଏବଂ ସମସ୍ତ ଉପାଦାନର ସଠିକ୍ ସ୍ଥିତି ଦର୍ଶାନ୍ତୁ। [[1]], [[5]]\n*   ଶବ୍ଦଗୁଡ଼ିକୁ ସଜାଡ଼ିବା ସମୟରେ Determiner, Adjective, Head Noun ର ସଠିକ୍ କ୍ରମକୁ ମନେରଖନ୍ତୁ। [[1]]\n*   ଉଦାହରଣ ଦେବା ସମୟରେ ସ୍ପଷ୍ଟ ଏବଂ ସଠିକ୍ ଉଦାହରଣ ଦିଅନ୍ତୁ।\n\n## ଅଭ୍ଯାସ ପ୍ରଶ୍ନ (Practice prompts)\n\n1.  'The little girl is always talking.' - ଏହି ବାକ୍ୟରୁ Noun Phrase ଚିହ୍ନଟ କରନ୍ତୁ ଏବଂ ଏହାର Determiner ଓ Head Noun ଲେଖନ୍ତୁ। [[5]]\n2.  'first, books, his, ten' - ଏହି ଶବ୍ଦଗୁଡ଼ିକୁ ସଜାଡ଼ି ଏକ Noun Phrase ତିଆରି କରନ୍ତୁ। [[2]]\n3.  'A ripe red fruit' - ଏହି Noun Phrase ର Tree Diagram ଆଙ୍କନ୍ତୁ। [[2]]",
+      "citation_chunks": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    }
+  ]
+}

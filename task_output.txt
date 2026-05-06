@@ -1,0 +1,22 @@
+﻿OK   ନଵମ ଶ୍ରେଣୀ_ଓଡିଆ ଵ୍ୟାକରଣ_9th_Odia_Grammar.pdf
+OK   ନଵମ ଶ୍ରେଣୀ_ସାହିତ୍ୟ ଧାରା _9th_Mil.pdf
+OK   ନଵମ ଶ୍ରେଣୀ_ଜୀଵ ଵିଜ୍ଞାନ _9th_Life_Science.pdf
+OK   ନଵମ ଶ୍ରେଣୀ_ଭୌତିକ ଵିଜ୍ଞାନ _9th_Physical_Science.pdf
+OK   ନଵମ ଶ୍ରେଣୀ_English _9th_English.pdf
+OK   ନଵମ ଶ୍ରେଣୀ_English Grammar _9th_English_Grammar.pdf
+OK   ନଵମ ଶ୍ରେଣୀ_ହିନ୍ଦୀ_9th_Hindi.pdf
+OK   ନଵମ ଶ୍ରେଣୀ_ହିନ୍ଦୀ ଵ୍ୟାକରଣ_9th_Hindi_Grammar.pdf
+
+Name                                                   MB
+----                                                   --
+ନଵମ ଶ୍ରେଣୀ_English Grammar _9th_English_Grammar.pdf  0.76
+ନଵମ ଶ୍ରେଣୀ_English _9th_English.pdf                  4.72
+ନଵମ ଶ୍ରେଣୀ_ଓଡିଆ ଵ୍ୟାକରଣ_9th_Odia_Grammar.pdf         0.55
+ନଵମ ଶ୍ରେଣୀ_ଜୀଵ ଵିଜ୍ଞାନ _9th_Life_Science.pdf        27.27
+ନଵମ ଶ୍ରେଣୀ_ଭୌତିକ ଵିଜ୍ଞାନ _9th_Physical_Science.pdf   2.52
+ନଵମ ଶ୍ରେଣୀ_ସାହିତ୍ୟ ଧାରା _9th_Mil.pdf                 0.95
+ନଵମ ଶ୍ରେଣୀ_ହିନ୍ଦୀ ଵ୍ୟାକରଣ_9th_Hindi_Grammar.pdf      0.54
+ନଵମ ଶ୍ରେଣୀ_ହିନ୍ଦୀ_9th_Hindi.pdf                     19.16
+
+
+

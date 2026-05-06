@@ -34,6 +34,11 @@ const AnswerSchema = z.discriminatedUnion("kind", [
 
 const BodySchema = z.object({
   topicSlug: z.string(),
+  /** Which stage this attempt counts toward. "practice" (default) marks the
+   * practice stage on a passing score; "master" marks the master stage and
+   * is invoked from the master challenge runner (which also pre-filters to
+   * hard items). */
+  stage: z.enum(["practice", "master"]).default("practice"),
   answers: z.array(AnswerSchema).min(1).max(32),
   timeMsByItem: z.record(z.string(), z.number().int().min(0)).optional(),
 });
@@ -46,7 +51,7 @@ export async function POST(req: Request) {
       { status: 400 },
     );
   }
-  const { topicSlug, answers, timeMsByItem } = parsed.data;
+  const { topicSlug, stage, answers, timeMsByItem } = parsed.data;
 
   const topic = await getTopicBySlug(topicSlug);
   if (!topic) {
@@ -96,11 +101,24 @@ export async function POST(req: Request) {
       results.map((r) => ({ itemId: r.itemId, fraction: r.fraction })),
     );
 
-    await markStageFor(user, topic.id, "practice", {
-      status: passed ? "completed" : "available",
-      score: percent,
-      attempts: 1,
-    });
+    // Master attempts mark the master stage on pass; on fail they leave
+    // master as-is (the student can retry without losing prior mastery).
+    // Practice attempts always update the practice stage.
+    if (stage === "master") {
+      if (passed) {
+        await markStageFor(user, topic.id, "master", {
+          status: "mastered",
+          score: percent,
+          attempts: 1,
+        });
+      }
+    } else {
+      await markStageFor(user, topic.id, "practice", {
+        status: passed ? "completed" : "available",
+        score: percent,
+        attempts: 1,
+      });
+    }
 
     // Phase 4: record that the student was active today.
     await recordActivity(user);
@@ -109,6 +127,7 @@ export async function POST(req: Request) {
   return NextResponse.json({
     topicSlug,
     topicId: topic.id,
+    stage,
     percent,
     passed,
     threshold: MASTERY_THRESHOLD,

@@ -1,0 +1,422 @@
+{
+  "book_title_en": "Bhashakalika (Part I) - Class VI Sanskrit Textbook",
+  "chapters": [
+    {
+      "title_en": "Chapter One: Invocation",
+      "topics": [
+        {
+          "title_en": "Prayer to Lord Ganesha",
+          "objectives": [
+            "Recite the prayer to Lord Ganesha.",
+            "Understand the meaning of the Ganesha prayer."
+          ]
+        },
+        {
+          "title_en": "Prayer to Goddess Saraswati",
+          "objectives": [
+            "Recite the prayer to Goddess Saraswati.",
+            "Understand the meaning of the Saraswati prayer."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 11,
+      "page_start": 11,
+      "section": null,
+      "title_hi": "प्रथमः पाठः: वन्दना",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Two: Introduction to Alphabets",
+      "topics": [
+        {
+          "title_en": "Sanskrit Vowels (Swaravarnah)",
+          "objectives": [
+            "Identify and write Sanskrit vowels.",
+            "Pronounce Sanskrit vowels correctly."
+          ]
+        },
+        {
+          "title_en": "Sanskrit Consonants (Vyanjanavarnah)",
+          "objectives": [
+            "Identify and write Sanskrit consonants.",
+            "Pronounce Sanskrit consonants correctly."
+          ]
+        },
+        {
+          "title_en": "Anuswara and Visarga",
+          "objectives": [
+            "Understand the usage of Anuswara and Visarga.",
+            "Practice writing Anuswara and Visarga."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 22,
+      "page_start": 12,
+      "section": null,
+      "title_hi": "द्वितीयः पाठः: वर्णपरिचयः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Three: Introduction to Vowel Signs",
+      "topics": [
+        {
+          "title_en": "Vowel Signs with Consonants",
+          "objectives": [
+            "Learn to combine vowels with consonants.",
+            "Practice writing syllables with vowel signs."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 24,
+      "page_start": 23,
+      "section": null,
+      "title_hi": "तृतीयः पाठः: मात्रापरिचयः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Four: Application of Vowel Signs",
+      "topics": [
+        {
+          "title_en": "Usage of 'a' and 'aa' vowel signs",
+          "objectives": [
+            "Identify words with 'a' and 'aa' vowel signs.",
+            "Form simple words using these vowel signs."
+          ]
+        },
+        {
+          "title_en": "Usage of 'i' and 'ee' vowel signs",
+          "objectives": [
+            "Identify words with 'i' and 'ee' vowel signs.",
+            "Form simple words using these vowel signs."
+          ]
+        },
+        {
+          "title_en": "Usage of 'u' and 'oo' vowel signs",
+          "objectives": [
+            "Identify words with 'u' and 'oo' vowel signs.",
+            "Form simple words using these vowel signs."
+          ]
+        },
+        {
+          "title_en": "Usage of 'ru', 'e', 'ai', 'o', 'au' vowel signs",
+          "objectives": [
+            "Identify words with complex vowel signs.",
+            "Form simple words using these vowel signs."
+          ]
+        },
+        {
+          "title_en": "Anuswara and Visarga in words",
+          "objectives": [
+            "Identify words with Anuswara and Visarga.",
+            "Understand the pronunciation of Anuswara and Visarga."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 32,
+      "page_start": 25,
+      "section": null,
+      "title_hi": "चतुर्थः पाठः: मात्राप्रयोगः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Five: Introduction to Sounds",
+      "topics": [
+        {
+          "title_en": "Pronunciation of Sanskrit letters",
+          "objectives": [
+            "Understand the basic sounds of Sanskrit letters.",
+            "Practice correct pronunciation of letters."
+          ]
+        },
+        {
+          "title_en": "Visarga and Anunasikavarna",
+          "objectives": [
+            "Learn the sound of Visarga.",
+            "Identify nasal sounds (Anunasikavarna)."
+          ]
+        },
+        {
+          "title_en": "Conjunct Consonants (Samyuktakshara)",
+          "objectives": [
+            "Identify and pronounce conjunct consonants.",
+            "Form words using conjunct consonants."
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 40,
+      "page_start": 33,
+      "section": null,
+      "title_hi": "पञ्चमः पाठः: ध्वनिपरिचयः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Six: Masculine Nouns ending in 'a'",
+      "topics": [
+        {
+          "title_en": "Introduction to Masculine Nouns",
+          "objectives": [
+            "Identify masculine nouns ending in 'a'.",
+            "Understand the basic forms of these nouns."
+          ]
+        },
+        {
+          "title_en": "Examples of Masculine Nouns",
+          "objectives": [
+            "Learn common masculine nouns.",
+            "Practice using masculine nouns in simple sentences."
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 43,
+      "page_start": 41,
+      "section": null,
+      "title_hi": "षष्ठः पाठः: अकारान्तपुंलिङ्गः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Seven: Feminine Nouns ending in 'aa'",
+      "topics": [
+        {
+          "title_en": "Introduction to Feminine Nouns",
+          "objectives": [
+            "Identify feminine nouns ending in 'aa'.",
+            "Understand the basic forms of these nouns."
+          ]
+        },
+        {
+          "title_en": "Examples of Feminine Nouns",
+          "objectives": [
+            "Learn common feminine nouns.",
+            "Practice using feminine nouns in simple sentences."
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 46,
+      "page_start": 44,
+      "section": null,
+      "title_hi": "सप्तमः पाठः: आकारान्तस्त्रीलिङ्गः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Eight: Neuter Nouns ending in 'a'",
+      "topics": [
+        {
+          "title_en": "Introduction to Neuter Nouns",
+          "objectives": [
+            "Identify neuter nouns ending in 'a'.",
+            "Understand the basic forms of these nouns."
+          ]
+        },
+        {
+          "title_en": "Examples of Neuter Nouns",
+          "objectives": [
+            "Learn common neuter nouns.",
+            "Practice using neuter nouns in simple sentences."
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 49,
+      "page_start": 47,
+      "section": null,
+      "title_hi": "अष्टमः पाठः: अकारान्तनपुंसकलिङ्गः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Nine: Masculine Nouns ending in 'i'",
+      "topics": [
+        {
+          "title_en": "Masculine Nouns ending in 'i' and 'u'",
+          "objectives": [
+            "Identify masculine nouns ending in 'i' and 'u'.",
+            "Understand their basic forms and usage."
+          ]
+        },
+        {
+          "title_en": "Practice with 'i' and 'u' ending nouns",
+          "objectives": [
+            "Form words with 'i' and 'u' ending nouns.",
+            "Complete exercises related to these nouns."
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 53,
+      "page_start": 50,
+      "section": null,
+      "title_hi": "नवमः पाठः: इकारान्तपुंलिङ्गः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Ten: Numbers",
+      "topics": [
+        {
+          "title_en": "Counting from One to Ten",
+          "objectives": [
+            "Learn Sanskrit numbers from 1 to 10.",
+            "Identify and write numbers in Sanskrit script."
+          ]
+        },
+        {
+          "title_en": "Number Recognition and Matching",
+          "objectives": [
+            "Match numbers with corresponding objects.",
+            "Practice writing numbers in words and numerals."
+          ]
+        },
+        {
+          "title_en": "Counting from Eleven to Twenty",
+          "objectives": [
+            "Learn Sanskrit numbers from 11 to 20.",
+            "Practice counting objects up to twenty."
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 57,
+      "page_start": 54,
+      "section": null,
+      "title_hi": "दशमः पाठः: संख्या",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Eleven: Ordinal Numbers",
+      "topics": [
+        {
+          "title_en": "Introduction to Ordinal Numbers",
+          "objectives": [
+            "Understand the concept of ordinal numbers.",
+            "Identify ordinal numbers in Sanskrit."
+          ]
+        },
+        {
+          "title_en": "Usage of Ordinal Numbers",
+          "objectives": [
+            "Use ordinal numbers to describe order.",
+            "Practice forming sentences with ordinal numbers."
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 60,
+      "page_start": 58,
+      "section": null,
+      "title_hi": "एकादशः पाठः: पूरणवाचकशब्दाः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Twelve: Adjectives",
+      "topics": [
+        {
+          "title_en": "Introduction to Adjectives",
+          "objectives": [
+            "Identify adjectives in Sanskrit.",
+            "Understand how adjectives describe nouns."
+          ]
+        },
+        {
+          "title_en": "Adjective Agreement",
+          "objectives": [
+            "Learn adjective agreement with gender and number.",
+            "Form simple sentences using adjectives."
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 62,
+      "page_start": 61,
+      "section": null,
+      "title_hi": "द्वादशः पाठः: गुणवाचकशब्दाः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Thirteen: Pronoun Usage",
+      "topics": [
+        {
+          "title_en": "Demonstrative Pronouns (Esha, Ete)",
+          "objectives": [
+            "Identify and use demonstrative pronouns.",
+            "Form sentences using 'Esha' and 'Ete'."
+          ]
+        },
+        {
+          "title_en": "First Person Pronouns (Aham, Vayam, Mama, Asmakam)",
+          "objectives": [
+            "Use first person pronouns correctly.",
+            "Construct sentences with 'Aham', 'Vayam', 'Mama', 'Asmakam'."
+          ]
+        },
+        {
+          "title_en": "Second Person Pronouns (Tvam, Yuyam, Tava, Yushmakam)",
+          "objectives": [
+            "Use second person pronouns correctly.",
+            "Construct sentences with 'Tvam', 'Yuyam', 'Tava', 'Yushmakam'."
+          ]
+        },
+        {
+          "title_en": "Interrogative Pronouns (Kah, Ke, Kim, Kani)",
+          "objectives": [
+            "Form questions using interrogative pronouns.",
+            "Understand the gender and number agreement of pronouns."
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 67,
+      "page_start": 63,
+      "section": null,
+      "title_hi": "त्रयोदशः पाठः: सर्वनामप्रयोगः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Fourteen: Introduction",
+      "topics": [
+        {
+          "title_en": "Self-Introduction",
+          "objectives": [
+            "Introduce oneself in Sanskrit.",
+            "Ask and answer simple personal questions."
+          ]
+        },
+        {
+          "title_en": "Introducing Others",
+          "objectives": [
+            "Introduce other people in Sanskrit.",
+            "Identify different professions and roles."
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 70,
+      "page_start": 68,
+      "section": null,
+      "title_hi": "चतुर्दशः पाठः: परिचयः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chapter Fifteen: Parts of the Body",
+      "topics": [
+        {
+          "title_en": "Names of Body Parts",
+          "objectives": [
+            "Identify and name various body parts in Sanskrit.",
+            "Learn the Sanskrit vocabulary for body parts."
+          ]
+        }
+      ],
+      "order": 15,
+      "page_end": 72,
+      "page_start": 71,
+      "section": null,
+      "title_hi": "पञ्चदशः पाठः: शरीरस्य अङ्गानि",
+      "title_or": null
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "book_title_en": "Literary Stream: Class IX",
+  "chapters": [
+    {
+      "title_en": "Women's Liberation Movement",
+      "topics": [
+        {
+          "title_en": "Understanding Women's Liberation",
+          "objectives": [
+            "Define women's liberation",
+            "Identify historical context of the movement",
+            "Discuss the importance of gender equality"
+          ]
+        },
+        {
+          "title_en": "Challenges and Achievements",
+          "objectives": [
+            "Analyze obstacles faced by women",
+            "Evaluate key milestones in the movement",
+            "Recognize the impact of social reforms"
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 10,
+      "page_start": 7,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ନାରୀ ମୁକ୍ତି ଅଭିଯାନ"
+    },
+    {
+      "title_en": "Flying News",
+      "topics": [
+        {
+          "title_en": "The Nature of News Dissemination",
+          "objectives": [
+            "Explain how news spreads informally",
+            "Discuss the reliability of unverified news",
+            "Identify the role of gossip in society"
+          ]
+        },
+        {
+          "title_en": "Impact of Rumors",
+          "objectives": [
+            "Analyze the effects of rumors on individuals",
+            "Understand the societal consequences of misinformation"
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 13,
+      "page_start": 11,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଉଡ଼ନ୍ତା ଖବର"
+    },
+    {
+      "title_en": "Independence",
+      "topics": [
+        {
+          "title_en": "Concept of Freedom",
+          "objectives": [
+            "Define political independence",
+            "Discuss the value of individual liberty",
+            "Understand the sacrifices for freedom"
+          ]
+        },
+        {
+          "title_en": "Responsibilities of a Free Nation",
+          "objectives": [
+            "Identify duties of citizens in a free country",
+            "Explain the challenges of maintaining independence"
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 16,
+      "page_start": 14,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ସ୍ଵାଧୀନତା"
+    },
+    {
+      "title_en": "Alcohol Prohibition",
+      "topics": [
+        {
+          "title_en": "Understanding Alcoholism",
+          "objectives": [
+            "Describe the effects of alcohol abuse",
+            "Identify social and health impacts of addiction"
+          ]
+        },
+        {
+          "title_en": "Strategies for Prohibition",
+          "objectives": [
+            "Discuss methods for preventing alcohol consumption",
+            "Evaluate the role of community in prohibition efforts"
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 19,
+      "page_start": 17,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ନିଶା ନିବାରଣ"
+    },
+    {
+      "title_en": "Gopal",
+      "topics": [
+        {
+          "title_en": "Character Study of Gopal",
+          "objectives": [
+            "Analyze Gopal's personality traits",
+            "Identify his motivations and actions",
+            "Discuss his role in the narrative"
+          ]
+        },
+        {
+          "title_en": "Moral Lessons from Gopal's Story",
+          "objectives": [
+            "Extract ethical values from the story",
+            "Relate Gopal's experiences to real-life situations"
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 25,
+      "page_start": 20,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଗୋପାଳ"
+    },
+    {
+      "title_en": "Ramakrishna Paramahamsa",
+      "topics": [
+        {
+          "title_en": "Life and Teachings of Ramakrishna",
+          "objectives": [
+            "Summarize the biography of Ramakrishna",
+            "Explain his core spiritual philosophies",
+            "Discuss his emphasis on religious harmony"
+          ]
+        },
+        {
+          "title_en": "Influence on Society",
+          "objectives": [
+            "Analyze Ramakrishna's impact on spiritual movements",
+            "Identify his contributions to Indian thought"
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 31,
+      "page_start": 26,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ରାମକୃଷ୍ଣ ପରମହଂସ"
+    },
+    {
+      "title_en": "Ramakrishna Nivedita",
+      "topics": [
+        {
+          "title_en": "Sister Nivedita's Early Life and Conversion",
+          "objectives": [
+            "Describe Margaret Noble's background",
+            "Explain her meeting with Swami Vivekananda",
+            "Discuss her adoption of Indian culture"
+          ]
+        },
+        {
+          "title_en": "Contributions to India",
+          "objectives": [
+            "Identify Nivedita's role in education and social reform",
+            "Analyze her support for Indian nationalism",
+            "Recognize her spiritual devotion to Ramakrishna"
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 38,
+      "page_start": 32,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ରାମକୃଷ୍ଣ ନିବେଦିତା"
+    },
+    {
+      "title_en": "Dharmapada",
+      "topics": [
+        {
+          "title_en": "The Legend of Dharmapada",
+          "objectives": [
+            "Narrate the story of Dharmapada",
+            "Explain the historical context of Konark Temple",
+            "Discuss the sacrifice made by Dharmapada"
+          ]
+        },
+        {
+          "title_en": "Themes of Sacrifice and Duty",
+          "objectives": [
+            "Analyze the themes of duty and self-sacrifice",
+            "Relate the story to architectural achievements",
+            "Understand the cultural significance of the legend"
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 45,
+      "page_start": 39,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଧର୍ମପଦ"
+    },
+    {
+      "title_en": "Exiled",
+      "topics": [
+        {
+          "title_en": "The Experience of Exile",
+          "objectives": [
+            "Describe the emotional and physical challenges of exile",
+            "Analyze the reasons for banishment",
+            "Discuss the sense of loss and displacement"
+          ]
+        },
+        {
+          "title_en": "Resilience in Adversity",
+          "objectives": [
+            "Identify strategies for coping with adversity",
+            "Explore themes of hope and perseverance in exile"
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 52,
+      "page_start": 46,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ନିର୍ବାସିତ"
+    },
+    {
+      "title_en": "Red Soil",
+      "topics": [
+        {
+          "title_en": "Symbolism of Red Soil",
+          "objectives": [
+            "Interpret the symbolic meaning of red soil",
+            "Discuss its connection to heritage and identity",
+            "Analyze its representation of struggle and resilience"
+          ]
+        },
+        {
+          "title_en": "Cultural and Historical Significance",
+          "objectives": [
+            "Explore the cultural importance of land",
+            "Relate red soil to historical events or traditions"
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 58,
+      "page_start": 53,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଲାଲ୍ ମାଟି"
+    },
+    {
+      "title_en": "Ramachandra and Lakshmana",
+      "topics": [
+        {
+          "title_en": "Brotherly Love and Devotion",
+          "objectives": [
+            "Describe the bond between Ramachandra and Lakshmana",
+            "Analyze Lakshmana's unwavering loyalty",
+            "Discuss the ideals of sibling relationships"
+          ]
+        },
+        {
+          "title_en": "Role in the Epic Narrative",
+          "objectives": [
+            "Identify their contributions to the Ramayana story",
+            "Explain their individual strengths and virtues"
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 62,
+      "page_start": 59,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ରାମଚନ୍ଦ୍ର ଓ ଲକ୍ଷ୍ମଣ"
+    },
+    {
+      "title_en": "Ramachandra and Lakshmana",
+      "topics": [
+        {
+          "title_en": "Further Exploration of Their Journey",
+          "objectives": [
+            "Detail specific events from their exile",
+            "Analyze their interactions and challenges",
+            "Discuss their leadership qualities"
+          ]
+        },
+        {
+          "title_en": "Lessons in Dharma and Sacrifice",
+          "objectives": [
+            "Extract moral lessons from their actions",
+            "Understand the concept of Dharma through their lives",
+            "Evaluate their sacrifices for justice"
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 70,
+      "page_start": 63,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ରାମଚନ୍ଦ୍ର ଓ ଲକ୍ଷ୍ମଣ"
+    },
+    {
+      "title_en": "Democracy",
+      "topics": [
+        {
+          "title_en": "Principles of Democracy",
+          "objectives": [
+            "Define democracy and its core values",
+            "Identify characteristics of a democratic government",
+            "Discuss the importance of citizen participation"
+          ]
+        },
+        {
+          "title_en": "Challenges and Benefits of Democracy",
+          "objectives": [
+            "Analyze the advantages of democratic rule",
+            "Examine common challenges faced by democracies",
+            "Suggest ways to strengthen democratic institutions"
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 76,
+      "page_start": 71,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରଜାତନ୍ତ୍ର"
+    },
+    {
+      "title_en": "Independence",
+      "topics": [
+        {
+          "title_en": "The Struggle for Independence",
+          "objectives": [
+            "Recall historical events leading to independence",
+            "Identify key figures in the freedom movement",
+            "Understand the concept of national sovereignty"
+          ]
+        },
+        {
+          "title_en": "Value and Preservation of Freedom",
+          "objectives": [
+            "Discuss the responsibilities that come with independence",
+            "Explain how to safeguard national freedom",
+            "Appreciate the sacrifices made for liberty"
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 85,
+      "page_start": 77,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ସ୍ଵାଧୀନତା"
+    },
+    {
+      "title_en": "Severed Head",
+      "topics": [
+        {
+          "title_en": "Symbolism and Narrative",
+          "objectives": [
+            "Interpret the symbolic meaning of a severed head",
+            "Analyze the narrative context of the story",
+            "Discuss themes of sacrifice or consequence"
+          ]
+        },
+        {
+          "title_en": "Cultural or Mythological Context",
+          "objectives": [
+            "Relate the story to relevant myths or folklore",
+            "Understand its moral or philosophical implications"
+          ]
+        }
+      ],
+      "order": 15,
+      "page_end": 94,
+      "page_start": 86,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଛିନ୍ନ ମସ୍ତକ"
+    },
+    {
+      "title_en": "Odia Literature",
+      "topics": [
+        {
+          "title_en": "Evolution of Odia Literature",
+          "objectives": [
+            "Trace the historical development of Odia literature",
+            "Identify major periods and literary movements",
+            "Discuss the contributions of prominent Odia writers"
+          ]
+        },
+        {
+          "title_en": "Key Genres and Themes",
+          "objectives": [
+            "Explore different genres in Odia literature",
+            "Analyze recurring themes and motifs",
+            "Appreciate the richness and diversity of Odia literary tradition"
+          ]
+        }
+      ],
+      "order": 16,
+      "page_end": 104,
+      "page_start": 95,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଓଡ଼ିଆ ସାହିତ୍ୟ"
+    },
+    {
+      "title_en": "Independence",
+      "topics": [
+        {
+          "title_en": "Revisiting the Concept of Freedom",
+          "objectives": [
+            "Deepen understanding of independence as a concept",
+            "Discuss its relevance in contemporary society",
+            "Analyze different dimensions of freedom"
+          ]
+        },
+        {
+          "title_en": "Individual and Collective Freedom",
+          "objectives": [
+            "Distinguish between individual and collective liberty",
+            "Examine the interplay between personal rights and national sovereignty"
+          ]
+        }
+      ],
+      "order": 17,
+      "page_end": 110,
+      "page_start": 105,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ସ୍ଵାଧୀନତା"
+    },
+    {
+      "title_en": "Odia Folk Tales",
+      "topics": [
+        {
+          "title_en": "Characteristics of Odia Folk Tales",
+          "objectives": [
+            "Identify common elements in Odia folk tales",
+            "Discuss the role of oral tradition in storytelling",
+            "Analyze the cultural values embedded in these tales"
+          ]
+        },
+        {
+          "title_en": "Moral and Social Lessons",
+          "objectives": [
+            "Extract ethical teachings from folk tales",
+            "Relate stories to social norms and beliefs",
+            "Appreciate the wisdom passed down through generations"
+          ]
+        }
+      ],
+      "order": 18,
+      "page_end": 116,
+      "page_start": 111,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଓଡ଼ିଆ ଲୋକକଥା"
+    },
+    {
+      "title_en": "Laxmikanta",
+      "topics": [
+        {
+          "title_en": "Introduction to Laxmikanta",
+          "objectives": [
+            "Identify Laxmikanta as a literary figure",
+            "Discuss his significance in Odia literature",
+            "Summarize his major works or contributions"
+          ]
+        },
+        {
+          "title_en": "Literary Style and Impact",
+          "objectives": [
+            "Analyze Laxmikanta's unique writing style",
+            "Evaluate his influence on subsequent writers",
+            "Understand his role in shaping literary trends"
+          ]
+        }
+      ],
+      "order": 19,
+      "page_end": 120,
+      "page_start": 117,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଲକ୍ଷ୍ମୀକାନ୍ତ"
+    },
+    {
+      "title_en": "Laxmikanta",
+      "topics": [
+        {
+          "title_en": "Detailed Study of Laxmikanta's Works",
+          "objectives": [
+            "Examine specific literary pieces by Laxmikanta",
+            "Analyze themes and characters in his writings",
+            "Discuss his artistic vision and philosophy"
+          ]
+        },
+        {
+          "title_en": "Legacy and Recognition",
+          "objectives": [
+            "Assess Laxmikanta's lasting legacy in literature",
+            "Identify awards or honors received by him",
+            "Understand his place in the literary canon"
+          ]
+        }
+      ],
+      "order": 20,
+      "page_end": 136,
+      "page_start": 121,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଲକ୍ଷ୍ମୀକାନ୍ତ"
+    },
+    {
+      "title_en": "Friendship",
+      "topics": [
+        {
+          "title_en": "The Essence of Friendship",
+          "objectives": [
+            "Define true friendship and its qualities",
+            "Discuss the importance of trust and loyalty",
+            "Analyze the role of empathy in relationships"
+          ]
+        },
+        {
+          "title_en": "Benefits and Challenges of Friendship",
+          "objectives": [
+            "Identify the positive impacts of friendship",
+            "Examine common challenges in friendships",
+            "Suggest ways to nurture healthy relationships"
+          ]
+        }
+      ],
+      "order": 21,
+      "page_end": 160,
+      "page_start": 137,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବନ୍ଧୁତା"
+    }
+  ],
+  "book_title_or": "ସାହିତ୍ୟ ଧାରା"
+}

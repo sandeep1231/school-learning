@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Sikhya Sathi",
-    "tagline": "Your daily AI home-tutor for BSE Odisha Class 9"
+    "tagline": "Your daily AI home-tutor for {label}"
   },
   "nav": {
     "today": "Today",
@@ -34,7 +34,7 @@
   "chat": {
     "placeholder": "Ask anything about this topic…",
     "send": "Send",
-    "disclaimer": "Answers come from your BSE Odisha textbook. Always verify with your teacher.",
+    "disclaimer": "Answers come from your {board} textbook. Always verify with your teacher.",
     "offTopic": "This question is outside today's topic. Let's stay focused on {topic}."
   },
   "auth": {

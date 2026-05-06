@@ -1,0 +1,585 @@
+{
+  "book_title_en": "Hindi Manjari",
+  "chapters": [
+    {
+      "title_en": "Priceless Pearls",
+      "topics": [
+        {
+          "title_en": "Dohas of Kabir Das",
+          "objectives": [
+            "Understand the meaning of Kabir's couplets.",
+            "Analyze the moral teachings in Kabir's poetry.",
+            "Identify key vocabulary from the couplets.",
+            "Discuss the importance of human life and good company."
+          ],
+          "page_end": 5,
+          "page_start": 1,
+          "title_hi": "कबीरदास के दोहे",
+          "title_or": null
+        },
+        {
+          "title_en": "Padas of Surdas",
+          "objectives": [
+            "Appreciate Surdas's depiction of Krishna's childhood.",
+            "Understand the emotions of Yashoda.",
+            "Identify figures of speech used by Surdas.",
+            "Learn new vocabulary related to the poem."
+          ],
+          "page_end": 9,
+          "page_start": 6,
+          "title_hi": "सूरदास के पद",
+          "title_or": null
+        },
+        {
+          "title_en": "Dohas of Tulsidas",
+          "objectives": [
+            "Interpret the philosophical meaning of Tulsidas's couplets.",
+            "Relate the couplets to human actions and their consequences.",
+            "Recognize the moral values conveyed.",
+            "Expand vocabulary with words from the couplets."
+          ],
+          "page_end": 12,
+          "page_start": 10,
+          "title_hi": "तुलसीदास के दोहे",
+          "title_or": null
+        },
+        {
+          "title_en": "Dohas of Rahim",
+          "objectives": [
+            "Understand Rahim's teachings on good company and true friendship.",
+            "Analyze the metaphors used in the couplets.",
+            "Identify the characteristics of a good person.",
+            "Learn new words and their meanings."
+          ],
+          "page_end": 16,
+          "page_start": 13,
+          "title_hi": "रहीम के दोहे",
+          "title_or": null
+        },
+        {
+          "title_en": "Kundaliyas of Giridhar Kaviray",
+          "objectives": [
+            "Understand the importance of thoughtful action.",
+            "Analyze the consequences of impulsive decisions.",
+            "Identify the moral lessons in the Kundaliyas.",
+            "Learn new vocabulary from the poem."
+          ],
+          "page_end": 19,
+          "page_start": 17,
+          "title_hi": "गिरिधर कविराय की कुंडलिया",
+          "title_or": null
+        }
+      ],
+      "order": 1,
+      "page_end": 19,
+      "page_start": 1,
+      "section": "पद्य विभाग",
+      "title_hi": "अनमोल मोती",
+      "title_or": null
+    },
+    {
+      "title_en": "Beloved",
+      "topics": [
+        {
+          "title_en": "Poet Introduction and Emotional Understanding",
+          "objectives": [
+            "Learn about the life and works of Suryakant Tripathi 'Nirala'.",
+            "Understand the central theme of the poem 'Priyatam'.",
+            "Analyze the poet's message about devotion and karma."
+          ],
+          "page_end": 20,
+          "page_start": 20,
+          "title_hi": "कवि परिचय और भाव-बोध",
+          "title_or": null
+        },
+        {
+          "title_en": "Recitation and Explanation of Priyatam Poem",
+          "objectives": [
+            "Recite the poem with correct pronunciation.",
+            "Explain the conversation between Narad and Vishnu.",
+            "Understand the concept of a true devotee.",
+            "Identify the moral of the story."
+          ],
+          "page_end": 22,
+          "page_start": 21,
+          "title_hi": "प्रियतम कविता का पाठ और व्याख्या",
+          "title_or": null
+        },
+        {
+          "title_en": "Questions and Exercises",
+          "objectives": [
+            "Answer comprehension questions based on the poem.",
+            "Analyze the characters and their actions.",
+            "Practice language skills related to synonyms and antonyms.",
+            "Identify grammatical concepts like gender."
+          ],
+          "page_end": 26,
+          "page_start": 23,
+          "title_hi": "प्रश्न और अभ्यास",
+          "title_or": null
+        }
+      ],
+      "order": 2,
+      "page_end": 26,
+      "page_start": 20,
+      "section": "पद्य विभाग",
+      "title_hi": "प्रियतम",
+      "title_or": null
+    },
+    {
+      "title_en": "Rahul's Mother",
+      "topics": [
+        {
+          "title_en": "Poet Introduction and Emotional Understanding",
+          "objectives": [
+            "Learn about the life and works of Maithili Sharan Gupt.",
+            "Understand the emotional state of Yashodhara.",
+            "Analyze the theme of sacrifice and duty."
+          ],
+          "page_end": 28,
+          "page_start": 27,
+          "title_hi": "कवि परिचय और भाव-बोध",
+          "title_or": null
+        },
+        {
+          "title_en": "Recitation and Explanation of the Poem",
+          "objectives": [
+            "Recite the poem with expression.",
+            "Explain Yashodhara's lament and her feelings towards Rahul.",
+            "Understand the portrayal of Indian womanhood.",
+            "Identify key vocabulary and their meanings."
+          ],
+          "page_end": 29,
+          "page_start": 29,
+          "title_hi": "कविता का पाठ और व्याख्या",
+          "title_or": null
+        },
+        {
+          "title_en": "Questions and Exercises",
+          "objectives": [
+            "Answer comprehension questions about the poem.",
+            "Fill in the blanks with appropriate words.",
+            "Practice language skills like identifying nouns and adjectives.",
+            "Identify rhyming words."
+          ],
+          "page_end": 32,
+          "page_start": 30,
+          "title_hi": "प्रश्न और अभ्यास",
+          "title_or": null
+        }
+      ],
+      "order": 3,
+      "page_end": 32,
+      "page_start": 27,
+      "section": "पद्य विभाग",
+      "title_hi": "राहुल जननी",
+      "title_or": null
+    },
+    {
+      "title_en": "Become Great Again",
+      "topics": [
+        {
+          "title_en": "Poet Introduction and Emotional Understanding",
+          "objectives": [
+            "Learn about the life and works of Narendra Sharma.",
+            "Understand the central message of the poem.",
+            "Analyze the call for humanity and greatness."
+          ],
+          "page_end": 33,
+          "page_start": 33,
+          "title_hi": "कवि परिचय और भाव-बोध",
+          "title_or": null
+        },
+        {
+          "title_en": "Recitation and Explanation of the Poem",
+          "objectives": [
+            "Recite the poem with appropriate rhythm.",
+            "Explain the poet's call to overcome negativity.",
+            "Understand the qualities of a great human being.",
+            "Learn new vocabulary and their synonyms."
+          ],
+          "page_end": 34,
+          "page_start": 34,
+          "title_hi": "कविता का पाठ और व्याख्या",
+          "title_or": null
+        },
+        {
+          "title_en": "Questions and Exercises",
+          "objectives": [
+            "Answer comprehension questions based on the poem.",
+            "Fill in the blanks to complete poem lines.",
+            "Practice language skills like synonyms, antonyms, and changing number.",
+            "Reflect on the poem's message."
+          ],
+          "page_end": 37,
+          "page_start": 35,
+          "title_hi": "प्रश्न और अभ्यास",
+          "title_or": null
+        }
+      ],
+      "order": 4,
+      "page_end": 37,
+      "page_start": 33,
+      "section": "पद्य विभाग",
+      "title_hi": "फिर महान बन",
+      "title_or": null
+    },
+    {
+      "title_en": "My New Childhood",
+      "topics": [
+        {
+          "title_en": "Poet Introduction and Emotional Understanding",
+          "objectives": [
+            "Learn about the life and works of Subhadra Kumari Chauhan.",
+            "Understand the poet's longing for childhood.",
+            "Analyze the innocence and joy of childhood."
+          ],
+          "page_end": 38,
+          "page_start": 38,
+          "title_hi": "कवि परिचय और भाव-बोध",
+          "title_or": null
+        },
+        {
+          "title_en": "Recitation and Explanation of the Poem",
+          "objectives": [
+            "Recite the poem with emotion.",
+            "Explain the poet's memories of her childhood.",
+            "Understand the mother-daughter bond.",
+            "Identify new vocabulary and their meanings."
+          ],
+          "page_end": 41,
+          "page_start": 39,
+          "title_hi": "कविता का पाठ और व्याख्या",
+          "title_or": null
+        },
+        {
+          "title_en": "Questions and Exercises",
+          "objectives": [
+            "Answer comprehension questions about the poem.",
+            "Choose the correct options for multiple-choice questions.",
+            "Practice language skills like joining adjectives and nouns.",
+            "Identify synonyms and antonyms."
+          ],
+          "page_end": 45,
+          "page_start": 42,
+          "title_hi": "प्रश्न और अभ्यास",
+          "title_or": null
+        }
+      ],
+      "order": 5,
+      "page_end": 45,
+      "page_start": 38,
+      "section": "पद्य विभाग",
+      "title_hi": "मेरा नया बचपन",
+      "title_or": null
+    },
+    {
+      "title_en": "Friend! Are You Afraid of Sorrow?",
+      "topics": [
+        {
+          "title_en": "Poet Introduction and Emotional Understanding",
+          "objectives": [
+            "Learn about the life and works of Gopal Das 'Neeraj'.",
+            "Understand the poem's message about facing sorrow.",
+            "Analyze the relationship between joy and sorrow in life."
+          ],
+          "page_end": 46,
+          "page_start": 46,
+          "title_hi": "कवि परिचय और भाव-बोध",
+          "title_or": null
+        },
+        {
+          "title_en": "Recitation and Explanation of the Poem",
+          "objectives": [
+            "Recite the poem with feeling.",
+            "Explain the poet's encouragement to confront difficulties.",
+            "Understand that sorrow is a part of life's journey.",
+            "Identify new vocabulary and their meanings."
+          ],
+          "page_end": 47,
+          "page_start": 47,
+          "title_hi": "कविता का पाठ और व्याख्या",
+          "title_or": null
+        },
+        {
+          "title_en": "Questions and Exercises",
+          "objectives": [
+            "Answer comprehension questions based on the poem.",
+            "Complete the lines of the poem.",
+            "Choose the correct meaning for phrases.",
+            "Practice language skills like antonyms and word usage."
+          ],
+          "page_end": 50,
+          "page_start": 48,
+          "title_hi": "प्रश्न और अभ्यास",
+          "title_or": null
+        }
+      ],
+      "order": 6,
+      "page_end": 50,
+      "page_start": 46,
+      "section": "पद्य विभाग",
+      "title_hi": "साथी ! दुःख से घबराता है ?",
+      "title_or": null
+    },
+    {
+      "title_en": "Dignity of Labor",
+      "topics": [
+        {
+          "title_en": "Author Introduction and Key Ideas",
+          "objectives": [
+            "Learn about the life and philosophy of Acharya Vinoba Bhave.",
+            "Understand the central idea of the essay on dignity of labor.",
+            "Analyze Vinoba Bhave's views on physical and mental work."
+          ],
+          "page_end": 51,
+          "page_start": 51,
+          "title_hi": "लेखक परिचय और विचार-बिंदु",
+          "title_or": null
+        },
+        {
+          "title_en": "Importance of Labor and Dignity in Society",
+          "objectives": [
+            "Understand why all types of labor are important.",
+            "Analyze the social perception of different types of work.",
+            "Discuss the concept of 'Karma Yogi'.",
+            "Identify the reasons for lack of dignity of labor in society."
+          ],
+          "page_end": 55,
+          "page_start": 52,
+          "title_hi": "श्रम का महत्व और समाज में प्रतिष्ठा",
+          "title_or": null
+        },
+        {
+          "title_en": "Questions and Exercises",
+          "objectives": [
+            "Answer comprehension questions about the essay.",
+            "Explain the meaning of key phrases.",
+            "Fill in the blanks with appropriate words.",
+            "Practice language skills like identifying prefixes and suffixes."
+          ],
+          "page_end": 60,
+          "page_start": 56,
+          "title_hi": "प्रश्न और अभ्यास",
+          "title_or": null
+        }
+      ],
+      "order": 7,
+      "page_end": 60,
+      "page_start": 51,
+      "section": "गद्य विभाग",
+      "title_hi": "श्रम की प्रतिष्ठा",
+      "title_or": null
+    },
+    {
+      "title_en": "Mamta",
+      "topics": [
+        {
+          "title_en": "Storyteller Introduction and Key Ideas",
+          "objectives": [
+            "Learn about the life and works of Jaishankar Prasad.",
+            "Understand the historical context of the story 'Mamta'.",
+            "Analyze the themes of self-respect and hospitality."
+          ],
+          "page_end": 62,
+          "page_start": 61,
+          "title_hi": "कहानीकार का परिचय और विचार-बिंदु",
+          "title_or": null
+        },
+        {
+          "title_en": "Mamta's Story and Humayun's Shelter",
+          "objectives": [
+            "Narrate the story of Mamta and her encounter with Humayun.",
+            "Understand Mamta's character and her values.",
+            "Analyze the historical events depicted in the story.",
+            "Identify new vocabulary and their meanings."
+          ],
+          "page_end": 67,
+          "page_start": 63,
+          "title_hi": "ममता की कहानी और हुमायूँ का आश्रय",
+          "title_or": null
+        },
+        {
+          "title_en": "Questions and Exercises",
+          "objectives": [
+            "Answer comprehension questions about the story.",
+            "Explain the meaning of given excerpts.",
+            "Identify characters and their dialogues.",
+            "Practice language skills like identifying Tatsam words."
+          ],
+          "page_end": 73,
+          "page_start": 68,
+          "title_hi": "प्रश्न और अभ्यास",
+          "title_or": null
+        }
+      ],
+      "order": 8,
+      "page_end": 73,
+      "page_start": 61,
+      "section": "गद्य विभाग",
+      "title_hi": "ममता",
+      "title_or": null
+    },
+    {
+      "title_en": "My Friends in Jail",
+      "topics": [
+        {
+          "title_en": "Author Introduction and Key Ideas",
+          "objectives": [
+            "Learn about the life and works of Pt. Jawaharlal Nehru.",
+            "Understand the context of Nehru's prison experiences.",
+            "Analyze the author's perspective on nature and companionship."
+          ],
+          "page_end": 75,
+          "page_start": 74,
+          "title_hi": "लेखक परिचय और विचार-बिंदु",
+          "title_or": null
+        },
+        {
+          "title_en": "Prison Life and Connection with Nature",
+          "objectives": [
+            "Describe Nehru's observations of squirrels, birds, and other animals in jail.",
+            "Understand the challenges of caring for young animals in prison.",
+            "Analyze the emotional support derived from nature.",
+            "Identify new vocabulary related to prison life and animals."
+          ],
+          "page_end": 79,
+          "page_start": 75,
+          "title_hi": "जेल जीवन और प्रकृति से जुड़ाव",
+          "title_or": null
+        },
+        {
+          "title_en": "Questions and Exercises",
+          "objectives": [
+            "Answer comprehension questions about Nehru's experiences.",
+            "Choose the correct options for multiple-choice questions.",
+            "Practice language skills like changing number and identifying prepositions.",
+            "Reflect on the importance of companionship."
+          ],
+          "page_end": 86,
+          "page_start": 80,
+          "title_hi": "प्रश्न और अभ्यास",
+          "title_or": null
+        }
+      ],
+      "order": 9,
+      "page_end": 86,
+      "page_start": 74,
+      "section": "गद्य विभाग",
+      "title_hi": "जेल में मेरे मित्र",
+      "title_or": null
+    },
+    {
+      "title_en": "Bearers of Scientific Consciousness",
+      "topics": [
+        {
+          "title_en": "Author Introduction and Key Ideas",
+          "objectives": [
+            "Learn about the life and contributions of C.V. Raman.",
+            "Understand the author's purpose in highlighting scientific consciousness.",
+            "Analyze the importance of scientific inquiry."
+          ],
+          "page_end": 87,
+          "page_start": 87,
+          "title_hi": "लेखक परिचय और विचार-बिंदु",
+          "title_or": null
+        },
+        {
+          "title_en": "Life and Scientific Discoveries of C.V. Raman",
+          "objectives": [
+            "Describe C.V. Raman's early life and education.",
+            "Understand the process and significance of the Raman Effect.",
+            "Identify the challenges faced by Raman in his research.",
+            "Learn about the awards and recognition received by Raman."
+          ],
+          "page_end": 92,
+          "page_start": 88,
+          "title_hi": "सी.वी. रामन का जीवन और वैज्ञानिक खोजें",
+          "title_or": null
+        },
+        {
+          "title_en": "Scientific Outlook and Inspiration",
+          "objectives": [
+            "Analyze Raman's dedication to science and national pride.",
+            "Understand the importance of observation and experimentation.",
+            "Discuss how Raman inspired scientific consciousness in India.",
+            "Identify new vocabulary related to science and research."
+          ],
+          "page_end": 94,
+          "page_start": 93,
+          "title_hi": "वैज्ञानिक दृष्टिकोण और प्रेरणा",
+          "title_or": null
+        },
+        {
+          "title_en": "Questions and Exercises",
+          "objectives": [
+            "Answer comprehension questions about C.V. Raman's life and work.",
+            "Fill in the blanks with correct information.",
+            "Practice language skills like synonyms, gender, and number.",
+            "Identify grammatical concepts like prefixes and verbs."
+          ],
+          "page_end": 97,
+          "page_start": 95,
+          "title_hi": "प्रश्न और अभ्यास",
+          "title_or": null
+        }
+      ],
+      "order": 10,
+      "page_end": 97,
+      "page_start": 87,
+      "section": "गद्य विभाग",
+      "title_hi": "वैज्ञानिक चेतना के वाहक",
+      "title_or": null
+    },
+    {
+      "title_en": "Letter to a Teacher",
+      "topics": [
+        {
+          "title_en": "Author Introduction and Key Ideas",
+          "objectives": [
+            "Learn about the life and legacy of Abraham Lincoln.",
+            "Understand the purpose of Lincoln's letter to his son's teacher.",
+            "Analyze the values Lincoln wished to instill in his son."
+          ],
+          "page_end": 98,
+          "page_start": 98,
+          "title_hi": "लेखक परिचय और विचार-बिंदु",
+          "title_or": null
+        },
+        {
+          "title_en": "Message of the Letter and Moral Education",
+          "objectives": [
+            "Explain the key teachings and advice given in the letter.",
+            "Understand the importance of honesty, courage, and self-reliance.",
+            "Analyze Lincoln's views on success and failure.",
+            "Identify new vocabulary and their meanings."
+          ],
+          "page_end": 100,
+          "page_start": 99,
+          "title_hi": "पत्र का संदेश और नैतिक शिक्षा",
+          "title_or": null
+        },
+        {
+          "title_en": "Questions and Exercises",
+          "objectives": [
+            "Answer comprehension questions about the letter.",
+            "Choose the correct options for multiple-choice questions.",
+            "Practice language skills like forming new words with suffixes.",
+            "Identify synonyms and antonyms."
+          ],
+          "page_end": 106,
+          "page_start": 101,
+          "title_hi": "प्रश्न और अभ्यास",
+          "title_or": null
+        }
+      ],
+      "order": 11,
+      "page_end": 106,
+      "page_start": 98,
+      "section": "गद्य विभाग",
+      "title_hi": "अध्यापक के नाम पत्र",
+      "title_or": null
+    }
+  ],
+  "book_title_or": null
+}

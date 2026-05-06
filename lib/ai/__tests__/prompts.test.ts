@@ -3,6 +3,7 @@ import { buildTutorSystemPrompt, buildParentSummaryPrompt } from "@/lib/ai/promp
 
 describe("buildTutorSystemPrompt", () => {
   const base = {
+    classLevel: 9,
     subjectName: "Mathematics",
     chapterTitle: "Polynomials",
     topicTitle: "Zeroes of a Polynomial",

@@ -1,0 +1,424 @@
+Output of terminal 7bb1edc6-0711-43de-b05f-6deb606393fb:
+
+
+[... PREVIOUS OUTPUT TRUNCATED ...]
+
+╖ c9-flo-ch32-t1: already has 4 variants
+  ┬╖ c9-flo-ch32-t2: already has 4 variants
+  Γ£ù c9-flo-ch33-t1: network: [GoogleGenerativeAI Error]: Text not available. Response was blocked due to PROHIBITED_CONTENT
+  ┬╖ c9-flo-ch33-t2: already has 4 variants
+  ┬╖ c9-flo-ch34-t1: already has 4 variants
+  ┬╖ c9-flo-ch34-t2: already has 4 variants
+  ┬╖ c9-flo-ch35-t1: already has 4 variants
+  ┬╖ c9-flo-ch35-t2: already has 4 variants
+  ┬╖ c9-flo-ch36-t1: already has 4 variants
+  ┬╖ c9-flo-ch36-t2: already has 4 variants
+  Γ£ù c9-flo-ch37-t1: network: [GoogleGenerativeAI Error]: Text not available. Response was blocked due to PROHIBITED_CONTENT
+  ┬╖ c9-flo-ch37-t2: already has 4 variants
+  ┬╖ c9-flo-ch38-t1: already has 4 variants
+  ┬╖ c9-flo-ch38-t2: already has 4 variants
+  ┬╖ c9-flo-ch39-t1: already has 4 variants
+  ┬╖ c9-flo-ch39-t2: already has 4 variants
+  ┬╖ c9-flo-ch40-t1: already has 4 variants
+  ┬╖ c9-flo-ch40-t2: already has 4 variants
+  ┬╖ c9-flo-ch41-t1: already has 4 variants
+  ┬╖ c9-flo-ch41-t2: already has 4 variants
+  ┬╖ c9-flo-ch42-t1: already has 4 variants
+  ┬╖ c9-flo-ch42-t2: already has 4 variants
+  ┬╖ c9-flo-ch43-t1: already has 4 variants
+  ┬╖ c9-flo-ch43-t2: already has 4 variants
+  ┬╖ c9-flo-ch44-t1: already has 4 variants
+  ┬╖ c9-flo-ch44-t2: already has 4 variants
+  ┬╖ c9-flo-ch45-t1: already has 4 variants
+  ┬╖ c9-flo-ch45-t2: already has 4 variants
+  ┬╖ c9-flo-ch46-t1: already has 4 variants
+  ┬╖ c9-flo-ch46-t2: already has 4 variants
+  Γ£ô c9-flo-ch47-t1: +4 variants
+  Γ£ô c9-flo-ch48-t1: +4 variants
+  Γ£ô c9-flo-ch49-t1: +4 variants
+  Γ£ô c9-flo-ch50-t1: +4 variants
+  Γ£ô c9-flo-ch51-t1: +4 variants
+  Γ£ô c9-flo-ch52-t1: +4 variants
+  Γ£ô c9-flo-ch53-t1: +4 variants
+  Γ£ô c9-flo-ch54-t1: +4 variants
+  Γ£ô c9-flo-ch55-t1: +4 variants
+  Γ£ô c9-flo-ch56-t1: +4 variants
+  Γ£ô c9-flo-ch57-t1: +4 variants
+  Γ£ô c9-flo-ch58-t1: +4 variants
+  Γ£ô c9-flo-ch59-t1: +4 variants
+  Γ£ô c9-flo-ch60-t1: +4 variants
+  Γ£ô c9-flo-ch61-t1: +4 variants
+  Γ£ô c9-flo-ch61-t2: +4 variants
+  Γ£ô c9-flo-ch62-t1: +4 variants
+  Γ£ô c9-flo-ch62-t2: +4 variants
+  Γ£ô c9-flo-ch63-t1: +4 variants
+  Γ£ô c9-flo-ch63-t2: +4 variants
+  Γ£ô c9-flo-ch64-t1: +4 variants
+  Γ£ô c9-flo-ch64-t2: +4 variants
+  Γ£ù c9-flo-ch65-t1: network: [GoogleGenerativeAI Error]: Text not available. Response was blocked due to PROHIBITED_CONTENT
+  Γ£ô c9-flo-ch65-t2: +4 variants
+  Γ£ô c9-flo-ch66-t1: +4 variants
+  Γ£ô c9-flo-ch66-t2: +4 variants
+  Γ£ô c9-flo-ch67-t1: +4 variants
+  Γ£ô c9-flo-ch67-t2: +4 variants
+  Γ£ù c9-flo-ch68-t1: network: [GoogleGenerativeAI Error]: Text not available. Response was blocked due to PROHIBITED_CONTENT
+  Γ£ô c9-flo-ch68-t2: +4 variants
+  Γ£ô c9-flo-ch69-t1: +4 variants
+  Γ£ô c9-flo-ch69-t2: +4 variants
+  Γ£ô c9-flo-ch70-t1: +4 variants
+  Γ£ô c9-flo-ch70-t2: +4 variants
+  Γ£ô c9-flo-ch71-t1: +4 variants
+  Γ£ô c9-flo-ch71-t2: +4 variants
+  Γ£ù c9-flo-ch72-t1: network: [GoogleGenerativeAI Error]: Text not available. Response was blocked due to PROHIBITED_CONTENT
+  Γ£ô c9-flo-ch72-t2: +4 variants
+  Γ£ô c9-flo-ch73-t1: +4 variants
+  Γ£ô c9-flo-ch73-t2: +4 variants
+  Γ£ô c9-flo-ch74-t1: +4 variants
+  Γ£ô c9-flo-ch74-t2: +4 variants
+  Γ£ô c9-flo-ch75-t1: +4 variants
+  Γ£ô c9-flo-ch75-t2: +4 variants
+  Γ£ô c9-flo-ch76-t1: +4 variants
+  Γ£ô c9-flo-ch76-t2: +4 variants
+  Γ£ô c9-flo-ch77-t1: +4 variants
+  Γ£ô c9-flo-ch77-t2: +4 variants
+  Γ£ô c9-flo-ch78-t1: +4 variants
+  Γ£ô c9-flo-ch78-t2: +4 variants
+  Γ£ô c9-flo-ch79-t1: +4 variants
+  Γ£ô c9-flo-ch79-t2: +4 variants
+  Γ£ô c9-flo-ch80-t1: +4 variants
+  Γ£ô c9-flo-ch80-t2: +4 variants
+  Γ£ô c9-flo-ch81-t1: +4 variants
+  Γ£ô c9-flo-ch81-t2: +4 variants
+  Γ£ô c9-flo-ch82-t1: +4 variants
+  Γ£ô c9-flo-ch83-t1: +4 variants
+  Γ£ô c9-flo-ch84-t1: +4 variants
+  Γ£ô c9-flo-ch85-t1: +4 variants
+  Γ£ô c9-flo-ch86-t1: +4 variants
+  Γ£ô c9-flo-ch87-t1: +4 variants
+  Γ£ô c9-flo-ch88-t1: +4 variants
+  Γ£ô c9-flo-ch89-t1: +4 variants
+  Γ£ô c9-flo-ch90-t1: +4 variants
+  Γ£ô c9-flo-ch91-t1: +4 variants
+  Γ£ô c9-flo-ch92-t1: +4 variants
+  Γ£ô c9-flo-ch93-t1: +4 variants
+  Γ£ô c9-flo-ch94-t1: +4 variants
+  Γ£ô c9-flo-ch95-t1: +4 variants
+  Γ£ô c9-flo-ch96-t1: +4 variants
+  Γ£ô c9-flo-ch96-t2: +4 variants
+  Γ£ù c9-flo-ch97-t1: network: [GoogleGenerativeAI Error]: Text not available. Response was blocked due to PROHIBITED_CONTENT
+  Γ£ô c9-flo-ch97-t2: +4 variants
+  Γ£ô c9-flo-ch98-t1: +4 variants
+  Γ£ô c9-flo-ch98-t2: +4 variants
+  Γ£ô c9-flo-ch99-t1: +4 variants
+  Γ£ô c9-flo-ch99-t2: +4 variants
+  Γ£ô c9-flo-ch100-t1: +4 variants
+  Γ£ô c9-flo-ch100-t2: +4 variants
+  Γ£ô c9-flo-ch101-t1: +4 variants
+  Γ£ô c9-flo-ch101-t2: +4 variants
+  Γ£ô c9-flo-ch102-t1: +4 variants
+  Γ£ô c9-flo-ch102-t2: +4 variants
+  Γ£ô c9-flo-ch103-t1: +4 variants
+  Γ£ô c9-flo-ch103-t2: +4 variants
+  Γ£ô c9-flo-ch104-t1: +4 variants
+  Γ£ô c9-flo-ch104-t2: +4 variants
+  Γ£ô c9-flo-ch105-t1: +4 variants
+  Γ£ô c9-flo-ch105-t2: +4 variants
+  Γ£ô c9-flo-ch106-t1: +4 variants
+  Γ£ô c9-flo-ch106-t2: +4 variants
+  Γ£ô c9-flo-ch107-t1: +4 variants
+  Γ£ô c9-flo-ch107-t2: +4 variants
+  Γ£ô c9-flo-ch108-t1: +4 variants
+  Γ£ô c9-flo-ch108-t2: +4 variants
+  Γ£ô c9-flo-ch109-t1: +4 variants
+  Γ£ô c9-flo-ch109-t2: +4 variants
+  Γ£ô c9-flo-ch110-t1: +4 variants
+  Γ£ô c9-flo-ch110-t2: +4 variants
+  Γ£ô c9-flo-ch111-t1: +4 variants
+  Γ£ô c9-flo-ch111-t2: +4 variants
+  Γ£ô c9-flo-ch112-t1: +4 variants
+  Γ£ô c9-flo-ch112-t2: +4 variants
+  Γ£ù c9-flo-ch113-t1: network: [GoogleGenerativeAI Error]: Text not available. Response was blocked due to PROHIBITED_CONTENT
+  Γ£ù c9-flo-ch113-t2: network: [GoogleGenerativeAI Error]: Text not available. Response was blocked due to PROHIBITED_CONTENT
+  Γ£ô c9-flo-ch114-t1: +4 variants
+  Γ£ô c9-flo-ch114-t2: +4 variants
+  Γ£ù c9-flo-ch115-t1: network: [GoogleGenerativeAI Error]: Text not available. Response was blocked due to PROHIBITED_CONTENT
+  Γ£ù c9-flo-ch115-t2: network: [GoogleGenerativeAI Error]: Text not available. Response was blocked due to PROHIBITED_CONTENT
+  Γ£ô c9-flo-ch116-t1: +4 variants
+  Γ£ô c9-flo-ch116-t2: +4 variants
+
+Done. ok=104, skipped=53, failed=11, total=168.
+
+==> [lessons] subject=GSC  log=D:\sandeep\school-learning\scripts\content\..\..\data\reports\p3-runs\20260503-082746-GSC-lessons.log
+Γùç injected env (14) from .env.local // tip: Γîÿ custom filepath { path: '/custom/path/.env' }
+Generating lesson variants for 288 topic(s) ΓÇö BSE Odisha Class 9 (lang=or)ΓÇª
+  Γ£ô c9-gsc-ch16-t1: +4 variants
+  Γ£ô c9-gsc-ch16-t2: +4 variants
+  Γ£ô c9-gsc-ch16-t3: +4 variants
+  Γ£ô c9-gsc-ch16-t4: +4 variants
+  Γ£ô c9-gsc-ch16-t5: +4 variants
+  Γ£ô c9-gsc-ch16-t6: +4 variants
+  Γ£ô c9-gsc-ch16-t7: +4 variants
+  Γ£ô c9-gsc-ch16-t8: +4 variants
+  Γ£ô c9-gsc-ch17-t1: +4 variants
+  Γ£ô c9-gsc-ch17-t2: +4 variants
+  Γ£ô c9-gsc-ch17-t3: +4 variants
+  Γ£ô c9-gsc-ch17-t4: +4 variants
+  Γ£ô c9-gsc-ch18-t1: +4 variants
+  Γ£ô c9-gsc-ch18-t2: +4 variants
+  Γ£ô c9-gsc-ch18-t3: +4 variants
+  Γ£ô c9-gsc-ch18-t4: +4 variants
+  Γ£ô c9-gsc-ch18-t5: +4 variants
+  Γ£ô c9-gsc-ch18-t6: +4 variants
+  Γ£ô c9-gsc-ch18-t7: +4 variants
+  ┬╖ c9-gsc-ch19-t1: already has 4 variants
+  ┬╖ c9-gsc-ch19-t2: already has 4 variants
+  ┬╖ c9-gsc-ch19-t3: already has 4 variants
+  ┬╖ c9-gsc-ch19-t4: already has 4 variants
+  ┬╖ c9-gsc-ch19-t5: already has 4 variants
+  ┬╖ c9-gsc-ch19-t6: already has 4 variants
+  ┬╖ c9-gsc-ch19-t7: already has 4 variants
+  Γ£ô c9-gsc-ch20-t1: +4 variants
+  Γ£ô c9-gsc-ch20-t2: +4 variants
+  Γ£ô c9-gsc-ch20-t3: +4 variants
+  Γ£ô c9-gsc-ch20-t4: +4 variants
+  Γ£ô c9-gsc-ch20-t5: +4 variants
+  ┬╖ c9-gsc-ch21-t1: already has 4 variants
+  ┬╖ c9-gsc-ch21-t2: already has 4 variants
+  Γ£ô c9-gsc-ch21-t3: +4 variants
+  Γ£ô c9-gsc-ch21-t4: +4 variants
+  Γ£ô c9-gsc-ch21-t5: +4 variants
+  Γ£ô c9-gsc-ch21-t6: +4 variants
+  Γ£ô c9-gsc-ch21-t7: +4 variants
+  Γ£ô c9-gsc-ch21-t8: +4 variants
+  Γ£ô c9-gsc-ch21-t9: +4 variants
+  Γ£ô c9-gsc-ch21-t10: +4 variants
+  Γ£ô c9-gsc-ch21-t11: +4 variants
+  Γ£ô c9-gsc-ch21-t12: +4 variants
+  Γ£ô c9-gsc-ch21-t13: +4 variants
+  Γ£ô c9-gsc-ch21-t14: +4 variants
+  Γ£ô c9-gsc-ch21-t15: +4 variants
+  Γ£ô c9-gsc-ch21-t16: +4 variants
+  Γ£ô c9-gsc-ch21-t17: +4 variants
+  Γ£ô c9-gsc-ch22-t1: +4 variants
+  Γ£ô c9-gsc-ch22-t2: +4 variants
+  Γ£ô c9-gsc-ch22-t3: +4 variants
+  Γ£ô c9-gsc-ch22-t4: +4 variants
+  Γ£ô c9-gsc-ch22-t5: +4 variants
+  Γ£ô c9-gsc-ch22-t6: +4 variants
+  Γ£ô c9-gsc-ch22-t7: +4 variants
+  Γ£ô c9-gsc-ch22-t8: +4 variants
+  Γ£ô c9-gsc-ch22-t9: +4 variants
+  Γ£ô c9-gsc-ch22-t10: +4 variants
+  Γ£ô c9-gsc-ch22-t11: +4 variants
+  Γ£ô c9-gsc-ch22-t12: +4 variants
+  Γ£ô c9-gsc-ch22-t13: +4 variants
+  Γ£ô c9-gsc-ch22-t14: +4 variants
+  Γ£ô c9-gsc-ch22-t15: +4 variants
+  Γ£ô c9-gsc-ch22-t16: +4 variants
+  Γ£ô c9-gsc-ch22-t17: +4 variants
+  Γ£ô c9-gsc-ch22-t18: +4 variants
+  Γ£ô c9-gsc-ch22-t19: +4 variants
+  Γ£ô c9-gsc-ch23-t1: +4 variants
+  Γ£ô c9-gsc-ch23-t2: +4 variants
+  Γ£ô c9-gsc-ch23-t3: +4 variants
+  ┬╖ c9-gsc-ch23-t4: already has 4 variants
+  ┬╖ c9-gsc-ch23-t5: already has 4 variants
+  ┬╖ c9-gsc-ch23-t6: already has 4 variants
+  ┬╖ c9-gsc-ch23-t7: already has 4 variants
+  ┬╖ c9-gsc-ch23-t8: already has 4 variants
+  ┬╖ c9-gsc-ch23-t9: already has 4 variants
+  ┬╖ c9-gsc-ch23-t10: already has 4 variants
+  ┬╖ c9-gsc-ch23-t11: already has 4 variants
+  ┬╖ c9-gsc-ch23-t12: already has 4 variants
+  ┬╖ c9-gsc-ch23-t13: already has 4 variants
+  ┬╖ c9-gsc-ch23-t14: already has 4 variants
+  ┬╖ c9-gsc-ch23-t15: already has 4 variants
+  ┬╖ c9-gsc-ch23-t16: already has 4 variants
+  ┬╖ c9-gsc-ch24-t1: already has 4 variants
+  ┬╖ c9-gsc-ch24-t2: already has 4 variants
+  ┬╖ c9-gsc-ch24-t3: already has 4 variants
+  Γ£ô c9-gsc-ch24-t4: +4 variants
+  Γ£ô c9-gsc-ch24-t5: +4 variants
+  Γ£ô c9-gsc-ch24-t6: +4 variants
+  Γ£ô c9-gsc-ch24-t7: +4 variants
+  Γ£ô c9-gsc-ch24-t8: +4 variants
+  Γ£ô c9-gsc-ch24-t9: +4 variants
+  Γ£ô c9-gsc-ch24-t10: +4 variants
+  Γ£ô c9-gsc-ch24-t11: +4 variants
+  Γ£ô c9-gsc-ch24-t12: +4 variants
+  Γ£ô c9-gsc-ch24-t13: +4 variants
+  Γ£ô c9-gsc-ch25-t1: +4 variants
+  Γ£ô c9-gsc-ch25-t2: +4 variants
+  Γ£ô c9-gsc-ch25-t3: +4 variants
+  Γ£ô c9-gsc-ch25-t4: +4 variants
+  Γ£ô c9-gsc-ch25-t5: +4 variants
+  Γ£ô c9-gsc-ch25-t6: +4 variants
+  Γ£ô c9-gsc-ch25-t7: +4 variants
+  Γ£ô c9-gsc-ch25-t8: +4 variants
+  Γ£ô c9-gsc-ch26-t1: +4 variants
+  Γ£ô c9-gsc-ch26-t2: +4 variants
+  Γ£ô c9-gsc-ch26-t3: +4 variants
+  Γ£ô c9-gsc-ch26-t4: +4 variants
+  Γ£ô c9-gsc-ch27-t1: +4 variants
+  Γ£ô c9-gsc-ch27-t2: +4 variants
+  Γ£ô c9-gsc-ch27-t3: +4 variants
+  Γ£ô c9-gsc-ch27-t4: +4 variants
+  Γ£ô c9-gsc-ch27-t5: +4 variants
+  Γ£ô c9-gsc-ch27-t6: +4 variants
+  Γ£ô c9-gsc-ch27-t7: +4 variants
+  Γ£ô c9-gsc-ch28-t1: +4 variants
+  Γ£ô c9-gsc-ch28-t2: +4 variants
+  Γ£ô c9-gsc-ch28-t3: +4 variants
+  Γ£ô c9-gsc-ch28-t4: +4 variants
+  Γ£ô c9-gsc-ch28-t5: +4 variants
+  Γ£ô c9-gsc-ch28-t6: +4 variants
+  Γ£ô c9-gsc-ch28-t7: +4 variants
+  Γ£ô c9-gsc-ch29-t1: +4 variants
+  Γ£ô c9-gsc-ch29-t2: +4 variants
+  Γ£ô c9-gsc-ch29-t3: +4 variants
+  Γ£ô c9-gsc-ch29-t4: +4 variants
+  Γ£ô c9-gsc-ch29-t5: +4 variants
+  Γ£ô c9-gsc-ch30-t1: +4 variants
+  Γ£ô c9-gsc-ch30-t2: +4 variants
+  Γ£ô c9-gsc-ch30-t3: +4 variants
+  Γ£ô c9-gsc-ch30-t4: +4 variants
+  Γ£ô c9-gsc-ch30-t5: +4 variants
+  Γ£ô c9-gsc-ch30-t6: +4 variants
+  Γ£ô c9-gsc-ch30-t7: +4 variants
+  Γ£ô c9-gsc-ch30-t8: +4 variants
+  Γ£ô c9-gsc-ch30-t9: +4 variants
+  Γ£ô c9-gsc-ch30-t10: +4 variants
+  Γ£ô c9-gsc-ch30-t11: +4 variants
+  Γ£ô c9-gsc-ch30-t12: +4 variants
+  Γ£ô c9-gsc-ch30-t13: +4 variants
+  Γ£ô c9-gsc-ch30-t14: +4 variants
+  Γ£ô c9-gsc-ch30-t15: +4 variants
+  Γ£ô c9-gsc-ch30-t16: +4 variants
+  Γ£ô c9-gsc-ch30-t17: +4 variants
+  Γ£ô c9-gsc-ch31-t1: +4 variants
+  Γ£ô c9-gsc-ch31-t2: +4 variants
+  Γ£ô c9-gsc-ch31-t3: +4 variants
+  Γ£ô c9-gsc-ch31-t4: +4 variants
+  Γ£ô c9-gsc-ch31-t5: +4 variants
+  Γ£ô c9-gsc-ch31-t6: +4 variants
+  Γ£ô c9-gsc-ch31-t7: +4 variants
+  Γ£ô c9-gsc-ch31-t8: +4 variants
+  Γ£ô c9-gsc-ch31-t9: +4 variants
+  Γ£ô c9-gsc-ch31-t10: +4 variants
+  Γ£ô c9-gsc-ch31-t11: +4 variants
+  Γ£ô c9-gsc-ch31-t12: +4 variants
+  Γ£ô c9-gsc-ch31-t13: +4 variants
+  Γ£ô c9-gsc-ch31-t14: +4 variants
+  Γ£ô c9-gsc-ch31-t15: +4 variants
+  Γ£ô c9-gsc-ch31-t16: +4 variants
+  Γ£ô c9-gsc-ch31-t17: +4 variants
+  Γ£ô c9-gsc-ch31-t18: +4 variants
+  Γ£ô c9-gsc-ch31-t19: +4 variants
+  Γ£ô c9-gsc-ch32-t1: +4 variants
+  Γ£ô c9-gsc-ch32-t2: +4 variants
+  Γ£ô c9-gsc-ch32-t3: +4 variants
+  Γ£ô c9-gsc-ch32-t4: +4 variants
+  Γ£ô c9-gsc-ch32-t5: +4 variants
+  Γ£ô c9-gsc-ch32-t6: +4 variants
+  Γ£ô c9-gsc-ch32-t7: +4 variants
+  Γ£ô c9-gsc-ch32-t8: +4 variants
+  Γ£ô c9-gsc-ch32-t9: +4 variants
+  Γ£ô c9-gsc-ch32-t10: +4 variants
+  Γ£ô c9-gsc-ch32-t11: +4 variants
+  Γ£ô c9-gsc-ch32-t12: +4 variants
+  Γ£ô c9-gsc-ch32-t13: +4 variants
+  Γ£ô c9-gsc-ch32-t14: +4 variants
+  Γ£ô c9-gsc-ch32-t15: +4 variants
+  Γ£ô c9-gsc-ch32-t16: +4 variants
+  Γ£ô c9-gsc-ch33-t1: +4 variants
+  Γ£ô c9-gsc-ch33-t2: +4 variants
+  Γ£ô c9-gsc-ch33-t3: +4 variants
+  Γ£ô c9-gsc-ch33-t4: +4 variants
+  Γ£ô c9-gsc-ch33-t5: +4 variants
+  Γ£ô c9-gsc-ch33-t6: +4 variants
+  Γ£ô c9-gsc-ch33-t7: +4 variants
+  Γ£ô c9-gsc-ch33-t8: +4 variants
+  Γ£ô c9-gsc-ch33-t9: +4 variants
+  Γ£ô c9-gsc-ch33-t10: +4 variants
+  Γ£ô c9-gsc-ch33-t11: +4 variants
+  Γ£ô c9-gsc-ch33-t12: +4 variants
+  Γ£ô c9-gsc-ch33-t13: +4 variants
+  Γ£ô c9-gsc-ch34-t1: +4 variants
+  Γ£ô c9-gsc-ch34-t2: +4 variants
+  Γ£ô c9-gsc-ch34-t3: +4 variants
+  Γ£ô c9-gsc-ch34-t4: +4 variants
+  Γ£ô c9-gsc-ch34-t5: +4 variants
+  Γ£ô c9-gsc-ch34-t6: +4 variants
+  Γ£ô c9-gsc-ch34-t7: +4 variants
+  Γ£ô c9-gsc-ch34-t8: +4 variants
+  Γ£ô c9-gsc-ch35-t1: +4 variants
+  Γ£ô c9-gsc-ch35-t2: +4 variants
+  Γ£ô c9-gsc-ch35-t3: +4 variants
+  Γ£ô c9-gsc-ch35-t4: +4 variants
+  Γ£ô c9-gsc-ch36-t1: +4 variants
+  Γ£ô c9-gsc-ch36-t2: +4 variants
+  Γ£ô c9-gsc-ch36-t3: +4 variants
+  Γ£ô c9-gsc-ch36-t4: +4 variants
+  Γ£ô c9-gsc-ch36-t5: +4 variants
+  Γ£ô c9-gsc-ch36-t6: +4 variants
+  Γ£ô c9-gsc-ch36-t7: +4 variants
+  Γ£ô c9-gsc-ch37-t1: +4 variants
+  Γ£ô c9-gsc-ch37-t2: +4 variants
+  Γ£ô c9-gsc-ch37-t3: +4 variants
+  Γ£ô c9-gsc-ch37-t4: +4 variants
+  Γ£ô c9-gsc-ch37-t5: +4 variants
+  Γ£ô c9-gsc-ch37-t6: +4 variants
+  Γ£ô c9-gsc-ch37-t7: +4 variants
+  Γ£ô c9-gsc-ch38-t1: +4 variants
+  Γ£ô c9-gsc-ch38-t2: +4 variants
+  Γ£ô c9-gsc-ch38-t3: +4 variants
+  Γ£ô c9-gsc-ch38-t4: +4 variants
+  Γ£ô c9-gsc-ch38-t5: +4 variants
+  Γ£ô c9-gsc-ch39-t1: +4 variants
+  Γ£ô c9-gsc-ch39-t2: +4 variants
+  Γ£ô c9-gsc-ch39-t3: +4 variants
+  Γ£ô c9-gsc-ch39-t4: +4 variants
+  Γ£ô c9-gsc-ch39-t5: +4 variants
+  Γ£ô c9-gsc-ch39-t6: +4 variants
+  Γ£ô c9-gsc-ch39-t7: +4 variants
+  Γ£ô c9-gsc-ch39-t8: +4 variants
+  Γ£ô c9-gsc-ch39-t9: +4 variants
+  Γ£ô c9-gsc-ch39-t10: +4 variants
+  Γ£ô c9-gsc-ch39-t11: +4 variants
+  Γ£ô c9-gsc-ch39-t12: +4 variants
+  Γ£ô c9-gsc-ch39-t13: +4 variants
+  Γ£ô c9-gsc-ch39-t14: +4 variants
+  Γ£ô c9-gsc-ch39-t15: +4 variants
+  Γ£ô c9-gsc-ch39-t16: +4 variants
+  Γ£ô c9-gsc-ch39-t17: +4 variants
+  Γ£ô c9-gsc-ch40-t1: +4 variants
+  Γ£ô c9-gsc-ch40-t2: +4 variants
+  Γ£ô c9-gsc-ch40-t3: +4 variants
+  Γ£ô c9-gsc-ch40-t4: +4 variants
+  Γ£ô c9-gsc-ch40-t5: +4 variants
+  Γ£ô c9-gsc-ch40-t6: +4 variants
+  Γ£ô c9-gsc-ch40-t7: +4 variants
+  Γ£ô c9-gsc-ch40-t8: +4 variants
+  Γ£ô c9-gsc-ch40-t9: +4 variants
+  Γ£ô c9-gsc-ch40-t10: +4 variants
+  Γ£ô c9-gsc-ch40-t11: +4 variants
+  Γ£ô c9-gsc-ch40-t12: +4 variants
+  Γ£ô c9-gsc-ch40-t13: +4 variants
+  Γ£ô c9-gsc-ch40-t14: +4 variants
+  Γ£ô c9-gsc-ch40-t15: +4 variants
+  Γ£ô c9-gsc-ch40-t16: +4 variants
+  Γ£ô c9-gsc-ch40-t17: +4 variants
+  Γ£ô c9-gsc-ch40-t18: +4 variants
+  Γ£ô c9-gsc-ch40-t19: +4 variants
+  Γ£ô c9-gsc-ch41-t1: +4 variants
+  Γ£ô c9-gsc-ch41-t2: +4 variants
+  Γ£ô c9-gsc-ch41-t3: +4 variants
+  Γ£ô c9-gsc-ch41-t4: +4 variants
+  Γ£ô c9-gsc-ch41-t5: +4 variants
+  Γ£ô c9-gsc-ch41-t6: +4 variants
+  Γ£ô c9-gsc-ch41-t7: +4 variants
+  Γ£ô c9-gsc-ch41-t8: +4 variants
+  Γ£ô c9-gsc-ch41-t9: +4 variants
+  Γ£ô c9-gsc-ch41-t10: +4 variants
+  Γ£ô c9-gsc-ch41-t11: +4 variants
+  Γ£ô c9-gsc-ch41-t12: +4 variants

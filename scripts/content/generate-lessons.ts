@@ -1,5 +1,5 @@
 /**
- * Generate 3-level lesson variants for BSE Odisha Class 9 topics.
+ * Generate 3-level lesson variants for any board+class topics.
  *
  * For each topic:
  *   1. Load metadata from the DB.
@@ -10,6 +10,8 @@
  * Usage:
  *   npx tsx scripts/content/generate-lessons.ts mth-1-1
  *   npx tsx scripts/content/generate-lessons.ts --subject MTH
+ *   npx tsx scripts/content/generate-lessons.ts --class 9 --board BSE_ODISHA --subject FLO
+ *   npx tsx scripts/content/generate-lessons.ts --class 9 --subject FLO,GSC,SLE,TLH
  *   npx tsx scripts/content/generate-lessons.ts --limit 3
  *   npx tsx scripts/content/generate-lessons.ts --force
  */
@@ -20,35 +22,95 @@ loadEnv({ path: path.join(process.cwd(), ".env.local") });
 
 import { CHAT_MODEL, SAFETY_SETTINGS, getGemini } from "@/lib/ai/gemini";
 import { retrieveForScope } from "@/lib/ai/rag";
-import { ensureCurriculum, getTopicBySlug } from "@/lib/curriculum/db";
-import { ALL_TOPICS } from "@/lib/curriculum/bse-class9";
+import {
+  ensureCurriculum,
+  getTopicBySlug,
+  listTopicsForClass,
+} from "@/lib/curriculum/db";
+import { formatBoardLabel } from "@/lib/curriculum/boards";
 import { createAdminClient } from "@/lib/supabase/admin";
+import type { AppLanguage } from "@/lib/types";
+import { languageProfileFor, type SubjectLanguageProfile } from "./language-profile";
+import { CostCap, parseCapArgs } from "./cost-cap";
 
 type Args = {
   topicSlugs: string[] | null;
-  subjectCode: string | null;
+  subjectCodes: string[] | null;
+  classLevel: number;
+  board: string;
   limit: number | null;
   force: boolean;
 };
 
 function parseArgs(): Args {
   const argv = process.argv.slice(2);
-  const out: Args = { topicSlugs: null, subjectCode: null, limit: null, force: false };
+  const out: Args = {
+    topicSlugs: null,
+    subjectCodes: null,
+    classLevel: 9,
+    board: "BSE_ODISHA",
+    limit: null,
+    force: false,
+  };
   const positional: string[] = [];
+  // PowerShell turns unquoted `--subject FLO,GSC` into one arg "FLO GSC";
+  // accept either separator. Same for board codes if ever multi.
+  const splitList = (raw: string | undefined) =>
+    (raw ?? "")
+      .split(/[\s,]+/)
+      .map((s) => s.trim().toUpperCase())
+      .filter((s) => s.length > 0);
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--topic") {
       const v = argv[++i];
-      if (v) (out.topicSlugs ??= []).push(v);
-    } else if (a === "--subject") out.subjectCode = argv[++i].toUpperCase();
+      if (v) {
+        const slugs = v.split(/[\s,]+/).map((s) => s.trim()).filter((s) => s.length > 0);
+        if (slugs.length > 0) (out.topicSlugs ??= []).push(...slugs);
+      }
+    } else if (a.startsWith("--topic=")) {
+      const slugs = a.slice("--topic=".length).split(/[\s,]+/).map((s) => s.trim()).filter((s) => s.length > 0);
+      if (slugs.length > 0) (out.topicSlugs ??= []).push(...slugs);
+    } else if (a === "--subject") {
+      const list = splitList(argv[++i]);
+      if (list.length > 0) out.subjectCodes = list;
+    } else if (a.startsWith("--subject=")) {
+      const list = splitList(a.slice("--subject=".length));
+      if (list.length > 0) out.subjectCodes = list;
+    } else if (a === "--class") out.classLevel = Number(argv[++i]);
+    else if (a.startsWith("--class=")) out.classLevel = Number(a.slice("--class=".length));
+    else if (a === "--board") out.board = String(argv[++i]).toUpperCase();
+    else if (a.startsWith("--board=")) out.board = a.slice("--board=".length).toUpperCase();
     else if (a === "--limit") out.limit = Number(argv[++i]);
     else if (a === "--force") out.force = true;
+    else if (a === "--max-calls" || a === "--max-tokens") { i++; /* consumed by parseCapArgs */ }
+    else if (a.startsWith("--max-calls=") || a.startsWith("--max-tokens=")) { /* consumed by parseCapArgs */ }
     else if (!a.startsWith("--")) positional.push(a);
   }
   if (positional.length > 0) {
     out.topicSlugs = [...(out.topicSlugs ?? []), ...positional];
   }
   return out;
+}
+
+/** Per-board primary instructional language for generated content. */
+function primaryLanguageFor(board: string): AppLanguage {
+  switch (board) {
+    case "BSE_ODISHA":
+      return "or";
+    default:
+      return "en";
+  }
+}
+
+/**
+ * Build the LANGUAGE block of the prompt from the language profile.
+ * For language-learning subjects (English/Hindi/Odia-MIL) we ask the
+ * model to weave a helper-language sentence after each section so the
+ * lesson is bilingual end-to-end.
+ */
+function langBlock(profile: SubjectLanguageProfile): string {
+  return profile.bilingualInstruction;
 }
 
 type Variant = "textbook" | "simpler" | "parent" | "exam";
@@ -77,6 +139,7 @@ function buildPrompt(
   subjectName: string,
   chapterTitle: string,
   chunks: Array<{ idx: number; text: string; page: number | null; title: string }>,
+  ctx: { boardLabel: string; classLevel: number; profile: SubjectLanguageProfile },
 ): string {
   const context = chunks
     .map(
@@ -85,13 +148,50 @@ function buildPrompt(
     )
     .join("\n\n---\n\n");
 
-  return `You are a BSE Odisha Class 9 teacher writing a lesson for a student. Produce FOUR variants of the same lesson, grounded ONLY in CONTEXT.
+  const isOdia = ctx.profile.language === "or";
+  const isHindi = ctx.profile.language === "hi";
+  const langLine = langBlock(ctx.profile);
+
+  const examHeadings = isOdia
+    ? `## ପରୀକ୍ଷାରେ କି ପଚାରାଯାଏ (What gets asked)
+       Enumerate 3-5 concrete question patterns seen in board papers for this
+       topic.
+     ## ସାଧାରଣ ଭୁଲ୍ (Common mistakes)
+       3-5 bullet points of typical errors, each 1 sentence.
+     ## ସ୍କୋରିଂ ସୂଚକ (Scoring hints)
+       3-4 bullets on how to pick up full marks — what to state, label,
+       justify, or write step-by-step.
+     ## ଅଭ୍ଯାସ ପ୍ରଶ୍ନ (Practice prompts)
+       2-3 short prompts the student can attempt right now, each 1 line.`
+    : isHindi
+    ? `## परीक्षा में क्या पूछा जाता है (What gets asked)
+       Enumerate 3-5 concrete question patterns seen in board papers for this
+       topic.
+     ## सामान्य गलतियाँ (Common mistakes)
+       3-5 bullet points of typical errors, each 1 sentence.
+     ## स्कोरिंग संकेत (Scoring hints)
+       3-4 bullets on how to pick up full marks — what to state, label,
+       justify, or write step-by-step.
+     ## अभ्यास प्रश्न (Practice prompts)
+       2-3 short prompts the student can attempt right now, each 1 line.`
+    : `## What gets asked
+       Enumerate 3-5 concrete question patterns seen in board papers for this
+       topic.
+     ## Common mistakes
+       3-5 bullet points of typical errors, each 1 sentence.
+     ## Scoring hints
+       3-4 bullets on how to pick up full marks — what to state, label,
+       justify, or write step-by-step.
+     ## Practice prompts
+       2-3 short prompts the student can attempt right now, each 1 line.`;
+
+  return `You are a ${ctx.boardLabel} Class ${ctx.classLevel} teacher writing a lesson for a student. Produce FOUR variants of the same lesson, grounded ONLY in CONTEXT.
 
 SUBJECT: ${subjectName}
 CHAPTER: ${chapterTitle}
 TOPIC: ${topicTitle}
 
-LANGUAGE: Write in Odia (ଓଡ଼ିଆ) matching the CONTEXT. Mathematical notation and technical terms may be kept verbatim.
+${langLine}
 
 MATH & DIAGRAMS:
 - Use KaTeX / LaTeX math syntax inside markdown. Inline: $...$. Display: $$...$$
@@ -121,18 +221,9 @@ VARIANTS (produce EXACTLY these four, in this order):
      - tips: array of 2-3 coaching tips (e.g. "let them struggle for 30s
        before helping").
 
-4. variant="exam" — BSE Class 9 board-exam preparation angle. Length: 250-450
-   words. Structure (use these exact Odia headings):
-     ## ପରୀକ୍ଷାରେ କି ପଚାରାଯାଏ (What gets asked)
-       Enumerate 3-5 concrete question patterns seen in BSE papers for this
-       topic (e.g. "2-mark: ସଂକେତ ଲେଖନ", "5-mark: ସକ୍ଷମ/ଅଭାଜ୍ଯ ସମୁଚ୍ଚୟ ପ୍ରମାଣିତ କର").
-     ## ସାଧାରଣ ଭୁଲ୍ (Common mistakes)
-       3-5 bullet points of typical errors, each 1 sentence.
-     ## ସ୍କୋରିଂ ସୂଚକ (Scoring hints)
-       3-4 bullets on how to pick up full marks — what to state, label,
-       justify, or write step-by-step.
-     ## ଅଭ୍ଯାସ ପ୍ରଶ୍ନ (Practice prompts)
-       2-3 short prompts the student can attempt right now, each 1 line.
+4. variant="exam" — Board-exam preparation angle for ${ctx.boardLabel} Class ${ctx.classLevel}. Length: 250-450
+   words. Structure (use these exact headings):
+${examHeadings}
    Keep it dense and checklist-like — NOT a narrative.
 
 GROUNDING:
@@ -167,34 +258,38 @@ async function generateForTopic(
     subjectCode: string;
   },
   force: boolean,
+  ctx: { boardLabel: string; classLevel: number; profile: SubjectLanguageProfile; cap: CostCap },
 ): Promise<{ inserted: number; skipped: number; error?: string }> {
   const supabase = createAdminClient();
+  const language = ctx.profile.language;
 
   if (!force) {
     const { count } = await supabase
       .from("lesson_variants")
       .select("id", { count: "exact", head: true })
       .eq("topic_id", topic.uuid)
-      .eq("language", "or");
+      .eq("language", language);
     if ((count ?? 0) >= 4) {
       return { inserted: 0, skipped: count ?? 0 };
     }
   }
 
   const retrievalQuery = `${topic.chapterTitle}\n${topic.titleOr}\n${topic.titleEn}`;
+  // Retrieval intentionally does NOT filter by output language: source
+  // chunks for BSE Odisha are stored with language='or' even when the
+  // generated lesson is English (SLE) or Hindi (TLH). The model handles
+  // the translation/explanation in the prompt.
   let chunks = await retrieveForScope({
     query: retrievalQuery,
     topicId: topic.uuid,
     includeNeighbours: true,
     k: 8,
-    language: "or",
   });
   if (chunks.length === 0) {
     chunks = await retrieveForScope({
       query: retrievalQuery,
       subjectCode: topic.subjectCode,
       k: 8,
-      language: "or",
       chapterHint: `${topic.chapterTitle} — ${topic.titleOr}`,
     });
   }
@@ -215,6 +310,7 @@ async function generateForTopic(
     topic.subjectName,
     topic.chapterTitle,
     indexed,
+    ctx,
   );
 
   const client = getGemini();
@@ -224,7 +320,7 @@ async function generateForTopic(
     generationConfig: {
       responseMimeType: "application/json",
       temperature: 0.4,
-      maxOutputTokens: 16384,
+      maxOutputTokens: 32768,
     },
   });
 
@@ -234,6 +330,7 @@ async function generateForTopic(
     let text = "";
     try {
       const res = await model.generateContent(prompt);
+      ctx.cap.record(res);
       text = res.response.text().trim();
     } catch (e) {
       lastErr = `network: ${(e as Error).message}`;
@@ -278,7 +375,16 @@ async function generateForTopic(
       typeof v.body_md === "string" &&
       v.body_md.trim().length > 0,
   );
-  if (valid.length === 0) {
+  // Gemini occasionally returns duplicate variants in one batch (e.g. two
+  // "simpler" entries). Dedupe keeping the first to avoid Postgres UPSERT
+  // "ON CONFLICT DO UPDATE command cannot affect row a second time".
+  const seenVariants = new Set<string>();
+  const deduped = valid.filter((v) => {
+    if (seenVariants.has(v.variant)) return false;
+    seenVariants.add(v.variant);
+    return true;
+  });
+  if (deduped.length === 0) {
     return { inserted: 0, skipped: 0, error: "empty_variants" };
   }
 
@@ -287,10 +393,10 @@ async function generateForTopic(
       .from("lesson_variants")
       .delete()
       .eq("topic_id", topic.uuid)
-      .eq("language", "or");
+      .eq("language", language);
   }
 
-  const rows = valid.map((v) => {
+  const rows = deduped.map((v) => {
     const citedIds = (v.citation_chunks ?? [])
       .map((n) => indexed[n - 1]?.id)
       .filter((x): x is string => typeof x === "string");
@@ -308,7 +414,7 @@ async function generateForTopic(
     return {
       topic_id: topic.uuid,
       variant: v.variant,
-      language: "or" as const,
+      language,
       body_md: v.body_md,
       parent_prompts:
         v.variant === "parent" && v.parent_prompts ? v.parent_prompts : null,
@@ -329,54 +435,91 @@ async function main() {
   const args = parseArgs();
   await ensureCurriculum();
 
-  let targets = ALL_TOPICS;
-  if (args.topicSlugs) {
-    const s = new Set(args.topicSlugs);
-    targets = targets.filter((t) => s.has(t.id));
+  const boardLabel = formatBoardLabel(args.board);
+
+  type Target = {
+    slug: string;
+    titleEn: string;
+    titleOr: string;
+    chapterTitle: string;
+    subjectName: string;
+    uuid: string;
+    subjectCode: string;
+  };
+  let targets: Target[] = [];
+
+  if (args.topicSlugs && args.topicSlugs.length > 0) {
+    // Explicit slug list — works regardless of class/board.
+    const { resolveTopicPath } = await import("@/lib/curriculum/db");
+    for (const slug of args.topicSlugs) {
+      const r = await resolveTopicPath(slug);
+      if (!r) {
+        console.log(`  ✗ ${slug}: no DB row`);
+        continue;
+      }
+      targets.push({
+        slug,
+        titleEn: r.topic.title.en,
+        titleOr: r.topic.title.or ?? r.topic.title.en,
+        chapterTitle: r.chapter.title.or ?? r.chapter.title.en,
+        subjectName: r.subject.name.en,
+        uuid: r.topic.id,
+        subjectCode: r.subject.code,
+      });
+    }
+  } else {
+    const rows = await listTopicsForClass({
+      board: args.board,
+      classLevel: args.classLevel,
+      subjectCodes: args.subjectCodes,
+    });
+    targets = rows
+      .filter((r) => r.topic.slug != null)
+      .map((r) => ({
+        slug: r.topic.slug!,
+        titleEn: r.topic.title.en,
+        titleOr: r.topic.title.or ?? r.topic.title.en,
+        chapterTitle: r.chapter.title.or ?? r.chapter.title.en,
+        subjectName: r.subject.name.en,
+        uuid: r.topic.id,
+        subjectCode: r.subject.code,
+      }));
   }
-  if (args.subjectCode) {
-    targets = targets.filter((t) => t.subjectCode === args.subjectCode);
-  }
+
   if (args.limit) targets = targets.slice(0, args.limit);
 
-  console.log(`Generating lesson variants for ${targets.length} topic(s)…`);
+  console.log(
+    `Generating lesson variants for ${targets.length} topic(s) — ${boardLabel} Class ${args.classLevel}…`,
+  );
 
+  const cap = new CostCap(parseCapArgs(process.argv.slice(2)));
   let ok = 0;
   let skipped = 0;
   let failed = 0;
-  for (const demo of targets) {
-    const dbTopic = await getTopicBySlug(demo.id);
-    if (!dbTopic) {
-      console.log(`  ✗ ${demo.id}: no DB row (run seed:curriculum)`);
-      failed++;
-      continue;
+  let aborted = false;
+  for (const t of targets) {
+    if (cap.isOverCap()) {
+      console.log(`\nCost cap reached: ${cap.reason}. Stopping.`);
+      aborted = true;
+      break;
     }
-    const result = await generateForTopic(
-      {
-        slug: demo.id,
-        titleEn: demo.title.en,
-        titleOr: demo.title.or,
-        chapterTitle: demo.chapterTitle.or,
-        subjectName: demo.subjectCode,
-        uuid: dbTopic.id,
-        subjectCode: demo.subjectCode,
-      },
-      args.force,
-    );
+    const profile = languageProfileFor(args.board, t.subjectCode);
+    const ctx = { boardLabel, classLevel: args.classLevel, profile, cap };
+    const result = await generateForTopic(t, args.force, ctx);
     if (result.error) {
-      console.log(`  ✗ ${demo.id}: ${result.error}`);
+      console.log(`  ✗ ${t.slug} [${profile.language}]: ${result.error}`);
       failed++;
     } else if (result.inserted > 0) {
-      console.log(`  ✓ ${demo.id}: +${result.inserted} variants`);
+      console.log(`  ✓ ${t.slug} [${profile.language}]: +${result.inserted} variants`);
       ok++;
     } else {
-      console.log(`  · ${demo.id}: already has ${result.skipped} variants`);
+      console.log(`  · ${t.slug} [${profile.language}]: already has ${result.skipped} variants`);
       skipped++;
     }
   }
 
   console.log(
-    `\nDone. ok=${ok}, skipped=${skipped}, failed=${failed}, total=${targets.length}.`,
+    `\nDone. ok=${ok}, skipped=${skipped}, failed=${failed}, total=${targets.length}${aborted ? " (aborted by cost cap)" : ""}. ${cap.summary()}`,
   );
 }
 

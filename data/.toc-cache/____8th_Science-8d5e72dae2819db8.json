@@ -1,0 +1,584 @@
+{
+  "book_title_en": "Science",
+  "chapters": [
+    {
+      "title_en": "Crop Production and Management",
+      "topics": [
+        {
+          "title_en": "Crop Production",
+          "objectives": [
+            "Understand different types of crops.",
+            "Learn about various agricultural practices."
+          ]
+        },
+        {
+          "title_en": "Agricultural Practices",
+          "objectives": [
+            "Explain methods of soil preparation.",
+            "Describe irrigation techniques.",
+            "Identify common fertilizers and manures."
+          ]
+        },
+        {
+          "title_en": "Storage of Grains",
+          "objectives": [
+            "Explain methods of crop storage.",
+            "Discuss precautions for grain storage."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 11,
+      "page_start": 1,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଫସଲ ଉତ୍ପାଦନ ଓ ପରିଚାଳନା"
+    },
+    {
+      "title_en": "Microorganisms: Friend and Foe",
+      "topics": [
+        {
+          "title_en": "Types of Microorganisms",
+          "objectives": [
+            "Identify different categories of microorganisms.",
+            "Describe their habitats and characteristics."
+          ]
+        },
+        {
+          "title_en": "Harmful Microorganisms",
+          "objectives": [
+            "Describe diseases caused by microorganisms.",
+            "Explain modes of disease transmission."
+          ]
+        },
+        {
+          "title_en": "Food Preservation",
+          "objectives": [
+            "Explain methods to preserve food.",
+            "Discuss the importance of food hygiene."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 22,
+      "page_start": 12,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଅଣୁଜୀବ : ଉପକାରୀ ଓ ଅପକାରୀ"
+    },
+    {
+      "title_en": "Synthetic Fibres and Plastics",
+      "topics": [
+        {
+          "title_en": "Synthetic Fibres",
+          "objectives": [
+            "Describe different types of synthetic fibres.",
+            "Explain their properties and uses."
+          ]
+        },
+        {
+          "title_en": "Plastics",
+          "objectives": [
+            "Explain properties and uses of plastics.",
+            "Differentiate between thermoplastics and thermosetting plastics."
+          ]
+        },
+        {
+          "title_en": "Plastics and Environment",
+          "objectives": [
+            "Discuss environmental impact of plastics.",
+            "Suggest ways to reduce plastic waste."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 41,
+      "page_start": 23,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ସଂଶ୍ଳେଷିତ ତନ୍ତୁ ଓ ପ୍ଲାଷ୍ଟିକ"
+    },
+    {
+      "title_en": "Metals and Non-metals",
+      "topics": [
+        {
+          "title_en": "Physical Properties of Metals and Non-metals",
+          "objectives": [
+            "Differentiate metals and non-metals by physical properties.",
+            "Identify common examples of metals and non-metals."
+          ]
+        },
+        {
+          "title_en": "Chemical Properties of Metals and Non-metals",
+          "objectives": [
+            "Describe reactions of metals and non-metals with oxygen.",
+            "Explain reactions with water and acids."
+          ]
+        },
+        {
+          "title_en": "Uses of Metals and Non-metals",
+          "objectives": [
+            "List common uses of metals and non-metals.",
+            "Understand the importance of alloys."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 61,
+      "page_start": 42,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଧାତୁ ଓ ଅଧାତୁ"
+    },
+    {
+      "title_en": "Coal and Petroleum",
+      "topics": [
+        {
+          "title_en": "Coal",
+          "objectives": [
+            "Explain the formation and types of coal.",
+            "Describe the uses of coal and its products."
+          ]
+        },
+        {
+          "title_en": "Petroleum",
+          "objectives": [
+            "Describe the refining process of petroleum.",
+            "Identify various products obtained from petroleum."
+          ]
+        },
+        {
+          "title_en": "Natural Gas",
+          "objectives": [
+            "Understand the importance of natural gas.",
+            "Discuss the uses of CNG and LPG."
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 74,
+      "page_start": 62,
+      "section": null,
+      "title_hi": null,
+      "title_or": "କୋଇଲା ଓ ପେଟ୍ରୋଲିୟମ"
+    },
+    {
+      "title_en": "Combustion and Flame",
+      "topics": [
+        {
+          "title_en": "What is Combustion?",
+          "objectives": [
+            "Define combustion and its conditions.",
+            "Identify combustible and non-combustible substances."
+          ]
+        },
+        {
+          "title_en": "Types of Combustion",
+          "objectives": [
+            "Identify different types of combustion.",
+            "Explain rapid, spontaneous, and explosion combustion."
+          ]
+        },
+        {
+          "title_en": "Flame Structure",
+          "objectives": [
+            "Describe the structure of a flame.",
+            "Explain the concept of calorific value."
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 87,
+      "page_start": 75,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଦହନ ଓ ଶିଖା"
+    },
+    {
+      "title_en": "Conservation of Plants and Animals",
+      "topics": [
+        {
+          "title_en": "Deforestation and its Causes",
+          "objectives": [
+            "Explain the causes and effects of deforestation.",
+            "Discuss the impact on wildlife and environment."
+          ]
+        },
+        {
+          "title_en": "Wildlife Conservation",
+          "objectives": [
+            "Describe methods for wildlife protection.",
+            "Identify national parks and wildlife sanctuaries."
+          ]
+        },
+        {
+          "title_en": "Biosphere Reserves",
+          "objectives": [
+            "Understand the concept of biosphere reserves.",
+            "Explain the importance of biodiversity."
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 98,
+      "page_start": 88,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀମାନଙ୍କ ସଂରକ୍ଷଣ"
+    },
+    {
+      "title_en": "Cell - Structure and Functions",
+      "topics": [
+        {
+          "title_en": "Discovery of Cell",
+          "objectives": [
+            "Recall the discovery of the cell.",
+            "Understand the cell theory."
+          ]
+        },
+        {
+          "title_en": "Cell Structure",
+          "objectives": [
+            "Identify major parts of a cell.",
+            "Describe the functions of cell organelles."
+          ]
+        },
+        {
+          "title_en": "Plant and Animal Cells",
+          "objectives": [
+            "Differentiate between plant and animal cells.",
+            "Explain the concept of unicellular and multicellular organisms."
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 107,
+      "page_start": 99,
+      "section": null,
+      "title_hi": null,
+      "title_or": "କୋଷ - ଗଠନ ଓ କାର୍ଯ୍ୟ"
+    },
+    {
+      "title_en": "Reproduction in Animals",
+      "topics": [
+        {
+          "title_en": "Modes of Reproduction",
+          "objectives": [
+            "Describe asexual and sexual reproduction.",
+            "Identify different types of asexual reproduction."
+          ]
+        },
+        {
+          "title_en": "Fertilization",
+          "objectives": [
+            "Explain internal and external fertilization.",
+            "Understand the process of zygote formation."
+          ]
+        },
+        {
+          "title_en": "Development of Embryo",
+          "objectives": [
+            "Trace the development from zygote to adult.",
+            "Differentiate between oviparous and viviparous animals."
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 113,
+      "page_start": 108,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରାଣୀଙ୍କ ପ୍ରଜନନ"
+    },
+    {
+      "title_en": "Adolescence",
+      "topics": [
+        {
+          "title_en": "Changes at Puberty",
+          "objectives": [
+            "Identify physical changes during adolescence.",
+            "Explain the role of sex hormones."
+          ]
+        },
+        {
+          "title_en": "Reproductive Health",
+          "objectives": [
+            "Understand the importance of personal hygiene.",
+            "Discuss reproductive health issues."
+          ]
+        },
+        {
+          "title_en": "Hormones",
+          "objectives": [
+            "Explain the role of hormones in puberty.",
+            "Identify major endocrine glands."
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 121,
+      "page_start": 114,
+      "section": null,
+      "title_hi": null,
+      "title_or": "କୈଶୋର"
+    },
+    {
+      "title_en": "Force and Pressure",
+      "topics": [
+        {
+          "title_en": "Force: A Push or a Pull",
+          "objectives": [
+            "Define force and its effects.",
+            "Identify different types of forces."
+          ]
+        },
+        {
+          "title_en": "Types of Forces",
+          "objectives": [
+            "Distinguish between contact and non-contact forces.",
+            "Explain magnetic, electrostatic, and gravitational forces."
+          ]
+        },
+        {
+          "title_en": "Pressure",
+          "objectives": [
+            "Explain the concept of pressure.",
+            "Describe pressure exerted by liquids and gases.",
+            "Understand atmospheric pressure."
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 142,
+      "page_start": 122,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବଳ ଓ ଚାପ"
+    },
+    {
+      "title_en": "Friction",
+      "topics": [
+        {
+          "title_en": "What is Friction?",
+          "objectives": [
+            "Define friction and its causes.",
+            "Identify factors influencing friction."
+          ]
+        },
+        {
+          "title_en": "Factors Affecting Friction",
+          "objectives": [
+            "Explain how surface roughness affects friction.",
+            "Describe the types of friction."
+          ]
+        },
+        {
+          "title_en": "Increasing and Reducing Friction",
+          "objectives": [
+            "Describe ways to increase and decrease friction.",
+            "Explain the role of lubricants and wheels."
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 157,
+      "page_start": 143,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଘର୍ଷଣ"
+    },
+    {
+      "title_en": "Sound",
+      "topics": [
+        {
+          "title_en": "Sound Production",
+          "objectives": [
+            "Explain how sound is produced by vibrating bodies.",
+            "Identify different sources of sound."
+          ]
+        },
+        {
+          "title_en": "Propagation of Sound",
+          "objectives": [
+            "Describe how sound travels through mediums.",
+            "Explain the necessity of a medium for sound propagation."
+          ]
+        },
+        {
+          "title_en": "Characteristics of Sound",
+          "objectives": [
+            "Define amplitude, frequency, and loudness.",
+            "Differentiate between audible and inaudible sounds."
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 170,
+      "page_start": 158,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଶବ୍ଦ"
+    },
+    {
+      "title_en": "Chemical Effects of Electric Current",
+      "topics": [
+        {
+          "title_en": "Conductivity of Liquids",
+          "objectives": [
+            "Test the conductivity of different liquids.",
+            "Differentiate between good and poor conductors."
+          ]
+        },
+        {
+          "title_en": "Electroplating",
+          "objectives": [
+            "Explain the process and applications of electroplating.",
+            "Describe the chemical effects of electric current."
+          ]
+        },
+        {
+          "title_en": "Environmental Concerns",
+          "objectives": [
+            "Discuss the environmental impact of chemical effects.",
+            "Suggest ways to manage waste from electroplating."
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 180,
+      "page_start": 171,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ରାସାୟନିକ ପ୍ରଭାବ"
+    },
+    {
+      "title_en": "Some Natural Phenomena",
+      "topics": [
+        {
+          "title_en": "Lightning",
+          "objectives": [
+            "Explain the causes of lightning.",
+            "Describe the process of charging by rubbing."
+          ]
+        },
+        {
+          "title_en": "Earthquakes",
+          "objectives": [
+            "Describe the causes and effects of earthquakes.",
+            "Explain the Richter scale and seismograph."
+          ]
+        },
+        {
+          "title_en": "Safety Measures",
+          "objectives": [
+            "List safety precautions during lightning.",
+            "Identify safety measures during earthquakes."
+          ]
+        }
+      ],
+      "order": 15,
+      "page_end": 191,
+      "page_start": 181,
+      "section": null,
+      "title_hi": null,
+      "title_or": "କେତେକ ପ୍ରାକୃତିକ ଘଟଣା"
+    },
+    {
+      "title_en": "Light",
+      "topics": [
+        {
+          "title_en": "Laws of Reflection",
+          "objectives": [
+            "State the laws of reflection.",
+            "Differentiate between regular and irregular reflection."
+          ]
+        },
+        {
+          "title_en": "Multiple Images",
+          "objectives": [
+            "Explain the formation of multiple images.",
+            "Describe the working of a kaleidoscope."
+          ]
+        },
+        {
+          "title_en": "Human Eye",
+          "objectives": [
+            "Describe the structure and function of the human eye.",
+            "Explain common eye defects and their correction."
+          ]
+        }
+      ],
+      "order": 16,
+      "page_end": 203,
+      "page_start": 192,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଆଲୋକ"
+    },
+    {
+      "title_en": "Stars and the Solar System",
+      "topics": [
+        {
+          "title_en": "Celestial Objects",
+          "objectives": [
+            "Identify various celestial objects.",
+            "Differentiate between stars and planets."
+          ]
+        },
+        {
+          "title_en": "Phases of the Moon",
+          "objectives": [
+            "Explain the phases of the moon.",
+            "Describe the movement of the moon around Earth."
+          ]
+        },
+        {
+          "title_en": "Planets and Satellites",
+          "objectives": [
+            "Describe the planets in our solar system.",
+            "Explain the concept of artificial satellites."
+          ]
+        }
+      ],
+      "order": 17,
+      "page_end": 220,
+      "page_start": 204,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ତାରା ଓ ସୌରଜଗତ"
+    },
+    {
+      "title_en": "Pollution of Air and Water",
+      "topics": [
+        {
+          "title_en": "Air Pollution",
+          "objectives": [
+            "Identify causes and effects of air pollution.",
+            "Explain the greenhouse effect and global warming."
+          ]
+        },
+        {
+          "title_en": "Water Pollution",
+          "objectives": [
+            "Explain causes and effects of water pollution.",
+            "Describe methods to purify water."
+          ]
+        },
+        {
+          "title_en": "Conservation Measures",
+          "objectives": [
+            "Suggest ways to reduce pollution.",
+            "Discuss the importance of the 3Rs (Reduce, Reuse, Recycle)."
+          ]
+        }
+      ],
+      "order": 18,
+      "page_end": 234,
+      "page_start": 221,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବାୟୁ ଓ ଜଳ ପ୍ରଦୂଷଣ"
+    }
+  ],
+  "book_title_or": "ବିଜ୍ଞାନ"
+}

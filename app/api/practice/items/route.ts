@@ -5,7 +5,8 @@ import {
   type McqPayload,
   type FreeTextPayload,
 } from "@/lib/curriculum/practice";
-import { getTopicBySlug } from "@/lib/curriculum/db";
+import { getTopicBySlug, resolveTopicPath } from "@/lib/curriculum/db";
+import { languageProfileFor } from "@/scripts/content/language-profile";
 
 export const dynamic = "force-dynamic";
 
@@ -78,6 +79,14 @@ export async function GET(req: Request) {
   const items = await listTopicPracticeItems(topic.id, {
     kinds,
     difficulty: difficulty ?? undefined,
+    language: await (async () => {
+      const r = await resolveTopicPath(topicSlug);
+      if (!r) return undefined;
+      // Use the same profile the generators used so the UI shows the
+      // intended primary-language items only (e.g. English for SLE,
+      // Hindi for TLH, Odia for everything else on BSE).
+      return languageProfileFor(r.subject.board, r.subject.code).language;
+    })(),
   });
 
   const safe = items

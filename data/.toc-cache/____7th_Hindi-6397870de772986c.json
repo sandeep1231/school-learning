@@ -1,0 +1,363 @@
+{
+  "book_title_en": "Hindi Path-7: Matrubhasha - Hindi Class-7",
+  "chapters": [
+    {
+      "title_en": "Bharati Jai-Vijay Kare",
+      "topics": [
+        {
+          "title_en": "Understanding the patriotic poem",
+          "objectives": [
+            "Recite the patriotic poem with correct intonation.",
+            "Explain the meaning of difficult words and phrases.",
+            "Identify the central theme of the poem.",
+            "Answer questions based on the poem's content.",
+            "Practice grammar related to synonyms and antonyms."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 8,
+      "page_start": 5,
+      "section": null,
+      "title_hi": "भारती जय-विजय करे (कविता)",
+      "title_or": null
+    },
+    {
+      "title_en": "Gram-Lakshmi Ki Upasana",
+      "topics": [
+        {
+          "title_en": "Understanding the concept of \"Gram-Lakshmi\"",
+          "objectives": [
+            "Describe the ideal village life as depicted in the essay.",
+            "Explain the meaning of \"Gram-Lakshmi\" and its significance.",
+            "Discuss the challenges faced by rural communities.",
+            "Suggest ways to improve village conditions.",
+            "Practice filling in blanks and identifying foreign words."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 16,
+      "page_start": 9,
+      "section": null,
+      "title_hi": "ग्राम-लक्ष्मी की उपासना (निबंध)",
+      "title_or": null
+    },
+    {
+      "title_en": "Nyayamantri",
+      "topics": [
+        {
+          "title_en": "Emperor Ashok's test of justice",
+          "objectives": [
+            "Narrate the story of Shishupal and Emperor Ashok.",
+            "Explain the qualities of a good judge.",
+            "Analyze the moral dilemma faced by Shishupal.",
+            "Discuss the significance of justice in society.",
+            "Identify different types of pronouns and their usage."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 32,
+      "page_start": 17,
+      "section": null,
+      "title_hi": "न्यायमंत्री (कहानी)",
+      "title_or": null
+    },
+    {
+      "title_en": "Manav Bhumi Bharat",
+      "topics": [
+        {
+          "title_en": "Patriotism and love for the motherland",
+          "objectives": [
+            "Recite the poem expressing love for India.",
+            "Identify historical references in the poem.",
+            "Describe India's diverse landscape and culture.",
+            "Understand the poet's message of national pride.",
+            "Practice matching words and identifying synonyms/antonyms."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 37,
+      "page_start": 33,
+      "section": null,
+      "title_hi": "मानव भूमि भारत (कविता)",
+      "title_or": null
+    },
+    {
+      "title_en": "Bali Ka Bakra",
+      "topics": [
+        {
+          "title_en": "Theme of compassion and non-violence",
+          "objectives": [
+            "Summarize the story of Laloo and the goat sacrifice.",
+            "Discuss the moral implications of animal sacrifice.",
+            "Analyze Laloo's courage and determination.",
+            "Explain the importance of compassion towards animals.",
+            "Identify different types of verbs (Sakarmak/Akarmak Kriya)."
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 46,
+      "page_start": 38,
+      "section": null,
+      "title_hi": "बलि का बकरा (कहानी)",
+      "title_or": null
+    },
+    {
+      "title_en": "Kutte Ki Seekh",
+      "topics": [
+        {
+          "title_en": "Lessons on effort and self-preservation",
+          "objectives": [
+            "Recite the poem about the rabbit and the dog.",
+            "Explain the moral lesson conveyed by the fox.",
+            "Discuss the importance of continuous effort.",
+            "Understand the concept of self-defense.",
+            "Practice identifying rhyming words and word meanings."
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 49,
+      "page_start": 47,
+      "section": null,
+      "title_hi": "कुत्ते की सीख (कविता)",
+      "title_or": null
+    },
+    {
+      "title_en": "Chidiya Ki Bachchi",
+      "topics": [
+        {
+          "title_en": "Theme of freedom vs. captivity",
+          "objectives": [
+            "Narrate the story of Madhavdas and the bird.",
+            "Explain the bird's longing for freedom.",
+            "Analyze Madhavdas's intentions and the bird's feelings.",
+            "Discuss the importance of freedom for all living beings.",
+            "Practice identifying word meanings and completing sentences."
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 59,
+      "page_start": 50,
+      "section": null,
+      "title_hi": "चिड़िया की बच्ची (कहानी)",
+      "title_or": null
+    },
+    {
+      "title_en": "Doha Samak",
+      "topics": [
+        {
+          "title_en": "Moral teachings and life lessons",
+          "objectives": [
+            "Recite the selected Dohas by famous poets.",
+            "Explain the moral message of each Doha.",
+            "Relate the teachings to real-life situations.",
+            "Understand the literary form of Doha.",
+            "Practice explaining meanings and identifying synonyms."
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 63,
+      "page_start": 60,
+      "section": null,
+      "title_hi": "दोहा समक (कविता)",
+      "title_or": null
+    },
+    {
+      "title_en": "Rakt Aur Hamara Sharir",
+      "topics": [
+        {
+          "title_en": "Composition and functions of blood",
+          "objectives": [
+            "Describe the components of human blood.",
+            "Explain the functions of red blood cells, white blood cells, and platelets.",
+            "Understand the causes and prevention of anemia.",
+            "Discuss the significance of blood donation.",
+            "Practice completing sentences and identifying word meanings."
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 74,
+      "page_start": 64,
+      "section": null,
+      "title_hi": "रक्त और हमारा शरीर (लेख)",
+      "title_or": null
+    },
+    {
+      "title_en": "Duniya Ka Ek Ajooba: Konark",
+      "topics": [
+        {
+          "title_en": "History and architecture of Konark Sun Temple",
+          "objectives": [
+            "Describe the Konark Sun Temple and its unique architecture.",
+            "Narrate the story behind its construction.",
+            "Explain why Konark is considered a wonder of the world.",
+            "Appreciate the artistic and historical significance of the temple.",
+            "Practice identifying word meanings and completing sentences."
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 81,
+      "page_start": 75,
+      "section": null,
+      "title_hi": "दुनिया का एक अजूबा : कोणार्क (लेख)",
+      "title_or": null
+    },
+    {
+      "title_en": "Khet Ki Ore",
+      "topics": [
+        {
+          "title_en": "Depiction of rural life and farmers",
+          "objectives": [
+            "Recite the poem about rural life.",
+            "Describe the daily life and challenges of a farmer.",
+            "Understand the poet's empathy for the farming community.",
+            "Appreciate the importance of agriculture.",
+            "Practice identifying word meanings and completing sentences."
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 86,
+      "page_start": 82,
+      "section": null,
+      "title_hi": "खेत की ओर (कविता)",
+      "title_or": null
+    },
+    {
+      "title_en": "Pradushan",
+      "topics": [
+        {
+          "title_en": "Causes and effects of pollution",
+          "objectives": [
+            "Define different types of pollution.",
+            "Explain the causes and harmful effects of pollution.",
+            "Discuss ways to prevent and control pollution.",
+            "Understand the importance of environmental conservation.",
+            "Practice identifying word meanings and forming sentences."
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 95,
+      "page_start": 87,
+      "section": null,
+      "title_hi": "प्रदूषण (लेख)",
+      "title_or": null
+    },
+    {
+      "title_en": "Gram Shri",
+      "topics": [
+        {
+          "title_en": "Description of a beautiful village",
+          "objectives": [
+            "Recite the poem describing the beauty of a village.",
+            "Identify poetic devices used to depict nature.",
+            "Express appreciation for rural landscapes.",
+            "Understand the concept of \"Gram Shri\" (village beauty).",
+            "Practice filling in blanks and identifying synonyms."
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 99,
+      "page_start": 96,
+      "section": null,
+      "title_hi": "ग्राम श्री (कविता)",
+      "title_or": null
+    },
+    {
+      "title_en": "Dhool Bhi Sir Chadhti Hai",
+      "topics": [
+        {
+          "title_en": "Life and philosophy of Mahatma Gandhi",
+          "objectives": [
+            "Learn about the life of Mahatma Gandhi.",
+            "Understand his contributions to India's independence.",
+            "Explain the significance of his principles.",
+            "Reflect on the meaning of the title \"Dhool Bhi Sir Chadhti Hai\".",
+            "Practice answering questions based on the biography."
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 102,
+      "page_start": 100,
+      "section": null,
+      "title_hi": "धूल भी सिर चढ़ती है (जीवनी)",
+      "title_or": null
+    },
+    {
+      "title_en": "Sona Hirni",
+      "topics": [
+        {
+          "title_en": "The bond between humans and animals",
+          "objectives": [
+            "Narrate the story of Sona, the deer.",
+            "Describe the relationship between Mahadevi Verma and Sona.",
+            "Understand the emotional connection with pets.",
+            "Appreciate the beauty and innocence of animals.",
+            "Practice answering comprehension questions."
+          ]
+        }
+      ],
+      "order": 15,
+      "page_end": 109,
+      "page_start": 103,
+      "section": null,
+      "title_hi": "सोना हिरनी (रेखाचित्र)",
+      "title_or": null
+    },
+    {
+      "title_en": "Tyohar Ka Anand",
+      "topics": [
+        {
+          "title_en": "Structure and format of a friendly letter",
+          "objectives": [
+            "Understand the cultural significance of festivals.",
+            "Describe the celebration of a festival.",
+            "Learn the format of writing a friendly letter.",
+            "Express personal experiences and feelings in a letter.",
+            "Practice writing a letter to a friend or family member."
+          ]
+        }
+      ],
+      "order": 16,
+      "page_end": 111,
+      "page_start": 110,
+      "section": null,
+      "title_hi": "त्योहार का आनंद (पत्र लेखन)",
+      "title_or": null
+    },
+    {
+      "title_en": "Vyakaran Ke Prishth",
+      "topics": [
+        {
+          "title_en": "Definition and types of words (Shabd)",
+          "objectives": [
+            "Define and identify different parts of speech.",
+            "Classify nouns, pronouns, verbs, and adjectives.",
+            "Understand the concepts of gender and number in Hindi.",
+            "Apply grammatical rules in sentence formation.",
+            "Identify and use various grammatical elements correctly."
+          ]
+        }
+      ],
+      "order": 17,
+      "page_end": 115,
+      "page_start": 112,
+      "section": null,
+      "title_hi": "व्याकरण के पृष्ठ",
+      "title_or": null
+    }
+  ],
+  "book_title_or": null
+}

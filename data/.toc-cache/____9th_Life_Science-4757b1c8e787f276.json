@@ -1,0 +1,424 @@
+{
+  "book_title_en": "Biology (Class IX)",
+  "chapters": [
+    {
+      "title_en": "Biodiversity",
+      "topics": [
+        {
+          "title_en": "Introduction to Biodiversity",
+          "objectives": [
+            "Define biodiversity and its importance.",
+            "Understand the different levels of biodiversity.",
+            "Explain the need for classifying living organisms."
+          ],
+          "page_end": 8,
+          "page_start": 7,
+          "title_hi": null,
+          "title_or": "ଜୈବ ବିବିଧତା ପରିଚୟ"
+        },
+        {
+          "title_en": "Basic Issues in Scientific Naming",
+          "objectives": [
+            "Describe the principles of binomial nomenclature.",
+            "Identify the contributions of Carolus Linnaeus.",
+            "Explain the rules of International Code of Botanical/Zoological Nomenclature."
+          ],
+          "page_end": 9,
+          "page_start": 9,
+          "title_hi": null,
+          "title_or": "ବୈଜ୍ଞାନିକ ନାମକରଣର ମୌଳିକ ପ୍ରସଙ୍ଗ"
+        },
+        {
+          "title_en": "Basis of Classification",
+          "objectives": [
+            "Understand the criteria used for classifying organisms.",
+            "Differentiate between various classification systems."
+          ],
+          "page_end": 10,
+          "page_start": 10,
+          "title_hi": null,
+          "title_or": "ବର୍ଗୀକରଣର ଆଧାର"
+        },
+        {
+          "title_en": "Hierarchy of Classification",
+          "objectives": [
+            "List the different taxonomic categories.",
+            "Explain the concept of species, genus, family, order, class, phylum, and kingdom."
+          ],
+          "page_end": 12,
+          "page_start": 11,
+          "title_hi": null,
+          "title_or": "ଜୀବଜଗତର ବର୍ଗୀକରଣ"
+        },
+        {
+          "title_en": "Five Kingdom Classification",
+          "objectives": [
+            "Describe the characteristics of the five kingdoms: Monera, Protista, Fungi, Plantae, and Animalia.",
+            "Identify examples of organisms from each kingdom."
+          ],
+          "page_end": 15,
+          "page_start": 13,
+          "title_hi": null,
+          "title_or": "ପଞ୍ଚଜଗତ ବର୍ଗୀକରଣ"
+        },
+        {
+          "title_en": "Kingdom Plantae",
+          "objectives": [
+            "Classify plants into Thallophyta, Bryophyta, Pteridophyta, Gymnosperms, and Angiosperms.",
+            "Describe the key features of each plant group.",
+            "Provide examples for each plant division."
+          ],
+          "page_end": 19,
+          "page_start": 16,
+          "title_hi": null,
+          "title_or": "ଉଦ୍ଭିଦଜଗତ"
+        },
+        {
+          "title_en": "Kingdom Animalia",
+          "objectives": [
+            "Classify animals into various phyla and classes.",
+            "Describe the distinguishing characteristics of each animal group.",
+            "Provide examples for each animal phylum/class."
+          ],
+          "page_end": 32,
+          "page_start": 20,
+          "title_hi": null,
+          "title_or": "ପ୍ରାଣୀଜଗତ"
+        },
+        {
+          "title_en": "Threatened Species",
+          "objectives": [
+            "Define extinct, endangered, vulnerable, and rare species.",
+            "Identify factors contributing to species endangerment.",
+            "Discuss the importance of species conservation."
+          ],
+          "page_end": 37,
+          "page_start": 33,
+          "title_hi": null,
+          "title_or": "ବିଲୁପ୍ତ, ବିପଦଗ୍ରସ୍ତ, ଅସୁରକ୍ଷିତ ଓ ବିରଳ ଜୀବ"
+        }
+      ],
+      "order": 1,
+      "page_end": 96,
+      "page_start": 7,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଜୈବ ବିବିଧତା"
+    },
+    {
+      "title_en": "Cell and its Organisation",
+      "topics": [
+        {
+          "title_en": "Introduction to Cell and Cell Theory",
+          "objectives": [
+            "Define a cell and its fundamental role.",
+            "Explain the cell theory and its postulates.",
+            "Differentiate between prokaryotic and eukaryotic cells."
+          ],
+          "page_end": 98,
+          "page_start": 97,
+          "title_hi": null,
+          "title_or": "କୋଷ ପରିଚୟ ଓ କୋଷ ତତ୍ତ୍ୱ"
+        },
+        {
+          "title_en": "Plasma Membrane and Cell Wall",
+          "objectives": [
+            "Describe the structure and function of the plasma membrane.",
+            "Explain the process of osmosis and diffusion.",
+            "Identify the composition and role of the cell wall in plant cells."
+          ],
+          "page_end": 100,
+          "page_start": 99,
+          "title_hi": null,
+          "title_or": "କୋଷଝିଲ୍ଲି ଓ କୋଷଭିତ୍ତି"
+        },
+        {
+          "title_en": "Cytoplasm and Cell Organelles",
+          "objectives": [
+            "Describe the structure and function of cytoplasm.",
+            "Identify and explain the roles of mitochondria, vacuoles, endoplasmic reticulum, Golgi bodies, ribosomes, lysosomes, and plastids.",
+            "Relate organelle functions to overall cell activities."
+          ],
+          "page_end": 104,
+          "page_start": 100,
+          "title_hi": null,
+          "title_or": "ସାଇଟୋପ୍ଲାଜମ ଓ କୋଷାଙ୍ଗ"
+        },
+        {
+          "title_en": "Nucleus and Chromosomes",
+          "objectives": [
+            "Describe the structure and function of the nucleus.",
+            "Explain the composition and role of chromosomes.",
+            "Understand the importance of DNA in genetic information."
+          ],
+          "page_end": 106,
+          "page_start": 105,
+          "title_hi": null,
+          "title_or": "କୋଷକେନ୍ଦ୍ର ଓ କ୍ରୋମୋଜୋମ"
+        }
+      ],
+      "order": 2,
+      "page_end": 112,
+      "page_start": 97,
+      "section": null,
+      "title_hi": null,
+      "title_or": "କୋଷ ଓ ଏହାର ସଂଗଠନ"
+    },
+    {
+      "title_en": "Tissue System",
+      "topics": [
+        {
+          "title_en": "Introduction to Tissue System",
+          "objectives": [
+            "Define tissue and its significance in multicellular organisms.",
+            "Explain the concept of tissue organization."
+          ],
+          "page_end": 114,
+          "page_start": 113,
+          "title_hi": null,
+          "title_or": "ଟିସୁ ତନ୍ତ୍ର ପରିଚୟ"
+        },
+        {
+          "title_en": "Meristematic Tissue",
+          "objectives": [
+            "Describe the characteristics of meristematic tissues.",
+            "Identify different types of meristematic tissues (apical, lateral, intercalary).",
+            "Explain the role of meristematic tissues in plant growth."
+          ],
+          "page_end": 116,
+          "page_start": 115,
+          "title_hi": null,
+          "title_or": "ମେରିଷ୍ଟେମାଟିକ ଟିସୁ"
+        },
+        {
+          "title_en": "Permanent Tissue",
+          "objectives": [
+            "Differentiate between simple and complex permanent tissues.",
+            "Describe the structure and function of parenchyma, collenchyma, and sclerenchyma.",
+            "Explain the roles of xylem and phloem in transport."
+          ],
+          "page_end": 119,
+          "page_start": 117,
+          "title_hi": null,
+          "title_or": "ପରମାନେଣ୍ଟ ଟିସୁ"
+        },
+        {
+          "title_en": "Epithelial Tissue",
+          "objectives": [
+            "Describe the general characteristics of epithelial tissues.",
+            "Identify different types of simple and stratified epithelia.",
+            "Explain the functions of various epithelial tissues."
+          ],
+          "page_end": 124,
+          "page_start": 121,
+          "title_hi": null,
+          "title_or": "ଏପିଥେଲିଆଲ ଟିସୁ"
+        },
+        {
+          "title_en": "Connective Tissue",
+          "objectives": [
+            "Describe the components and functions of connective tissues.",
+            "Explain the structure and role of blood, bone, and cartilage.",
+            "Differentiate between various types of connective tissues."
+          ],
+          "page_end": 128,
+          "page_start": 125,
+          "title_hi": null,
+          "title_or": "ଯୋଗାଯୋଗ ଟିସୁ"
+        },
+        {
+          "title_en": "Muscle Tissue",
+          "objectives": [
+            "Describe the characteristics of muscle tissues.",
+            "Differentiate between striated, unstriated, and cardiac muscles.",
+            "Explain the functions of each type of muscle tissue."
+          ],
+          "page_end": 130,
+          "page_start": 129,
+          "title_hi": null,
+          "title_or": "ମାଂସପେଶୀ ଟିସୁ"
+        },
+        {
+          "title_en": "Nervous Tissue",
+          "objectives": [
+            "Describe the structure and function of nervous tissue.",
+            "Identify the components of a neuron (cell body, dendrites, axon).",
+            "Explain how nerve impulses are transmitted."
+          ],
+          "page_end": 131,
+          "page_start": 130,
+          "title_hi": null,
+          "title_or": "ସ୍ନାୟୁ ଟିସୁ"
+        }
+      ],
+      "order": 3,
+      "page_end": 136,
+      "page_start": 113,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଟିସୁ ତନ୍ତ୍ର"
+    },
+    {
+      "title_en": "Improvement of Food Resources",
+      "topics": [
+        {
+          "title_en": "Food Crisis and Food Grains",
+          "objectives": [
+            "Understand the concept of food crisis and its causes.",
+            "Identify major food grains and their importance.",
+            "Discuss strategies for increasing food production."
+          ],
+          "page_end": 139,
+          "page_start": 138,
+          "title_hi": null,
+          "title_or": "ଖାଦ୍ୟ ସଂକଟ ଓ ଖାଦ୍ୟ ଶସ୍ୟ"
+        },
+        {
+          "title_en": "Improvement of Food Production",
+          "objectives": [
+            "Explain methods for improving crop varieties.",
+            "Describe the role of plant breeding and biotechnology."
+          ],
+          "page_end": 140,
+          "page_start": 140,
+          "title_hi": null,
+          "title_or": "ଖାଦ୍ୟ ଉତ୍ପାଦନର ଉନ୍ନତିକରଣ"
+        },
+        {
+          "title_en": "Fertilizers, Manures and Organic Farming",
+          "objectives": [
+            "Differentiate between fertilizers and manures.",
+            "Explain the benefits and drawbacks of chemical fertilizers.",
+            "Describe the principles and advantages of organic farming."
+          ],
+          "page_end": 142,
+          "page_start": 141,
+          "title_hi": null,
+          "title_or": "ସାର, ଖତ ଓ ଜୈବିକ କୃଷି"
+        },
+        {
+          "title_en": "Crop Protection and Disease Control",
+          "objectives": [
+            "Identify common crop pests and diseases.",
+            "Explain various methods of pest and disease control.",
+            "Understand the concept of Integrated Pest Management (IPM)."
+          ],
+          "page_end": 146,
+          "page_start": 143,
+          "title_hi": null,
+          "title_or": "ଫସଲ ସୁରକ୍ଷା ଓ ରୋଗ ନିୟନ୍ତ୍ରଣ"
+        },
+        {
+          "title_en": "Animal Husbandry",
+          "objectives": [
+            "Define animal husbandry and its importance.",
+            "Discuss different aspects of livestock management."
+          ],
+          "page_end": 147,
+          "page_start": 147,
+          "title_hi": null,
+          "title_or": "ପଶୁପାଳନ"
+        },
+        {
+          "title_en": "Cattle Rearing and Poultry",
+          "objectives": [
+            "Describe practices involved in cattle rearing for milk and draft.",
+            "Explain the management of poultry for eggs and meat.",
+            "Identify common breeds and their characteristics."
+          ],
+          "page_end": 149,
+          "page_start": 148,
+          "title_hi": null,
+          "title_or": "ଗୋପାଳନ ଓ କୁକୁଡ଼ା ପାଳନ"
+        },
+        {
+          "title_en": "Pisciculture and Other Animal Rearing",
+          "objectives": [
+            "Explain the methods of pisciculture (fish farming).",
+            "Describe the importance of mollusc culture and bee-keeping.",
+            "Discuss the economic benefits of various animal rearing practices."
+          ],
+          "page_end": 151,
+          "page_start": 150,
+          "title_hi": null,
+          "title_or": "ମତ୍ସ୍ୟଚାଷ ଓ ଅନ୍ୟାନ୍ୟ ପ୍ରାଣୀ ପାଳନ"
+        }
+      ],
+      "order": 4,
+      "page_end": 156,
+      "page_start": 137,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଖାଦ୍ୟ ସମ୍ବଳର ଉନ୍ନତିକରଣ"
+    },
+    {
+      "title_en": "Disease and its Treatment",
+      "topics": [
+        {
+          "title_en": "Introduction to Disease and Health",
+          "objectives": [
+            "Define health and disease.",
+            "Explain the process of becoming diseased.",
+            "Identify the requirements for a healthy person."
+          ],
+          "page_end": 159,
+          "page_start": 157,
+          "title_hi": null,
+          "title_or": "ରୋଗ ଓ ସ୍ୱାସ୍ଥ୍ୟ ପରିଚୟ"
+        },
+        {
+          "title_en": "Causes of Disease",
+          "objectives": [
+            "Categorize different causes of diseases (e.g., pathogens, lifestyle, genetics).",
+            "Understand the concept of immediate and contributory causes."
+          ],
+          "page_end": 160,
+          "page_start": 160,
+          "title_hi": null,
+          "title_or": "ରୋଗର କାରଣ"
+        },
+        {
+          "title_en": "Communicable and Non-communicable Diseases",
+          "objectives": [
+            "Differentiate between communicable and non-communicable diseases.",
+            "Identify common examples of each type of disease.",
+            "Explain modes of transmission for communicable diseases."
+          ],
+          "page_end": 161,
+          "page_start": 161,
+          "title_hi": null,
+          "title_or": "ସଂକ୍ରାମକ ଓ ଅସଂକ୍ରାମକ ରୋଗ"
+        },
+        {
+          "title_en": "Common Communicable Diseases",
+          "objectives": [
+            "Describe the causes, symptoms, and prevention of typhoid, diarrhea, malaria, hepatitis, rabies, AIDS, tuberculosis, and polio.",
+            "Understand the role of vaccination in disease prevention."
+          ],
+          "page_end": 169,
+          "page_start": 162,
+          "title_hi": null,
+          "title_or": "ସାଧାରଣ ସଂକ୍ରାମକ ରୋଗ"
+        },
+        {
+          "title_en": "Drug Use and Treatment Principles",
+          "objectives": [
+            "Explain the principles of disease treatment.",
+            "Discuss the importance of appropriate drug use.",
+            "Understand the concept of immunity and its role in health."
+          ],
+          "page_end": 170,
+          "page_start": 170,
+          "title_hi": null,
+          "title_or": "ଡ୍ରଗ୍ ବ୍ୟବହାର ଓ ଚିକିତ୍ସା ନୀତି"
+        }
+      ],
+      "order": 5,
+      "page_end": 172,
+      "page_start": 157,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ରୋଗ ଓ ତାର ନିରାକରଣ"
+    }
+  ]
+}

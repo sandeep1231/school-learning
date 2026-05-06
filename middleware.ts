@@ -3,6 +3,14 @@ import { NextResponse, type NextRequest } from "next/server";
 import { ALL_TOPICS } from "@/lib/curriculum/bse-class9";
 import { DEFAULT_BOARD_SLUG } from "@/lib/curriculum/boards";
 
+// Default class for the static-curated topic index. Only used by the
+// legacy /topic/:id middleware redirect for IDs that match the
+// hardcoded `lib/curriculum/bse-class9.ts` baselines (MTH/SSC topics).
+// DB-seeded topics fall through middleware and are resolved by the
+// page itself via `resolveTopicPath` so the class is derived from the
+// actual subject row rather than hardcoded.
+const STATIC_TOPIC_CLASS = 9;
+
 // Student flow (today/topic/chat/quiz) is open to guests — we still key
 // progress to a per-browser guest cookie. Parent/teacher dashboards require
 // real accounts because they expose aggregate data.
@@ -44,7 +52,7 @@ export async function middleware(request: NextRequest) {
     const entry = TOPIC_INDEX.get(topicMatch[1]);
     if (entry) {
       const url = request.nextUrl.clone();
-      url.pathname = `/b/${DEFAULT_BOARD_SLUG}/c/9/s/${entry.subject}/ch/${entry.chapter}/t/${topicMatch[1]}`;
+      url.pathname = `/b/${DEFAULT_BOARD_SLUG}/c/${STATIC_TOPIC_CLASS}/s/${entry.subject}/ch/${entry.chapter}/t/${topicMatch[1]}`;
       return NextResponse.redirect(url, 307);
     }
   }
@@ -55,7 +63,7 @@ export async function middleware(request: NextRequest) {
     const entry = TOPIC_INDEX.get(practiceMatch[1]);
     if (entry) {
       const url = request.nextUrl.clone();
-      url.pathname = `/b/${DEFAULT_BOARD_SLUG}/c/9/s/${entry.subject}/ch/${entry.chapter}/t/${practiceMatch[1]}/practice`;
+      url.pathname = `/b/${DEFAULT_BOARD_SLUG}/c/${STATIC_TOPIC_CLASS}/s/${entry.subject}/ch/${entry.chapter}/t/${practiceMatch[1]}/practice`;
       return NextResponse.redirect(url, 307);
     }
   }
@@ -66,7 +74,7 @@ export async function middleware(request: NextRequest) {
     const entry = TOPIC_INDEX.get(learnMatch[1]);
     if (entry) {
       const url = request.nextUrl.clone();
-      url.pathname = `/b/${DEFAULT_BOARD_SLUG}/c/9/s/${entry.subject}/ch/${entry.chapter}/t/${learnMatch[1]}/learn`;
+      url.pathname = `/b/${DEFAULT_BOARD_SLUG}/c/${STATIC_TOPIC_CLASS}/s/${entry.subject}/ch/${entry.chapter}/t/${learnMatch[1]}/learn`;
       return NextResponse.redirect(url, 307);
     }
   }
@@ -80,6 +88,15 @@ export async function middleware(request: NextRequest) {
       sameSite: "lax",
     });
   }
+
+  // Skip the Supabase auth round-trip for public student/guest routes —
+  // /today, /b/..., /topic/..., /chat/..., etc. don't depend on the user
+  // object, so paying ~50-150ms per render to learn that was a 95% waste.
+  // Only protected prefixes (parent/teacher dashboards) need a session.
+  const needsAuth = PROTECTED_PREFIXES.some((p) =>
+    request.nextUrl.pathname.startsWith(p),
+  );
+  if (!needsAuth) return response;
 
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -108,11 +125,7 @@ export async function middleware(request: NextRequest) {
   );
 
   const { data: { user } } = await supabase.auth.getUser();
-
-  const needsAuth = PROTECTED_PREFIXES.some((p) =>
-    request.nextUrl.pathname.startsWith(p),
-  );
-  if (needsAuth && !user) {
+  if (!user) {
     const url = request.nextUrl.clone();
     url.pathname = "/auth/sign-in";
     url.searchParams.set("next", request.nextUrl.pathname);

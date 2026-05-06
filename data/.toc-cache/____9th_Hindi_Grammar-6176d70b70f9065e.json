@@ -1,0 +1,646 @@
+{
+  "book_title_en": "Hindi Grammar and Usage (for 9th class)",
+  "chapters": [
+    {
+      "title_en": "Why Grammar",
+      "topics": [
+        {
+          "title_en": "Importance of Grammar",
+          "objectives": [
+            "Understand the purpose of grammar.",
+            "Recognize the role of grammar in language.",
+            "Learn about basic components of grammar."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 7,
+      "page_start": 7,
+      "section": null,
+      "title_hi": "व्याकरण क्यों",
+      "title_or": null
+    },
+    {
+      "title_en": "Sound and Alphabet",
+      "topics": [
+        {
+          "title_en": "Language and Sound",
+          "objectives": [
+            "Define sound (ध्वनि) in language.",
+            "Identify basic sound units.",
+            "Understand how sounds are produced."
+          ]
+        },
+        {
+          "title_en": "Letters and Alphabet",
+          "objectives": [
+            "Define letters (वर्ण) and alphabet (वर्णमाला).",
+            "Differentiate between spoken and written forms.",
+            "Identify Hindi vowels and consonants."
+          ]
+        },
+        {
+          "title_en": "Pronunciation of Sounds",
+          "objectives": [
+            "Understand the role of speech organs.",
+            "Classify vowels based on tongue position.",
+            "Classify consonants based on place and effort of articulation."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 13,
+      "page_start": 8,
+      "section": null,
+      "title_hi": "ध्वनि और वर्ण",
+      "title_or": null
+    },
+    {
+      "title_en": "How to learn good Hindi: Writing, Nasalization and Anuswar",
+      "topics": [
+        {
+          "title_en": "Similarities and Differences in Hindi and Odia",
+          "objectives": [
+            "Compare Hindi and Odia vowel sounds.",
+            "Practice distinguishing short and long vowels.",
+            "Understand pronunciation differences for specific letters."
+          ]
+        },
+        {
+          "title_en": "Vowel Signs and Forms of Letters",
+          "objectives": [
+            "Learn different vowel signs (मात्राएँ).",
+            "Identify standard and non-standard forms of letters.",
+            "Understand the use of 'र' with vowel signs."
+          ]
+        },
+        {
+          "title_en": "Nasalization and Anuswar",
+          "objectives": [
+            "Understand the concept of nasalization.",
+            "Differentiate between Chandrabindu and Anuswar.",
+            "Apply rules for using Chandrabindu and Anuswar."
+          ]
+        },
+        {
+          "title_en": "Writing (Orthography)",
+          "objectives": [
+            "Define orthography (वर्तनी).",
+            "Understand the influence of Sanskrit on Hindi/Odia words.",
+            "Recognize Tatsam, Tadbhav, and foreign words."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 18,
+      "page_start": 14,
+      "section": null,
+      "title_hi": "अच्छी हिन्दी कैसे सीखें : लेखन, अनुनासिकता और अनुस्वार",
+      "title_or": null
+    },
+    {
+      "title_en": "Form Consideration (Word Transformation)",
+      "topics": [
+        {
+          "title_en": "Word Form Changes",
+          "objectives": [
+            "Understand how word forms change in sentences.",
+            "Differentiate between original and transformed forms.",
+            "Identify factors causing word transformation."
+          ]
+        },
+        {
+          "title_en": "Declension and Indeclinable Words",
+          "objectives": [
+            "Classify words as declension (विकारी) or indeclinable (अविकारी).",
+            "Identify types of declension words (Noun, Pronoun, Adjective, Verb).",
+            "Identify types of indeclinable words (Adverb, Preposition, Conjunction, Interjection)."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 21,
+      "page_start": 19,
+      "section": null,
+      "title_hi": "रूप विचार",
+      "title_or": null
+    },
+    {
+      "title_en": "Noun",
+      "topics": [
+        {
+          "title_en": "Definition and Types of Noun",
+          "objectives": [
+            "Define noun (संज्ञा).",
+            "Identify different types of nouns.",
+            "Provide examples for each noun type."
+          ]
+        },
+        {
+          "title_en": "Proper Noun",
+          "objectives": [
+            "Define proper noun.",
+            "Identify proper nouns in sentences."
+          ]
+        },
+        {
+          "title_en": "Common Noun",
+          "objectives": [
+            "Define common noun.",
+            "Identify common nouns in sentences."
+          ]
+        },
+        {
+          "title_en": "Material Noun",
+          "objectives": [
+            "Define material noun.",
+            "Identify material nouns in sentences."
+          ]
+        },
+        {
+          "title_en": "Collective Noun",
+          "objectives": [
+            "Define collective noun.",
+            "Identify collective nouns in sentences."
+          ]
+        },
+        {
+          "title_en": "Abstract Noun",
+          "objectives": [
+            "Define abstract noun.",
+            "Identify abstract nouns in sentences.",
+            "Understand how abstract nouns are formed."
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 28,
+      "page_start": 22,
+      "section": null,
+      "title_hi": "संज्ञा",
+      "title_or": null
+    },
+    {
+      "title_en": "Gender",
+      "topics": [
+        {
+          "title_en": "Definition and Types of Gender",
+          "objectives": [
+            "Define gender (लिंग).",
+            "Identify masculine and feminine genders in Hindi.",
+            "Understand gender determination for living and non-living things."
+          ]
+        },
+        {
+          "title_en": "Masculine based on Word Category",
+          "objectives": [
+            "Identify masculine nouns based on body parts.",
+            "Identify masculine nouns based on food items.",
+            "Identify masculine nouns based on fruits, gems, metals, grains, planets, letters, water bodies, and trees."
+          ]
+        },
+        {
+          "title_en": "Feminine based on Word Category",
+          "objectives": [
+            "Identify feminine nouns based on rivers, constellations, languages, dates, and shop items."
+          ]
+        },
+        {
+          "title_en": "Masculine based on Ending Vowel",
+          "objectives": [
+            "Identify masculine nouns ending with specific sounds.",
+            "Recognize exceptions to gender rules."
+          ]
+        },
+        {
+          "title_en": "Feminine based on Ending Vowel",
+          "objectives": [
+            "Identify feminine nouns ending with specific sounds.",
+            "Recognize exceptions to gender rules."
+          ]
+        },
+        {
+          "title_en": "Rules for Gender Transformation",
+          "objectives": [
+            "Learn rules for changing masculine to feminine.",
+            "Practice gender transformation with suffixes.",
+            "Identify words with distinct masculine and feminine forms."
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 38,
+      "page_start": 29,
+      "section": null,
+      "title_hi": "लिंग",
+      "title_or": null
+    },
+    {
+      "title_en": "Number",
+      "topics": [
+        {
+          "title_en": "Definition and Types of Number",
+          "objectives": [
+            "Define number (वचन).",
+            "Differentiate between singular and plural.",
+            "Understand how number affects other word forms."
+          ]
+        },
+        {
+          "title_en": "Number Transformation of Masculine Words",
+          "objectives": [
+            "Learn rules for changing singular masculine to plural.",
+            "Practice number transformation for different masculine word endings.",
+            "Understand the use of postpositions with plural forms."
+          ]
+        },
+        {
+          "title_en": "Number Transformation of Feminine Words",
+          "objectives": [
+            "Learn rules for changing singular feminine to plural.",
+            "Practice number transformation for different feminine word endings.",
+            "Understand the use of postpositions with plural forms."
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 45,
+      "page_start": 39,
+      "section": null,
+      "title_hi": "वचन",
+      "title_or": null
+    },
+    {
+      "title_en": "Case",
+      "topics": [
+        {
+          "title_en": "Definition and Signs of Case",
+          "objectives": [
+            "Define case (कारक).",
+            "Identify case markers (परसर्ग).",
+            "List the eight types of cases in Hindi."
+          ]
+        },
+        {
+          "title_en": "Nominative Case",
+          "objectives": [
+            "Define nominative case.",
+            "Identify the subject of a verb.",
+            "Provide examples of nominative case."
+          ]
+        },
+        {
+          "title_en": "Accusative Case",
+          "objectives": [
+            "Define accusative case.",
+            "Identify the direct object of a verb.",
+            "Differentiate between main and secondary objects."
+          ]
+        },
+        {
+          "title_en": "Instrumental Case",
+          "objectives": [
+            "Define instrumental case.",
+            "Identify the means or instrument of an action.",
+            "Provide examples of instrumental case."
+          ]
+        },
+        {
+          "title_en": "Dative Case",
+          "objectives": [
+            "Define dative case.",
+            "Identify the recipient of an action.",
+            "Provide examples of dative case."
+          ]
+        },
+        {
+          "title_en": "Ablative Case",
+          "objectives": [
+            "Define ablative case.",
+            "Identify separation or origin.",
+            "Provide examples of ablative case."
+          ]
+        },
+        {
+          "title_en": "Genitive Case",
+          "objectives": [
+            "Define genitive case.",
+            "Identify relationships between nouns.",
+            "Provide examples of genitive case."
+          ]
+        },
+        {
+          "title_en": "Locative Case",
+          "objectives": [
+            "Define locative case.",
+            "Identify the place or time of an action.",
+            "Provide examples of locative case."
+          ]
+        },
+        {
+          "title_en": "Vocative Case",
+          "objectives": [
+            "Define vocative case.",
+            "Identify direct address.",
+            "Provide examples of vocative case."
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 56,
+      "page_start": 46,
+      "section": null,
+      "title_hi": "कारक",
+      "title_or": null
+    },
+    {
+      "title_en": "Pronoun",
+      "topics": [
+        {
+          "title_en": "Definition and Types of Pronoun",
+          "objectives": [
+            "Define pronoun (सर्वनाम).",
+            "Understand the function of pronouns.",
+            "List the six types of pronouns in Hindi."
+          ]
+        },
+        {
+          "title_en": "Personal Pronoun",
+          "objectives": [
+            "Define personal pronoun.",
+            "Identify first, second, and third person pronouns."
+          ]
+        },
+        {
+          "title_en": "Demonstrative Pronoun",
+          "objectives": [
+            "Define demonstrative pronoun.",
+            "Identify pronouns indicating definite objects."
+          ]
+        },
+        {
+          "title_en": "Indefinite Pronoun",
+          "objectives": [
+            "Define indefinite pronoun.",
+            "Identify pronouns indicating indefinite objects."
+          ]
+        },
+        {
+          "title_en": "Relative Pronoun",
+          "objectives": [
+            "Define relative pronoun.",
+            "Identify pronouns showing relationship."
+          ]
+        },
+        {
+          "title_en": "Interrogative Pronoun",
+          "objectives": [
+            "Define interrogative pronoun.",
+            "Identify pronouns used for asking questions."
+          ]
+        },
+        {
+          "title_en": "Reflexive Pronoun",
+          "objectives": [
+            "Define reflexive pronoun.",
+            "Identify pronouns referring to the subject."
+          ]
+        },
+        {
+          "title_en": "Declension of Pronouns",
+          "objectives": [
+            "Understand how pronouns change with case and number.",
+            "Practice declension for different pronoun types."
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 63,
+      "page_start": 57,
+      "section": null,
+      "title_hi": "सर्वनाम",
+      "title_or": null
+    },
+    {
+      "title_en": "Adjective",
+      "topics": [
+        {
+          "title_en": "Definition and Types of Adjective",
+          "objectives": [
+            "Define adjective (विशेषण).",
+            "Understand the function of adjectives.",
+            "List the four types of adjectives in Hindi."
+          ]
+        },
+        {
+          "title_en": "Adjective of Quality",
+          "objectives": [
+            "Define adjective of quality.",
+            "Identify adjectives describing quality, nature, place, size, color, state, and time."
+          ]
+        },
+        {
+          "title_en": "Adjective of Number",
+          "objectives": [
+            "Define adjective of number.",
+            "Differentiate between definite and indefinite numerical adjectives."
+          ]
+        },
+        {
+          "title_en": "Adjective of Quantity",
+          "objectives": [
+            "Define adjective of quantity.",
+            "Differentiate between definite and indefinite quantitative adjectives."
+          ]
+        },
+        {
+          "title_en": "Demonstrative Adjective",
+          "objectives": [
+            "Define demonstrative adjective.",
+            "Understand its forms and usage."
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 67,
+      "page_start": 64,
+      "section": null,
+      "title_hi": "विशेषण",
+      "title_or": null
+    },
+    {
+      "title_en": "Verb",
+      "topics": [
+        {
+          "title_en": "Definition of Verb and Root",
+          "objectives": [
+            "Define verb (क्रिया).",
+            "Understand the concept of verb root (धातु).",
+            "Differentiate between simple and compound roots."
+          ]
+        },
+        {
+          "title_en": "Types of Verb based on Structure",
+          "objectives": [
+            "Identify simple verbs.",
+            "Identify compound verbs."
+          ]
+        },
+        {
+          "title_en": "Types of Verb based on Object",
+          "objectives": [
+            "Differentiate between transitive and intransitive verbs.",
+            "Identify ditransitive verbs."
+          ]
+        },
+        {
+          "title_en": "Types of Verb based on Completion",
+          "objectives": [
+            "Differentiate between finite and non-finite verbs.",
+            "Understand the concept of कृदन्त."
+          ]
+        },
+        {
+          "title_en": "Types of Verb based on Action Prominence",
+          "objectives": [
+            "Identify main verbs.",
+            "Identify auxiliary verbs.",
+            "Understand different functions of auxiliary verbs."
+          ]
+        },
+        {
+          "title_en": "Compound Verbs",
+          "objectives": [
+            "Define compound verbs.",
+            "Identify main and auxiliary verbs in compound structures."
+          ]
+        },
+        {
+          "title_en": "Causative Verbs",
+          "objectives": [
+            "Define causative verbs.",
+            "Differentiate between first and second causative verbs.",
+            "Learn rules for forming causative verbs."
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 81,
+      "page_start": 68,
+      "section": null,
+      "title_hi": "क्रिया",
+      "title_or": null
+    },
+    {
+      "title_en": "Indeclinable",
+      "topics": [
+        {
+          "title_en": "Definition and Types of Indeclinable",
+          "objectives": [
+            "Define indeclinable (अव्यय).",
+            "Understand why they are called avikari shabda.",
+            "List the four types of indeclinables in Hindi."
+          ]
+        },
+        {
+          "title_en": "Adverb",
+          "objectives": [
+            "Define adverb.",
+            "Identify adverbs in sentences.",
+            "Understand different types of adverbs."
+          ]
+        },
+        {
+          "title_en": "Postposition/Preposition",
+          "objectives": [
+            "Define postposition/preposition.",
+            "Identify words showing relationship between nouns/pronouns."
+          ]
+        },
+        {
+          "title_en": "Conjunction",
+          "objectives": [
+            "Define conjunction.",
+            "Identify words joining sentences or clauses."
+          ]
+        },
+        {
+          "title_en": "Interjection",
+          "objectives": [
+            "Define interjection.",
+            "Identify words expressing emotions."
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 87,
+      "page_start": 82,
+      "section": null,
+      "title_hi": "अव्यय",
+      "title_or": null
+    },
+    {
+      "title_en": "Reading and Comprehension of Unseen Passage",
+      "topics": [
+        {
+          "title_en": "Reading Unseen Passage",
+          "objectives": [
+            "Read unseen passages effectively.",
+            "Understand main ideas and emotions.",
+            "Identify key information in the passage."
+          ]
+        },
+        {
+          "title_en": "Answering Questions",
+          "objectives": [
+            "Formulate answers in own words.",
+            "Pay attention to verb tense in questions and answers.",
+            "Provide short and long answers as required."
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 89,
+      "page_start": 88,
+      "section": null,
+      "title_hi": "अपठित अनुच्छेद का पठन और अवधारण",
+      "title_or": null
+    },
+    {
+      "title_en": "Translation",
+      "topics": [
+        {
+          "title_en": "Importance of Translation",
+          "objectives": [
+            "Understand the definition of translation.",
+            "Recognize the need for knowledge of both languages.",
+            "Appreciate the role of translation between Odia and Hindi."
+          ]
+        },
+        {
+          "title_en": "How to Translate",
+          "objectives": [
+            "Read and understand the source sentence.",
+            "Analyze sentence structure in both languages.",
+            "Understand the impact of gender, number, and person on verbs in Hindi."
+          ]
+        },
+        {
+          "title_en": "Verb Forms and Tenses",
+          "objectives": [
+            "Understand verb forms in different tenses (past, present, future).",
+            "Compare verb conjugation in Hindi and Odia.",
+            "Practice translating sentences across tenses."
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 96,
+      "page_start": 90,
+      "section": null,
+      "title_hi": "अनुवाद",
+      "title_or": null
+    }
+  ],
+  "book_title_or": null
+}

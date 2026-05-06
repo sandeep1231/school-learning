@@ -1,0 +1,401 @@
+{
+  "book_title_en": "Geography",
+  "chapters": [
+    {
+      "title_en": "Our Environment",
+      "topics": [
+        {
+          "title_en": "Introduction to Environment",
+          "objectives": [
+            "Define environment and its components.",
+            "Differentiate between natural and human-made environments.",
+            "Understand the interaction between humans and environment."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Components of Environment",
+          "objectives": [
+            "Identify the elements of the natural environment.",
+            "Recognize the elements of the human environment.",
+            "Explain the significance of each component."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 1,
+      "page_end": 11,
+      "page_start": 5,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଆମ ପରିବେଶ"
+    },
+    {
+      "title_en": "Land and Interior",
+      "topics": [
+        {
+          "title_en": "Earth's Interior Structure",
+          "objectives": [
+            "Describe the layers of the Earth's interior.",
+            "Identify the characteristics of each layer."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Rocks and Minerals",
+          "objectives": [
+            "Classify different types of rocks.",
+            "Explain the rock cycle process.",
+            "Recognize common minerals and their uses."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Major Landforms",
+          "objectives": [
+            "Identify and describe mountains, plateaus, and plains.",
+            "Understand the formation of various landforms."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 2,
+      "page_end": 15,
+      "page_start": 12,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଭୂମି ଓ ଅନ୍ତର୍ଭାଗ"
+    },
+    {
+      "title_en": "Atmosphere",
+      "topics": [
+        {
+          "title_en": "Composition and Structure of Atmosphere",
+          "objectives": [
+            "List the main gases and components of the atmosphere.",
+            "Describe the different layers of the atmosphere.",
+            "Explain the characteristics of each atmospheric layer."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Weather Elements",
+          "objectives": [
+            "Differentiate between weather and climate.",
+            "Explain factors influencing temperature and air pressure.",
+            "Identify different types of winds and precipitation."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 3,
+      "page_end": 20,
+      "page_start": 16,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବାୟୁମଣ୍ଡଳ"
+    },
+    {
+      "title_en": "Hydrosphere",
+      "topics": [
+        {
+          "title_en": "Water Distribution and Cycle",
+          "objectives": [
+            "Explain the process of the water cycle.",
+            "Identify major water bodies on Earth.",
+            "Understand the distribution of fresh and salt water."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Oceanic Movements",
+          "objectives": [
+            "Describe the causes and types of ocean currents.",
+            "Explain the formation of tides and waves.",
+            "Discuss the significance of oceans for life."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 4,
+      "page_end": 25,
+      "page_start": 21,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଜଳମଣ୍ଡଳ"
+    },
+    {
+      "title_en": "Natural Vegetation and Wildlife",
+      "topics": [
+        {
+          "title_en": "Types of Natural Vegetation",
+          "objectives": [
+            "Classify different types of forests.",
+            "Describe the characteristics of various grasslands and shrublands.",
+            "Identify factors influencing vegetation distribution."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Wildlife and Conservation",
+          "objectives": [
+            "Explain the importance of wildlife.",
+            "Discuss threats to wildlife and vegetation.",
+            "Identify methods and protected areas for conservation."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 5,
+      "page_end": 32,
+      "page_start": 26,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ ଓ ବନ୍ୟପ୍ରାଣୀ"
+    },
+    {
+      "title_en": "Human Resources",
+      "topics": [
+        {
+          "title_en": "Population Distribution and Change",
+          "objectives": [
+            "Define human resources and population.",
+            "Explain factors influencing population distribution.",
+            "Analyze causes and effects of population change."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Population Composition and Issues",
+          "objectives": [
+            "Interpret population pyramids.",
+            "Discuss challenges related to population growth.",
+            "Suggest solutions for sustainable human resource management."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 6,
+      "page_end": 38,
+      "page_start": 33,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ମାନବ ସମ୍ବଳ"
+    },
+    {
+      "title_en": "Agriculture",
+      "topics": [
+        {
+          "title_en": "Types and Factors of Agriculture",
+          "objectives": [
+            "Differentiate between subsistence and commercial farming.",
+            "Identify geographical factors influencing agriculture.",
+            "Explain economic factors affecting agricultural practices."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Major Crops and Agricultural Development",
+          "objectives": [
+            "List important food and cash crops.",
+            "Describe the cultivation requirements for key crops.",
+            "Understand the impact of agricultural revolutions."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 7,
+      "page_end": 44,
+      "page_start": 39,
+      "section": null,
+      "title_hi": null,
+      "title_or": "କୃଷି"
+    },
+    {
+      "title_en": "Industry",
+      "topics": [
+        {
+          "title_en": "Classification and Location of Industries",
+          "objectives": [
+            "Categorize industries based on raw materials and size.",
+            "Identify factors influencing industrial location.",
+            "Explain the concept of an industrial system."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Major Industries and Regions",
+          "objectives": [
+            "Describe the characteristics of iron and steel industry.",
+            "Understand the growth of the information technology industry.",
+            "Locate major industrial regions globally."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 8,
+      "page_end": 50,
+      "page_start": 45,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଶିଳ୍ପ"
+    },
+    {
+      "title_en": "Transport and Communication",
+      "topics": [
+        {
+          "title_en": "Modes of Transport",
+          "objectives": [
+            "Identify different modes of transport.",
+            "Describe the advantages and disadvantages of each mode.",
+            "Locate major transport networks globally."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Communication Systems",
+          "objectives": [
+            "Differentiate between personal and mass communication.",
+            "Explain the role of modern communication technologies.",
+            "Discuss the impact of communication on society."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 9,
+      "page_end": 56,
+      "page_start": 51,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପରିବହନ ଓ ଯୋଗାଯୋଗ"
+    },
+    {
+      "title_en": "Human Settlement",
+      "topics": [
+        {
+          "title_en": "Types and Patterns of Settlements",
+          "objectives": [
+            "Define human settlement and its types.",
+            "Identify factors influencing settlement patterns.",
+            "Differentiate between rural and urban settlements."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Urbanization and Challenges",
+          "objectives": [
+            "Describe the functions of various settlements.",
+            "Analyze problems associated with urban growth.",
+            "Suggest solutions for sustainable urban development."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 10,
+      "page_end": 62,
+      "page_start": 57,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ମାନବ ବସତି"
+    },
+    {
+      "title_en": "Natural Disasters and Disaster Mitigation",
+      "topics": [
+        {
+          "title_en": "Types of Natural Disasters",
+          "objectives": [
+            "Identify common natural disasters.",
+            "Explain the causes and impacts of earthquakes and floods.",
+            "Describe the characteristics of cyclones and droughts."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Disaster Mitigation and Management",
+          "objectives": [
+            "Discuss strategies for flood and drought mitigation.",
+            "Explain preparedness measures for cyclones and tsunamis.",
+            "Understand the role of community in disaster management."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 11,
+      "page_end": 68,
+      "page_start": 63,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ଓ ବିପର୍ଯ୍ୟୟ ପ୍ରଶମନ"
+    }
+  ],
+  "book_title_or": "ଭୂଗୋଳ"
+}

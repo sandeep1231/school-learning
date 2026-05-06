@@ -1,7 +1,12 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { findTopic } from "@/lib/curriculum/bse-class9";
 import { getLesson } from "@/lib/ai/lessons";
+import { resolveTopicPath } from "@/lib/curriculum/db";
+import {
+  boardCodeToSlug,
+  DEFAULT_BOARD_SLUG,
+} from "@/lib/curriculum/boards";
 import CompleteLessonButton from "./CompleteLessonButton";
 
 export const dynamic = "force-dynamic";
@@ -11,7 +16,17 @@ type Params = { params: Promise<{ topicId: string }> };
 export default async function LearnPage({ params }: Params) {
   const { topicId } = await params;
   const topic = findTopic(topicId);
-  if (!topic) notFound();
+  if (!topic) {
+    // DB-seeded topic — redirect to the canonical board-scoped learn route
+    // (which handles DB content via languageProfile + lesson_variants).
+    const resolved = await resolveTopicPath(topicId);
+    if (!resolved) notFound();
+    const boardSlug =
+      boardCodeToSlug(resolved.subject.board) ?? DEFAULT_BOARD_SLUG;
+    redirect(
+      `/b/${boardSlug}/c/${resolved.subject.classLevel}/s/${resolved.subject.code.toLowerCase()}/ch/${resolved.chapter.slug ?? ""}/t/${topicId}/learn`,
+    );
+  }
   const lesson = getLesson(topicId);
 
   return (

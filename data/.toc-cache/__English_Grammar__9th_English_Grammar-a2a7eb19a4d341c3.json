@@ -1,0 +1,655 @@
+{
+  "book_title_en": "LEARN AND PRACTISE GRAMMAR",
+  "chapters": [
+    {
+      "title_en": "Parts of a Sentence",
+      "topics": [
+        {
+          "title_en": "Introduction to Sentences",
+          "objectives": [
+            "Understand sentences as meaningful expressions",
+            "Identify subjects and predicates in simple sentences"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Word Order and Sentence Types",
+          "objectives": [
+            "Recognize correct word order in sentences",
+            "Form interrogative sentences",
+            "Form imperative sentences",
+            "Form exclamatory sentences"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Word Classes",
+          "objectives": [
+            "Identify nouns, pronouns, and adjectives",
+            "Recognize verbs, adverbs, and prepositions",
+            "Understand conjunctions and interjections",
+            "Categorize words into their respective classes"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 1,
+      "page_end": 32,
+      "page_start": 7,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Verbs",
+      "topics": [
+        {
+          "title_en": "Introduction to Verbs",
+          "objectives": [
+            "Understand verbs as words indicating action or state",
+            "Recognize single-word and multi-word verbs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Main and Auxiliary Verbs",
+          "objectives": [
+            "Differentiate between main verbs and auxiliary verbs",
+            "Identify primary auxiliaries (be, have, do)",
+            "Identify modal auxiliaries"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Subject-Verb Agreement",
+          "objectives": [
+            "Apply rules for subject-verb agreement",
+            "Use correct verb forms based on the subject"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 2,
+      "page_end": 38,
+      "page_start": 33,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Time and Tense",
+      "topics": [
+        {
+          "title_en": "Concept of Time and Tense",
+          "objectives": [
+            "Differentiate between time and tense",
+            "Understand the three forms of English verbs",
+            "Recognize verb aspects: perfect and progressive"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Present Tenses",
+          "objectives": [
+            "Use Present Simple for habits, facts, and future plans",
+            "Use Present Progressive for ongoing or temporary actions",
+            "Identify non-progressive (stative) verbs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Past Tenses",
+          "objectives": [
+            "Employ Past Simple for completed past actions",
+            "Use Past Progressive for ongoing past actions",
+            "Apply Past Perfect for earlier past actions",
+            "Understand Present Perfect for past actions with present relevance"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Future Time Expressions",
+          "objectives": [
+            "Utilize modals (will/shall) to express future",
+            "Use 'be going to' for future plans and indications",
+            "Employ present tenses for fixed future arrangements"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 3,
+      "page_end": 67,
+      "page_start": 39,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Auxiliaries",
+      "topics": [
+        {
+          "title_en": "Introduction to Auxiliaries",
+          "objectives": [
+            "Understand primary (be, have, do) and modal auxiliaries",
+            "Differentiate between auxiliaries and main verbs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Modal Verbs for Future and Obligation",
+          "objectives": [
+            "Use shall and will to express future and intention",
+            "Apply should and ought to for advice and obligation",
+            "Utilize would and used to for past habits and requests"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Modal Verbs for Ability and Possibility",
+          "objectives": [
+            "Employ can and could to express ability and permission",
+            "Use may and might for possibility and permission",
+            "Understand need and dare in negative and interrogative contexts"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Modal Verbs for Necessity and Inference",
+          "objectives": [
+            "Use must to express strong obligation or logical conclusion",
+            "Differentiate between mustn't and needn't",
+            "Practice applying various modals in sentences"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 4,
+      "page_end": 79,
+      "page_start": 68,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Noun Phrase",
+      "topics": [
+        {
+          "title_en": "Basic Structure of Noun Phrases",
+          "objectives": [
+            "Define a noun phrase (NP)",
+            "Identify the head noun in an NP",
+            "Recognize determiners and adjectives in an NP"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Elements of a Noun Phrase",
+          "objectives": [
+            "Identify possessives, ordinals, and cardinals",
+            "Understand quantifiers and adjective phrases",
+            "Recognize classifiers and pre-determiners"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Constructing Noun Phrases",
+          "objectives": [
+            "Practice forming noun phrases with various elements",
+            "Analyze the structure of complex noun phrases"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 5,
+      "page_end": 83,
+      "page_start": 80,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Pre and Post Modifiers in the Noun Phrase",
+      "topics": [
+        {
+          "title_en": "Introduction to Modifiers",
+          "objectives": [
+            "Understand the concept of pre-modifiers",
+            "Understand the concept of post-modifiers",
+            "Identify modifiers that add extra meaning to nouns"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Types of Pre-modifiers",
+          "objectives": [
+            "Recognize articles, demonstratives, and numerals",
+            "Identify quantifiers, possessives, and distributives",
+            "Understand multipliers, wh-words, adjectives, and participles",
+            "Identify nouns functioning as pre-modifiers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Types of Post-modifiers",
+          "objectives": [
+            "Identify adjectives and adverbs as post-modifiers",
+            "Recognize prepositional phrases and non-finite clauses",
+            "Understand finite clauses as post-modifiers"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Constructing Modified Noun Phrases",
+          "objectives": [
+            "Apply various pre-modifiers in noun phrases",
+            "Apply various post-modifiers in noun phrases",
+            "Practice building complex noun phrases"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 6,
+      "page_end": 87,
+      "page_start": 84,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Countables and Uncountables",
+      "topics": [
+        {
+          "title_en": "Identifying Countable and Uncountable Nouns",
+          "objectives": [
+            "Distinguish between nouns that can be counted and those that cannot",
+            "Categorize nouns as countable or uncountable"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Plural Forms and Subject-Verb Agreement",
+          "objectives": [
+            "Learn rules for forming plurals of countable nouns",
+            "Apply subject-verb agreement rules for countable nouns",
+            "Understand agreement for group nouns and nouns ending in 's'"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Quantifying Uncountable Nouns",
+          "objectives": [
+            "Use appropriate quantifiers for uncountable nouns",
+            "Understand units of measurement for uncountable items",
+            "Recognize nouns with different meanings in plural forms"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 7,
+      "page_end": 97,
+      "page_start": 88,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Determiners",
+      "topics": [
+        {
+          "title_en": "Introduction to Determiners",
+          "objectives": [
+            "Understand articles (a, an, the) and their uses",
+            "Identify demonstratives (this, that, these, those)",
+            "Recognize numerals (cardinals and ordinals)"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Quantifiers and Possessives",
+          "objectives": [
+            "Use quantifiers (many, much, some, any) correctly",
+            "Apply possessives (my, his, Raja's) in sentences",
+            "Understand distributives (each, every, either, neither)"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Sequence and Order of Determiners",
+          "objectives": [
+            "Learn the correct order of multiple determiners",
+            "Identify and correct errors in determiner sequence",
+            "Master the usage of definite and indefinite articles"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Zero Article and Special Cases",
+          "objectives": [
+            "Identify situations where no article is used",
+            "Understand article usage with institutions and transport",
+            "Apply articles with specific times and geographical names"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 8,
+      "page_end": 109,
+      "page_start": 98,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Adjectives",
+      "topics": [
+        {
+          "title_en": "Position and Types of Adjectives",
+          "objectives": [
+            "Understand attributive (before noun) use of adjectives",
+            "Understand predicative (after link verb) use of adjectives",
+            "Identify adjectives used only in specific positions"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Modifiers and Nouns as Adjectives",
+          "objectives": [
+            "Recognize post-positioned adjectives",
+            "Understand adjectives with different meanings based on position",
+            "Identify nouns functioning as classifiers (adjectives)"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Adjective Endings and Order",
+          "objectives": [
+            "Differentiate between -ed and -ing adjectives",
+            "Learn the accepted order of multiple adjectives",
+            "Use commas and 'and' correctly with adjectives"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Degrees of Comparison",
+          "objectives": [
+            "Form and use comparative and superlative degrees",
+            "Understand irregular forms of comparison",
+            "Apply comparisons of equality and double comparatives"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 9,
+      "page_end": 122,
+      "page_start": 110,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Adverbs and Adverbials",
+      "topics": [
+        {
+          "title_en": "Introduction to Adverbs",
+          "objectives": [
+            "Understand adverbs as modifiers of verbs, adjectives, and other adverbs",
+            "Identify types of adverbs: manner, time, place, frequency, degree",
+            "Differentiate adverbs from adjectives after link verbs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Form and Position of Adverbs",
+          "objectives": [
+            "Learn how adverbs are formed (e.g., adding -ly)",
+            "Understand adverb placement in sentences (front, mid, end positions)",
+            "Recognize the order of multiple adverbs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Adverbs with Special Meanings and Comparison",
+          "objectives": [
+            "Differentiate adverbs with similar forms but different meanings",
+            "Understand the use of 'good' and 'well'",
+            "Form comparative and superlative degrees of adverbs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Focus Adverbs and Sentence Adverbs",
+          "objectives": [
+            "Understand adverbs like 'yet', 'still', 'already', 'ago'",
+            "Recognize focus adverbs (e.g., 'only', 'even', 'just')",
+            "Identify sentence adverbs that express a viewpoint"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 10,
+      "page_end": 140,
+      "page_start": 123,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "Negatives and Interrogatives",
+      "topics": [
+        {
+          "title_en": "Forming Negative Sentences",
+          "objectives": [
+            "Use 'not' with auxiliary verbs to form negatives",
+            "Employ 'do' forms for negation in simple tenses",
+            "Understand other negative operators (e.g., no, never)",
+            "Use contracted forms in negative sentences"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Types of Interrogative Sentences",
+          "objectives": [
+            "Differentiate between Yes-No questions and Wh-questions",
+            "Understand the structure of Yes-No questions",
+            "Understand the structure of Wh-questions"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Constructing Questions",
+          "objectives": [
+            "Practice forming Yes-No questions",
+            "Practice forming Wh-questions using various wh-words",
+            "Identify the correct auxiliary verb for question formation"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 11,
+      "page_end": 146,
+      "page_start": 141,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    },
+    {
+      "title_en": "The Predicate Phrase",
+      "topics": [
+        {
+          "title_en": "Introduction to Predicate Phrase Patterns",
+          "objectives": [
+            "Understand intransitive verb patterns",
+            "Understand transitive verb patterns",
+            "Identify the main components of a predicate phrase"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Verb and Complement Patterns",
+          "objectives": [
+            "Identify Subject-Verb (S+V) patterns",
+            "Recognize Subject-Verb-Complement (S+V+C) patterns",
+            "Understand different types of complements (nouns, adjectives, adverbs)"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Verb and Object Patterns",
+          "objectives": [
+            "Identify Subject-Verb-Object (S+V+O) patterns",
+            "Differentiate between direct and indirect objects",
+            "Understand Subject-Verb-Object-Object (S+V+O+O) patterns",
+            "Practice interchanging direct and indirect objects"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Verb-Object-Complement and Adjunct Patterns",
+          "objectives": [
+            "Recognize Verb-Object-Complement (V+O+C) patterns",
+            "Identify Subject-Verb-Adjunct (S+V+A) patterns",
+            "Understand adjuncts as optional elements in sentences",
+            "Practice identifying various sentence elements"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 12,
+      "page_end": 152,
+      "page_start": 147,
+      "section": null,
+      "title_hi": null,
+      "title_or": null
+    }
+  ],
+  "book_title_or": null
+}

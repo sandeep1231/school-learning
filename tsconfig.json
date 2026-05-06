@@ -20,5 +20,5 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "diagnostic.ts", "scripts/diag/**", "temp_query.ts", "temp_query_v2.ts", "_tmp_*.ts"]
 }

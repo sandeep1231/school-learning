@@ -1,12 +1,22 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { getUserContext } from "@/lib/auth/context";
+import {
+  formatBoardClassLabel,
+  formatBoardLabel,
+} from "@/lib/curriculum/boards";
 
 const BASE_URL =
   process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "") ??
   "http://localhost:3000";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
   const t = await getTranslations("app");
+  const ctx = await getUserContext();
+  const boardLabel = formatBoardLabel(ctx.boardCode);
+  const contextLabel = formatBoardClassLabel(ctx.boardCode, ctx.classLevel);
   // Phase 15 — JSON-LD for rich results. EducationalOrganization keeps the
   // knowledge-graph panel accurate; WebSite exposes the site-search hint.
   const orgLd = {
@@ -16,7 +26,7 @@ export default async function HomePage() {
     url: BASE_URL,
     logo: `${BASE_URL}/icon-512.png`,
     description:
-      "AI home-tutor for BSE Odisha Class 9 students, grounded in the official textbooks.",
+      `AI home-tutor for ${contextLabel} students, grounded in the official textbooks.`,
     areaServed: { "@type": "AdministrativeArea", name: "Odisha, India" },
     knowsLanguage: ["or", "hi", "en"],
   };
@@ -43,12 +53,12 @@ export default async function HomePage() {
       {/* Hero */}
       <section className="mx-auto max-w-3xl text-center">
         <p className="inline-block rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-900">
-          BSE Odisha · Class 9 · 2025–26 syllabus
+          {contextLabel} · 2025–26 syllabus
         </p>
         <h1 className="mt-4 text-4xl font-bold tracking-tight text-brand-900 sm:text-5xl">
           {t("name")}
         </h1>
-        <p className="mt-4 text-lg text-slate-600">{t("tagline")}</p>
+        <p className="mt-4 text-lg text-slate-600">{t("tagline", { label: contextLabel })}</p>
         <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <Link
             href="/today"
@@ -70,8 +80,8 @@ export default async function HomePage() {
           </Link>
         </div>
         <p className="mt-4 text-sm text-slate-500">
-          Aligned with Board of Secondary Education, Odisha (BSE) Class IX
-          syllabus. Answers cite your official textbooks.
+          Aligned with {boardLabel} Class {ctx.classLevel} syllabus. Answers cite
+          your official textbooks.
         </p>
       </section>
 
@@ -92,7 +102,7 @@ export default async function HomePage() {
           },
           {
             title: "ପାଠ୍ୟପୁସ୍ତକ ସୂତ୍ର · Textbook citations",
-            body: "Every explanation references the BSE textbook page you can verify — no hallucinated facts.",
+            body: `Every explanation references the ${boardLabel} textbook page you can verify — no hallucinated facts.`,
           },
           {
             title: "ବାପାମାଆଙ୍କ ଦୃଶ୍ୟ · Parent view",
@@ -125,7 +135,7 @@ export default async function HomePage() {
         <p className="mt-2 text-center text-sm text-slate-500">
           Mathematics, Science, English, Odia (FLO), General Science Workbook
           (GSC), Social Science (SSC), Second-Language (SLE), Third-Language
-          (TLH) — all aligned to the official BSE Class 9 textbooks.
+          (TLH) — all aligned to the official {boardLabel} Class {ctx.classLevel} textbooks.
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-2 text-xs">
           {[

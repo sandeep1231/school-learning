@@ -2,6 +2,11 @@ import { notFound, redirect } from "next/navigation";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/server";
 import ChatBox from "@/components/chat/ChatBox";
 import { findTopic } from "@/lib/curriculum/bse-class9";
+import {
+  getTopicBySlug,
+  getChapterById,
+  getSubjectById,
+} from "@/lib/curriculum/db";
 
 export const dynamic = "force-dynamic";
 
@@ -30,19 +35,25 @@ export default async function TopicChatPage({
     } = await supabase.auth.getUser();
     if (!user) redirect("/auth/sign-in");
 
-    const { data: topic } = await supabase
-      .from("topics")
-      .select(
-        `id, title_en, title_or, title_hi, learning_objectives,
-         chapter:chapters ( title_en, subject:subjects ( name_en ) )`,
-      )
-      .eq("id", topicId)
-      .maybeSingle();
-
-    if (!topic) notFound();
-    subject = (topic as any).chapter?.subject?.name_en ?? "Subject";
-    chapter = (topic as any).chapter?.title_en ?? "";
-    topicTitle = topic.title_en;
+    // Try static curated curriculum first (Class 9 — slugs like "mth-1-1").
+    const staticTopic = findTopic(topicId);
+    if (staticTopic) {
+      topicTitle = staticTopic.title.or;
+      subject = staticTopic.subjectCode;
+      chapter = staticTopic.chapterTitle.or;
+    } else {
+      // DB topics: param is the topic slug seeded by `npm run seed:topics`.
+      const dbTopic = await getTopicBySlug(topicId);
+      if (!dbTopic) notFound();
+      const dbChapter = await getChapterById(dbTopic.chapterId);
+      const dbSubject = dbChapter
+        ? await getSubjectById(dbChapter.subjectId)
+        : null;
+      if (!dbChapter || !dbSubject) notFound();
+      topicTitle = dbTopic.title.or ?? dbTopic.title.en;
+      subject = dbSubject.name.en;
+      chapter = dbChapter.title.or ?? dbChapter.title.en;
+    }
   }
 
   return (

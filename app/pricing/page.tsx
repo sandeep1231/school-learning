@@ -10,6 +10,8 @@ import Link from "next/link";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { listActivePlans } from "@/lib/billing/plans";
 import { getCurrentUser } from "@/lib/auth/user";
+import { getUserContext } from "@/lib/auth/context";
+import { formatBoardClassLabel } from "@/lib/curriculum/boards";
 import { billingConfigured } from "@/lib/billing/config";
 import { SubscribeButton } from "./SubscribeButton";
 
@@ -18,26 +20,30 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Affordable monthly and annual plans for Sikhya Sathi — the BSE Odisha Class 9 AI tutor. Pay with UPI in seconds.",
+    "Affordable monthly and annual plans for Sikhya Sathi — the AI tutor for BSE Odisha Class 6–9 students. Pay with UPI in seconds.",
   openGraph: {
     title: "Sikhya Sathi · Pricing",
-    description:
-      "Plans for BSE Class 9 students. UPI payments. Cancel anytime.",
+    description: "Plans for board-aligned learners. UPI payments. Cancel anytime.",
   },
 };
 
 export default async function PricingPage() {
   const admin = createAdminClient();
-  const [plans, user] = await Promise.all([
+  const [plans, user, ctx] = await Promise.all([
     listActivePlans(admin),
     getCurrentUser(),
+    getUserContext(),
   ]);
   const configured = billingConfigured();
+  const contextLabel = formatBoardClassLabel(ctx.boardCode, ctx.classLevel);
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-12">
       <header className="mb-10 text-center">
         <h1 className="text-3xl font-bold">Pricing</h1>
+        <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-indigo-600">
+          {contextLabel}
+        </p>
         <p className="mt-3 text-sm text-neutral-600 dark:text-neutral-300">
           Sikhya Sathi is free to try. Upgrade when you're ready for unlimited
           practice, parent mode, and priority tutor responses.

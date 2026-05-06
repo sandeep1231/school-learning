@@ -1,0 +1,609 @@
+{
+  "book_title_en": "Hindi Path: Matrubhasha-Hindi Class-8",
+  "chapters": [
+    {
+      "title_en": "Mother's Worship",
+      "topics": [
+        {
+          "title_en": "Understanding the poem 'Matruvandanā'",
+          "objectives": [
+            "Understand the meaning of the poem",
+            "Identify poetic devices used",
+            "Express devotion to the motherland"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "मातृवन्दना कविता का भावार्थ",
+          "title_or": null
+        }
+      ],
+      "order": 1,
+      "page_end": 7,
+      "page_start": 5,
+      "section": "Poetry Section",
+      "title_hi": "मातृवन्दना",
+      "title_or": null
+    },
+    {
+      "title_en": "Kabir's Couplets",
+      "topics": [
+        {
+          "title_en": "Understanding Kabir's teachings through couplets",
+          "objectives": [
+            "Interpret moral lessons in couplets",
+            "Explain significance of Guru and humility",
+            "Analyze Kabir's language and style"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "कबीर की साखियों का अर्थ और महत्व",
+          "title_or": null
+        }
+      ],
+      "order": 2,
+      "page_end": 11,
+      "page_start": 8,
+      "section": "Poetry Section",
+      "title_hi": "कबीर की साखियाँ",
+      "title_or": null
+    },
+    {
+      "title_en": "Description of Childhood Leela",
+      "topics": [
+        {
+          "title_en": "Understanding the childhood antics of Lord Krishna",
+          "objectives": [
+            "Describe Krishna's playful activities",
+            "Appreciate motherly love of Yashoda",
+            "Identify emotions conveyed in the poem"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "श्रीकृष्ण की बाल-लीलाओं का वर्णन",
+          "title_or": null
+        }
+      ],
+      "order": 3,
+      "page_end": 15,
+      "page_start": 12,
+      "section": "Poetry Section",
+      "title_hi": "बाल-लीला वर्णन",
+      "title_or": null
+    },
+    {
+      "title_en": "Rahim's Couplets",
+      "topics": [
+        {
+          "title_en": "Interpreting moral lessons from Rahim's couplets",
+          "objectives": [
+            "Understand importance of good company",
+            "Learn value of patience and kindness",
+            "Relate couplets to real-life situations"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "रहीम के नीतिपरक दोहों का अध्ययन",
+          "title_or": null
+        }
+      ],
+      "order": 4,
+      "page_end": 19,
+      "page_start": 16,
+      "section": "Poetry Section",
+      "title_hi": "रहीम के दोहे",
+      "title_or": null
+    },
+    {
+      "title_en": "Meera's Devotional Songs",
+      "topics": [
+        {
+          "title_en": "Understanding Meera's devotion to Lord Krishna",
+          "objectives": [
+            "Describe Meera's love for Krishna",
+            "Identify themes of devotion and sacrifice",
+            "Analyze lyrical quality of the songs"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "मीराबाई के भक्ति पदों का विश्लेषण",
+          "title_or": null
+        }
+      ],
+      "order": 5,
+      "page_end": 23,
+      "page_start": 20,
+      "section": "Poetry Section",
+      "title_hi": "मीरा के पद",
+      "title_or": null
+    },
+    {
+      "title_en": "Wake Him Up",
+      "topics": [
+        {
+          "title_en": "Understanding the call to awaken humanity",
+          "objectives": [
+            "Interpret the poem's message of awareness",
+            "Identify symbols used in the poem",
+            "Reflect on importance of timely action"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "कविता 'इसे जगाओ' का संदेश",
+          "title_or": null
+        }
+      ],
+      "order": 6,
+      "page_end": 27,
+      "page_start": 24,
+      "section": "Poetry Section",
+      "title_hi": "इसे जगाओ",
+      "title_or": null
+    },
+    {
+      "title_en": "Worldly Life",
+      "topics": [
+        {
+          "title_en": "Reflecting on the nature of life and existence",
+          "objectives": [
+            "Understand the poet's perspective on life",
+            "Identify challenges and joys of existence",
+            "Appreciate beauty of nature in life"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "जग-जीवन कविता का भावार्थ",
+          "title_or": null
+        }
+      ],
+      "order": 7,
+      "page_end": 31,
+      "page_start": 28,
+      "section": "Poetry Section",
+      "title_hi": "जग-जीवन",
+      "title_or": null
+    },
+    {
+      "title_en": "Why Has Man Forgotten?",
+      "topics": [
+        {
+          "title_en": "Understanding the poem's message of human unity",
+          "objectives": [
+            "Recognize common origin of humanity",
+            "Reflect on the futility of divisions",
+            "Promote values of equality and brotherhood"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "कविता 'भूल गया है क्यों इंसान' का संदेश",
+          "title_or": null
+        }
+      ],
+      "order": 8,
+      "page_end": 35,
+      "page_start": 32,
+      "section": "Poetry Section",
+      "title_hi": "भूल गया है क्यों इंसान",
+      "title_or": null
+    },
+    {
+      "title_en": "True Courage",
+      "topics": [
+        {
+          "title_en": "Defining and understanding true courage",
+          "objectives": [
+            "Distinguish between different types of courage",
+            "Identify examples of courageous acts",
+            "Reflect on importance of moral courage"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "सत्साहस का अर्थ और प्रकार",
+          "title_or": null
+        }
+      ],
+      "order": 9,
+      "page_end": 41,
+      "page_start": 36,
+      "section": "Prose Section",
+      "title_hi": "सत्साहस",
+      "title_or": null
+    },
+    {
+      "title_en": "A Letter: To Indira",
+      "topics": [
+        {
+          "title_en": "Understanding historical context through a letter",
+          "objectives": [
+            "Analyze content of Jawaharlal Nehru's letter",
+            "Identify historical period and significance",
+            "Discuss relationship between Nehru and Indira"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "जवाहरलाल नेहरू का इंदिरा को पत्र",
+          "title_or": null
+        }
+      ],
+      "order": 10,
+      "page_end": 45,
+      "page_start": 42,
+      "section": "Prose Section",
+      "title_hi": "एक पत्र : इंदिरा के नाम",
+      "title_or": null
+    },
+    {
+      "title_en": "Gillu",
+      "topics": [
+        {
+          "title_en": "Understanding the story of a squirrel named Gillu",
+          "objectives": [
+            "Describe bond between author and Gillu",
+            "Appreciate sensitivity towards animals",
+            "Analyze narrative style of the story"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "महादेवी वर्मा की कहानी 'गिल्लू'",
+          "title_or": null
+        }
+      ],
+      "order": 11,
+      "page_end": 51,
+      "page_start": 46,
+      "section": "Prose Section",
+      "title_hi": "गिल्लू",
+      "title_or": null
+    },
+    {
+      "title_en": "Birsa Munda",
+      "topics": [
+        {
+          "title_en": "Learning about the life and struggle of Birsa Munda",
+          "objectives": [
+            "Identify Birsa Munda's role in tribal movements",
+            "Understand historical context of his rebellion",
+            "Appreciate his contributions to social justice"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "बिरसा मुंडा का जीवन परिचय और संघर्ष",
+          "title_or": null
+        }
+      ],
+      "order": 12,
+      "page_end": 57,
+      "page_start": 52,
+      "section": "Prose Section",
+      "title_hi": "बिरसा मुंडा",
+      "title_or": null
+    },
+    {
+      "title_en": "Computer Revolution",
+      "topics": [
+        {
+          "title_en": "Understanding the evolution and impact of computers",
+          "objectives": [
+            "Describe the history of computers",
+            "Explain basic components of a computer",
+            "Discuss role of computers in society"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "कंप्यूटर का विकास और महत्व",
+          "title_or": null
+        }
+      ],
+      "order": 13,
+      "page_end": 63,
+      "page_start": 58,
+      "section": "Prose Section",
+      "title_hi": "कंप्यूटर क्रांति",
+      "title_or": null
+    },
+    {
+      "title_en": "Old Aunt",
+      "topics": [
+        {
+          "title_en": "Understanding the story of Budhi Kaki and social neglect",
+          "objectives": [
+            "Analyze themes of hunger and neglect",
+            "Discuss treatment of elderly in society",
+            "Identify moral lessons from the story"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "प्रेमचंद की कहानी 'बूढ़ी काकी' का विश्लेषण",
+          "title_or": null
+        }
+      ],
+      "order": 14,
+      "page_end": 71,
+      "page_start": 64,
+      "section": "Prose Section",
+      "title_hi": "बूढ़ी काकी",
+      "title_or": null
+    },
+    {
+      "title_en": "The Unconquered",
+      "topics": [
+        {
+          "title_en": "Learning about the inspiring story of Aparajita",
+          "objectives": [
+            "Understand challenges faced by Aparajita",
+            "Appreciate her resilience and determination",
+            "Draw inspiration from her achievements"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "अपराजिता का प्रेरणादायक जीवन",
+          "title_or": null
+        }
+      ],
+      "order": 15,
+      "page_end": 77,
+      "page_start": 72,
+      "section": "Supplementary Study",
+      "title_hi": "अपराजिता",
+      "title_or": null
+    },
+    {
+      "title_en": "Victory in Defeat",
+      "topics": [
+        {
+          "title_en": "Understanding the story of moral victory",
+          "objectives": [
+            "Analyze characters of Baba Bharti and Khadag Singh",
+            "Identify theme of honesty and compassion",
+            "Discuss the true meaning of victory"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "कहानी 'हार की जीत' का नैतिक संदेश",
+          "title_or": null
+        }
+      ],
+      "order": 16,
+      "page_end": 83,
+      "page_start": 78,
+      "section": "Supplementary Study",
+      "title_hi": "हार की जीत",
+      "title_or": null
+    },
+    {
+      "title_en": "Three Friends",
+      "topics": [
+        {
+          "title_en": "Understanding the story of friendship and cooperation",
+          "objectives": [
+            "Describe bond between the three friends",
+            "Identify instances of teamwork and problem-solving",
+            "Learn importance of mutual support"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "कहानी 'तीन दोस्त' में मित्रता का महत्व",
+          "title_or": null
+        }
+      ],
+      "order": 17,
+      "page_end": 87,
+      "page_start": 84,
+      "section": "Supplementary Study",
+      "title_hi": "तीन दोस्त",
+      "title_or": null
+    },
+    {
+      "title_en": "Gender, Verb, Indeclinable",
+      "topics": [
+        {
+          "title_en": "Understanding Gender in Hindi Grammar",
+          "objectives": [
+            "Identify masculine and feminine nouns",
+            "Apply rules for gender change",
+            "Formulate sentences with correct gender usage"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "लिंग की परिभाषा और प्रकार",
+          "title_or": null
+        },
+        {
+          "title_en": "Understanding Verbs in Hindi Grammar",
+          "objectives": [
+            "Define different types of verbs",
+            "Identify transitive and intransitive verbs",
+            "Use verbs correctly in sentences"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "क्रिया की परिभाषा और भेद",
+          "title_or": null
+        },
+        {
+          "title_en": "Understanding Indeclinables (Avyay) in Hindi Grammar",
+          "objectives": [
+            "Define indeclinable words",
+            "Identify different types of indeclinables",
+            "Use indeclinables appropriately in sentences"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "अव्यय की परिभाषा और प्रकार",
+          "title_or": null
+        }
+      ],
+      "order": 18,
+      "page_end": 93,
+      "page_start": 89,
+      "section": "Language Knowledge",
+      "title_hi": "लिंग, क्रिया, अव्यय",
+      "title_or": null
+    },
+    {
+      "title_en": "Word Knowledge: Synonyms, Homonyms, Antonyms, Similar Meaning Words",
+      "topics": [
+        {
+          "title_en": "Learning Synonyms (Paryāyavāchī Shabd)",
+          "objectives": [
+            "Identify words with similar meanings",
+            "Expand vocabulary with synonyms",
+            "Use appropriate synonyms in writing"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "पर्यायवाची शब्द का अध्ययन",
+          "title_or": null
+        },
+        {
+          "title_en": "Learning Homonyms (Anekārthak Shabd)",
+          "objectives": [
+            "Understand words with multiple meanings",
+            "Differentiate meanings based on context",
+            "Use homonyms correctly in sentences"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "अनेकार्थक शब्द का प्रयोग",
+          "title_or": null
+        },
+        {
+          "title_en": "Learning Antonyms (Vilom Shabd)",
+          "objectives": [
+            "Identify words with opposite meanings",
+            "Expand vocabulary with antonyms",
+            "Use antonyms effectively in communication"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "विलोम शब्द का ज्ञान",
+          "title_or": null
+        },
+        {
+          "title_en": "Learning Similar Meaning Words (Samānārthī Shabd)",
+          "objectives": [
+            "Distinguish between subtly different words",
+            "Choose precise words for expression",
+            "Enhance understanding of word nuances"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "सूक्ष्म अंतरवाले समानार्थक शब्द",
+          "title_or": null
+        }
+      ],
+      "order": 19,
+      "page_end": 99,
+      "page_start": 94,
+      "section": "Language Knowledge",
+      "title_hi": "शब्द ज्ञान : पर्यायवाची, अनेकार्थक, विलोम शब्द, समानार्थी शब्द",
+      "title_or": null
+    },
+    {
+      "title_en": "Letter Writing",
+      "topics": [
+        {
+          "title_en": "Writing Application Letters",
+          "objectives": [
+            "Understand the format of application letters",
+            "Draft letters for leave and fee concession",
+            "Write formal application letters effectively"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "आवेदन पत्र लिखना",
+          "title_or": null
+        },
+        {
+          "title_en": "Writing Business Letters",
+          "objectives": [
+            "Understand the structure of business letters",
+            "Draft letters for ordering books",
+            "Write professional business correspondence"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "व्यापारिक पत्र का प्रारूप",
+          "title_or": null
+        },
+        {
+          "title_en": "Writing Personal Letters",
+          "objectives": [
+            "Understand the format of personal letters",
+            "Draft letters to family members",
+            "Express personal thoughts and feelings"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "व्यक्तिगत पत्र लेखन",
+          "title_or": null
+        }
+      ],
+      "order": 20,
+      "page_end": 106,
+      "page_start": 98,
+      "section": "Letter Writing",
+      "title_hi": "पत्र - लेखन",
+      "title_or": null
+    },
+    {
+      "title_en": "Essay Writing",
+      "topics": [
+        {
+          "title_en": "Understanding the art of essay writing",
+          "objectives": [
+            "Define the structure of an essay",
+            "Develop ideas for essay topics",
+            "Write coherent and well-organized essays"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "निबंध लेखन की कला",
+          "title_or": null
+        },
+        {
+          "title_en": "Writing Value-based Essays",
+          "objectives": [
+            "Explore themes of philanthropy and morality",
+            "Express personal views on ethical issues",
+            "Construct arguments for value-based topics"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "मूल्यबोध संबंधी निबंध",
+          "title_or": null
+        },
+        {
+          "title_en": "Writing National Unity Essays",
+          "objectives": [
+            "Discuss the importance of national integration",
+            "Highlight factors promoting unity in diversity",
+            "Write essays on patriotic themes"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "राष्ट्रीय एकता पर निबंध",
+          "title_or": null
+        },
+        {
+          "title_en": "Writing Festival and Holiday Essays",
+          "objectives": [
+            "Describe various Indian festivals",
+            "Explain cultural significance of holidays",
+            "Write descriptive essays on celebrations"
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": "पर्व और त्योहार संबंधी निबंध",
+          "title_or": null
+        }
+      ],
+      "order": 21,
+      "page_end": 114,
+      "page_start": 108,
+      "section": "Essay Writing",
+      "title_hi": "निबंध - लेखन",
+      "title_or": null
+    }
+  ],
+  "book_title_or": null
+}

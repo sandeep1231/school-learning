@@ -1,0 +1,608 @@
+{
+  "book_title_en": "Bhashasaurabham: Sanskrit Textbook for Eighth Grade",
+  "chapters": [
+    {
+      "title_en": "Salutation",
+      "topics": [
+        {
+          "title_en": "Understanding the Prayer",
+          "objectives": [
+            "Recite the prayer with correct pronunciation.",
+            "Understand the meaning of the verses.",
+            "Identify key Sanskrit terms in the prayer."
+          ]
+        },
+        {
+          "title_en": "Importance of Unity",
+          "objectives": [
+            "Explain the concept of unity in society.",
+            "Discuss the significance of collective thought and action.",
+            "Relate the prayer's message to daily life."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 7,
+      "page_start": 7,
+      "title_hi": "वन्दनम्",
+      "title_or": null
+    },
+    {
+      "title_en": "Mother India Served by Sanskrit",
+      "topics": [
+        {
+          "title_en": "Praising Mother India",
+          "objectives": [
+            "Recite the poem about Mother India.",
+            "Identify descriptive words used for India.",
+            "Appreciate the cultural significance of Sanskrit."
+          ]
+        },
+        {
+          "title_en": "Natural Beauty of India",
+          "objectives": [
+            "Describe India's rivers, mountains, and forests.",
+            "Recognize the role of nature in Indian culture."
+          ]
+        },
+        {
+          "title_en": "Sanskrit's Role in India",
+          "objectives": [
+            "Understand Sanskrit as a language of knowledge and peace.",
+            "Explain how Sanskrit serves as a garland for India."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 8,
+      "page_start": 8,
+      "title_hi": "संस्कृतसेविता भारतमाता",
+      "title_or": null
+    },
+    {
+      "title_en": "Environment",
+      "topics": [
+        {
+          "title_en": "Understanding the Environment",
+          "objectives": [
+            "Define the term 'environment' in Sanskrit context.",
+            "Identify components of the environment.",
+            "Discuss the interaction between humans and nature."
+          ]
+        },
+        {
+          "title_en": "Causes of Environmental Pollution",
+          "objectives": [
+            "List various sources of pollution (land, water, air).",
+            "Explain the impact of human activities on the environment.",
+            "Recognize the consequences of deforestation."
+          ]
+        },
+        {
+          "title_en": "Environmental Protection",
+          "objectives": [
+            "Suggest ways to protect the environment.",
+            "Understand the importance of planting trees.",
+            "Commit to responsible environmental practices."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 14,
+      "page_start": 9,
+      "title_hi": "परिवेशः",
+      "title_or": null
+    },
+    {
+      "title_en": "Noble Gopalakrishna",
+      "topics": [
+        {
+          "title_en": "Gopalakrishna's Honesty",
+          "objectives": [
+            "Read the story of Gopalakrishna's honesty.",
+            "Understand the importance of truthfulness.",
+            "Analyze Gopalakrishna's actions during the exam."
+          ]
+        },
+        {
+          "title_en": "Teacher's Reaction and Lesson",
+          "objectives": [
+            "Describe the teacher's response to Gopalakrishna's confession.",
+            "Identify the moral lesson conveyed by the teacher.",
+            "Reflect on the value of integrity."
+          ]
+        },
+        {
+          "title_en": "Grammar and Vocabulary",
+          "objectives": [
+            "Learn new Sanskrit vocabulary from the story.",
+            "Practice sentence formation using new words.",
+            "Understand the use of 'युष्मद्' (you) pronoun forms."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 18,
+      "page_start": 15,
+      "title_hi": "साधुः गोपालकृष्णः",
+      "title_or": null
+    },
+    {
+      "title_en": "Victorious Rajaguru",
+      "topics": [
+        {
+          "title_en": "Introduction to Rajaguru",
+          "objectives": [
+            "Identify Rajaguru as a historical figure.",
+            "Understand his role in the Khordha kingdom.",
+            "Describe the political situation during his time."
+          ]
+        },
+        {
+          "title_en": "Struggle Against British Rule",
+          "objectives": [
+            "Explain Rajaguru's resistance to British rule.",
+            "Recognize the significance of the Paika rebellion.",
+            "Appreciate his sacrifice for the nation."
+          ]
+        },
+        {
+          "title_en": "Legacy of Rajaguru",
+          "objectives": [
+            "Discuss how Rajaguru's patriotism is remembered.",
+            "Reflect on the importance of national defense.",
+            "Learn about the 'अस्मद्' (we) pronoun forms."
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 22,
+      "page_start": 19,
+      "title_hi": "जयी राजगुरुः",
+      "title_or": null
+    },
+    {
+      "title_en": "The Farmer",
+      "topics": [
+        {
+          "title_en": "Importance of Farmers",
+          "objectives": [
+            "Recognize the farmer's contribution to society.",
+            "Understand the hard work involved in farming.",
+            "Appreciate the role of farmers in food production."
+          ]
+        },
+        {
+          "title_en": "Farming in Odisha",
+          "objectives": [
+            "Describe the agricultural landscape of Odisha.",
+            "Identify various crops grown in the region.",
+            "Learn about the beginning of agricultural work."
+          ]
+        },
+        {
+          "title_en": "Farmer's Life and Challenges",
+          "objectives": [
+            "Understand the challenges faced by farmers.",
+            "Discuss the process of bringing produce to market.",
+            "Express gratitude towards farmers and soldiers."
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 25,
+      "page_start": 23,
+      "title_hi": "कृषकः",
+      "title_or": null
+    },
+    {
+      "title_en": "Success Through Effort",
+      "topics": [
+        {
+          "title_en": "The Traveler and the Old Man",
+          "objectives": [
+            "Read the story of the tired traveler and the old man.",
+            "Understand the initial interaction between them.",
+            "Analyze the old man's unusual behavior."
+          ]
+        },
+        {
+          "title_en": "The Lesson of Perseverance",
+          "objectives": [
+            "Explain why the old man waited to give directions.",
+            "Identify the moral of the story about continuous effort.",
+            "Relate the proverb 'वृक्षः रक्षति रक्षितः' to the story."
+          ]
+        },
+        {
+          "title_en": "Grammar and Vocabulary",
+          "objectives": [
+            "Learn new Sanskrit vocabulary related to travel and effort.",
+            "Practice using adjectives and adverbs.",
+            "Understand verb conjugations in present tense."
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 36,
+      "page_start": 32,
+      "title_hi": "यत्नेन सिद्धिः",
+      "title_or": null
+    },
+    {
+      "title_en": "Gandhamadana Mountain",
+      "topics": [
+        {
+          "title_en": "Introduction to Gandhamadana",
+          "objectives": [
+            "Locate Gandhamadana mountain in Odisha.",
+            "Describe its geographical features and height.",
+            "Recognize its significance as a mineral-rich area."
+          ]
+        },
+        {
+          "title_en": "Natural Beauty and Cultural Importance",
+          "objectives": [
+            "Appreciate the scenic beauty and diverse flora/fauna.",
+            "Learn about the Nrusimhanath and Harishankar temples.",
+            "Understand the importance of the place as a pilgrimage site."
+          ]
+        },
+        {
+          "title_en": "Tourism and Conservation",
+          "objectives": [
+            "Identify Gandhamadana as a major tourist center.",
+            "Discuss the importance of preserving its natural heritage.",
+            "Understand the use of different noun declensions."
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 42,
+      "page_start": 37,
+      "title_hi": "गन्धमादनः",
+      "title_or": null
+    },
+    {
+      "title_en": "Steel City",
+      "topics": [
+        {
+          "title_en": "Rourkela: The Steel City",
+          "objectives": [
+            "Identify Rourkela as a prominent place in Odisha.",
+            "Understand its significance as a steel city.",
+            "Learn about the confluence of rivers and its origin."
+          ]
+        },
+        {
+          "title_en": "Historical and Cultural Aspects",
+          "objectives": [
+            "Recognize Vedavyasa Ashram and other cultural institutions.",
+            "Understand the establishment of the steel plant.",
+            "Learn about Dr. Rajendra Prasad's role in its inauguration."
+          ]
+        },
+        {
+          "title_en": "Economic and Social Impact",
+          "objectives": [
+            "Discuss the economic contribution of the steel plant.",
+            "Identify the Hanuman Vatika and its giant statue.",
+            "Appreciate Rourkela's cultural diversity and importance."
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 46,
+      "page_start": 43,
+      "title_hi": "इस्पात-नगरी",
+      "title_or": null
+    },
+    {
+      "title_en": "Poet Vyasa: Fakir Mohan",
+      "topics": [
+        {
+          "title_en": "Fakir Mohan's Early Life",
+          "objectives": [
+            "Identify Fakir Mohan Senapati as a prominent Odia writer.",
+            "Understand his early life and challenges.",
+            "Learn about his education and initial career."
+          ]
+        },
+        {
+          "title_en": "Contributions to Odia Literature",
+          "objectives": [
+            "Recognize his role in translating Mahabharata into Odia.",
+            "Discuss his status as the first Odia novelist and storyteller.",
+            "Identify his famous works like 'Rebati' and 'Chha Mana Atha Guntha'."
+          ]
+        },
+        {
+          "title_en": "Legacy and Recognition",
+          "objectives": [
+            "Understand his efforts in promoting Sanskrit and Odia languages.",
+            "Appreciate his title 'Vyasakavi' and 'Senapati'.",
+            "Learn about the university named after him."
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 51,
+      "page_start": 47,
+      "title_hi": "व्यासकविः फकीरमोहनः",
+      "title_or": null
+    },
+    {
+      "title_en": "Salutation to the Nation",
+      "topics": [
+        {
+          "title_en": "Praise for India's Heritage",
+          "objectives": [
+            "Recite the verses praising India.",
+            "Identify references to sacred rivers and scriptures.",
+            "Appreciate India's spiritual and cultural legacy."
+          ]
+        },
+        {
+          "title_en": "Leaders and Freedom Struggle",
+          "objectives": [
+            "Recognize the contributions of Bal Gangadhar Tilak and Mahatma Gandhi.",
+            "Understand their roles in India's independence.",
+            "Learn about Rabindranath Tagore's inspiring songs."
+          ]
+        },
+        {
+          "title_en": "Values of Indian Society",
+          "objectives": [
+            "Discuss the importance of righteousness and justice.",
+            "Understand the concept of unity in diversity.",
+            "Reflect on the idea of universal brotherhood."
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 54,
+      "page_start": 52,
+      "title_hi": "राष्ट्रवन्दनम्",
+      "title_or": null
+    },
+    {
+      "title_en": "Wonderful Creation",
+      "topics": [
+        {
+          "title_en": "The Wagtail Family",
+          "objectives": [
+            "Read the story of the wagtail family in the banyan tree.",
+            "Understand the mother wagtail's initial dissatisfaction.",
+            "Identify her feelings of envy towards the cuckoo."
+          ]
+        },
+        {
+          "title_en": "Encounter with the Hunter",
+          "objectives": [
+            "Describe the arrival of the hunter and the capture of the cuckoo.",
+            "Analyze the mother wagtail's change in perspective.",
+            "Understand the lesson about accepting one's own nature."
+          ]
+        },
+        {
+          "title_en": "Acceptance and Contentment",
+          "objectives": [
+            "Explain the moral of the story about the beauty of creation.",
+            "Reflect on the importance of contentment and self-acceptance.",
+            "Practice verb conjugations in past tense (लङ् लकार)."
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 59,
+      "page_start": 55,
+      "title_hi": "विचित्रा सृष्टिः",
+      "title_or": null
+    },
+    {
+      "title_en": "The Secret of Life",
+      "topics": [
+        {
+          "title_en": "The Bound Cuckoo",
+          "objectives": [
+            "Read the story of the cuckoo tied to a tree.",
+            "Understand the cuckoo's predicament and the crows' torment.",
+            "Identify the cuckoo's despair and fear of death."
+          ]
+        },
+        {
+          "title_en": "The Wise Man's Observation",
+          "objectives": [
+            "Describe the wise man's observation of the scene.",
+            "Analyze his thoughts on divine justice.",
+            "Understand the unexpected intervention that frees the cuckoo."
+          ]
+        },
+        {
+          "title_en": "Divine Providence and Life's Mystery",
+          "objectives": [
+            "Explain the wise man's realization about life's mysteries.",
+            "Reflect on the concept of divine intervention.",
+            "Discuss the deeper meaning of the story."
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 63,
+      "page_start": 60,
+      "title_hi": "जीवनस्य रहस्यम्",
+      "title_or": null
+    },
+    {
+      "title_en": "Service is the Highest Duty",
+      "topics": [
+        {
+          "title_en": "War and Suffering",
+          "objectives": [
+            "Understand the context of the war between Austria and France.",
+            "Describe the suffering of wounded soldiers.",
+            "Identify the compassionate response of Henry Dunant."
+          ]
+        },
+        {
+          "title_en": "Establishment of Red Cross",
+          "objectives": [
+            "Learn about Henry Dunant's efforts to help the wounded.",
+            "Understand the origin and principles of the Red Cross.",
+            "Recognize the importance of selfless service."
+          ]
+        },
+        {
+          "title_en": "Dunant's Legacy and Global Impact",
+          "objectives": [
+            "Discuss Henry Dunant's Nobel Peace Prize.",
+            "Explain the motto 'Human service is divine service'.",
+            "Reflect on the global impact of the Red Cross."
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 68,
+      "page_start": 64,
+      "title_hi": "सेवा हि परमो धर्म:",
+      "title_or": null
+    },
+    {
+      "title_en": "Achieving the Goal",
+      "topics": [
+        {
+          "title_en": "The Frog Competition",
+          "objectives": [
+            "Read the story of the frog competition.",
+            "Understand the challenge of climbing a tall, slippery pillar.",
+            "Observe the discouraging comments from the spectators."
+          ]
+        },
+        {
+          "title_en": "The Deaf Frog's Success",
+          "objectives": [
+            "Identify the frog that succeeded despite the negativity.",
+            "Explain why the frog was able to achieve its goal.",
+            "Understand the importance of focus and ignoring distractions."
+          ]
+        },
+        {
+          "title_en": "Lessons for Life",
+          "objectives": [
+            "Discuss the moral of the story about self-belief and perseverance.",
+            "Relate the story to achieving personal goals.",
+            "Practice verb conjugations in future tense (लृट् लकार)."
+          ]
+        }
+      ],
+      "order": 15,
+      "page_end": 72,
+      "page_start": 69,
+      "title_hi": "लक्ष्यप्राप्तिः",
+      "title_or": null
+    },
+    {
+      "title_en": "Chanakya, the Devoted Son",
+      "topics": [
+        {
+          "title_en": "Chanakya's Childhood Promise",
+          "objectives": [
+            "Read the dialogue between young Chanakya and his mother.",
+            "Understand Chanakya's mother's concerns and his reassurance.",
+            "Analyze Chanakya's symbolic act of pulling out his tooth."
+          ]
+        },
+        {
+          "title_en": "Chanakya's Vision for Magadha",
+          "objectives": [
+            "Identify Chanakya's destiny to become the Prime Minister of Magadha.",
+            "Understand his mother's prophecy about his future.",
+            "Discuss his commitment to his motherland."
+          ]
+        },
+        {
+          "title_en": "Chanakya's Legacy",
+          "objectives": [
+            "Learn about Chanakya's later life as Kautilya.",
+            "Recognize his contributions to political science and economics.",
+            "Reflect on the saying 'Mother and Motherland are greater than heaven'."
+          ]
+        }
+      ],
+      "order": 16,
+      "page_end": 77,
+      "page_start": 73,
+      "title_hi": "मातृभक्तः चाणक्यः",
+      "title_or": null
+    },
+    {
+      "title_en": "Garland of Moral Principles",
+      "topics": [
+        {
+          "title_en": "Respect for Elders",
+          "objectives": [
+            "Understand the importance of respecting elders.",
+            "Identify the benefits of humility and service.",
+            "Discuss the four virtues that increase with respect."
+          ]
+        },
+        {
+          "title_en": "Wisdom in Action",
+          "objectives": [
+            "Compare the danger of a snake versus a wicked person.",
+            "Learn the importance of completing tasks promptly.",
+            "Understand the value of focusing on the present."
+          ]
+        },
+        {
+          "title_en": "Unity and Association",
+          "objectives": [
+            "Explain how unity brings strength (e.g., rope from grass).",
+            "Discuss the impact of good company on one's reputation.",
+            "Identify the five types of revered individuals."
+          ]
+        }
+      ],
+      "order": 17,
+      "page_end": 82,
+      "page_start": 78,
+      "title_hi": "नीतिमञ्जरी",
+      "title_or": null
+    },
+    {
+      "title_en": "Good Sayings",
+      "topics": [
+        {
+          "title_en": "Principles of Conduct",
+          "objectives": [
+            "Understand the saying 'Do not do to others what is unfavorable to yourself'.",
+            "Explain the concept of inherent nature (charcoal example).",
+            "Discuss the idea of 'Vasudhaiva Kutumbakam' (world is one family)."
+          ]
+        },
+        {
+          "title_en": "Discernment and Foresight",
+          "objectives": [
+            "Analyze the saying about the swan separating milk from water.",
+            "Understand the importance of being far-sighted.",
+            "Differentiate between being far-sighted and procrastinating."
+          ]
+        },
+        {
+          "title_en": "Application of Wisdom",
+          "objectives": [
+            "Reflect on how these sayings apply to daily life.",
+            "Identify key moral values promoted by the proverbs.",
+            "Practice interpreting Sanskrit maxims."
+          ]
+        }
+      ],
+      "order": 18,
+      "page_end": 84,
+      "page_start": 83,
+      "title_hi": "सूक्तयः",
+      "title_or": null
+    }
+  ],
+  "book_title_or": null
+}

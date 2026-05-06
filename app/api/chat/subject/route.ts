@@ -11,6 +11,11 @@ import {
   isGeminiConfigured,
 } from "@/lib/ai/gemini";
 import { CURRICULUM, RAG_ONLY_SUBJECTS } from "@/lib/curriculum/bse-class9";
+import { getUserContext } from "@/lib/auth/context";
+import {
+  formatBoardLabel,
+  isClassSupported,
+} from "@/lib/curriculum/boards";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -18,6 +23,11 @@ export const dynamic = "force-dynamic";
 const BodySchema = z.object({
   subjectCode: z.string().min(2).max(8),
   chapterHint: z.string().min(1).max(200).optional(),
+  // Optional explicit board/class overrides (e.g. from a deep-linked
+  // board-scoped page). When absent we fall back to the caller's persisted
+  // context (cookie / profile).
+  boardCode: z.string().min(2).max(32).optional(),
+  classLevel: z.number().int().min(1).max(12).optional(),
   messages: z
     .array(
       z.object({
@@ -53,11 +63,27 @@ export async function POST(req: Request) {
   if (!parsed.success) {
     return NextResponse.json({ error: "bad_request" }, { status: 400 });
   }
-  const { subjectCode, chapterHint, messages } = parsed.data;
-  const subject = findSubject(subjectCode);
-  if (!subject) {
-    return NextResponse.json({ error: "subject_not_found" }, { status: 404 });
-  }
+  const { subjectCode, chapterHint, messages, boardCode: bodyBoard, classLevel: bodyClass } = parsed.data;
+  // Subject metadata for naming/prompts. For multi-class boards the same
+  // subject code may exist across classes; we still pull the human-readable
+  // name from the Class-9 catalogue, then override the prompt's class
+  // language with the caller's actual class below.
+  const subject = findSubject(subjectCode) ?? {
+    code: subjectCode.toUpperCase(),
+    name: { en: subjectCode.toUpperCase(), or: subjectCode.toUpperCase() },
+  };
+
+  // Resolve scope: explicit body overrides → persisted user context.
+  const ctx = await getUserContext();
+  const boardCode =
+    bodyBoard && isClassSupported(bodyBoard, bodyClass ?? ctx.classLevel)
+      ? bodyBoard
+      : ctx.boardCode;
+  const classLevel =
+    bodyClass && isClassSupported(boardCode, bodyClass)
+      ? bodyClass
+      : ctx.classLevel;
+  const boardLabel = formatBoardLabel(boardCode);
 
   if (!isGeminiConfigured()) {
     return NextResponse.json({ error: "gemini_not_configured" }, { status: 503 });
@@ -84,6 +110,8 @@ export async function POST(req: Request) {
 
   const chunks = await retrieveForScope({
     query: retrievalQuery,
+    board: boardCode,
+    classLevel,
     subjectCode,
     k: 6,
     chapterHint,
@@ -92,11 +120,12 @@ export async function POST(req: Request) {
   const systemPrompt = buildTutorSystemPrompt({
     language: "or",
     studentName: null,
+    classLevel,
     subjectName: subject.name.en,
     chapterTitle: subject.name.or,
     topicTitle: subject.name.or,
     learningObjectives: [
-      `Help the student understand ${subject.name.en} concepts grounded in the BSE Odisha Class 9 textbook.`,
+      `Help the student understand ${subject.name.en} concepts grounded in the ${boardLabel} Class ${classLevel} textbook.`,
     ],
     context: chunks.map((c) => ({
       id: c.id,

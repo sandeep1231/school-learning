@@ -1,0 +1,238 @@
+{
+  "book_title_en": "Social Science Part-2 Geography",
+  "chapters": [
+    {
+      "title_en": "Resources",
+      "topics": [
+        {
+          "title_en": "Types of resources",
+          "objectives": [
+            "Define what a resource is.",
+            "Identify different categories of resources.",
+            "Explain the concept of resource value over time."
+          ]
+        },
+        {
+          "title_en": "Resource conservation",
+          "objectives": [
+            "Understand the importance of conserving resources.",
+            "Describe methods for resource conservation."
+          ]
+        },
+        {
+          "title_en": "Sustainable development",
+          "objectives": [
+            "Define sustainable development.",
+            "Explain the principles of sustainable development."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 14,
+      "page_start": 9,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ସମ୍ବଳ"
+    },
+    {
+      "title_en": "Land Resources, Water Resources, Natural Vegetation & Wildlife, Mineral & Energy Resources",
+      "topics": [
+        {
+          "title_en": "Distribution of land resources",
+          "objectives": [
+            "Describe the different landforms on Earth.",
+            "Explain how landforms influence human settlement."
+          ]
+        },
+        {
+          "title_en": "Land use and conservation",
+          "objectives": [
+            "Identify various uses of land.",
+            "Explain methods for conserving land resources."
+          ]
+        },
+        {
+          "title_en": "Soil formation and classification",
+          "objectives": [
+            "Describe the process of soil formation (weathering).",
+            "Identify factors influencing soil formation.",
+            "Classify different types of soil."
+          ]
+        },
+        {
+          "title_en": "Water resources and conservation",
+          "objectives": [
+            "Explain the distribution of water on Earth.",
+            "Discuss the uses and scarcity of water.",
+            "Describe methods for conserving water resources."
+          ]
+        },
+        {
+          "title_en": "Natural vegetation and wildlife conservation",
+          "objectives": [
+            "Identify different types of natural vegetation.",
+            "Explain the importance of wildlife.",
+            "Describe measures for conserving natural vegetation and wildlife."
+          ]
+        },
+        {
+          "title_en": "Mineral and energy resources",
+          "objectives": [
+            "Classify different types of minerals.",
+            "Explain methods of mineral extraction.",
+            "Describe the distribution and conservation of minerals.",
+            "Classify conventional and non-conventional energy sources.",
+            "Discuss the importance of energy conservation."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 44,
+      "page_start": 15,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଭୂ-ସମ୍ବଳ, ଜଳସମ୍ବଳ, ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ ଓ ବନ୍ୟପ୍ରାଣୀ, ଖଣିଜ ଓ ଶକ୍ତି ସମ୍ବଳ"
+    },
+    {
+      "title_en": "Agriculture",
+      "topics": [
+        {
+          "title_en": "Favorable conditions for agriculture",
+          "objectives": [
+            "Identify natural factors suitable for agriculture.",
+            "Explain human factors influencing agricultural practices."
+          ]
+        },
+        {
+          "title_en": "Types of agriculture",
+          "objectives": [
+            "Differentiate between subsistence and commercial agriculture.",
+            "Describe shifting cultivation and nomadic herding.",
+            "Explain intensive subsistence agriculture."
+          ]
+        },
+        {
+          "title_en": "Major agricultural products",
+          "objectives": [
+            "Identify major food crops like wheat, rice, maize, and millets.",
+            "Describe major fiber crops like cotton and jute.",
+            "Discuss major beverage crops like tea and coffee."
+          ]
+        },
+        {
+          "title_en": "Agricultural development in India",
+          "objectives": [
+            "Understand the concept of agricultural development.",
+            "Describe government initiatives for agricultural development in India.",
+            "Compare agricultural practices in India with developed countries."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 60,
+      "page_start": 45,
+      "section": null,
+      "title_hi": null,
+      "title_or": "କୃଷି"
+    },
+    {
+      "title_en": "Industry",
+      "topics": [
+        {
+          "title_en": "Classification of industries",
+          "objectives": [
+            "Classify industries based on raw materials.",
+            "Classify industries based on size (small-scale, large-scale).",
+            "Classify industries based on ownership."
+          ]
+        },
+        {
+          "title_en": "Factors influencing industrial growth",
+          "objectives": [
+            "Identify key factors for industrial location.",
+            "Explain the concept of an industrial system.",
+            "Describe the components of an industrial system (input, process, output)."
+          ]
+        },
+        {
+          "title_en": "Industrial accidents and safety",
+          "objectives": [
+            "Understand the causes of industrial accidents.",
+            "Describe measures to prevent industrial accidents."
+          ]
+        },
+        {
+          "title_en": "Distribution of major industrial units",
+          "objectives": [
+            "Identify major iron and steel industries globally and in India.",
+            "Describe the cotton textile industry and its distribution.",
+            "Explain the information technology industry and its key centers."
+          ]
+        },
+        {
+          "title_en": "Features of Bengaluru and Silicon Valley",
+          "objectives": [
+            "Describe the unique characteristics of Bengaluru as an IT hub.",
+            "Compare Bengaluru's features with Silicon Valley."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 72,
+      "page_start": 61,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଶିଳ୍ପ"
+    },
+    {
+      "title_en": "Human Resources",
+      "topics": [
+        {
+          "title_en": "Human resources and population distribution",
+          "objectives": [
+            "Define human resources.",
+            "Explain the uneven distribution of population globally.",
+            "Identify densely and sparsely populated regions."
+          ]
+        },
+        {
+          "title_en": "Factors influencing population density",
+          "objectives": [
+            "Describe geographical factors affecting population density.",
+            "Explain social, cultural, and economic factors influencing population density."
+          ]
+        },
+        {
+          "title_en": "Population change trends",
+          "objectives": [
+            "Understand the concept of population change.",
+            "Explain the factors causing population growth (birth rate, death rate, migration).",
+            "Describe historical trends in global population growth."
+          ]
+        },
+        {
+          "title_en": "Population structure and pyramid",
+          "objectives": [
+            "Define population structure.",
+            "Explain how an age-sex pyramid (population pyramid) represents population structure.",
+            "Interpret different shapes of population pyramids."
+          ]
+        },
+        {
+          "title_en": "Population data",
+          "objectives": [
+            "Analyze key demographic indicators for India and Odisha.",
+            "Understand the significance of population data for planning."
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 80,
+      "page_start": 73,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ମାନବ ସମ୍ବଳ"
+    }
+  ],
+  "book_title_or": "ସାମାଜିକ ବିଜ୍ଞାନ ଭାଗ-୨ ଭୂଗୋଳ"
+}

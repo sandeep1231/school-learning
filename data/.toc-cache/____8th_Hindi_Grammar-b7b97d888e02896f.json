@@ -1,0 +1,496 @@
+{
+  "book_title_en": "Simple Hindi Grammar",
+  "chapters": [
+    {
+      "title_en": "Introduction to Alphabets/Sounds",
+      "topics": [
+        {
+          "title_en": "Alphabet",
+          "objectives": [
+            "Identify Hindi vowels and consonants.",
+            "Differentiate between short and long vowels.",
+            "Recognize the structure of the Hindi alphabet."
+          ],
+          "page_end": 9,
+          "page_start": 9,
+          "title_hi": "वर्णमाला",
+          "title_or": null
+        },
+        {
+          "title_en": "Vowel Signs",
+          "objectives": [
+            "Understand the use of vowel signs with consonants.",
+            "Identify Anuswar, Visarg, and Chandrabindu.",
+            "Apply correct vowel signs in words."
+          ],
+          "page_end": 10,
+          "page_start": 10,
+          "title_hi": "मात्राएँ",
+          "title_or": null
+        },
+        {
+          "title_en": "Compound Consonants",
+          "objectives": [
+            "Form compound consonants with vertical strokes.",
+            "Form compound consonants with hook-like strokes.",
+            "Form compound consonants without vertical strokes."
+          ],
+          "page_end": 12,
+          "page_start": 11,
+          "title_hi": "व्यंजनों के संयुक्त रूप",
+          "title_or": null
+        },
+        {
+          "title_en": "Forms of 'R' in Compound Consonants",
+          "objectives": [
+            "Recognize different forms of 'R' in compound consonants.",
+            "Apply 'R' forms correctly in words."
+          ],
+          "page_end": 13,
+          "page_start": 13,
+          "title_hi": "'र' से बननेवाले संयुक्त-व्यंजनों के रूप",
+          "title_or": null
+        },
+        {
+          "title_en": "Introduction to Numerals",
+          "objectives": [
+            "Identify Hindi numerals from 1 to 100.",
+            "Learn the pronunciation of Hindi numbers.",
+            "Write numbers in Devanagari script."
+          ],
+          "page_end": 16,
+          "page_start": 14,
+          "title_hi": "अंक-परिचय",
+          "title_or": null
+        },
+        {
+          "title_en": "Ordinal Numbers",
+          "objectives": [
+            "Understand ordinal numbers in Hindi.",
+            "Form ordinal numbers from cardinal numbers.",
+            "Use ordinal numbers in sentences."
+          ],
+          "page_end": 17,
+          "page_start": 17,
+          "title_hi": "क्रमवाचक संख्याएँ",
+          "title_or": null
+        }
+      ],
+      "order": 1,
+      "page_end": 17,
+      "page_start": 9,
+      "section": null,
+      "title_hi": "वर्ण-परिचय",
+      "title_or": null
+    },
+    {
+      "title_en": "Word Knowledge",
+      "topics": [
+        {
+          "title_en": "Mutable and Immutable Words",
+          "objectives": [
+            "Differentiate between mutable and immutable words.",
+            "Identify examples of Vikari and Avikari words.",
+            "Understand the concept of word change based on grammar."
+          ],
+          "page_end": 18,
+          "page_start": 18,
+          "title_hi": "विकारी और अविकारी शब्द",
+          "title_or": null
+        },
+        {
+          "title_en": "Nouns (Gender, Number, Case)",
+          "objectives": [
+            "Define Nouns and their types.",
+            "Understand Gender (Ling) in Hindi.",
+            "Learn Number (Vachan) and Case (Karak) of Nouns.",
+            "Apply rules for gender, number, and case changes."
+          ],
+          "page_end": 26,
+          "page_start": 19,
+          "title_hi": "संज्ञा (लिंग, वचन, कारक)",
+          "title_or": null
+        },
+        {
+          "title_en": "Pronouns",
+          "objectives": [
+            "Define Pronouns and their types.",
+            "Identify different forms of pronouns.",
+            "Use pronouns correctly in sentences."
+          ],
+          "page_end": 31,
+          "page_start": 28,
+          "title_hi": "सर्वनाम",
+          "title_or": null
+        },
+        {
+          "title_en": "Adjectives",
+          "objectives": [
+            "Define Adjectives and their types.",
+            "Identify adjectives in sentences.",
+            "Understand the function of adjectives."
+          ],
+          "page_end": 35,
+          "page_start": 32,
+          "title_hi": "विशेषण",
+          "title_or": null
+        },
+        {
+          "title_en": "Verbs",
+          "objectives": [
+            "Define Verbs and their types (transitive/intransitive).",
+            "Understand verb conjugation based on tense, gender, number.",
+            "Identify different tenses of verbs."
+          ],
+          "page_end": 39,
+          "page_start": 36,
+          "title_hi": "क्रिया",
+          "title_or": null
+        },
+        {
+          "title_en": "Indeclinables",
+          "objectives": [
+            "Define Indeclinables (Avyay) and their types.",
+            "Identify adverbs, prepositions, conjunctions, interjections.",
+            "Understand the usage of Avyay in sentences."
+          ],
+          "page_end": 45,
+          "page_start": 40,
+          "title_hi": "अव्यय",
+          "title_or": null
+        }
+      ],
+      "order": 2,
+      "page_end": 45,
+      "page_start": 18,
+      "section": null,
+      "title_hi": "शब्द-ज्ञान",
+      "title_or": null
+    },
+    {
+      "title_en": "Sentence",
+      "topics": [
+        {
+          "title_en": "Parts of a Sentence",
+          "objectives": [
+            "Identify the subject (Uddeshya) and predicate (Vidheya) of a sentence.",
+            "Understand the components of a sentence."
+          ],
+          "page_end": 46,
+          "page_start": 46,
+          "title_hi": "वाक्य के अंग",
+          "title_or": null
+        },
+        {
+          "title_en": "Types of Sentences (Structure)",
+          "objectives": [
+            "Differentiate between simple, complex, and compound sentences.",
+            "Identify sentences based on their structure."
+          ],
+          "page_end": 49,
+          "page_start": 47,
+          "title_hi": "वाक्य के भेद",
+          "title_or": null
+        },
+        {
+          "title_en": "Types of Sentences (Meaning)",
+          "objectives": [
+            "Recognize different types of sentences based on meaning.",
+            "Formulate sentences with various intentions (declarative, interrogative, etc.)."
+          ],
+          "page_end": 51,
+          "page_start": 49,
+          "title_hi": "अर्थ की दृष्टि से वाक्य के प्रकार",
+          "title_or": null
+        }
+      ],
+      "order": 3,
+      "page_end": 51,
+      "page_start": 46,
+      "section": null,
+      "title_hi": "वाक्य",
+      "title_or": null
+    },
+    {
+      "title_en": "Punctuation Marks",
+      "topics": [
+        {
+          "title_en": "Introduction to Punctuation Marks",
+          "objectives": [
+            "Identify various punctuation marks in Hindi.",
+            "Understand the purpose of punctuation."
+          ],
+          "page_end": 52,
+          "page_start": 52,
+          "title_hi": "विराम चिह्नों का परिचय",
+          "title_or": null
+        },
+        {
+          "title_en": "Usage of Punctuation Marks",
+          "objectives": [
+            "Apply punctuation marks correctly in writing.",
+            "Understand the rules for using each punctuation mark."
+          ],
+          "page_end": 55,
+          "page_start": 53,
+          "title_hi": "विराम चिह्नों का प्रयोग",
+          "title_or": null
+        }
+      ],
+      "order": 4,
+      "page_end": 55,
+      "page_start": 52,
+      "section": null,
+      "title_hi": "विराम चिह्न",
+      "title_or": null
+    },
+    {
+      "title_en": "Conjunction (Sandhi)",
+      "topics": [
+        {
+          "title_en": "Introduction to Sandhi",
+          "objectives": [
+            "Define Sandhi (conjunction of sounds).",
+            "Understand the types of Sandhi."
+          ],
+          "page_end": 56,
+          "page_start": 56,
+          "title_hi": "सन्धि का परिचय",
+          "title_or": null
+        },
+        {
+          "title_en": "Vowel Conjunction (Swar-Sandhi)",
+          "objectives": [
+            "Identify different rules of vowel conjunction.",
+            "Apply Swar-Sandhi rules to combine words."
+          ],
+          "page_end": 59,
+          "page_start": 56,
+          "title_hi": "स्वर-सन्धि",
+          "title_or": null
+        },
+        {
+          "title_en": "Consonant Conjunction (Vyanjan Sandhi)",
+          "objectives": [
+            "Understand the rules of consonant conjunction.",
+            "Apply Vyanjan Sandhi rules to combine words."
+          ],
+          "page_end": 61,
+          "page_start": 60,
+          "title_hi": "व्यंजन सन्धि",
+          "title_or": null
+        },
+        {
+          "title_en": "Visarg Conjunction (Visarg Sandhi)",
+          "objectives": [
+            "Learn the rules of Visarg conjunction.",
+            "Apply Visarg Sandhi rules to combine words."
+          ],
+          "page_end": 65,
+          "page_start": 62,
+          "title_hi": "विसर्ग सन्धि",
+          "title_or": null
+        }
+      ],
+      "order": 5,
+      "page_end": 65,
+      "page_start": 56,
+      "section": null,
+      "title_hi": "सन्धि",
+      "title_or": null
+    },
+    {
+      "title_en": "Compound Words (Samas)",
+      "topics": [
+        {
+          "title_en": "Introduction to Samas",
+          "objectives": [
+            "Define Samas (compound words).",
+            "Understand the concept of Samast-pad and Vigrah-pad."
+          ],
+          "page_end": 66,
+          "page_start": 66,
+          "title_hi": "समास का परिचय",
+          "title_or": null
+        },
+        {
+          "title_en": "Tatpurush Samas",
+          "objectives": [
+            "Identify Tatpurush Samas and its sub-types.",
+            "Form Tatpurush compounds."
+          ],
+          "page_end": 68,
+          "page_start": 66,
+          "title_hi": "तत्पुरुष समास",
+          "title_or": null
+        },
+        {
+          "title_en": "Avyayibhav Samas",
+          "objectives": [
+            "Understand Avyayibhav Samas.",
+            "Form Avyayibhav compounds."
+          ],
+          "page_end": 69,
+          "page_start": 69,
+          "title_hi": "अव्ययीभाव समास",
+          "title_or": null
+        },
+        {
+          "title_en": "Dwandwa Samas",
+          "objectives": [
+            "Identify Dwandwa Samas.",
+            "Form Dwandwa compounds."
+          ],
+          "page_end": 69,
+          "page_start": 69,
+          "title_hi": "द्वन्द्व समास",
+          "title_or": null
+        },
+        {
+          "title_en": "Bahuvrihi Samas",
+          "objectives": [
+            "Understand Bahuvrihi Samas.",
+            "Form Bahuvrihi compounds."
+          ],
+          "page_end": 74,
+          "page_start": 70,
+          "title_hi": "बहुव्रीहि समास",
+          "title_or": null
+        }
+      ],
+      "order": 6,
+      "page_end": 74,
+      "page_start": 66,
+      "section": null,
+      "title_hi": "समास",
+      "title_or": null
+    },
+    {
+      "title_en": "Prefixes and Suffixes",
+      "topics": [
+        {
+          "title_en": "Prefixes (Upsarg)",
+          "objectives": [
+            "Define prefixes (Upsarg).",
+            "Identify Sanskrit, Hindi, and Urdu prefixes.",
+            "Form new words using prefixes."
+          ],
+          "page_end": 78,
+          "page_start": 75,
+          "title_hi": "उपसर्ग",
+          "title_or": null
+        },
+        {
+          "title_en": "Suffixes (Pratyay)",
+          "objectives": [
+            "Define suffixes (Pratyay).",
+            "Differentiate between Krit and Taddhit प्रत्यय.",
+            "Form new words using suffixes."
+          ],
+          "page_end": 84,
+          "page_start": 79,
+          "title_hi": "प्रत्यय",
+          "title_or": null
+        }
+      ],
+      "order": 7,
+      "page_end": 84,
+      "page_start": 75,
+      "section": null,
+      "title_hi": "उपसर्ग और प्रत्यय",
+      "title_or": null
+    },
+    {
+      "title_en": "Polysemous Words",
+      "topics": [
+        {
+          "title_en": "Meanings of Polysemous Words",
+          "objectives": [
+            "Understand words with multiple meanings.",
+            "Identify different meanings of common words.",
+            "Use context to determine word meaning."
+          ],
+          "page_end": 86,
+          "page_start": 85,
+          "title_hi": "अनेकार्थक शब्दों का अर्थ",
+          "title_or": null
+        }
+      ],
+      "order": 8,
+      "page_end": 86,
+      "page_start": 85,
+      "section": null,
+      "title_hi": "अनेकार्थक शब्द",
+      "title_or": null
+    },
+    {
+      "title_en": "Synonyms",
+      "topics": [
+        {
+          "title_en": "Knowledge of Synonyms",
+          "objectives": [
+            "Identify synonyms for common Hindi words.",
+            "Understand the nuances between similar words.",
+            "Expand vocabulary with synonyms."
+          ],
+          "page_end": 88,
+          "page_start": 87,
+          "title_hi": "पर्यायवाची शब्दों का ज्ञान",
+          "title_or": null
+        }
+      ],
+      "order": 9,
+      "page_end": 88,
+      "page_start": 87,
+      "section": null,
+      "title_hi": "समानार्थक (या पर्यायवाची) शब्द",
+      "title_or": null
+    },
+    {
+      "title_en": "Antonyms",
+      "topics": [
+        {
+          "title_en": "Introduction to Antonyms",
+          "objectives": [
+            "Identify antonyms for common Hindi words.",
+            "Understand different ways to form antonyms.",
+            "Use antonyms to express opposite meanings."
+          ],
+          "page_end": 92,
+          "page_start": 89,
+          "title_hi": "विलोम शब्दों का परिचय",
+          "title_or": null
+        }
+      ],
+      "order": 10,
+      "page_end": 92,
+      "page_start": 89,
+      "section": null,
+      "title_hi": "विलोम (या विपरीतार्थक) शब्द",
+      "title_or": null
+    },
+    {
+      "title_en": "Homophones with Different Meanings",
+      "topics": [
+        {
+          "title_en": "Shrutisama Bhinnarthak Shabd",
+          "objectives": [
+            "Differentiate between homophones with different meanings.",
+            "Understand the subtle differences in pronunciation.",
+            "Use context to identify the correct word."
+          ],
+          "page_end": 95,
+          "page_start": 93,
+          "title_hi": "श्रुतिसम भिन्नार्थक शब्द",
+          "title_or": null
+        }
+      ],
+      "order": 11,
+      "page_end": 95,
+      "page_start": 93,
+      "section": null,
+      "title_hi": "प्रायः समान रूप से उच्चरित किन्तु भिन्नार्थक शब्द",
+      "title_or": null
+    }
+  ]
+}

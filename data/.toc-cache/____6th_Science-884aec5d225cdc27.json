@@ -1,0 +1,717 @@
+{
+  "book_title_en": "Science",
+  "chapters": [
+    {
+      "title_en": "Food",
+      "topics": [
+        {
+          "title_en": "Sources of food",
+          "objectives": [
+            "Identify various sources from which food is obtained."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଖାଦ୍ୟର ଉତ୍ସ"
+        },
+        {
+          "title_en": "Components and properties of food",
+          "objectives": [
+            "Describe the different components of food and their importance."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଖାଦ୍ୟର ଉପାଦାନ ଓ ଗୁଣ"
+        },
+        {
+          "title_en": "Deficiency diseases",
+          "objectives": [
+            "Explain the causes and symptoms of deficiency diseases."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଖାଦ୍ୟର ଅଭାବଜନିତ ରୋଗ"
+        },
+        {
+          "title_en": "Food preservation",
+          "objectives": [
+            "Discuss various methods used for food preservation."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଖାଦ୍ୟ ସଂରକ୍ଷଣ"
+        }
+      ],
+      "order": 1,
+      "page_end": 8,
+      "page_start": 1,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଖାଦ୍ୟ"
+    },
+    {
+      "title_en": "Separation of Substances",
+      "topics": [
+        {
+          "title_en": "Separation of unwanted substances from food",
+          "objectives": [
+            "Understand the need for separating substances."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଖାଦ୍ୟରୁ ଅଦରକାରୀ ବସ୍ତୁ ପୃଥକୀକରଣ"
+        },
+        {
+          "title_en": "Separation of components from mixtures",
+          "objectives": [
+            "Describe various methods of separating mixtures."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ମିଶ୍ରଣରୁ ଉପାଦାନ ପୃଥକୀକରଣ"
+        },
+        {
+          "title_en": "Evaporation",
+          "objectives": [
+            "Explain the processes of evaporation and condensation."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ବାଷ୍ପୀକରଣ"
+        },
+        {
+          "title_en": "Condensation",
+          "objectives": [
+            "Apply separation techniques in daily life."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଘନୀଭବନ"
+        }
+      ],
+      "order": 2,
+      "page_end": 17,
+      "page_start": 9,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବସ୍ତୁର ପୃଥକୀକରଣ"
+    },
+    {
+      "title_en": "Objects and Materials",
+      "topics": [
+        {
+          "title_en": "Properties of objects",
+          "objectives": [
+            "Differentiate between objects and materials."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ବସ୍ତୁର ଗୁଣ"
+        },
+        {
+          "title_en": "Properties of materials",
+          "objectives": [
+            "Identify various properties of objects and materials."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପଦାର୍ଥର ଗୁଣ"
+        },
+        {
+          "title_en": "Changes in materials",
+          "objectives": [
+            "Explain different types of changes in materials.",
+            "Classify materials based on their properties."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପଦାର୍ଥର ପରିବର୍ତ୍ତନ"
+        }
+      ],
+      "order": 3,
+      "page_end": 27,
+      "page_start": 18,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବସ୍ତୁ ଓ ପଦାର୍ଥ"
+    },
+    {
+      "title_en": "Composition of Matter",
+      "topics": [
+        {
+          "title_en": "States of matter",
+          "objectives": [
+            "Describe the three states of matter."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପଦାର୍ଥର ଅବସ୍ଥା"
+        },
+        {
+          "title_en": "Properties of matter",
+          "objectives": [
+            "Understand the properties of solids, liquids, and gases."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପଦାର୍ଥର ଗୁଣ"
+        },
+        {
+          "title_en": "Changes in matter",
+          "objectives": [
+            "Explain physical and chemical changes in matter.",
+            "Relate changes in matter to daily life examples."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପଦାର୍ଥର ପରିବର୍ତ୍ତନ"
+        }
+      ],
+      "order": 4,
+      "page_end": 37,
+      "page_start": 28,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପଦାର୍ଥର ଗଠନ"
+    },
+    {
+      "title_en": "Living World",
+      "topics": [
+        {
+          "title_en": "Characteristics of living world",
+          "objectives": [
+            "Identify the characteristics that define living organisms."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଜୀବଜଗତର ବୈଶିଷ୍ଟ୍ୟ"
+        },
+        {
+          "title_en": "Diversity in living world",
+          "objectives": [
+            "Recognize the vast diversity among living things."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଜୀବଜଗତର ବିଭିନ୍ନତା"
+        },
+        {
+          "title_en": "Classification of living world",
+          "objectives": [
+            "Understand the basic principles of classifying living organisms.",
+            "Appreciate the interconnectedness of life forms."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଜୀବଜଗତର ବର୍ଗୀକରଣ"
+        }
+      ],
+      "order": 5,
+      "page_end": 48,
+      "page_start": 38,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଜୀବଜଗତ"
+    },
+    {
+      "title_en": "Plants",
+      "topics": [
+        {
+          "title_en": "Different parts of plants",
+          "objectives": [
+            "Identify and describe the main parts of a plant."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଉଦ୍ଭିଦର ବିଭିନ୍ନ ଅଂଶ"
+        },
+        {
+          "title_en": "Functions of plants",
+          "objectives": [
+            "Explain the functions of roots, stems, leaves, and flowers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଉଦ୍ଭିଦର କାର୍ଯ୍ୟ"
+        },
+        {
+          "title_en": "Reproduction in plants",
+          "objectives": [
+            "Understand different methods of plant reproduction.",
+            "Recognize the importance of plants in the ecosystem."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଉଦ୍ଭିଦର ପ୍ରଜନନ"
+        }
+      ],
+      "order": 6,
+      "page_end": 58,
+      "page_start": 49,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଉଦ୍ଭିଦ"
+    },
+    {
+      "title_en": "Animals",
+      "topics": [
+        {
+          "title_en": "Different parts of animals",
+          "objectives": [
+            "Identify and describe the main parts of an animal."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରାଣୀର ବିଭିନ୍ନ ଅଂଶ"
+        },
+        {
+          "title_en": "Functions of animals",
+          "objectives": [
+            "Explain the functions of different animal organs and systems."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରାଣୀର କାର୍ଯ୍ୟ"
+        },
+        {
+          "title_en": "Reproduction in animals",
+          "objectives": [
+            "Understand various modes of animal reproduction.",
+            "Classify animals based on their characteristics."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରାଣୀର ପ୍ରଜନନ"
+        }
+      ],
+      "order": 7,
+      "page_end": 68,
+      "page_start": 59,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରାଣୀ"
+    },
+    {
+      "title_en": "Habitat",
+      "topics": [
+        {
+          "title_en": "Habitat",
+          "objectives": [
+            "Define habitat and its importance for living organisms."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ବାସସ୍ଥାନ"
+        },
+        {
+          "title_en": "Types of habitat",
+          "objectives": [
+            "Identify different types of habitats."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ବାସସ୍ଥାନର ପ୍ରକାରଭେଦ"
+        },
+        {
+          "title_en": "Impact of habitat",
+          "objectives": [
+            "Explain how organisms adapt to their habitats."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ବାସସ୍ଥାନର ପ୍ରଭାବ"
+        },
+        {
+          "title_en": "Protection of habitat",
+          "objectives": [
+            "Discuss the need for habitat conservation."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ବାସସ୍ଥାନର ସୁରକ୍ଷା"
+        }
+      ],
+      "order": 8,
+      "page_end": 78,
+      "page_start": 69,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବାସସ୍ଥାନ"
+    },
+    {
+      "title_en": "Light",
+      "topics": [
+        {
+          "title_en": "Sources of light",
+          "objectives": [
+            "Identify natural and artificial sources of light."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଆଲୋକର ଉତ୍ସ"
+        },
+        {
+          "title_en": "Speed of light",
+          "objectives": [
+            "Understand how light travels in a straight line."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଆଲୋକର ଗତି"
+        },
+        {
+          "title_en": "Reflection of light",
+          "objectives": [
+            "Explain the phenomenon of reflection of light."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଆଲୋକର ପ୍ରତିଫଳନ"
+        },
+        {
+          "title_en": "Uses of light",
+          "objectives": [
+            "Describe various applications of light in daily life."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଆଲୋକର ବ୍ୟବହାର"
+        }
+      ],
+      "order": 9,
+      "page_end": 86,
+      "page_start": 79,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଆଲୋକ"
+    },
+    {
+      "title_en": "Electricity",
+      "topics": [
+        {
+          "title_en": "Electric cell",
+          "objectives": [
+            "Identify components of a simple electric circuit."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ବିଦ୍ୟୁତ୍ କୋଷ"
+        },
+        {
+          "title_en": "Electrical circuit",
+          "objectives": [
+            "Understand how an electric cell produces electricity."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ବିଦ୍ୟୁତ୍ ପରିପଥ"
+        },
+        {
+          "title_en": "Electric switch",
+          "objectives": [
+            "Differentiate between conductors and insulators."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ବିଦ୍ୟୁତ୍ ସୁଇଚ୍"
+        },
+        {
+          "title_en": "Electrical conductors and non-conductors",
+          "objectives": [
+            "Explain the function of an electric switch."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ବିଦ୍ୟୁତ୍ ପରିବାହୀ ଓ ଅପରିବାହୀ"
+        }
+      ],
+      "order": 10,
+      "page_end": 89,
+      "page_start": 87,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବିଦ୍ୟୁତ୍"
+    },
+    {
+      "title_en": "Magnet",
+      "topics": [
+        {
+          "title_en": "Origin of magnets",
+          "objectives": [
+            "Understand the basic concept of magnetism."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଚୁମ୍ବକର ଉତ୍ପତ୍ତି"
+        },
+        {
+          "title_en": "Types of magnets",
+          "objectives": [
+            "Identify different types of magnets."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଚୁମ୍ବକର ପ୍ରକାରଭେଦ"
+        },
+        {
+          "title_en": "Properties of magnets",
+          "objectives": [
+            "Describe the properties of magnets."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଚୁମ୍ବକର ଗୁଣ"
+        },
+        {
+          "title_en": "Uses of magnets",
+          "objectives": [
+            "Explain various applications of magnets."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଚୁମ୍ବକର ବ୍ୟବହାର"
+        }
+      ],
+      "order": 11,
+      "page_end": 97,
+      "page_start": 90,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଚୁମ୍ବକ"
+    },
+    {
+      "title_en": "Climate",
+      "topics": [
+        {
+          "title_en": "Climate",
+          "objectives": [
+            "Define climate and differentiate it from weather."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଜଳବାୟୁ"
+        },
+        {
+          "title_en": "Types of climate",
+          "objectives": [
+            "Identify various types of climate zones."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଜଳବାୟୁର ପ୍ରକାରଭେଦ"
+        },
+        {
+          "title_en": "Impact of climate",
+          "objectives": [
+            "Explain the impact of climate on living organisms."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଜଳବାୟୁର ପ୍ରଭାବ"
+        },
+        {
+          "title_en": "Climate change",
+          "objectives": [
+            "Discuss the causes and effects of climate change."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ଜଳବାୟୁ ପରିବର୍ତ୍ତନ"
+        }
+      ],
+      "order": 12,
+      "page_end": 105,
+      "page_start": 98,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଜଳବାୟୁ"
+    },
+    {
+      "title_en": "Natural Resources",
+      "topics": [
+        {
+          "title_en": "Types of natural resources",
+          "objectives": [
+            "Identify different types of natural resources."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରାକୃତିକ ସମ୍ପଦର ପ୍ରକାରଭେଦ"
+        },
+        {
+          "title_en": "Protection of natural resources",
+          "objectives": [
+            "Understand the importance of conserving natural resources."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରାକୃତିକ ସମ୍ପଦର ସୁରକ୍ଷା"
+        },
+        {
+          "title_en": "Uses of natural resources",
+          "objectives": [
+            "Discuss sustainable uses of natural resources.",
+            "Recognize the impact of human activities on natural resources."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରାକୃତିକ ସମ୍ପଦର ବ୍ୟବହାର"
+        }
+      ],
+      "order": 13,
+      "page_end": 112,
+      "page_start": 106,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରାକୃତିକ ସମ୍ପଦ"
+    },
+    {
+      "title_en": "Pollution",
+      "topics": [
+        {
+          "title_en": "Types of pollution",
+          "objectives": [
+            "Define pollution and its various forms."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରଦୂଷଣର ପ୍ରକାରଭେଦ"
+        },
+        {
+          "title_en": "Impact of pollution",
+          "objectives": [
+            "Explain the causes and effects of different types of pollution."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରଦୂଷଣର ପ୍ରଭାବ"
+        },
+        {
+          "title_en": "Pollution control",
+          "objectives": [
+            "Discuss methods to control and reduce pollution."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରଦୂଷଣ ନିୟନ୍ତ୍ରଣ"
+        },
+        {
+          "title_en": "Prevention of pollution",
+          "objectives": [
+            "Promote awareness about environmental protection."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ପ୍ରଦୂଷଣର ନିରାକରଣ"
+        }
+      ],
+      "order": 14,
+      "page_end": 120,
+      "page_start": 113,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରଦୂଷଣ"
+    },
+    {
+      "title_en": "Space",
+      "topics": [
+        {
+          "title_en": "Planets in space",
+          "objectives": [
+            "Identify the planets in our solar system."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ମହାକାଶର ଗ୍ରହ"
+        },
+        {
+          "title_en": "Satellites in space",
+          "objectives": [
+            "Understand the concept of natural and artificial satellites."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ମହାକାଶର ଉପଗ୍ରହ"
+        },
+        {
+          "title_en": "Other objects in space",
+          "objectives": [
+            "Learn about other celestial bodies in space."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ମହାକାଶର ଅନ୍ୟାନ୍ୟ ବସ୍ତୁ"
+        },
+        {
+          "title_en": "Space research",
+          "objectives": [
+            "Appreciate the advancements in space exploration."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": "ମହାକାଶ ଗବେଷଣା"
+        }
+      ],
+      "order": 15,
+      "page_end": 128,
+      "page_start": 121,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ମହାକାଶ"
+    }
+  ],
+  "book_title_or": "ବିଜ୍ଞାନ"
+}

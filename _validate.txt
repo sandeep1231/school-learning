@@ -1,0 +1,70 @@
+◇ injected env (14) from .env.local // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+=== Per-(class, subject) summary ===
+C/S         topics   valid    issues
+C6 CMP          26      26         0
+C6 FLO          34      34         0
+C6 GSC          54      51         3
+C6 MTH          41      41         0
+C6 SAN          36      36         0
+C6 SLE          66      66         0
+C6 SSC          99      98         1
+C6 TLH          56      55         1
+C7 CMP          26      26         0
+C7 FLO          25      25         0
+C7 GSC          35      31         4
+C7 MTH          35      35         0
+C7 SAN          66      66         0
+C7 SLE          48      48         0
+C7 SSC          55      53         2
+C7 TLH          17      16         1
+C8 FLO          49      47         2
+C8 GSC          54      54         0
+C8 MTH          69      69         0
+C8 SAN          53      53         0
+C8 SLE          76      74         2
+C8 SSC          54      54         0
+C8 TLH          63      63         0
+C9 FLO          48      46         2
+C9 GSC          96      96         0
+C9 MTH          17      17         0
+C9 SLE          98      98         0
+C9 SSC          28      28         0
+C9 TLH         100     100         0
+TOTAL         1524    1506        18
+
+=== Issue breakdown by (class, subject) ===
+
+--- C6 GSC (3 issues across 54 topics) ---
+  lessons_missing × 2: c6-gsc-ch5-t1(0 variants), c6-gsc-ch5-t2(0 variants)
+  lessons_wrong_count × 1: c6-gsc-ch5-t3(3 variants)
+
+--- C6 SSC (1 issues across 99 topics) ---
+  lessons_missing × 1: c6-ssc-ch19-t3(0 variants)
+
+--- C6 TLH (1 issues across 56 topics) ---
+  lessons_missing × 1: c6-tlh-ch2-t3(0 variants)
+
+--- C7 GSC (4 issues across 35 topics) ---
+  lessons_missing × 3: c7-gsc-ch12-t1(0 variants), c7-gsc-ch8-t3(0 variants), c7-gsc-ch9-t1(0 variants)
+  lessons_wrong_count × 1: c7-gsc-ch9-t2(2 variants)
+
+--- C7 SSC (2 issues across 55 topics) ---
+  lessons_wrong_count × 2: c7-ssc-ch15-t1(3 variants), c7-ssc-ch5-t2(1 variants)
+
+--- C7 TLH (1 issues across 17 topics) ---
+  lessons_missing × 1: c7-tlh-ch15-t1(0 variants)
+
+--- C8 FLO (2 issues across 49 topics) ---
+  lessons_missing × 2: c8-flo-ch3-t8(0 variants), c8-flo-ch4-t10(0 variants)
+
+--- C8 SLE (2 issues across 76 topics) ---
+  lessons_missing × 2: c8-sle-ch3-t1(0 variants), c8-sle-ch3-t2(0 variants)
+
+--- C9 FLO (2 issues across 48 topics) ---
+  lessons_missing × 1: c9-flo-ch31-t1(0 variants)
+  lessons_wrong_count × 1: c9-flo-ch33-t1(1 variants)
+
+=== Issue-type histogram (all classes) ===
+  lessons_missing              13
+  lessons_wrong_count          5

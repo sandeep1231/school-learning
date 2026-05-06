@@ -1,3 +1,4 @@
+import { cache } from "react";
 import { createAdminClient } from "@/lib/supabase/admin";
 
 export type LessonVariantKind = "textbook" | "simpler" | "parent" | "exam";
@@ -98,3 +99,21 @@ export function pickLessonVariant<T extends { variant: LessonVariantKind }>(
     null
   );
 }
+
+/**
+ * Cheap existence check — true if the topic has at least one lesson
+ * variant (any variant, any language). Used by the topic hub UI to decide
+ * whether the Learn stage is available.
+ */
+export const topicHasLessons = cache(async function topicHasLessons(
+  topicId: string,
+): Promise<boolean> {
+  const supabase = createAdminClient();
+  const { count, error } = await supabase
+    .from("lesson_variants")
+    .select("id", { head: true, count: "exact" })
+    .eq("topic_id", topicId)
+    .limit(1);
+  if (error) return false;
+  return (count ?? 0) > 0;
+});

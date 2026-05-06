@@ -1,0 +1,602 @@
+{
+  "book_title_en": "Mathematics for Class VI",
+  "chapters": [
+    {
+      "title_en": "Play with Numbers",
+      "topics": [
+        {
+          "title_en": "Understanding large numbers",
+          "objectives": [
+            "Recall place value and face value of digits.",
+            "Read and write large numbers in Indian and International systems.",
+            "Compare and order large numbers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Estimation and Approximation",
+          "objectives": [
+            "Estimate numbers to the nearest tens, hundreds, and thousands.",
+            "Apply estimation in daily life situations."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Roman Numerals",
+          "objectives": [
+            "Understand the rules for writing Roman numerals.",
+            "Convert Hindu-Arabic numerals to Roman numerals and vice versa."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 1,
+      "page_end": 11,
+      "page_start": 7,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ସଂଖ୍ୟାମାନଙ୍କ ଖେଳ"
+    },
+    {
+      "title_en": "Factors and Multiples",
+      "topics": [
+        {
+          "title_en": "Factors and Multiples",
+          "objectives": [
+            "Define factors and multiples of a number.",
+            "Identify factors and multiples for given numbers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Prime and Composite Numbers",
+          "objectives": [
+            "Distinguish between prime and composite numbers.",
+            "Identify prime numbers up to a certain range."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Divisibility Rules",
+          "objectives": [
+            "Apply divisibility rules for 2, 3, 4, 5, 6, 8, 9, 10, 11.",
+            "Use divisibility rules to check if a number is divisible by another."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "HCF and LCM",
+          "objectives": [
+            "Find the Highest Common Factor (HCF) of two or more numbers.",
+            "Find the Least Common Multiple (LCM) of two or more numbers.",
+            "Solve problems involving HCF and LCM."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 2,
+      "page_end": 33,
+      "page_start": 12,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଉପାଦାନ ଓ ଗୁଣିତକ"
+    },
+    {
+      "title_en": "Prime and Composite Numbers",
+      "topics": [
+        {
+          "title_en": "Revisiting Prime and Composite Numbers",
+          "objectives": [
+            "Reinforce the concepts of prime and composite numbers.",
+            "Identify prime numbers using Sieve of Eratosthenes."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Co-prime Numbers",
+          "objectives": [
+            "Define co-prime numbers.",
+            "Identify pairs of co-prime numbers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Prime Factorization",
+          "objectives": [
+            "Perform prime factorization of composite numbers.",
+            "Use factor tree method for prime factorization."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 3,
+      "page_end": 56,
+      "page_start": 34,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ମୌଳିକ ଓ ଯୌଗିକ ସଂଖ୍ୟା"
+    },
+    {
+      "title_en": "Integers",
+      "topics": [
+        {
+          "title_en": "Introduction to Integers",
+          "objectives": [
+            "Define integers and represent them on a number line.",
+            "Compare and order integers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Operations on Integers",
+          "objectives": [
+            "Perform addition and subtraction of integers.",
+            "Understand properties of addition and subtraction of integers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Real-life applications of Integers",
+          "objectives": [
+            "Apply integers to solve real-world problems involving temperature, depth, and height."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 4,
+      "page_end": 85,
+      "page_start": 57,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଅଖଣ୍ଡ ସଂଖ୍ୟା"
+    },
+    {
+      "title_en": "Fractions",
+      "topics": [
+        {
+          "title_en": "Understanding Fractions",
+          "objectives": [
+            "Define fractions and represent them visually.",
+            "Identify proper, improper, and mixed fractions."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Equivalent Fractions",
+          "objectives": [
+            "Find equivalent fractions.",
+            "Simplify fractions to their lowest terms."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Operations on Fractions",
+          "objectives": [
+            "Add and subtract fractions with like and unlike denominators.",
+            "Multiply and divide fractions."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Comparing Fractions",
+          "objectives": [
+            "Compare and order fractions."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 5,
+      "page_end": 108,
+      "page_start": 86,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଭଗ୍ନାଂଶ"
+    },
+    {
+      "title_en": "Decimals",
+      "topics": [
+        {
+          "title_en": "Introduction to Decimals",
+          "objectives": [
+            "Understand decimals as an extension of place value system.",
+            "Read and write decimal numbers.",
+            "Represent decimals on a number line."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Operations on Decimals",
+          "objectives": [
+            "Add and subtract decimal numbers.",
+            "Multiply and divide decimal numbers by whole numbers and other decimals."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Converting Fractions to Decimals and Vice Versa",
+          "objectives": [
+            "Convert fractions to decimals and decimals to fractions.",
+            "Compare and order decimal numbers."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 6,
+      "page_end": 120,
+      "page_start": 109,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଦଶମିକ ସଂଖ୍ୟା"
+    },
+    {
+      "title_en": "Measurement",
+      "topics": [
+        {
+          "title_en": "Ratio and Proportion",
+          "objectives": [
+            "Understand the concept of ratio and proportion.",
+            "Solve problems involving ratios and proportions."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Unitary Method",
+          "objectives": [
+            "Apply the unitary method to solve problems."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Percentage",
+          "objectives": [
+            "Understand the concept of percentage.",
+            "Convert fractions and decimals to percentages and vice versa.",
+            "Solve basic percentage problems."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 7,
+      "page_end": 137,
+      "page_start": 121,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପରିମିତି"
+    },
+    {
+      "title_en": "Geometry",
+      "topics": [
+        {
+          "title_en": "Basic Geometrical Concepts",
+          "objectives": [
+            "Identify points, lines, line segments, and rays.",
+            "Understand intersecting and parallel lines."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Angles",
+          "objectives": [
+            "Define angles and their types (acute, obtuse, right, straight, reflex).",
+            "Measure and draw angles using a protractor."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Polygons",
+          "objectives": [
+            "Identify different types of polygons (triangle, quadrilateral, etc.).",
+            "Understand their properties."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 8,
+      "page_end": 157,
+      "page_start": 138,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଜ୍ୟାମିତି"
+    },
+    {
+      "title_en": "Geometric Figures on a Plane",
+      "topics": [
+        {
+          "title_en": "Triangles",
+          "objectives": [
+            "Classify triangles based on sides and angles.",
+            "Understand properties of triangles."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Quadrilaterals",
+          "objectives": [
+            "Identify different types of quadrilaterals (square, rectangle, parallelogram, rhombus, trapezium).",
+            "Understand their properties."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Circles",
+          "objectives": [
+            "Define a circle and its components (radius, diameter, chord, arc).",
+            "Understand properties of a circle."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "3D Shapes",
+          "objectives": [
+            "Identify common 3D shapes (cube, cuboid, cylinder, cone, sphere).",
+            "Understand their basic features."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 9,
+      "page_end": 176,
+      "page_start": 158,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ସମତଳ ଉପରିସ୍ଥ ଜ୍ୟାମିତିକ ଚିତ୍ର"
+    },
+    {
+      "title_en": "Introduction to Algebra",
+      "topics": [
+        {
+          "title_en": "Variables and Constants",
+          "objectives": [
+            "Understand the concept of variables and constants.",
+            "Form simple algebraic expressions."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Algebraic Expressions",
+          "objectives": [
+            "Identify terms, factors, and coefficients in algebraic expressions.",
+            "Perform addition and subtraction of simple algebraic expressions."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Simple Equations",
+          "objectives": [
+            "Form simple equations from real-life situations.",
+            "Solve simple linear equations."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 10,
+      "page_end": 196,
+      "page_start": 177,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବୀଜଗଣିତର ପରିଚୟ"
+    },
+    {
+      "title_en": "Perimeter and Area",
+      "topics": [
+        {
+          "title_en": "Perimeter of Plane Figures",
+          "objectives": [
+            "Calculate the perimeter of squares, rectangles, and other regular polygons.",
+            "Solve real-world problems involving perimeter."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Area of Plane Figures",
+          "objectives": [
+            "Calculate the area of squares and rectangles.",
+            "Estimate the area of irregular shapes using grid paper.",
+            "Solve real-world problems involving area."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 11,
+      "page_end": 208,
+      "page_start": 197,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପରିସୀମା ଓ କ୍ଷେତ୍ରଫଳ"
+    },
+    {
+      "title_en": "Data Handling and Averages",
+      "topics": [
+        {
+          "title_en": "Collecting and Organizing Data",
+          "objectives": [
+            "Collect and organize data in a systematic way.",
+            "Represent data using pictographs and bar graphs."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Interpretation of Data",
+          "objectives": [
+            "Interpret information presented in pictographs and bar graphs.",
+            "Draw conclusions from given data."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Average",
+          "objectives": [
+            "Calculate the average (arithmetic mean) of a set of data.",
+            "Solve problems involving averages."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 12,
+      "page_end": 219,
+      "page_start": 209,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ତଥ୍ୟ ପରିଚାଳନା ଓ ସଂଖ୍ୟାମାନଙ୍କ ହାରାହାରି"
+    },
+    {
+      "title_en": "Geometric Construction",
+      "topics": [
+        {
+          "title_en": "Basic Constructions",
+          "objectives": [
+            "Draw line segments of given lengths.",
+            "Construct perpendicular bisectors of line segments."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Constructing Angles",
+          "objectives": [
+            "Construct angles of specific measures (e.g., 60°, 90°, 120°).",
+            "Bisect given angles."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        },
+        {
+          "title_en": "Constructing Parallel and Perpendicular Lines",
+          "objectives": [
+            "Draw parallel lines using ruler and compass.",
+            "Construct perpendicular lines to a given line from a point on it and outside it."
+          ],
+          "page_end": null,
+          "page_start": null,
+          "title_hi": null,
+          "title_or": null
+        }
+      ],
+      "order": 13,
+      "page_end": 233,
+      "page_start": 220,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଜ୍ୟାମିତିକ ଅଙ୍କନ"
+    }
+  ],
+  "book_title_or": "ଗଣିତ"
+}

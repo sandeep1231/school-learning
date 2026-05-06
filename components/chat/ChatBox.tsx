@@ -11,6 +11,8 @@ type Msg = {
   citations?: Array<{ documentTitle: string; page?: number | null; sourceUrl?: string | null }>;
 };
 
+const MAX_PHOTO_BYTES = 5 * 1024 * 1024;
+
 export default function ChatBox({
   topicId,
   topicTitle,
@@ -19,6 +21,7 @@ export default function ChatBox({
   payloadValue,
   extraPayload,
   suggestions = [],
+  boardLabel = "BSE Odisha",
 }: {
   topicId: string;
   topicTitle: string;
@@ -29,11 +32,15 @@ export default function ChatBox({
   extraPayload?: Record<string, unknown>;
   /** Quick-start prompts displayed when the chat is empty. */
   suggestions?: string[];
+  /** Board label rendered in the textbook disclaimer (e.g. "BSE Odisha"). */
+  boardLabel?: string;
 }) {
   const t = useTranslations("chat");
   const [messages, setMessages] = useState<Msg[]>([]);
   const [input, setInput] = useState("");
   const [isStreaming, setIsStreaming] = useState(false);
+  const [photoError, setPhotoError] = useState<string | null>(null);
+  const photoInputRef = useRef<HTMLInputElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -110,12 +117,115 @@ export default function ChatBox({
     }
   }
 
+  async function sendPhoto(file: File) {
+    setPhotoError(null);
+    if (file.size > MAX_PHOTO_BYTES) {
+      setPhotoError(
+        `Photo is ${(file.size / 1024 / 1024).toFixed(1)} MB — max 5 MB.`,
+      );
+      return;
+    }
+    if (isStreaming) return;
+    const userId = crypto.randomUUID();
+    const assistantId = crypto.randomUUID();
+    setMessages((m) => [
+      ...m,
+      {
+        id: userId,
+        role: "user",
+        content: "📷 Photo question (analyzing the image…)",
+      },
+      { id: assistantId, role: "assistant", content: "" },
+    ]);
+    setIsStreaming(true);
+    try {
+      const fd = new FormData();
+      fd.append("image", file);
+      const r = await fetch("/api/chat/photo", { method: "POST", body: fd });
+      if (r.status === 429) {
+        setMessages((prev) =>
+          prev.map((m) =>
+            m.id === assistantId
+              ? {
+                  ...m,
+                  content:
+                    "Too many photo questions in the last hour. Try again soon.",
+                }
+              : m,
+          ),
+        );
+        return;
+      }
+      const j = (await r.json()) as
+        | {
+            ok: true;
+            extractedQuestion: string;
+            answer: string;
+            citations: Array<{ n: number; title: string; page: number | null }>;
+          }
+        | { ok: false; error: string; message?: string };
+
+      if (!("ok" in j) || j.ok === false) {
+        const msg =
+          (j as { message?: string; error?: string }).message ??
+          (j as { error?: string }).error ??
+          "Couldn't read that photo. Try a clearer shot.";
+        setMessages((prev) =>
+          prev.map((m) =>
+            m.id === assistantId ? { ...m, content: msg } : m,
+          ),
+        );
+        return;
+      }
+
+      // Replace optimistic user message with the actual extracted question,
+      // and fill the assistant bubble with the tutor's answer + citations.
+      setMessages((prev) =>
+        prev.map((m) => {
+          if (m.id === userId) {
+            return {
+              ...m,
+              content: `📷 ${j.extractedQuestion}`,
+            };
+          }
+          if (m.id === assistantId) {
+            return {
+              ...m,
+              content: j.answer,
+              citations: j.citations.map((c) => ({
+                documentTitle: c.title,
+                page: c.page,
+                sourceUrl: null,
+              })),
+            };
+          }
+          return m;
+        }),
+      );
+    } catch (e) {
+      setMessages((prev) =>
+        prev.map((m) =>
+          m.id === assistantId
+            ? {
+                ...m,
+                content: `Network error: ${(e as Error).message}. Please try again.`,
+              }
+            : m,
+        ),
+      );
+    } finally {
+      setIsStreaming(false);
+      // Reset the input so the same file can be re-selected.
+      if (photoInputRef.current) photoInputRef.current.value = "";
+    }
+  }
+
   return (
     <div className="flex min-h-0 flex-1 flex-col rounded-xl border border-slate-200 bg-white">
       <div ref={scrollRef} className="flex-1 space-y-3 overflow-y-auto p-4">
         {messages.length === 0 && (
           <div className="space-y-3">
-            <p className="text-sm text-slate-500">{t("disclaimer")}</p>
+            <p className="text-sm text-slate-500">{t("disclaimer", { board: boardLabel })}</p>
             {suggestions.length > 0 && (
               <div className="flex flex-wrap gap-2">
                 {suggestions.map((s, i) => (
@@ -182,13 +292,46 @@ export default function ChatBox({
         })}
       </div>
 
+      {photoError && (
+        <div
+          role="alert"
+          className="border-t border-rose-200 bg-rose-50 px-3 py-2 text-xs text-rose-900"
+        >
+          {photoError}
+        </div>
+      )}
+
       <form
-        className="flex gap-2 border-t border-slate-200 p-3"
+        className="flex items-center gap-2 border-t border-slate-200 p-3"
         onSubmit={(e) => {
           e.preventDefault();
           send();
         }}
       >
+        <input
+          ref={photoInputRef}
+          type="file"
+          accept="image/jpeg,image/png,image/webp"
+          capture="environment"
+          className="sr-only"
+          aria-hidden="true"
+          tabIndex={-1}
+          disabled={isStreaming}
+          onChange={(e) => {
+            const f = e.target.files?.[0];
+            if (f) sendPhoto(f);
+          }}
+        />
+        <button
+          type="button"
+          aria-label="Snap a photo of a question"
+          title="Snap a photo of a question"
+          disabled={isStreaming}
+          onClick={() => photoInputRef.current?.click()}
+          className="inline-flex shrink-0 items-center justify-center rounded-lg border border-slate-300 bg-white px-3 py-2 text-base text-slate-700 hover:border-brand hover:bg-brand-50 hover:text-brand disabled:opacity-50"
+        >
+          <span aria-hidden="true">📷</span>
+        </button>
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}

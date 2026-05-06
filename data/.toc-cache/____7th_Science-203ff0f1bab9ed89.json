@@ -1,0 +1,440 @@
+{
+  "book_title_en": "Science - Class 6",
+  "chapters": [
+    {
+      "title_en": "Nature of Matter",
+      "topics": [
+        {
+          "title_en": "States of Matter",
+          "objectives": [
+            "Identify different states of matter.",
+            "Describe properties of solids, liquids, and gases.",
+            "Explain changes in states of matter."
+          ]
+        },
+        {
+          "title_en": "Composition of Matter",
+          "objectives": [
+            "Understand that matter is made of particles.",
+            "Explain the arrangement of particles in different states.",
+            "Differentiate between elements, compounds, and mixtures."
+          ]
+        }
+      ],
+      "order": 1,
+      "page_end": 17,
+      "page_start": 5,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପଦାର୍ଥର ପ୍ରକୃତି"
+    },
+    {
+      "title_en": "Acids, Bases and Salts",
+      "topics": [
+        {
+          "title_en": "Properties of Acids and Bases",
+          "objectives": [
+            "Define acids and bases.",
+            "Identify common acids and bases.",
+            "Describe the properties of acids and bases."
+          ]
+        },
+        {
+          "title_en": "Indicators",
+          "objectives": [
+            "Explain the use of indicators.",
+            "Identify natural and synthetic indicators.",
+            "Perform experiments with indicators."
+          ]
+        },
+        {
+          "title_en": "Neutralization Process",
+          "objectives": [
+            "Define neutralization.",
+            "Explain the products of neutralization.",
+            "Describe daily life applications of neutralization."
+          ]
+        }
+      ],
+      "order": 2,
+      "page_end": 27,
+      "page_start": 18,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଅମ୍ଳ, କ୍ଷାରକ ଓ ଲବଣ"
+    },
+    {
+      "title_en": "Making Things from Materials",
+      "topics": [
+        {
+          "title_en": "Wool and Silk",
+          "objectives": [
+            "Identify sources of wool and silk.",
+            "Describe the process of obtaining wool.",
+            "Explain the life cycle of silkworms."
+          ]
+        },
+        {
+          "title_en": "Silk and Silk Fabric",
+          "objectives": [
+            "Describe the process of silk production.",
+            "Identify different types of silk.",
+            "Understand the uses of silk."
+          ]
+        }
+      ],
+      "order": 3,
+      "page_end": 39,
+      "page_start": 28,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବସ୍ତୁରୁ ବସ୍ତୁ ପ୍ରସ୍ତୁତି"
+    },
+    {
+      "title_en": "Plants and Animals",
+      "topics": [
+        {
+          "title_en": "Different Parts of a Plant",
+          "objectives": [
+            "Identify various parts of a plant.",
+            "Describe the functions of roots, stems, and leaves.",
+            "Explain the process of photosynthesis."
+          ]
+        },
+        {
+          "title_en": "Food of Animals",
+          "objectives": [
+            "Classify animals based on their food habits.",
+            "Describe different types of animal nutrition.",
+            "Explain food chains and food webs."
+          ]
+        }
+      ],
+      "order": 4,
+      "page_end": 50,
+      "page_start": 40,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀ"
+    },
+    {
+      "title_en": "Heat and Temperature",
+      "topics": [
+        {
+          "title_en": "Nature of Heat",
+          "objectives": [
+            "Define heat and temperature.",
+            "Explain the difference between heat and temperature.",
+            "Identify sources of heat."
+          ]
+        },
+        {
+          "title_en": "Measurement of Temperature",
+          "objectives": [
+            "Describe different temperature scales.",
+            "Explain the working of a thermometer.",
+            "Measure temperature using a thermometer."
+          ]
+        },
+        {
+          "title_en": "Transfer of Heat",
+          "objectives": [
+            "Explain conduction, convection, and radiation.",
+            "Identify good and bad conductors of heat.",
+            "Describe daily life examples of heat transfer."
+          ]
+        }
+      ],
+      "order": 5,
+      "page_end": 60,
+      "page_start": 51,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଉତ୍ତାପ ଓ ତାପମାତ୍ରା"
+    },
+    {
+      "title_en": "Atmosphere, Climate and Seasonal Changes",
+      "topics": [
+        {
+          "title_en": "Composition of Atmosphere",
+          "objectives": [
+            "Identify the components of air.",
+            "Explain the importance of each component.",
+            "Describe the layers of the atmosphere."
+          ]
+        },
+        {
+          "title_en": "Climate and Seasons",
+          "objectives": [
+            "Define weather and climate.",
+            "Explain factors affecting climate.",
+            "Describe different seasons and their characteristics."
+          ]
+        }
+      ],
+      "order": 6,
+      "page_end": 68,
+      "page_start": 61,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବାୟୁମଣ୍ଡଳ, ଜଳବାୟୁ ଓ ଋତୁ ପରିବର୍ତ୍ତନ"
+    },
+    {
+      "title_en": "Electricity and Electric Current",
+      "topics": [
+        {
+          "title_en": "Electric Current",
+          "objectives": [
+            "Define electric current.",
+            "Identify components of an electric circuit.",
+            "Draw simple electric circuits."
+          ]
+        },
+        {
+          "title_en": "Effects of Electric Current",
+          "objectives": [
+            "Explain heating effect of current.",
+            "Describe magnetic effect of current.",
+            "Identify applications of electric current."
+          ]
+        }
+      ],
+      "order": 7,
+      "page_end": 77,
+      "page_start": 69,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ବିଦ୍ୟୁତ୍ ଓ ବିଦ୍ୟୁତ୍ ସ୍ରୋତ"
+    },
+    {
+      "title_en": "Light and Reflection of Light",
+      "topics": [
+        {
+          "title_en": "Nature of Light",
+          "objectives": [
+            "Define light.",
+            "Explain properties of light.",
+            "Identify sources of light."
+          ]
+        },
+        {
+          "title_en": "Reflection of Light",
+          "objectives": [
+            "Define reflection.",
+            "Explain laws of reflection.",
+            "Describe image formation by plane mirrors."
+          ]
+        },
+        {
+          "title_en": "Spherical Mirrors",
+          "objectives": [
+            "Identify concave and convex mirrors.",
+            "Describe image formation by spherical mirrors.",
+            "Explain uses of spherical mirrors."
+          ]
+        }
+      ],
+      "order": 8,
+      "page_end": 89,
+      "page_start": 78,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଆଲୋକ ଓ ଆଲୋକର ପ୍ରତିଫଳନ"
+    },
+    {
+      "title_en": "Motion and Time",
+      "topics": [
+        {
+          "title_en": "Types of Motion",
+          "objectives": [
+            "Define motion.",
+            "Identify different types of motion.",
+            "Distinguish between uniform and non-uniform motion."
+          ]
+        },
+        {
+          "title_en": "Measurement of Time",
+          "objectives": [
+            "Explain units of time.",
+            "Describe simple pendulum.",
+            "Measure time using various devices."
+          ]
+        },
+        {
+          "title_en": "Speed and Distance",
+          "objectives": [
+            "Define speed and distance.",
+            "Calculate speed, distance, and time.",
+            "Interpret distance-time graphs."
+          ]
+        }
+      ],
+      "order": 9,
+      "page_end": 99,
+      "page_start": 90,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଗତି ଓ ସମୟ"
+    },
+    {
+      "title_en": "Reproduction and Growth",
+      "topics": [
+        {
+          "title_en": "Reproduction in Plants",
+          "objectives": [
+            "Describe different methods of plant reproduction.",
+            "Explain sexual and asexual reproduction in plants.",
+            "Identify parts involved in plant reproduction."
+          ]
+        },
+        {
+          "title_en": "Reproduction in Animals",
+          "objectives": [
+            "Describe different methods of animal reproduction.",
+            "Explain sexual and asexual reproduction in animals.",
+            "Identify stages of animal development."
+          ]
+        }
+      ],
+      "order": 10,
+      "page_end": 110,
+      "page_start": 100,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରଜନନ ଓ ବୃଦ୍ଧି"
+    },
+    {
+      "title_en": "Environment and Pollution",
+      "topics": [
+        {
+          "title_en": "Components of Environment",
+          "objectives": [
+            "Define environment.",
+            "Identify biotic and abiotic components.",
+            "Explain the interaction between components."
+          ]
+        },
+        {
+          "title_en": "Types of Pollution",
+          "objectives": [
+            "Define pollution.",
+            "Identify different types of pollution.",
+            "Describe causes and effects of pollution."
+          ]
+        },
+        {
+          "title_en": "Pollution Control",
+          "objectives": [
+            "Explain methods to control air pollution.",
+            "Describe methods to control water pollution.",
+            "Suggest ways to reduce soil and noise pollution."
+          ]
+        }
+      ],
+      "order": 11,
+      "page_end": 120,
+      "page_start": 111,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପରିବେଶ ଓ ପ୍ରଦୂଷଣ"
+    },
+    {
+      "title_en": "Natural Resources",
+      "topics": [
+        {
+          "title_en": "Types of Natural Resources",
+          "objectives": [
+            "Define natural resources.",
+            "Classify resources as renewable and non-renewable.",
+            "Identify examples of each type."
+          ]
+        },
+        {
+          "title_en": "Water Resources",
+          "objectives": [
+            "Explain the importance of water.",
+            "Describe the water cycle.",
+            "Discuss methods of water conservation."
+          ]
+        },
+        {
+          "title_en": "Soil Resources",
+          "objectives": [
+            "Explain the formation of soil.",
+            "Identify different types of soil.",
+            "Describe soil conservation methods."
+          ]
+        }
+      ],
+      "order": 12,
+      "page_end": 130,
+      "page_start": 121,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ପ୍ରାକୃତିକ ସମ୍ପଦ"
+    },
+    {
+      "title_en": "Our Body and Health",
+      "topics": [
+        {
+          "title_en": "Different Parts of the Body",
+          "objectives": [
+            "Identify major organs of the human body.",
+            "Describe the functions of each organ.",
+            "Explain the organ systems."
+          ]
+        },
+        {
+          "title_en": "Food and Health",
+          "objectives": [
+            "Explain the importance of balanced diet.",
+            "Identify different nutrients.",
+            "Describe common diseases due to nutritional deficiencies."
+          ]
+        },
+        {
+          "title_en": "Diseases and Remedies",
+          "objectives": [
+            "Identify common communicable diseases.",
+            "Explain modes of disease transmission.",
+            "Describe preventive measures and basic remedies."
+          ]
+        }
+      ],
+      "order": 13,
+      "page_end": 140,
+      "page_start": 131,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଆମ ଶରୀର ଓ ସ୍ୱାସ୍ଥ୍ୟ"
+    },
+    {
+      "title_en": "Production and Management",
+      "topics": [
+        {
+          "title_en": "Agricultural Production",
+          "objectives": [
+            "Explain different agricultural practices.",
+            "Describe methods of crop improvement.",
+            "Identify common crops and their cultivation."
+          ]
+        },
+        {
+          "title_en": "Animal Husbandry",
+          "objectives": [
+            "Explain the importance of animal husbandry.",
+            "Describe different types of livestock.",
+            "Discuss methods of animal care and management."
+          ]
+        }
+      ],
+      "order": 14,
+      "page_end": 150,
+      "page_start": 141,
+      "section": null,
+      "title_hi": null,
+      "title_or": "ଉତ୍ପାଦନ ଓ ପରିଚାଳନା"
+    }
+  ],
+  "book_title_or": "ବିଜ୍ଞାନ ଷଷ୍ଠ ଶ୍ରେଣୀ"
+}

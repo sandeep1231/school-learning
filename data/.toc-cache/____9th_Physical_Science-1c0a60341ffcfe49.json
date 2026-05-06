@@ -1,0 +1,651 @@
+{
+  "book_title_en": "Physical Science",
+  "chapters": [
+    {
+      "title_en": "Chapter 1: Matter in our Surroundings",
+      "topics": [
+        {
+          "title_en": "1.1 Physical Nature of Matter",
+          "objectives": [
+            "Understand matter composition",
+            "Identify particles as building blocks"
+          ],
+          "page_end": null,
+          "page_start": 7,
+          "title_or": "1.1 ପଦାର୍ଥର ଭୌତିକ ପ୍ରକୃତି"
+        },
+        {
+          "title_en": "1.1.1 Matter is made up of Particles",
+          "objectives": [
+            "Understand matter composition",
+            "Identify particles as building blocks"
+          ],
+          "page_end": null,
+          "page_start": 7
+        },
+        {
+          "title_en": "1.1.2 How Small are these Particles of Matter !",
+          "objectives": [
+            "Describe particle size",
+            "Appreciate the microscopic nature of matter"
+          ],
+          "page_end": null,
+          "page_start": 8
+        },
+        {
+          "title_en": "1.2 Characteristics of Particles of Matter",
+          "objectives": [
+            "Describe particle characteristics",
+            "Understand their behavior"
+          ],
+          "page_end": null,
+          "page_start": 8,
+          "title_or": "1.2 ପଦାର୍ଥର କଣିକାଗୁଡ଼ିକର ବୈଶିଷ୍ଟ୍ୟ"
+        },
+        {
+          "title_en": "1.2.1 Particles of Matter have Space between them",
+          "objectives": [
+            "Explain intermolecular spaces",
+            "Relate to diffusion phenomena"
+          ],
+          "page_end": null,
+          "page_start": 8
+        },
+        {
+          "title_en": "1.2.2 Particles of Matter are Continuously Moving",
+          "objectives": [
+            "Describe particle motion",
+            "Understand kinetic energy"
+          ],
+          "page_end": null,
+          "page_start": 8
+        },
+        {
+          "title_en": "1.2.3 Particles of Matter Attract Each Other",
+          "objectives": [
+            "Explain cohesive forces",
+            "Identify factors affecting attraction"
+          ],
+          "page_end": null,
+          "page_start": 9
+        },
+        {
+          "title_en": "1.3 States of Matter",
+          "objectives": [
+            "Define different states of matter",
+            "List properties of each state"
+          ],
+          "page_end": null,
+          "page_start": 10,
+          "title_or": "1.3 ପଦାର୍ଥର ଅବସ୍ଥା"
+        },
+        {
+          "title_en": "1.3.1 Solid State",
+          "objectives": [
+            "Define solid state",
+            "List properties of solids"
+          ],
+          "page_end": null,
+          "page_start": 10
+        },
+        {
+          "title_en": "1.3.2 The Liquid State",
+          "objectives": [
+            "Define liquid state",
+            "List properties of liquids"
+          ],
+          "page_end": null,
+          "page_start": 11
+        },
+        {
+          "title_en": "1.3.3 The Gaseous State",
+          "objectives": [
+            "Define gaseous state",
+            "List properties of gases"
+          ],
+          "page_end": null,
+          "page_start": 12
+        },
+        {
+          "title_en": "1.4 Can Matter Change its State ?",
+          "objectives": [
+            "Explain phase transitions",
+            "Understand factors affecting state change"
+          ],
+          "page_end": null,
+          "page_start": 13,
+          "title_or": "1.4 ପଦାର୍ଥର ଅବସ୍ଥା ପରିବର୍ତ୍ତନ"
+        },
+        {
+          "title_en": "1.4.1 Effect of Change of Temperature",
+          "objectives": [
+            "Explain melting and boiling",
+            "Describe phase transitions"
+          ],
+          "page_end": null,
+          "page_start": 13
+        },
+        {
+          "title_en": "1.4.2 Effect of Change of Pressure",
+          "objectives": [
+            "Understand pressure effects on state",
+            "Explain sublimation"
+          ],
+          "page_end": null,
+          "page_start": 16
+        },
+        {
+          "title_en": "1.5 Evaporation",
+          "objectives": [
+            "Define evaporation",
+            "Understand its process"
+          ],
+          "page_end": null,
+          "page_start": 16,
+          "title_or": "1.5 ବାଷ୍ପୀକରଣ"
+        },
+        {
+          "title_en": "1.5.1 Factors Affecting Evaporation",
+          "objectives": [
+            "Identify factors influencing evaporation rate",
+            "Explain surface area and temperature"
+          ],
+          "page_end": null,
+          "page_start": 17
+        },
+        {
+          "title_en": "1.5.2 Evaporation Causes Cooling",
+          "objectives": [
+            "Describe cooling effect of evaporation",
+            "Relate to latent heat"
+          ],
+          "page_end": null,
+          "page_start": 17
+        }
+      ],
+      "order": 1,
+      "page_end": 21,
+      "page_start": 7,
+      "section": null,
+      "title_or": "ପ୍ରଥମ ଅଧ୍ୟାୟ"
+    },
+    {
+      "title_en": "Chapter 2: Is Matter Around us Pure?",
+      "topics": [
+        {
+          "title_en": "2.1 What is a Mixture ?",
+          "objectives": [
+            "Define mixtures",
+            "Classify homogeneous and heterogeneous mixtures"
+          ],
+          "page_end": null,
+          "page_start": 22,
+          "title_or": "2.1 ମିଶ୍ରଣ"
+        },
+        {
+          "title_en": "2.1.1 Types of Mixtures",
+          "objectives": [
+            "Define mixtures",
+            "Classify homogeneous and heterogeneous mixtures"
+          ],
+          "page_end": null,
+          "page_start": 22
+        },
+        {
+          "title_en": "2.2 What is a Solution ?",
+          "objectives": [
+            "Define solution",
+            "Identify solute and solvent"
+          ],
+          "page_end": null,
+          "page_start": 24,
+          "title_or": "2.2 ଦ୍ରବଣ କ’ଣ ?"
+        },
+        {
+          "title_en": "2.2.1 Concentration of a Solution",
+          "objectives": [
+            "Calculate solution concentration",
+            "Understand saturated and unsaturated solutions"
+          ],
+          "page_end": null,
+          "page_start": 25
+        },
+        {
+          "title_en": "2.2.2 What is a suspension ?",
+          "objectives": [
+            "Define suspension",
+            "List properties of suspensions"
+          ],
+          "page_end": null,
+          "page_start": 26
+        },
+        {
+          "title_en": "2.2.3 What is a Colloidal Solution ?",
+          "objectives": [
+            "Define colloidal solution",
+            "Describe Tyndall effect"
+          ],
+          "page_end": null,
+          "page_start": 26
+        },
+        {
+          "title_en": "2.3 Separating the Components of a Mixture",
+          "objectives": [
+            "Learn various separation techniques",
+            "Understand principles of separation"
+          ],
+          "page_end": null,
+          "page_start": 28,
+          "title_or": "2.3 ମିଶ୍ରଣର ଉପାଦାନଗୁଡ଼ିକର ପୃଥକୀକରଣ"
+        },
+        {
+          "title_en": "2.3.1 How can we obtain coloured component (Dye) from Blue / Black ink ?",
+          "objectives": [
+            "Separate dye from ink",
+            "Use evaporation method"
+          ],
+          "page_end": null,
+          "page_start": 28
+        },
+        {
+          "title_en": "2.3.2 How can We Separate Cream from Milk ?",
+          "objectives": [
+            "Separate cream from milk",
+            "Understand centrifugation"
+          ],
+          "page_end": null,
+          "page_start": 28
+        },
+        {
+          "title_en": "2.3.3 How can We Separate A Mixture of Two Immiscible Liquids ?",
+          "objectives": [
+            "Separate immiscible liquids",
+            "Use a separating funnel"
+          ],
+          "page_end": null,
+          "page_start": 29
+        },
+        {
+          "title_en": "2.3.4 How can We Separate A Mixture of Salt and Ammonium Chloride ?",
+          "objectives": [
+            "Separate salt and ammonium chloride",
+            "Apply sublimation"
+          ],
+          "page_end": null,
+          "page_start": 29
+        },
+        {
+          "title_en": "2.3.5 Is the Dye in Black Ink a Single Colour ?",
+          "objectives": [
+            "Test purity of dye",
+            "Use chromatography"
+          ],
+          "page_end": null,
+          "page_start": 30
+        },
+        {
+          "title_en": "2.3.6 How can We Separate a Mixture of two Miscible Liquids ?",
+          "objectives": [
+            "Separate miscible liquids",
+            "Use distillation"
+          ],
+          "page_end": null,
+          "page_start": 31
+        },
+        {
+          "title_en": "2.3.7 How can We Obtain Different Gases from Air ?",
+          "objectives": [
+            "Separate air components",
+            "Use fractional distillation"
+          ],
+          "page_end": null,
+          "page_start": 32
+        },
+        {
+          "title_en": "2.3.8 How can We Obtain Pure Copper Sulphate from an Impure Sample ?",
+          "objectives": [
+            "Purify copper sulphate",
+            "Apply crystallization"
+          ],
+          "page_end": null,
+          "page_start": 33
+        },
+        {
+          "title_en": "2.4 Physical and Chemical Changes",
+          "objectives": [
+            "Differentiate physical and chemical changes",
+            "Provide examples of each"
+          ],
+          "page_end": null,
+          "page_start": 34,
+          "title_or": "2.4 ଭୌତିକ ଓ ରାସାୟନିକ ପରିବର୍ତ୍ତନ"
+        },
+        {
+          "title_en": "2.5 What are the Types of Pure Substances",
+          "objectives": [
+            "Classify pure substances",
+            "Distinguish elements and compounds"
+          ],
+          "page_end": null,
+          "page_start": 35,
+          "title_or": "2.5 ଶୁଦ୍ଧ ପଦାର୍ଥର ପ୍ରକାରଭେଦ କ’ଣ ?"
+        },
+        {
+          "title_en": "2.5.1 Elements",
+          "objectives": [
+            "Define elements",
+            "List properties of elements"
+          ],
+          "page_end": null,
+          "page_start": 35
+        },
+        {
+          "title_en": "2.5.2 Compounds",
+          "objectives": [
+            "Define compounds",
+            "List properties of compounds"
+          ],
+          "page_end": null,
+          "page_start": 35
+        }
+      ],
+      "order": 2,
+      "page_end": 40,
+      "page_start": 22,
+      "section": null,
+      "title_or": "ଦ୍ବିତୀୟ ଅଧ୍ୟାୟ"
+    },
+    {
+      "title_en": "Chapter 3: Atoms and Molecules",
+      "topics": [
+        {
+          "title_en": "3.1 Laws of Chemical Combination",
+          "objectives": [
+            "Understand fundamental chemical laws",
+            "Explain conservation principles"
+          ],
+          "page_end": null,
+          "page_start": 41,
+          "title_or": "3.1 ରାସାୟନିକ ସଂଯୋଗ ନିୟମ"
+        },
+        {
+          "title_en": "3.1.1 Law of Conservation of Mass",
+          "objectives": [
+            "State law of mass conservation",
+            "Apply to chemical reactions"
+          ],
+          "page_end": null,
+          "page_start": 41
+        },
+        {
+          "title_en": "3.1.2 Law of Constant Proportions",
+          "objectives": [
+            "State law of constant proportions",
+            "Explain fixed composition"
+          ],
+          "page_end": null,
+          "page_start": 42
+        },
+        {
+          "title_en": "3.1.3 Dalton’s Atomic Theory",
+          "objectives": [
+            "Describe Dalton's postulates",
+            "Understand atomic theory"
+          ],
+          "page_end": null,
+          "page_start": 42
+        },
+        {
+          "title_en": "3.2 Atom",
+          "objectives": [
+            "Define atom",
+            "Understand atomic structure"
+          ],
+          "page_end": null,
+          "page_start": 43,
+          "title_or": "3.2 ପରମାଣୁ"
+        },
+        {
+          "title_en": "3.2.1 Symbols of Different Elements",
+          "objectives": [
+            "Learn element symbols",
+            "Write chemical symbols"
+          ],
+          "page_end": null,
+          "page_start": 43
+        },
+        {
+          "title_en": "3.2.2 Atomic Mass",
+          "objectives": [
+            "Define atomic mass",
+            "Understand relative atomic mass"
+          ],
+          "page_end": null,
+          "page_start": 44
+        },
+        {
+          "title_en": "3.3 Molecule",
+          "objectives": [
+            "Define molecule",
+            "Understand molecular formation"
+          ],
+          "page_end": null,
+          "page_start": 45,
+          "title_or": "3.3 ଅଣୁ"
+        },
+        {
+          "title_en": "3.3.1 Molecules of Elements",
+          "objectives": [
+            "Describe elemental molecules",
+            "Differentiate mono-, di-, polyatomic"
+          ],
+          "page_end": null,
+          "page_start": 46
+        },
+        {
+          "title_en": "3.3.2 Molecules of Compounds",
+          "objectives": [
+            "Describe compound molecules",
+            "Understand molecular formulas"
+          ],
+          "page_end": null,
+          "page_start": 46
+        },
+        {
+          "title_en": "3.3.3 Ion",
+          "objectives": [
+            "Define ion",
+            "Differentiate cations and anions"
+          ],
+          "page_end": null,
+          "page_start": 46
+        },
+        {
+          "title_en": "3.4 Chemical Formula & Valency",
+          "objectives": [
+            "Understand valency concept",
+            "Write chemical formulas"
+          ],
+          "page_end": null,
+          "page_start": 47,
+          "title_or": "3.4 ରାସାୟନିକ ସୂତ୍ର ଓ ଯୋଗ୍ୟତା"
+        },
+        {
+          "title_en": "3.4.1 Methods of Writing Chemical Formula",
+          "objectives": [
+            "Learn rules for formula writing",
+            "Practice formula construction"
+          ],
+          "page_end": null,
+          "page_start": 47
+        },
+        {
+          "title_en": "3.4.2 Formulae of Compounds",
+          "objectives": [
+            "Write formulas for binary compounds",
+            "Construct polyatomic ion formulas"
+          ],
+          "page_end": null,
+          "page_start": 48
+        },
+        {
+          "title_en": "3.5 Molecular Mass and Mole",
+          "objectives": [
+            "Calculate molecular mass",
+            "Understand mole concept"
+          ],
+          "page_end": null,
+          "page_start": 49,
+          "title_or": "3.5 ଆଣବିକ ବସ୍ତୁତ୍ବ ଏବଂ ମୋଲ୍"
+        },
+        {
+          "title_en": "3.5.1 Mole",
+          "objectives": [
+            "Define mole",
+            "Relate to Avogadro's number"
+          ],
+          "page_end": null,
+          "page_start": 50
+        }
+      ],
+      "order": 3,
+      "page_end": 52,
+      "page_start": 41,
+      "section": null,
+      "title_or": "ତୃତୀୟ ଅଧ୍ୟାୟ"
+    },
+    {
+      "title_en": "Chapter 4: Structure of the Atom",
+      "topics": [
+        {
+          "title_en": "4.1 Charged Particles in Matter",
+          "objectives": [
+            "Identify subatomic particles",
+            "Understand charge properties"
+          ],
+          "page_end": null,
+          "page_start": 53,
+          "title_or": "4.1 ଚାର୍ଜଯୁକ୍ତ କଣିକା"
+        },
+        {
+          "title_en": "4.2 The Structure of an Atom",
+          "objectives": [
+            "Describe atomic models",
+            "Trace historical developments"
+          ],
+          "page_end": null,
+          "page_start": 53,
+          "title_or": "4.2 ପରମାଣୁର ଗଠନ"
+        },
+        {
+          "title_en": "4.2.1 Thomson’s Model of an Atom",
+          "objectives": [
+            "Explain Thomson's model",
+            "Understand \"plum pudding\" analogy"
+          ],
+          "page_end": null,
+          "page_start": 54
+        },
+        {
+          "title_en": "4.2.2 Rutherford’s Model of an Atom",
+          "objectives": [
+            "Describe Rutherford's experiment",
+            "Explain nuclear model"
+          ],
+          "page_end": null,
+          "page_start": 54
+        },
+        {
+          "title_en": "4.2.3 Bohr’s Model of Atom",
+          "objectives": [
+            "Explain Bohr's postulates",
+            "Understand energy levels"
+          ],
+          "page_end": null,
+          "page_start": 56
+        },
+        {
+          "title_en": "4.2.4 Neutron",
+          "objectives": [
+            "Discover neutron",
+            "Describe its properties"
+          ],
+          "page_end": null,
+          "page_start": 56
+        },
+        {
+          "title_en": "4.3 How Electrons are Distributed in Different Orbits",
+          "objectives": [
+            "Explain electron shell distribution",
+            "Apply Bohr-Bury rules"
+          ],
+          "page_end": null,
+          "page_start": 57,
+          "title_or": "4.3 ପରମାଣୁର ବିଭିନ୍ନ କକ୍ଷରେ ଇଲେକ୍ଟ୍ରନ୍ ବଣ୍ଟନ"
+        },
+        {
+          "title_en": "4.4 Valency",
+          "objectives": [
+            "Define valency",
+            "Determine combining capacity"
+          ],
+          "page_end": null,
+          "page_start": 57,
+          "title_or": "4.4 ଯୋଗ୍ୟତା"
+        },
+        {
+          "title_en": "4.5 Atomic number and Mass number",
+          "objectives": [
+            "Understand atomic notation",
+            "Relate to protons and neutrons"
+          ],
+          "page_end": null,
+          "page_start": 58,
+          "title_or": "4.5 ପରମାଣୁ ସଂଖ୍ୟା ଓ ବସ୍ତୁତ୍ବ ସଂଖ୍ୟା"
+        },
+        {
+          "title_en": "4.5.1 Atomic Number",
+          "objectives": [
+            "Define atomic number",
+            "Identify element by atomic number"
+          ],
+          "page_end": null,
+          "page_start": 58
+        },
+        {
+          "title_en": "4.5.2 Mass Number",
+          "objectives": [
+            "Define mass number",
+            "Calculate from protons and neutrons"
+          ],
+          "page_end": null,
+          "page_start": 59
+        },
+        {
+          "title_en": "4.6 Isotope",
+          "objectives": [
+            "Define isotopes",
+            "Give examples of isotopes"
+          ],
+          "page_end": null,
+          "page_start": 60,
+          "title_or": "4.6 ଆଇସୋଟୋପ୍"
+        },
+        {
+          "title_en": "4.6.1 Isobar",
+          "objectives": [
+            "Define isobars",
+            "Differentiate from isotopes"
+          ],
+          "page_end": null,
+          "page_start": 61
+        }
+      ],
+      "order": 4,
+      "page_end": 62,
+      "page_start": 53,
+      "section": null,
+      "title_or": "ଚତୁର୍ଥ ଅଧ୍ୟାୟ"
+    }
+  ]
+}

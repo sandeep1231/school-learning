@@ -60,10 +60,10 @@ export default function PrivacyPage() {
 
         <h2>3. Children&rsquo;s data</h2>
         <p>
-          Sikhya Sathi is built for Class 9 students. If the student is under
-          18, a parent or guardian should create the account and oversee its
-          use. We collect only data necessary for learning and never profile
-          children for advertising.
+          Sikhya Sathi is built for school students (Class 6 and above). If
+          the student is under 18, a parent or guardian should create the
+          account and oversee its use. We collect only data necessary for
+          learning and never profile children for advertising.
         </p>
 
         <h2>4. Where data is stored</h2>
