@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/server";
 import { chatLimiter } from "@/lib/ratelimit";
-import { retrieveForScope } from "@/lib/ai/rag";
+import { retrieveWithFallback } from "@/lib/ai/rag";
 import { buildTutorSystemPrompt } from "@/lib/ai/prompts";
 import {
   CHAT_MODEL,
@@ -108,7 +108,7 @@ export async function POST(req: Request) {
   const lastUser = [...messages].reverse().find((m) => m.role === "user");
   const retrievalQuery = lastUser?.content ?? subject.name.en;
 
-  const chunks = await retrieveForScope({
+  const { chunks, scopeUsed } = await retrieveWithFallback({
     query: retrievalQuery,
     board: boardCode,
     classLevel,
@@ -133,6 +133,7 @@ export async function POST(req: Request) {
       source: c.documentTitle,
       page: c.page,
     })),
+    contextScope: scopeUsed,
   });
 
   const client = getGemini();

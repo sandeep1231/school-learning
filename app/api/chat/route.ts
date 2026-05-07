@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/server";
 import { chatLimiter } from "@/lib/ratelimit";
-import { retrieveForScope } from "@/lib/ai/rag";
+import { retrieveWithFallback } from "@/lib/ai/rag";
 import { buildTutorSystemPrompt } from "@/lib/ai/prompts";
 import { CHAT_MODEL, SAFETY_SETTINGS, getGemini, isGeminiConfigured } from "@/lib/ai/gemini";
 import type { AppLanguage } from "@/lib/types";
@@ -75,21 +75,24 @@ export async function POST(req: Request) {
     const lastUser = [...messages].reverse().find((m) => m.role === "user");
     const retrievalQuery = lastUser?.content ?? topic.title.or;
 
-    // Subject-scoped RAG across ingested textbook chunks. If it errors (e.g.
-    // no embeddings yet for this subject) we degrade to the curated excerpt.
+    // Subject-scoped RAG with progressive fallback (topic → chapter →
+    // subject → class). If it errors entirely (e.g. no embeddings at all)
+    // we degrade to the static topic excerpt.
     let ragContext: Array<{ id: string; text: string; source: string; page: number | null }> = [];
+    let scopeUsed: "topic" | "chapter" | "subject" | "class" | "none" = "none";
     try {
-      const chunks = await retrieveForScope({
+      const result = await retrieveWithFallback({
         query: retrievalQuery,
         subjectCode: topic.subjectCode,
         k: 5,
       });
-      ragContext = chunks.map((c) => ({
+      ragContext = result.chunks.map((c) => ({
         id: c.id,
         text: c.content,
         source: c.documentTitle,
         page: c.page,
       }));
+      scopeUsed = result.scopeUsed;
     } catch {
       /* ignore — fall back to curated excerpt below */
     }
@@ -102,6 +105,7 @@ export async function POST(req: Request) {
           page: null,
         },
       ];
+      scopeUsed = "topic";
     }
 
     const systemPrompt = buildTutorSystemPrompt({
@@ -113,6 +117,7 @@ export async function POST(req: Request) {
       topicTitle: topic.title.or,
       learningObjectives: topic.objectives,
       context: ragContext,
+      contextScope: scopeUsed,
     });
 
     const client = getGemini();
@@ -187,8 +192,8 @@ export async function POST(req: Request) {
   const topicQuery = supabase
     .from("topics")
     .select(
-      `id, title_en, title_or, title_hi, learning_objectives,
-       chapter:chapters ( title_en, subject:subjects ( name_en, class_level ) )`,
+      `id, title_en, title_or, title_hi, learning_objectives, chapter_id,
+       chapter:chapters ( id, title_en, subject:subjects ( code, name_en, class_level, board ) )`,
     );
   const { data: topic } = await (isUuid
     ? topicQuery.eq("id", topicId)
@@ -202,9 +207,12 @@ export async function POST(req: Request) {
   const language: AppLanguage =
     (profile?.preferred_language as AppLanguage) ?? "en";
   const subjectName = (topic as any).chapter?.subject?.name_en ?? "Subject";
+  const subjectCode: string | undefined = (topic as any).chapter?.subject?.code;
+  const boardCode: string | undefined = (topic as any).chapter?.subject?.board;
   const classLevel: number =
     (topic as any).chapter?.subject?.class_level ?? 9;
   const chapterTitle = (topic as any).chapter?.title_en ?? "";
+  const chapterId: string | undefined = (topic as any).chapter?.id ?? (topic as any).chapter_id;
   const topicTitle =
     language === "or"
       ? topic.title_or ?? topic.title_en
@@ -217,10 +225,16 @@ export async function POST(req: Request) {
 
   const topicUuid = topic.id as string;
 
-  const chunks = await retrieveForScope({
+  // Progressive scope fallback: try topic-tagged chunks first, widen to
+  // chapter / subject / class as needed so the tutor doesn't refuse when
+  // chunks are sparse for a given topic.
+  const { chunks, scopeUsed } = await retrieveWithFallback({
     query: retrievalQuery,
     topicId: topicUuid,
-    includeNeighbours: true,
+    chapterId,
+    subjectCode,
+    classLevel,
+    board: boardCode,
     k: 6,
   });
 
@@ -238,6 +252,7 @@ export async function POST(req: Request) {
       source: c.documentTitle,
       page: c.page,
     })),
+    contextScope: scopeUsed,
   });
 
   // Get or create chat session

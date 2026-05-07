@@ -128,3 +128,90 @@ export async function retrieveForScope(opts: {
 
   return fuse(vectorHits as any[], ftsHits as any[], k);
 }
+
+export type FallbackScope = "topic" | "chapter" | "subject" | "class" | "none";
+
+/**
+ * Progressive-fallback retrieval. Tries the most-specific scope first,
+ * widening one level at a time until at least `minChunks` chunks come back
+ * (or the broadest scope is exhausted).
+ *
+ * Why: topic-scoped chunks can be sparse (a topic may have 0–4 chunks if
+ * the ingestion didn't tag everything to it perfectly). Without a fallback
+ * the tutor refuses with "I don't have material on that yet" even when the
+ * student is asking something the chapter or subject definitely covers.
+ *
+ * The widest scope used is returned alongside the chunks so callers can
+ * tell the model "this is from a wider scope" if they want to adjust tone.
+ */
+export async function retrieveWithFallback(opts: {
+  query: string;
+  board?: string;
+  classLevel?: number;
+  subjectCode?: string;
+  chapterId?: string;
+  topicId?: string;
+  k?: number;
+  language?: AppLanguage;
+  chapterHint?: string;
+  /** Below this many chunks, widen the scope and try again. Default 3. */
+  minChunks?: number;
+}): Promise<{ chunks: RetrievedChunk[]; scopeUsed: FallbackScope }> {
+  const { minChunks = 3, ...base } = opts;
+
+  // 1. Most specific: topic.
+  if (base.topicId) {
+    const chunks = await retrieveForScope(base);
+    if (chunks.length >= minChunks) return { chunks, scopeUsed: "topic" };
+    // Hold onto the partial result; we'll fall back but keep it available.
+    if (chunks.length > 0) {
+      // Topic hits are still relevant; merge them with chapter-level later.
+      const chapterRes = base.chapterId
+        ? await retrieveForScope({ ...base, topicId: undefined })
+        : [];
+      const merged = dedupe([...chunks, ...chapterRes]).slice(0, base.k ?? 6);
+      if (merged.length >= minChunks)
+        return { chunks: merged, scopeUsed: "chapter" };
+    }
+  }
+
+  // 2. Chapter-level (drop topic).
+  if (base.chapterId) {
+    const chunks = await retrieveForScope({ ...base, topicId: undefined });
+    if (chunks.length >= minChunks) return { chunks, scopeUsed: "chapter" };
+  }
+
+  // 3. Subject-level (drop chapter + topic).
+  if (base.subjectCode) {
+    const chunks = await retrieveForScope({
+      ...base,
+      topicId: undefined,
+      chapterId: undefined,
+    });
+    if (chunks.length >= minChunks) return { chunks, scopeUsed: "subject" };
+  }
+
+  // 4. Class-level (drop subject too) — last resort.
+  if (base.classLevel) {
+    const chunks = await retrieveForScope({
+      ...base,
+      topicId: undefined,
+      chapterId: undefined,
+      subjectCode: undefined,
+    });
+    if (chunks.length > 0) return { chunks, scopeUsed: "class" };
+  }
+
+  return { chunks: [], scopeUsed: "none" };
+}
+
+function dedupe(chunks: RetrievedChunk[]): RetrievedChunk[] {
+  const seen = new Set<string>();
+  const out: RetrievedChunk[] = [];
+  for (const c of chunks) {
+    if (seen.has(c.id)) continue;
+    seen.add(c.id);
+    out.push(c);
+  }
+  return out;
+}

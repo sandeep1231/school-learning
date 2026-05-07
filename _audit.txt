@@ -1,0 +1,57 @@
+◇ injected env (14) from .env.local // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+
+=== 1. SHAPE: per (class, subject) coverage ===
+
+C/S            topics   lessons  practice    chunks
+C6 CMP             26       104       208         0
+C6 FLO             34       136       272        13
+C6 GSC             54       207       432        29
+C6 MTH             41       164       328        70
+C6 SAN             36       144       288         7
+C6 SLE             66       264       528        49
+C6 SSC             99       392       792        76
+C6 TLH             56       220       448        33
+C7 CMP             26       104       208         0
+C7 FLO             25       100       200        10
+C7 GSC             35       126       280        40
+C7 MTH             35       140       280        80
+C7 SAN             66       264       528        21
+C7 SLE             48       192       384        64
+C7 SSC             55       216       440        79
+C7 TLH             17        64       136        42
+C8 FLO             49       188       392        37
+C8 GSC             54       216       432       102
+C8 MTH             69       276       552        81
+C8 SAN             53       212       424        25
+C8 SLE             76       296       608        95
+C8 SSC             54       216       432       126
+C8 TLH             63       252       504        74
+C9 FLO             48       185       384         0
+C9 GSC             96       384       768         0
+C9 MTH             17        68       136       320
+C9 SLE             98       392       784         0
+C9 SSC             28       112       224       263
+C9 TLH            100       400       800         0
+
+=== 2. CROSS-CLASS: subject codes per class ===
+
+subject      C6   C7   C8   C9
+CMP           ✓    ✓    ·    ·
+FLO           ✓    ✓    ✓    ✓
+GSC           ✓    ✓    ✓    ✓
+MTH           ✓    ✓    ✓    ✓
+SAN           ✓    ✓    ✓    ·
+SLE           ✓    ✓    ✓    ✓
+SSC           ✓    ✓    ✓    ✓
+TLH           ✓    ✓    ✓    ✓
+
+=== 3. ALIGNMENT (sample): do lessons + MCQs cite the same chunks? ===
+
+c6-cmp-basic-concepts-of-computer-what-is-computer | lessonChunks=6, practiceChunks=2, overlap=2 (100%)
+c6-cmp-basic-concepts-of-computer-beginning-of-computer-science | lessonChunks=8, practiceChunks=3, overlap=3 (100%)
+c6-flo-ch2-t2          | lessonChunks=5, practiceChunks=3, overlap=2 (67%)
+c6-flo-ch2-t1          | lessonChunks=7, practiceChunks=1, overlap=1 (100%)
+c6-gsc-ch1-t2          | lessonChunks=1, practiceChunks=1, overlap=1 (100%)
+c6-gsc-ch1-t1          | lessonChunks=1, practiceChunks=1, overlap=1 (100%)
+c6-mth-ch2-t3          | lessonChunks=2, practiceChunks=2, overlap=1 (50%)
+c6-mth-ch2-t1          | lessonChunks=5, practiceChunks=4, overlap=4 (100%)

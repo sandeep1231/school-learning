@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { chatLimiter } from "@/lib/ratelimit";
-import { retrieveForScope } from "@/lib/ai/rag";
+import { retrieveWithFallback } from "@/lib/ai/rag";
 import {
   CHAT_MODEL,
   SAFETY_SETTINGS,
@@ -183,16 +183,18 @@ If you cannot identify a clear question, respond with {"question":"","language":
     );
   }
 
-  // Step 2: RAG over the student's board/class scope.
-  let chunks: Awaited<ReturnType<typeof retrieveForScope>> = [];
+  // Step 2: RAG over the student's board/class scope, with progressive
+  // fallback when the subject-scoped retrieval is dry.
+  let chunks: Awaited<ReturnType<typeof retrieveWithFallback>>["chunks"] = [];
   try {
-    chunks = await retrieveForScope({
+    const result = await retrieveWithFallback({
       query: extracted.question,
       board: ctx.boardCode,
       classLevel: ctx.classLevel,
       subjectCode: extracted.subjectHint ?? undefined,
       k: 6,
     });
+    chunks = result.chunks;
   } catch {
     // RAG miss is non-fatal — the model will say it can't ground the answer.
     chunks = [];
