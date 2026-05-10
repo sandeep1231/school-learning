@@ -212,7 +212,11 @@ export default async function TodayUnseeded({
               </p>
             </div>
             <Link
-              href={topicPath(globalPending)}
+              // Match Class 9's /today pattern: land on the subject hub
+              // with the next-pending chapter pre-expanded but no specific
+              // topic auto-selected. Lets the student see what's in the
+              // chapter and pick deliberately.
+              href={`${subjectPath(globalPending.subjectCode)}?chapter=${globalPending.chapterSlug}`}
               className="rounded-lg bg-brand px-5 py-2.5 text-sm font-semibold text-white shadow hover:bg-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
             >
               {doneCount === 0 ? "Start →" : "Continue →"}
@@ -384,12 +388,21 @@ export default async function TodayUnseeded({
                 </div>
 
                 <div className="mt-3 flex gap-2">
+                  {/*
+                    Match the Class 9 dashboard's button pattern exactly:
+                      - has pending && 0 done   → "Start →"
+                      - has pending && some done→ "Continue →"
+                      - no pending (all done)   → "Review →"
+                    Continue/Start hrefs go to the subject hub with the
+                    pending chapter pre-expanded (no `&topic=` so the page
+                    is a clean topic-selection view).
+                  */}
                   {pending ? (
                     <Link
-                      href={topicPath(pending)}
+                      href={`${subjectPath(s.code)}?chapter=${pending.chapterSlug}`}
                       className="flex-1 rounded-lg bg-brand px-3 py-2 text-center text-sm font-semibold text-white hover:bg-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
                     >
-                      Continue →
+                      {subjectDone > 0 ? "Continue →" : "Start →"}
                     </Link>
                   ) : (
                     <Link

@@ -68,7 +68,55 @@ export async function POST(req: Request) {
 
   if (!maybeUser) {
     const { topicId, messages } = parsedEarly.data;
-    const topic = findTopic(topicId);
+    // Resolve the topic. Static C9 curriculum first (slugs like "mth-1-1"),
+    // then DB fallback for everything else (C6/C7/C8 + C9 tutor-led
+    // subjects). Without the DB fallback, guests visiting any DB-only
+    // topic chat URL get a 404 from this endpoint even though the page
+    // already rendered.
+    type GuestTopic = {
+      id: string;
+      subjectCode: string;
+      title: { or: string };
+      chapterTitle: { or: string };
+      objectives: string[];
+      excerpt?: { or?: string };
+    };
+    let topic: GuestTopic | null = null;
+    const staticTopic = findTopic(topicId);
+    if (staticTopic) {
+      topic = {
+        id: staticTopic.id,
+        subjectCode: staticTopic.subjectCode,
+        title: { or: staticTopic.title.or },
+        chapterTitle: { or: staticTopic.chapterTitle.or },
+        objectives: staticTopic.objectives,
+        excerpt: staticTopic.excerpt
+          ? { or: staticTopic.excerpt.or }
+          : undefined,
+      };
+    } else {
+      const { getTopicBySlug, getChapterById, getSubjectById } = await import(
+        "@/lib/curriculum/db"
+      );
+      const dbTopic = await getTopicBySlug(topicId);
+      if (dbTopic) {
+        const dbChapter = await getChapterById(dbTopic.chapterId);
+        const dbSubject = dbChapter
+          ? await getSubjectById(dbChapter.subjectId)
+          : null;
+        if (dbChapter && dbSubject) {
+          topic = {
+            id: dbTopic.id,
+            subjectCode: dbSubject.code,
+            title: { or: dbTopic.title.or ?? dbTopic.title.en },
+            chapterTitle: {
+              or: dbChapter.title.or ?? dbChapter.title.en,
+            },
+            objectives: dbTopic.objectives ?? [],
+          };
+        }
+      }
+    }
     if (!topic) {
       return NextResponse.json({ error: "topic_not_found" }, { status: 404 });
     }

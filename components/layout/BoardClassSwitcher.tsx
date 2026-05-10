@@ -4,6 +4,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
 import { BOARDS, SUPPORTED_CLASSES } from "@/lib/curriculum/boards";
 import { Spinner } from "@/components/ui/Spinner";
+import { track } from "@/components/analytics/AnalyticsProvider";
 
 type Props = {
   initialBoardCode: string;
@@ -43,6 +44,11 @@ export default function BoardClassSwitcher({
   // POST and the navigation, and the user sees nothing happen.
   function persist(nextBoard: string, nextClass: number) {
     setError(null);
+    track("class_switched", {
+      board: nextBoard,
+      class_level: nextClass,
+      from_path: pathname,
+    });
     startTransition(async () => {
       try {
         const res = await fetch("/api/profile/context", {

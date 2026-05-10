@@ -125,8 +125,15 @@ function rowToTopic(r: {
 }
 
 // PostgREST default row limit is 1000; paginate to load full curriculum.
+//
+// `fetchPage` accepts `PromiseLike` (not `Promise`) because the supabase-js
+// query builders are thenable but not literal Promise instances — passing
+// the builder directly is the idiomatic use, so the wider type is correct.
 async function fetchAllRows<T>(
-  fetchPage: (from: number, to: number) => Promise<{ data: T[] | null; error: { message: string } | null }>,
+  fetchPage: (
+    from: number,
+    to: number,
+  ) => PromiseLike<{ data: T[] | null; error: { message: string } | null }>,
   label: string,
 ): Promise<T[]> {
   const PAGE = 1000;

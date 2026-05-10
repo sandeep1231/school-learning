@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import Link from "next/link";
 import { Spinner } from "@/components/ui/Spinner";
 import MarkdownBody from "@/components/markdown/MarkdownBody";
+import { track } from "@/components/analytics/AnalyticsProvider";
 
 type Citation = { n: number; title: string; page: number | null };
 type SuccessResponse = {
@@ -55,6 +56,10 @@ export default function SnapClient({ contextLabel }: { contextLabel: string }) {
     setSubmitting(true);
     setError(null);
     setResult(null);
+    track("snap_uploaded", {
+      surface: "ask_photo",
+      file_size_kb: Math.round(file.size / 1024),
+    });
     try {
       const fd = new FormData();
       fd.append("image", file);

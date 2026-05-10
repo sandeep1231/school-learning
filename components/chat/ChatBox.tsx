@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Spinner, TypingDots } from "@/components/ui/Spinner";
+import { track } from "@/components/analytics/AnalyticsProvider";
 
 type Msg = {
   id: string;
@@ -55,6 +56,12 @@ export default function ChatBox({
     setMessages((m) => [...m, userMsg, { id: assistantId, role: "assistant", content: "" }]);
     setInput("");
     setIsStreaming(true);
+    track("chat_message_sent", {
+      endpoint,
+      topic_id: topicId,
+      message_length: text.length,
+      conversation_turn: messages.filter((m) => m.role === "user").length + 1,
+    });
 
     try {
       const res = await fetch(endpoint, {
@@ -126,6 +133,11 @@ export default function ChatBox({
       return;
     }
     if (isStreaming) return;
+    track("snap_uploaded", {
+      surface: "chat",
+      topic_id: topicId,
+      file_size_kb: Math.round(file.size / 1024),
+    });
     const userId = crypto.randomUUID();
     const assistantId = crypto.randomUUID();
     setMessages((m) => [

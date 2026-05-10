@@ -23,6 +23,9 @@ export default function SiteFooter() {
           <Link href="/pricing" className="hover:text-brand">
             Pricing
           </Link>
+          <Link href="/contact" className="hover:text-brand">
+            Contact
+          </Link>
         </nav>
       </div>
     </footer>

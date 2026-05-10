@@ -66,14 +66,16 @@ export default async function BoardSubjectPage({
   // the same chapter-cards-then-chat layout that Class 9 enjoys, with each
   // chapter linking through to the first topic.
   const subjectRow = await getSubjectByCode(code, boardCode, classLevel);
-  // CURRICULUM is the static Class-9 BSE Odisha curated block (MTH/SSC). Only
-  // those exact (class=9, code) combinations should bypass the DB branch —
-  // matching by code alone wrongly excluded e.g. Class 7 SSC and Class 8 SSC,
-  // which then fell through to the legacy doc-as-chapter fallback even though
-  // their chapters/topics are seeded in the DB.
-  const isStaticCurated =
-    classLevel === 9 && !!CURRICULUM.find((s) => s.code === code);
-  if (subjectRow && !isStaticCurated) {
+  // Use the DB-curated chat+chapter-list layout for every subject that
+  // has DB rows, including Class 9 MTH/SSC. Previously those two were
+  // excluded (`isStaticCurated` flag) and rendered a separate "chapter
+  // cards grid + chat at bottom" layout from the static curriculum module
+  // — that meant MTH/SSC looked structurally different from GSC/FLO/SLE/
+  // TLH on the same Today dashboard, and the Continue button URL params
+  // (?chapter&topic) only made sense in the DB-curated layout. The DB has
+  // matching slugs for the static topics (verified) so dropping the gate
+  // gives a uniform UX across all subjects on every class.
+  if (subjectRow) {
     // `ensureCurriculum()` loads all subjects/chapters/topics in one batch
     // and caches them for 5 min. Per-chapter `listTopicsByChapter` calls
     // would just be Map lookups, but each one was an `await` on a microtask
@@ -95,13 +97,23 @@ export default async function BoardSubjectPage({
       const subjectNameOr = subjectRow.name.or;
 
       // Resolve active chapter / topic from searchParams.
-      const activeChapterEntry =
-        chaptersWithTopics.find(
-          ({ chapter }) => chapter.slug === chapterSlug,
-        ) ?? null;
+      const activeChapterEntry = chapterSlug
+        ? chaptersWithTopics.find(
+            ({ chapter }) => chapter.slug === chapterSlug,
+          ) ?? null
+        : null;
       const activeTopic = activeChapterEntry && topicSlug
         ? activeChapterEntry.topics.find((t) => t.slug === topicSlug) ?? null
         : null;
+      // Sidebar expansion default: when no chapter is in the URL, expand
+      // the first chapter automatically so users see topic links right
+      // away. Without this, the right rail just lists chapter titles with
+      // nothing under them on initial load — students don't realise they
+      // need to click a chapter to see what's inside. Independent of the
+      // active state above so chat suggestions stay subject-wide on first
+      // load.
+      const expandedChapterEntry =
+        activeChapterEntry ?? chaptersWithTopics[0] ?? null;
 
       const chapterHint = activeTopic
         ? [
@@ -236,8 +248,14 @@ export default async function BoardSubjectPage({
               </h2>
               <ol className="space-y-2" role="list">
                 {chaptersWithTopics.map(({ chapter, topics }) => {
+                  // Highlight only the explicitly-clicked chapter (drives
+                  // the brand background + chat suggestions).
                   const chActive =
                     activeChapterEntry?.chapter.slug === chapter.slug;
+                  // Expand topic list when the chapter is explicitly active
+                  // OR when it's the auto-expanded fallback on initial load.
+                  const chExpanded =
+                    expandedChapterEntry?.chapter.slug === chapter.slug;
                   return (
                     <li key={chapter.id}>
                       <Link
@@ -267,51 +285,51 @@ export default async function BoardSubjectPage({
                           </span>
                         )}
                       </Link>
-                      {chActive && topics.length > 0 && (
+                      {chExpanded && topics.length > 0 && (
                         <ul
                           className="ml-4 mt-1 space-y-0.5 border-l border-slate-200 pl-2"
                           role="list"
                         >
                           {topics.map((t) => {
                             const tActive = activeTopic?.slug === t.slug;
+                            // Single full-row link straight to the topic hub.
+                            // Previously the title navigated to a `?chapter&
+                            // topic=...` query-string state on this page (kept
+                            // user on subject hub with chat suggestions for
+                            // the topic), and a separate "Learn →" button
+                            // jumped to the topic hub. The query-string state
+                            // was an extra click for the common case (read
+                            // the lesson) — the topic hub itself already has
+                            // an Ask Tutor stage for the chat-without-leaving
+                            // case, so consolidate to one clear row.
                             const topicHub = `${basePath}/ch/${chapter.slug}/t/${t.slug}`;
                             return (
                               <li key={t.id}>
-                                <div
-                                  className={`group flex items-stretch rounded transition ${
+                                <Link
+                                  href={topicHub}
+                                  className={`flex items-center justify-between rounded px-2 py-1 text-xs transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 ${
                                     tActive
                                       ? "bg-brand text-white"
-                                      : "text-slate-600 hover:bg-brand-50"
+                                      : "text-slate-600 hover:bg-brand-50 hover:text-brand"
                                   }`}
+                                  aria-current={tActive ? "true" : undefined}
+                                  aria-label={`Open Learn / Practice for ${t.title.en}`}
                                 >
-                                  <Link
-                                    href={`${basePath}?chapter=${chapter.slug}&topic=${t.slug}`}
-                                    className={`flex-1 rounded-l px-2 py-1 text-xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 ${
-                                      tActive
-                                        ? "text-white"
-                                        : "hover:text-brand"
-                                    }`}
-                                    aria-current={tActive ? "true" : undefined}
-                                    title="Ask the tutor about this topic"
-                                  >
+                                  <span className="truncate">
                                     <span className="mr-1 opacity-70">
                                       {t.order}.
                                     </span>
                                     {t.title.en}
-                                  </Link>
-                                  <Link
-                                    href={topicHub}
-                                    className={`flex items-center rounded-r px-2 text-xs font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 ${
-                                      tActive
-                                        ? "text-white hover:bg-brand-600"
-                                        : "text-brand hover:bg-brand-100"
+                                  </span>
+                                  <span
+                                    className={`ml-2 shrink-0 text-[10px] font-semibold ${
+                                      tActive ? "text-white/80" : "text-brand"
                                     }`}
-                                    title="Open Learn / Practice for this topic"
-                                    aria-label={`Open Learn and Practice for ${t.title.en}`}
+                                    aria-hidden="true"
                                   >
-                                    Learn →
-                                  </Link>
-                                </div>
+                                    Open →
+                                  </span>
+                                </Link>
                               </li>
                             );
                           })}

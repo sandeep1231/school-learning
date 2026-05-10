@@ -21,6 +21,7 @@ import {
 } from "@/lib/learn/audience";
 import AudienceToggle from "@/components/learn/AudienceToggle";
 import { languageProfileFor } from "@/scripts/content/language-profile";
+import TrackOnMount from "@/components/analytics/TrackOnMount";
 
 export const dynamic = "force-dynamic";
 
@@ -106,6 +107,17 @@ export default async function BoardLearnPage({
   return (
     <div className={pageClass}>
       <main className="container mx-auto max-w-3xl px-4 py-8">
+        <TrackOnMount
+          event="learn_viewed"
+          properties={{
+            topic_slug: topicSlug,
+            subject: subjectCode,
+            board,
+            class_level: classLevel,
+            variant: selected?.variant ?? null,
+            has_lesson: !!selected,
+          }}
+        />
         <div className="mb-1 text-xs uppercase tracking-wide text-brand">
           <Link href={hubHref} className="hover:underline">
             ← {subjectCode} · {chapterTitleOr}

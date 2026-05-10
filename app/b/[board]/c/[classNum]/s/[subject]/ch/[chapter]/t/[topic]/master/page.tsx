@@ -74,10 +74,15 @@ export default async function BoardMasterPage({
 
   return (
     <main className="container mx-auto max-w-3xl px-4 py-8">
+      <Link
+        href={hubHref}
+        className="mb-2 inline-flex items-center gap-1 text-xs text-brand hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+      >
+        <span aria-hidden="true">←</span>
+        <span>Back to topic</span>
+      </Link>
       <div className="mb-1 text-xs uppercase tracking-wide text-brand">
-        <Link href={hubHref} className="hover:underline">
-          {subjectCode} · {chapterTitle}
-        </Link>
+        {subjectCode} · {chapterTitle}
         <span className="mx-1 opacity-60">·</span>
         Stage 4 — Master Challenge
       </div>

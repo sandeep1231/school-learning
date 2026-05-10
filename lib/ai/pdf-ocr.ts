@@ -451,9 +451,17 @@ export async function pdfToTextViaGemini(
     throw (outcome as { kind: "error"; error: unknown }).error;
   }
 
-  if (uploaded) {
+  // The `let uploaded` above is mutated only through the `ensureUploaded()`
+  // closure. Outer control-flow analysis can't follow those writes and
+  // narrows `uploaded` to its initial `null` value, which then narrows to
+  // `never` inside any truthiness check. Cast through to recover the actual
+  // runtime type — at this point either no OCR ran (uploaded stays null) or
+  // the closure ran and uploaded holds the upload metadata.
+  type Upload = { uri: string; mimeType: string; sizeBytes: number; name: string };
+  const finalUpload = uploaded as Upload | null;
+  if (finalUpload) {
     try {
-      await fileManager.deleteFile(uploaded.name);
+      await fileManager.deleteFile(finalUpload.name);
     } catch {
       /* ignore */
     }

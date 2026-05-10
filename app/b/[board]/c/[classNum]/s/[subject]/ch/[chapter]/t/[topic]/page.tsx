@@ -4,6 +4,7 @@ import { findTopic, CURRICULUM } from "@/lib/curriculum/bse-class9";
 import { getCurrentUser } from "@/lib/auth/user";
 import { getProgressFor } from "@/lib/progress.server";
 import { StageBadge } from "@/components/topic/TopicCard";
+import TrackOnMount from "@/components/analytics/TrackOnMount";
 import {
   boardSlugToCode,
   isClassSupported,
@@ -16,6 +17,26 @@ import {
 } from "@/lib/curriculum/db";
 import { topicHasLessons } from "@/lib/curriculum/lessons";
 import { topicHasPractice } from "@/lib/curriculum/practice";
+import { createAdminClient } from "@/lib/supabase/admin";
+
+// Direct DB lookup that bypasses the 5-min `ensureCurriculum()` in-memory
+// cache. We need this for resolving the topic UUID for stage-availability
+// checks because the cache can be stale at server boot (if topics were
+// seeded after the cache loaded) and we'd otherwise mis-render every stage
+// as locked despite lesson_variants / practice_items rows existing.
+async function resolveTopicUuidByslug(slug: string): Promise<string | null> {
+  try {
+    const sb = createAdminClient();
+    const { data } = await sb
+      .from("topics")
+      .select("id")
+      .eq("slug", slug)
+      .maybeSingle();
+    return (data?.id as string | undefined) ?? null;
+  } catch {
+    return null;
+  }
+}
 
 // Phase 1 URL hierarchy: /b/:board/c/:classNum/s/:subject/ch/:chapter/t/:topic
 //
@@ -60,13 +81,23 @@ export default async function BoardTopicPage({
 
   // Resolve topic — try static curriculum first (Class 9 BSE Odisha curated),
   // then fall back to DB (seeded by `npm run seed:topics`).
+  //
+  // Even for static topics we ALSO look up the DB UUID by slug so the
+  // topicHasLessons / topicHasPractice checks below can run and we don't
+  // wrongly render every static Class-9 stage as locked when lesson_variants
+  // and practice_items rows actually exist for that topic.
   let view: TopicView | null = null;
   const staticTopic = findTopic(topicSlug);
   if (staticTopic) {
+    // Direct DB lookup (bypasses curriculum cache so newly-seeded topics
+    // are picked up immediately). Falls back to the cached lookup if the
+    // direct query somehow missed.
+    const directUuid = await resolveTopicUuidByslug(topicSlug);
+    const fallbackDbTopic = directUuid ? null : await getTopicBySlug(topicSlug);
     view = {
       source: "static",
       slug: topicSlug,
-      uuid: null,
+      uuid: directUuid ?? fallbackDbTopic?.id ?? null,
       subjectCode: staticTopic.subjectCode,
       chapterSlug: staticTopic.chapterSlug,
       chapterTitle: {
@@ -163,10 +194,28 @@ export default async function BoardTopicPage({
 
   return (
     <main className="container mx-auto max-w-3xl px-4 py-8">
+      <TrackOnMount
+        event="topic_opened"
+        properties={{
+          topic_slug: topicSlug,
+          subject: view.subjectCode,
+          chapter: view.chapterSlug,
+          board,
+          class_level: classLevel,
+          source: view.source,
+          has_lessons: hasLessons,
+          has_practice: hasPractice,
+        }}
+      />
+      <Link
+        href={subjectPath}
+        className="mb-2 inline-flex items-center gap-1 text-xs text-brand hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+      >
+        <span aria-hidden="true">←</span>
+        <span>Back to {view.subjectCode}</span>
+      </Link>
       <div className="mb-1 text-xs uppercase tracking-wide text-brand">
-        <Link href={subjectPath} className="hover:underline">
-          {view.subjectCode}
-        </Link>
+        {view.subjectCode}
         <span className="mx-1 opacity-60">·</span>
         {view.chapterTitle.or ?? view.chapterTitle.en}
       </div>
@@ -190,12 +239,15 @@ export default async function BoardTopicPage({
 
       <ol className="space-y-3">
         {stages.map((s, i) => {
-          const state =
-            view!.source === "static" && s.key in progress
-              ? progress[s.key as keyof typeof progress]
-              : { status: s.available ? "ready" : "locked" } as const;
-          const locked =
-            !s.available || (state as { status: string }).status === "locked";
+          // Lock state is driven entirely by whether DB content exists for
+          // this stage (hasLessons / hasPractice / always-on for Ask). The
+          // static-curriculum progression model used to gate Practice and
+          // Master behind Learn/Practice completion ("do Learn first to
+          // unlock Practice"), but that read as broken UX — students saw
+          // a card that did nothing on click. We still surface progress
+          // visually via StageBadge below for static topics; we just don't
+          // use it to gate clicks anymore.
+          const locked = !s.available;
           // Disabled stages render as non-interactive divs with clear visual
           // language: dashed border, "not-allowed" cursor, faded text — so
           // they read as "info card" rather than "broken button".

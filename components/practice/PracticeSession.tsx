@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { Spinner } from "@/components/ui/Spinner";
 import { Skeleton } from "@/components/ui/Skeleton";
 import MarkdownBody from "@/components/markdown/MarkdownBody";
+import { track } from "@/components/analytics/AnalyticsProvider";
 
 type Difficulty = "easy" | "medium" | "hard";
 type Stage = "practice" | "master";
@@ -105,12 +106,17 @@ export default function PracticeSession({
       .then((j: { items: ClientItem[] }) => {
         if (cancelled) return;
         setItems(j.items ?? []);
+        track("practice_started", {
+          topic_slug: topicSlug,
+          stage,
+          item_count: j.items?.length ?? 0,
+        });
       })
       .finally(() => !cancelled && setLoading(false));
     return () => {
       cancelled = true;
     };
-  }, [topicSlug]);
+  }, [topicSlug, stage]);
 
   const visible =
     items === null
@@ -148,6 +154,19 @@ export default function PracticeSession({
       });
       const j = (await r.json()) as SubmitResponse;
       setResult(j);
+      track("practice_submitted", {
+        topic_slug: topicSlug,
+        stage,
+        percent: j.percent,
+        passed: j.passed,
+        item_count: visible.length,
+      });
+      if (stage === "master" && j.passed) {
+        track("master_passed", {
+          topic_slug: topicSlug,
+          percent: j.percent,
+        });
+      }
     } finally {
       setSubmitting(false);
     }

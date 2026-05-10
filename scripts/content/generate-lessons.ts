@@ -197,8 +197,15 @@ MATH & DIAGRAMS:
 - Use KaTeX / LaTeX math syntax inside markdown. Inline: $...$. Display: $$...$$
 - Examples: $x^2 + y^2 = r^2$, $\frac{a}{b}$, $\sqrt{2}$, $a \ne b$, $\in$, $\subseteq$.
 - NEVER write math as plain text (do not write x^2, x squared, or (a/b); always wrap in $).
-- For geometry, set theory, or flow diagrams use fenced \`\`\`mermaid code blocks. Prefer mermaid flowcharts and Venn-like block diagrams (using \`graph TD\` or \`graph LR\`).
-- Keep mermaid blocks short (≤ 12 nodes) and self-contained.
+- DO NOT include \`\`\`mermaid\`\`\` code blocks. They render inconsistently across
+  devices and the renderer's strict parser frequently rejects valid-looking
+  LLM-generated diagrams. Instead, describe diagrams in prose with bullet
+  points or numbered steps (e.g. "Flow: question → check clarity → ask the
+  right person → confirm the answer"). Students can visualise from words.
+- DO NOT embed image markdown like \`![caption](url)\`. The textbook diagrams
+  aren't hosted anywhere we can link to, and inventing URLs (example.com,
+  placeholder, etc.) shows broken-image icons. Describe the visual in words
+  the way a textbook caption would, then continue with the lesson.
 
 VARIANTS (produce EXACTLY these four, in this order):
 

@@ -43,11 +43,14 @@ async function loadMermaid() {
         securityLevel: "strict",
         theme: "default",
         fontFamily: "inherit",
-        // Mermaid 11 default: on a syntax error it renders an error SVG (the
-        // "💣 Syntax error in text" bomb art). That looks broken inline in a
-        // lesson. With suppressErrorRendering=true Mermaid throws instead, so
-        // our try/catch shows the friendly fallback below.
-        suppressErrorRendering: true,
+        // suppressErrorRendering is intentionally OFF (the default). With it
+        // ON, Mermaid throws on minor parse issues that it could otherwise
+        // render with a partial diagram or a graceful inline error node —
+        // and every LLM-generated block in lessons would fall through to
+        // our "couldn't render" fallback. Letting Mermaid render normally
+        // and detecting the bomb-SVG via `svgLooksLikeError` post-render is
+        // the right balance: real diagrams display, malformed ones surface
+        // with a readable source instead of mermaid's bomb art.
       });
       return mermaid;
     })();
@@ -55,10 +58,31 @@ async function loadMermaid() {
   return mermaidInitPromise;
 }
 
-// Some malformed payloads (e.g. extra prose before the diagram type) slip
-// past mermaid.parse() in older bundles and render as the bomb SVG anyway.
-// As a paranoia belt, sniff the rendered SVG for known error markers and
-// treat that as a render failure.
+// Lightly normalise common LLM-generated mermaid quirks so more blocks
+// actually render. We DO NOT try to fix every kind of malformed input —
+// these rewrites are conservative, only target patterns we've observed,
+// and never silently change semantics:
+//
+//   - `$tex$` inside node labels  → strip the $-delimited TeX (mermaid
+//     can't render KaTeX inside labels; the lesson body has the math
+//     spelled out elsewhere).
+//   - `A --> B: label`            → `A -- "label" --> B`  (colon-edge-
+//     label is markdown-style and not valid mermaid; rewrite to the
+//     supported edge-label form).
+function preprocessMermaid(code: string): string {
+  return code
+    .replace(/\$([^$]+)\$/g, "$1")
+    .replace(
+      /([A-Za-z_][\w]*)\s*-->\s*([A-Za-z_][\w]*)\s*:\s*([^\n]+)/g,
+      (_m, a, b, label) =>
+        `${a} -- "${String(label).trim().replace(/"/g, "'")}" --> ${b}`,
+    );
+}
+
+// Some malformed payloads slip through Mermaid's parser and render as a
+// bomb SVG ("💣 Syntax error in text"). We sniff the rendered SVG for
+// known error markers and treat that as a render failure so the friendly
+// fallback below shows instead of mermaid's bomb art.
 function svgLooksLikeError(svg: string): boolean {
   if (!svg) return false;
   return (
@@ -77,11 +101,9 @@ function MermaidBlock({ code }: { code: string }) {
     (async () => {
       try {
         const mermaid = await loadMermaid();
-        // parse() is fast, throws on bad syntax. Cheaper than render and
-        // produces a clean error stack instead of half-rendered SVG.
-        await mermaid.parse(code.trim());
         const id = `mmd-${Math.random().toString(36).slice(2, 9)}`;
-        const { svg } = await mermaid.render(id, code.trim());
+        const cleaned = preprocessMermaid(code.trim());
+        const { svg } = await mermaid.render(id, cleaned);
         if (cancelled) return;
         if (svgLooksLikeError(svg)) {
           setFailed(true);
@@ -89,7 +111,6 @@ function MermaidBlock({ code }: { code: string }) {
         }
         if (ref.current) ref.current.innerHTML = svg;
       } catch {
-        // Any parse / render failure → fall through to the friendly UI below.
         if (!cancelled) setFailed(true);
       }
     })();
@@ -99,18 +120,55 @@ function MermaidBlock({ code }: { code: string }) {
   }, [code]);
 
   if (failed) {
+    // Auto-show the source so students can at least read the diagram
+    // description in text form. Collapsed details was technically more
+    // compact but most users never expanded it, so the diagram intent
+    // was effectively lost.
     return (
-      <details className="my-3 rounded-lg border border-slate-200 bg-slate-50 p-3 text-xs text-slate-600">
-        <summary className="cursor-pointer select-none">
-          Diagram couldn&apos;t be rendered — show source
-        </summary>
-        <pre className="mt-2 overflow-x-auto rounded bg-white p-2 text-[11px] text-slate-700">
+      <figure className="my-3 rounded-lg border border-slate-200 bg-slate-50 p-3">
+        <figcaption className="mb-2 text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+          Diagram (text view)
+        </figcaption>
+        <pre className="overflow-x-auto whitespace-pre-wrap break-words rounded bg-white p-2 text-[11px] leading-relaxed text-slate-700">
           {code}
         </pre>
-      </details>
+      </figure>
     );
   }
   return <div ref={ref} className="my-3 overflow-x-auto" aria-label="diagram" />;
+}
+
+// LLM-generated lesson bodies sometimes embed image markdown with
+// placeholder URLs (`example.com/foo.png`, `placeholder/...`) that 404 in
+// the browser. Rather than show a broken-image icon inline, render a
+// muted "image not available" caption that uses the alt text — students
+// still see what the image was supposed to depict.
+const PLACEHOLDER_HOSTS = ["example.com", "example.org", "placeholder", "placehold.it"];
+function imageHasPlaceholderUrl(src: string | undefined): boolean {
+  if (!src) return true;
+  try {
+    const u = new URL(src, "http://localhost");
+    return PLACEHOLDER_HOSTS.some((h) => u.hostname.includes(h));
+  } catch {
+    return false;
+  }
+}
+
+function SafeImage({
+  src,
+  alt,
+  ...rest
+}: React.ImgHTMLAttributes<HTMLImageElement>) {
+  if (imageHasPlaceholderUrl(src as string | undefined)) {
+    return (
+      <span className="my-2 inline-flex items-center gap-2 rounded-md border border-slate-200 bg-slate-50 px-2 py-1 text-xs text-slate-600">
+        <span aria-hidden="true">🖼</span>
+        <span>{alt || "Image not available"}</span>
+      </span>
+    );
+  }
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img src={src} alt={alt ?? ""} loading="lazy" {...rest} />;
 }
 
 export default function MarkdownBody({ children, className, inline = false }: Props) {
@@ -130,6 +188,12 @@ export default function MarkdownBody({ children, className, inline = false }: Pr
               {children}
             </code>
           );
+        },
+        // Replace LLM-hallucinated image URLs (example.com etc.) with a
+        // captioned "image not available" placeholder so students see the
+        // alt text instead of a broken-image icon.
+        img({ src, alt, ...rest }) {
+          return <SafeImage src={src} alt={alt} {...rest} />;
         },
       }}
     >
